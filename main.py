@@ -1057,7 +1057,19 @@ app.add_middleware(
 # Initialize the AI matcher
 ai_matcher = AICareerMatcher()
 
-cred = credentials.Certificate("./service_acct.json")
+cred = credentials.Certificate({
+    "type": os.getenv('FB_ACCOUNT_TYPE'),
+    "project_id": os.getenv('FB_PROJECT_ID'),
+    "private_key_id": os.getenv("FB_PRIVATE_KEY_ID"),
+    "private_Key": os.getenv("FB_PRIVATE_KEY"),
+    "client_email": os.getenv("FB_CLIENT_EMAIL"),
+    "client_id": os.getenv("FB_CLIENT_ID"),
+    "auth_uri":os.getenv("FB_AUTH_URI"),
+    "token_uri": os.getenv("FB_TOKEN_URI"),
+    "auth_provider_x509_cert_url": os.getenv("FB_AUTH_CERT_URL"),
+    "client_x509_cert_url": os.getenv("FB_CERT_URL"),
+    "universe_domain": "googleapis.com"
+})
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
