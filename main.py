@@ -1,3 +1,5 @@
+import firebase_admin
+from firebase_admin import credentials, firestore, db
 from fastapi import FastAPI, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
@@ -66,7 +68,8 @@ class PersonProfileRequest(BaseModel):
     project_management: int = Field(..., ge=1, le=5, description="Project management")
     research: int = Field(..., ge=1, le=5, description="Research skills")
     teamwork: int = Field(..., ge=1, le=5, description="Teamwork")
-    
+    # Consent for further updates 
+    updates: bool =  Field(..., description="Consent for further updates")
     # Interests (multiple selection)
     interests: List[str] = Field(..., description="List of interests from: investigative, social, artistic, enterprising, realistic, conventional")
 
@@ -1054,12 +1057,23 @@ app.add_middleware(
 # Initialize the AI matcher
 ai_matcher = AICareerMatcher()
 
+cred = credentials.Certificate("./service_acct.json")
+firebase_admin.initialize_app(cred)
+db = firestore.client()
+
 @app.post("/analyze-profile-top3", response_model=AnalysisResponse)
 async def analyze_profile_top_3_matches(request: PersonProfileRequest):
     """
     MODIFIED ENDPOINT: Analyze a person's profile and return AI insights for only the top 3 job matches
     This is more efficient and focused than analyzing all 15 jobs
     """
+
+    data = request.model_dump(mode="json", exclude_none=True)
+    data["created_at"] = firestore.SERVER_TIMESTAMP
+    ref = db.collection("user").document()
+    ref.set(data, merge=True)
+    
+    
     try:
         # Create profile from request
         profile = ai_matcher.create_profile_from_request(request)
@@ -1073,6 +1087,7 @@ async def analyze_profile_top_3_matches(request: PersonProfileRequest):
             result=result,
             analysis_date=datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         )
+    
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error analyzing profile: {str(e)}")
