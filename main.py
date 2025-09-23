@@ -1057,6 +1057,8 @@ app.add_middleware(
 # Initialize the AI matcher
 ai_matcher = AICareerMatcher()
 
+load_dotenv()
+
 cred = credentials.Certificate({
     "type": os.getenv('FB_ACCOUNT_TYPE'),
     "project_id": os.getenv('FB_PROJECT_ID'),
