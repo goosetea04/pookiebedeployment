@@ -1059,11 +1059,16 @@ ai_matcher = AICareerMatcher()
 
 load_dotenv()
 
+private_key = os.getenv('FB_PRIVATE_KEY')
+if private_key:
+    # Replace escaped newlines with actual newlines
+    private_key = private_key.replace('\\n', '\n')
+
 cred = credentials.Certificate({
     "type": os.getenv('FB_ACCOUNT_TYPE'),
     "project_id": os.getenv('FB_PROJECT_ID'),
     "private_key_id": os.getenv("FB_PRIVATE_KEY_ID"),
-    "private_key": os.getenv("FB_PRIVATE_KEY"),
+    "private_key": private_key,
     "client_email": os.getenv("FB_CLIENT_EMAIL"),
     "client_id": os.getenv("FB_CLIENT_ID"),
     "auth_uri":os.getenv("FB_AUTH_URI"),
