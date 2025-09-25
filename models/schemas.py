@@ -46,7 +46,7 @@ class PersonProfileRequest(BaseModel):
     research: int = Field(..., ge=1, le=5)
     hands_on_building: int = Field(..., ge=1, le=5)
     teamwork: int = Field(..., ge=1, le=5)
-
+    updates: bool = Field(False, description="Consent for further updates")
     # Interests
     interests: List[str] = Field(
         ..., description="From: investigative, social, artistic, enterprising, realistic, conventional"

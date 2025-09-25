@@ -1,8 +1,10 @@
 from fastapi import APIRouter, HTTPException
 from datetime import datetime
-
 from models.schemas import PersonProfileRequest, AnalysisResponse
 from services.career_matcher import AICareerMatcher
+from core.firebase_client import get_db
+from firebase_admin import firestore
+
 
 router = APIRouter()
 
@@ -11,6 +13,16 @@ matcher = AICareerMatcher()
 
 @router.post("/analyze-profile-top3", response_model=AnalysisResponse)
 async def analyze_profile_top_3_matches(request: PersonProfileRequest):
+    # Firestore write (same as main.py)
+    try:
+        db = get_db()
+        data = request.model_dump(mode="json", exclude_none=True)
+        data["created_at"] = firestore.SERVER_TIMESTAMP
+        db.collection("user").document().set(data, merge=True)
+    except Exception as e:
+        # Do not fail the whole request if logging fails; log and continue
+        print(f"[Firestore] write failed: {e}")
+
     try:
         profile = matcher.create_profile_from_request(request)
         result = await matcher.analyze_person_with_top_matches(profile, top_n=3)

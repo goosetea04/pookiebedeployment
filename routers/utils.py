@@ -5,6 +5,7 @@ from fastapi.responses import StreamingResponse
 
 from services.career_matcher import AICareerMatcher
 from services.pdf_report import PDFReportGenerator
+from core.firebase_client import get_db
 from core.openai_client import openai_client
 from core.config import settings
 
@@ -125,14 +126,25 @@ async def download_career_report(job_name: str, analysis_data: str):
 @router.get("/health")
 async def health_check():
     ai_status = "available"
+    fb_status = "available"
     try:
-        _ = openai_client.chat(model="gpt-4o-mini", messages=[{"role":"user","content":"test"}], max_tokens=1)
+        _ = openai_client.chat(model="gpt-4o-mini", messages=[{"role": "user", "content": "test"}], max_tokens=1)
         ai_status = "connected"
     except Exception:
         ai_status = "unavailable"
+
+    try:
+        db = get_db()
+        # cheap read to verify
+        _ = db.collection("_health").document("_ping").get()
+        fb_status = "connected"
+    except Exception:
+        fb_status = "unavailable"
+
     return {
-        "status": "healthy",
+        "status": "healthy" if ai_status=="connected" else "degraded",
         "ai_service": ai_status,
+        "firebase": fb_status,
         "total_jobs_in_database": len(matcher.onet_jobs),
         "optimization": "Top 3 matching active",
         "timestamp": datetime.now().isoformat(),
