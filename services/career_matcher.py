@@ -1,7 +1,10 @@
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 from datetime import datetime
 from dataclasses import asdict
 import json
+import math
+import numpy as np
+from collections import defaultdict
 import careers as careers  # your existing careers module
 
 from core.openai_client import openai_client
@@ -10,9 +13,33 @@ from models.schemas import PersonProfileRequest, PersonProfile
 class AICareerMatcher:
     def __init__(self) -> None:
         self.onet_jobs = careers.onet_jobs
+        self._build_skill_index()
+        self._build_career_clusters()
 
-    # ---------- Construction ----------
+    def _build_skill_index(self):
+        """Build reverse index of skills to jobs for better matching"""
+        self.skill_to_jobs = defaultdict(list)
+        self.all_skills = set()
+        
+        for job_name, job_data in self.onet_jobs.items():
+            for skill in job_data.get("skills", {}):
+                self.skill_to_jobs[skill].append(job_name)
+                self.all_skills.add(skill)
+
+    def _build_career_clusters(self):
+        """Group careers by O*NET code prefixes for better recommendations"""
+        self.career_clusters = defaultdict(list)
+        
+        for job_name, job_data in self.onet_jobs.items():
+            onet_code = job_data.get("onet_code", "")
+            if onet_code:
+                # Group by first 2 digits (major occupation group)
+                cluster = onet_code[:2]
+                self.career_clusters[cluster].append(job_name)
+
+    # ---------- Enhanced Profile Creation ----------
     def create_profile_from_request(self, request: PersonProfileRequest) -> PersonProfile:
+        """Enhanced profile creation with better skill normalization"""
         personality = {
             "openness": request.openness,
             "conscientiousness": request.conscientiousness,
@@ -20,6 +47,8 @@ class AICareerMatcher:
             "agreeableness": request.agreeableness,
             "neuroticism": request.neuroticism,
         }
+        
+        # Inverted work values (7 - x) to match your current system
         work_values = {
             "income": 7 - request.income_importance,
             "impact": 7 - request.impact_importance,
@@ -28,6 +57,8 @@ class AICareerMatcher:
             "recognition": 7 - request.recognition_importance,
             "autonomy": 7 - request.autonomy_importance,
         }
+        
+        # Comprehensive skills mapping
         skills = {
             "math": request.math,
             "problem_solving": request.problem_solving,
@@ -38,8 +69,8 @@ class AICareerMatcher:
             "tech_savvy": request.tech_savvy,
             "leadership": request.leadership,
             "networking": request.networking,
-            "negotiation": request.negotiation, 
-            "creativity": request.creativity, 
+            "negotiation": request.negotiation,
+            "creativity": request.creativity,
             "programming": request.programming,
             "languages": request.languages,
             "empathy": request.empathy,
@@ -51,6 +82,7 @@ class AICareerMatcher:
             "hands_on_building": request.hands_on_building,
             "teamwork": request.teamwork,
         }
+        
         return PersonProfile(
             name=request.name,
             email=request.email,
@@ -62,44 +94,686 @@ class AICareerMatcher:
             preferred_career=request.preferred_career,
         )
 
-    # ---------- Ranking ----------
-    def get_top_job_matches(self, profile: PersonProfile, top_n: int = 3) -> List[str]:
-        job_scores: List[Tuple[str, float]] = []
-        for job_name, job in self.onet_jobs.items():
-            skills_score = self._calculate_skills_match(profile.skills, job["skills"])
-            values_score = self._calculate_values_match(profile.work_values, job["work_values"])
-            interests_score = self._calculate_interests_match(profile.interests, job["interests"])
-            work_styles_score = self._calculate_work_styles_match(profile.personality, job.get("work_styles", {}))
-            overall = (skills_score * 0.3 + values_score * 0.25 + interests_score * 0.2 + work_styles_score * 0.25)
-            job_scores.append((job_name, overall))
-        job_scores.sort(key=lambda x: x[1], reverse=True)
-        return [name for name, _ in job_scores[:top_n]]
+    # ---------- Enhanced Ranking with Multiple Algorithms ----------
+    def get_top_job_matches(self, profile: PersonProfile, top_n: int = 10, algorithm: str = "comprehensive") -> List[Tuple[str, float, Dict]]:
+        """Multiple matching algorithms for different use cases"""
+        
+        if algorithm == "skills_focused":
+            return self._get_skills_focused_matches(profile, top_n)
+        elif algorithm == "values_focused":
+            return self._get_values_focused_matches(profile, top_n)
+        elif algorithm == "hybrid":
+            return self._get_hybrid_matches(profile, top_n)
+        else:  # comprehensive (default)
+            return self._get_comprehensive_matches(profile, top_n)
 
-    async def analyze_person_with_top_matches(self, profile: PersonProfile, top_n: int = 3) -> Dict:
-        top_names = self.get_top_job_matches(profile, top_n)
-        matches: List[Dict] = []
-        for job_name in top_names:
-            match = self.calculate_job_match(profile, job_name)
-            ai = await self.generate_ai_insights(profile, job_name, match)
-            matches.append({**match, **ai})
+    def _get_comprehensive_matches(self, profile: PersonProfile, top_n: int) -> List[Tuple[str, float, Dict]]:
+        """Enhanced comprehensive matching with detailed scoring"""
+        job_scores: List[Tuple[str, float, Dict]] = []
+        
+        for job_name, job_data in self.onet_jobs.items():
+            # Calculate individual scores
+            skills_result = self._calculate_enhanced_skills_match(profile.skills, job_data.get("skills", {}))
+            values_result = self._calculate_enhanced_values_match(profile.work_values, job_data.get("work_values", {}))
+            interests_result = self._calculate_enhanced_interests_match(profile.interests, job_data.get("interests", {}))
+            work_styles_result = self._calculate_enhanced_work_styles_match(profile.personality, job_data.get("work_styles", {}))
+            
+            # Adaptive weighting based on data availability and quality
+            weights = self._calculate_adaptive_weights(job_data, skills_result, values_result, interests_result, work_styles_result)
+            
+            # Calculate weighted overall score
+            overall_score = (
+                skills_result["score"] * weights["skills"] +
+                values_result["score"] * weights["values"] +
+                interests_result["score"] * weights["interests"] +
+                work_styles_result["score"] * weights["work_styles"]
+            )
+            
+            # Bonus for career preference alignment
+            preference_bonus = self._calculate_preference_bonus(profile.preferred_career, job_name, job_data)
+            overall_score += preference_bonus
+            
+            # Penalty for severe skill gaps
+            gap_penalty = self._calculate_gap_penalty(profile.skills, job_data.get("skills", {}))
+            overall_score -= gap_penalty
+            
+            scoring_details = {
+                "skills": skills_result,
+                "values": values_result,
+                "interests": interests_result,
+                "work_styles": work_styles_result,
+                "weights": weights,
+                "preference_bonus": preference_bonus,
+                "gap_penalty": gap_penalty,
+                "raw_score": overall_score
+            }
+            
+            job_scores.append((job_name, overall_score, scoring_details))
+        
+        # Sort by score and return top matches
+        job_scores.sort(key=lambda x: x[1], reverse=True)
+        return job_scores[:top_n]
+
+    def _calculate_adaptive_weights(self, job_data: Dict, skills_result: Dict, values_result: Dict, 
+                                  interests_result: Dict, work_styles_result: Dict) -> Dict[str, float]:
+        """Dynamically adjust weights based on data quality and availability"""
+        base_weights = {"skills": 0.35, "values": 0.25, "interests": 0.20, "work_styles": 0.20}
+        
+        # Adjust based on data completeness
+        skills_completeness = len(job_data.get("skills", {})) / 6.0  # Assume 6 is ideal
+        values_completeness = len(job_data.get("work_values", {})) / 6.0
+        interests_completeness = len(job_data.get("interests", {})) / 6.0
+        work_styles_completeness = len(job_data.get("work_styles", {})) / 6.0
+        
+        # Adjust based on confidence scores
+        confidence_multipliers = {
+            "skills": skills_result.get("confidence", 1.0) * skills_completeness,
+            "values": values_result.get("confidence", 1.0) * values_completeness,
+            "interests": interests_result.get("confidence", 1.0) * interests_completeness,
+            "work_styles": work_styles_result.get("confidence", 1.0) * work_styles_completeness,
+        }
+        
+        # Normalize weights
+        total_weight = sum(base_weights[k] * confidence_multipliers[k] for k in base_weights)
+        
         return {
-            "profile": asdict(profile),
-            "matches": matches,
-            "top_match": matches[0] if matches else None,
-            "total_jobs_considered": len(self.onet_jobs),
-            "jobs_analyzed_with_ai": len(matches),
-            "analysis_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            k: (base_weights[k] * confidence_multipliers[k]) / total_weight 
+            for k in base_weights
         }
 
-    # ---------- AI ----------
-    async def generate_ai_insights(self, profile: PersonProfile, job_name: str, match_data: Dict) -> Dict:
-        job = self.onet_jobs[job_name]
-        ai_summary = await self._generate_ai_summary(profile, job_name, job, match_data)
-        keywords = await self._generate_keywords(job_name, job)
-        onet_categories = await self._generate_onet_categories(job_name, job)
-        action_plan = await self._generate_action_plan(profile, job_name, match_data)
-        career_story = await self._generate_career_story(profile, job_name, match_data)
-        interview_insights = await self._generate_interview_insights(profile, job_name, match_data)
+    def _calculate_enhanced_skills_match(self, user_skills: Dict[str, float], job_skills: Dict[str, float]) -> Dict:
+        """Enhanced skills matching with gap analysis and confidence scoring"""
+        if not job_skills:
+            return {"score": 0.5, "confidence": 0.1, "gaps": [], "strengths": []}
+        
+        matches = []
+        gaps = []
+        strengths = []
+        total_weight = 0
+        weighted_score = 0
+        
+        for skill, required_level in job_skills.items():
+            user_level = user_skills.get(skill, 2.5)  # Default to middle if not specified
+            weight = required_level / 5.0  # Normalize to 0-1
+            
+            # Calculate skill-specific match
+            if user_level >= required_level:
+                skill_score = 1.0
+                strengths.append({
+                    "skill": skill,
+                    "user_level": user_level,
+                    "required_level": required_level,
+                    "surplus": user_level - required_level
+                })
+            else:
+                gap = required_level - user_level
+                # Exponential decay for gaps (severe gaps hurt more)
+                skill_score = max(0, math.exp(-gap * 0.5))
+                gaps.append({
+                    "skill": skill,
+                    "user_level": user_level,
+                    "required_level": required_level,
+                    "gap": gap,
+                    "severity": "Critical" if gap > 2.0 else "High" if gap > 1.0 else "Medium"
+                })
+            
+            matches.append(skill_score)
+            weighted_score += skill_score * weight
+            total_weight += weight
+        
+        final_score = weighted_score / total_weight if total_weight > 0 else 0
+        confidence = len(job_skills) / 6.0  # Higher confidence with more skills data
+        
+        return {
+            "score": final_score,
+            "confidence": min(confidence, 1.0),
+            "gaps": sorted(gaps, key=lambda x: x["gap"], reverse=True),
+            "strengths": sorted(strengths, key=lambda x: x["surplus"], reverse=True),
+            "skill_coverage": len([s for s in job_skills if s in user_skills]) / len(job_skills)
+        }
+
+    def _calculate_enhanced_values_match(self, user_values: Dict[str, float], job_values: Dict[str, float]) -> Dict:
+        """Enhanced values matching with importance weighting"""
+        if not job_values:
+            return {"score": 0.5, "confidence": 0.1, "alignments": [], "conflicts": []}
+        
+        alignments = []
+        conflicts = []
+        total_weight = 0
+        weighted_score = 0
+        
+        for value, job_importance in job_values.items():
+            user_importance = user_values.get(value, 3.5)
+            weight = job_importance / 5.0
+            
+            # Normalize both to 0-1 scale
+            job_norm = job_importance / 5.0
+            user_norm = user_importance / 6.0  # User values are 1-6 scale
+            
+            # Calculate similarity (1 - absolute difference)
+            similarity = 1 - abs(job_norm - user_norm)
+            
+            if similarity >= 0.7:
+                alignments.append({
+                    "value": value,
+                    "user_importance": user_importance,
+                    "job_importance": job_importance,
+                    "alignment": similarity
+                })
+            elif similarity < 0.4:
+                conflicts.append({
+                    "value": value,
+                    "user_importance": user_importance,
+                    "job_importance": job_importance,
+                    "conflict_level": "High" if similarity < 0.2 else "Medium"
+                })
+            
+            weighted_score += similarity * weight
+            total_weight += weight
+        
+        final_score = weighted_score / total_weight if total_weight > 0 else 0
+        confidence = len(job_values) / 6.0
+        
+        return {
+            "score": final_score,
+            "confidence": min(confidence, 1.0),
+            "alignments": sorted(alignments, key=lambda x: x["alignment"], reverse=True),
+            "conflicts": sorted(conflicts, key=lambda x: x.get("conflict_level", "Low"), reverse=True)
+        }
+
+    def _calculate_enhanced_interests_match(self, user_interests: List[str], job_interests: Dict[str, float]) -> Dict:
+        """Enhanced RIASEC interests matching"""
+        if not job_interests or not user_interests:
+            return {"score": 0.3, "confidence": 0.2, "matches": [], "top_job_interests": []}
+        
+        # Normalize job interests
+        total_job_interest = sum(job_interests.values())
+        if total_job_interest == 0:
+            return {"score": 0.3, "confidence": 0.1, "matches": [], "top_job_interests": []}
+        
+        matched_score = 0
+        matches = []
+        
+        for interest in user_interests:
+            if interest in job_interests:
+                score = job_interests[interest] / 5.0  # Normalize to 0-1
+                matched_score += score
+                matches.append({
+                    "interest": interest,
+                    "job_importance": job_interests[interest],
+                    "weight": score
+                })
+        
+        # Get top job interests for comparison
+        top_job_interests = sorted(
+            job_interests.items(), 
+            key=lambda x: x[1], 
+            reverse=True
+        )[:3]
+        
+        # Final score: ratio of matched interests weighted by importance
+        max_possible = sum(sorted(job_interests.values(), reverse=True)[:len(user_interests)])
+        final_score = matched_score / (max_possible / 5.0) if max_possible > 0 else 0
+        
+        confidence = min(len(job_interests) / 6.0, 1.0)
+        
+        return {
+            "score": min(final_score, 1.0),
+            "confidence": confidence,
+            "matches": sorted(matches, key=lambda x: x["weight"], reverse=True),
+            "top_job_interests": [(interest, score) for interest, score in top_job_interests],
+            "coverage": len(matches) / len(user_interests) if user_interests else 0
+        }
+
+    def _calculate_enhanced_work_styles_match(self, personality: Dict[str, float], job_styles: Dict[str, float]) -> Dict:
+        """Enhanced work styles matching with personality mapping"""
+        if not job_styles:
+            return {"score": 0.5, "confidence": 0.1, "matches": [], "gaps": []}
+        
+        # Enhanced personality to work style mapping
+        personality_mapping = {
+            "analytical_thinking": ["openness", "conscientiousness"],
+            "attention_to_detail": ["conscientiousness"],
+            "dependability": ["conscientiousness", "agreeableness"],
+            "leadership": ["extraversion", "openness"],
+            "stress_tolerance": ["neuroticism"],  # Inverted
+            "adaptability": ["openness", "extraversion"],
+            "social_orientation": ["extraversion", "agreeableness"],
+            "achievement": ["conscientiousness", "extraversion"],
+            "initiative": ["extraversion", "openness"],
+            "persistence": ["conscientiousness"],
+            "concern_for_others": ["agreeableness"],
+            "cooperation": ["agreeableness", "extraversion"],
+            "innovation": ["openness"],
+            "independence": ["openness", "extraversion"]
+        }
+        
+        matches = []
+        gaps = []
+        total_weight = 0
+        weighted_score = 0
+        
+        for style, required_level in job_styles.items():
+            # Calculate user level for this work style
+            if style in personality_mapping:
+                personality_traits = personality_mapping[style]
+                if style == "stress_tolerance":
+                    # Stress tolerance is inverse of neuroticism
+                    user_level = 5 - personality.get("neuroticism", 3)
+                else:
+                    # Average the relevant personality traits
+                    user_level = sum(personality.get(trait, 3) for trait in personality_traits) / len(personality_traits)
+            else:
+                user_level = 3.0  # Default neutral
+            
+            weight = required_level / 5.0
+            
+            # Calculate match score
+            if user_level >= required_level * 0.8:  # 80% threshold
+                score = min(1.0, user_level / required_level)
+                matches.append({
+                    "style": style,
+                    "user_level": user_level,
+                    "required_level": required_level,
+                    "match_score": score
+                })
+            else:
+                gap = required_level - user_level
+                score = max(0, 1 - (gap / required_level))
+                gaps.append({
+                    "style": style,
+                    "user_level": user_level,
+                    "required_level": required_level,
+                    "gap": gap
+                })
+            
+            weighted_score += score * weight
+            total_weight += weight
+        
+        final_score = weighted_score / total_weight if total_weight > 0 else 0
+        confidence = len(job_styles) / 6.0
+        
+        return {
+            "score": final_score,
+            "confidence": min(confidence, 1.0),
+            "matches": sorted(matches, key=lambda x: x["match_score"], reverse=True),
+            "gaps": sorted(gaps, key=lambda x: x["gap"], reverse=True)
+        }
+
+    def _calculate_preference_bonus(self, preferred_career: Optional[str], job_name: str, job_data: Dict) -> float:
+        """Bonus for jobs matching user's preferred career"""
+        if not preferred_career:
+            return 0.0
+        
+        preferred_lower = preferred_career.lower()
+        job_lower = job_name.lower()
+        
+        # Direct match
+        if preferred_lower in job_lower or job_lower in preferred_lower:
+            return 0.1
+        
+        # Check similar roles
+        similar_roles = job_data.get("similar_roles", [])
+        for role in similar_roles:
+            if preferred_lower in role.lower() or role.lower() in preferred_lower:
+                return 0.05
+        
+        return 0.0
+
+    def _calculate_gap_penalty(self, user_skills: Dict[str, float], job_skills: Dict[str, float]) -> float:
+        """Penalty for severe skill gaps in critical areas"""
+        if not job_skills:
+            return 0.0
+        
+        penalty = 0.0
+        for skill, required in job_skills.items():
+            if required >= 4.0:  # Critical skill
+                user_level = user_skills.get(skill, 2.5)
+                if user_level < required - 1.5:  # Severe gap
+                    penalty += 0.02
+        
+        return min(penalty, 0.1)  # Cap penalty at 10%
+
+    # ---------- Alternative Matching Algorithms ----------
+    def _get_skills_focused_matches(self, profile: PersonProfile, top_n: int) -> List[Tuple[str, float, Dict]]:
+        """Skills-first matching for technical roles"""
+        job_scores = []
+        
+        for job_name, job_data in self.onet_jobs.items():
+            skills_result = self._calculate_enhanced_skills_match(profile.skills, job_data.get("skills", {}))
+            values_result = self._calculate_enhanced_values_match(profile.work_values, job_data.get("work_values", {}))
+            
+            # Heavy weight on skills, light on values
+            overall_score = skills_result["score"] * 0.8 + values_result["score"] * 0.2
+            
+            scoring_details = {
+                "algorithm": "skills_focused",
+                "skills": skills_result,
+                "values": values_result,
+                "raw_score": overall_score
+            }
+            
+            job_scores.append((job_name, overall_score, scoring_details))
+        
+        job_scores.sort(key=lambda x: x[1], reverse=True)
+        return job_scores[:top_n]
+
+    def _get_values_focused_matches(self, profile: PersonProfile, top_n: int) -> List[Tuple[str, float, Dict]]:
+        """Values-first matching for culture fit"""
+        job_scores = []
+        
+        for job_name, job_data in self.onet_jobs.items():
+            values_result = self._calculate_enhanced_values_match(profile.work_values, job_data.get("work_values", {}))
+            interests_result = self._calculate_enhanced_interests_match(profile.interests, job_data.get("interests", {}))
+            work_styles_result = self._calculate_enhanced_work_styles_match(profile.personality, job_data.get("work_styles", {}))
+            
+            # Heavy weight on values and culture fit
+            overall_score = (values_result["score"] * 0.5 + 
+                           interests_result["score"] * 0.3 + 
+                           work_styles_result["score"] * 0.2)
+            
+            scoring_details = {
+                "algorithm": "values_focused",
+                "values": values_result,
+                "interests": interests_result,
+                "work_styles": work_styles_result,
+                "raw_score": overall_score
+            }
+            
+            job_scores.append((job_name, overall_score, scoring_details))
+        
+        job_scores.sort(key=lambda x: x[1], reverse=True)
+        return job_scores[:top_n]
+
+    def _get_hybrid_matches(self, profile: PersonProfile, top_n: int) -> List[Tuple[str, float, Dict]]:
+        """Hybrid approach combining multiple algorithms"""
+        comprehensive_matches = self._get_comprehensive_matches(profile, top_n * 2)
+        skills_matches = self._get_skills_focused_matches(profile, top_n * 2)
+        values_matches = self._get_values_focused_matches(profile, top_n * 2)
+        
+        # Combine scores using weighted average
+        job_combined_scores = defaultdict(list)
+        
+        for matches, weight in [(comprehensive_matches, 0.5), (skills_matches, 0.3), (values_matches, 0.2)]:
+            for job_name, score, details in matches:
+                job_combined_scores[job_name].append((score, weight, details))
+        
+        # Calculate final hybrid scores
+        final_scores = []
+        for job_name, score_data in job_combined_scores.items():
+            if len(score_data) >= 2:  # Must appear in at least 2 algorithms
+                weighted_score = sum(score * weight for score, weight, _ in score_data)
+                combined_details = {
+                    "algorithm": "hybrid",
+                    "component_scores": score_data,
+                    "raw_score": weighted_score
+                }
+                final_scores.append((job_name, weighted_score, combined_details))
+        
+        final_scores.sort(key=lambda x: x[1], reverse=True)
+        return final_scores[:top_n]
+
+    # ---------- Enhanced Analysis ----------
+    async def analyze_person_with_top_matches(self, profile: PersonProfile, top_n: int = 5, algorithm: str = "comprehensive") -> Dict:
+        """Enhanced analysis with multiple algorithms and detailed insights"""
+        top_matches = self.get_top_job_matches(profile, top_n, algorithm)
+        
+        enhanced_matches = []
+        for job_name, score, scoring_details in top_matches:
+            # Calculate traditional match for backward compatibility
+            traditional_match = self.calculate_job_match(profile, job_name)
+            
+            # Generate AI insights
+            ai_insights = await self.generate_enhanced_ai_insights(profile, job_name, traditional_match, scoring_details)
+            
+            enhanced_match = {
+                **traditional_match,
+                "enhanced_score": round(score * 100, 1),
+                "algorithm_used": algorithm,
+                "scoring_details": scoring_details,
+                **ai_insights
+            }
+            
+            enhanced_matches.append(enhanced_match)
+        
+        # Generate comparative analysis
+        comparative_analysis = await self._generate_comparative_analysis(profile, enhanced_matches)
+        
+        return {
+            "profile": asdict(profile),
+            "matches": enhanced_matches,
+            "top_match": enhanced_matches[0] if enhanced_matches else None,
+            "comparative_analysis": comparative_analysis,
+            "algorithm_used": algorithm,
+            "total_jobs_considered": len(self.onet_jobs),
+            "jobs_analyzed_with_ai": len(enhanced_matches),
+            "analysis_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "recommendations": await self._generate_strategic_recommendations(profile, enhanced_matches)
+        }
+
+    async def _generate_comparative_analysis(self, profile: PersonProfile, matches: List[Dict]) -> Dict:
+        """Generate comparative analysis across top matches"""
+        if len(matches) < 2:
+            return {}
+        
+        # Analyze skill patterns
+        skill_analysis = self._analyze_skill_patterns(matches)
+        
+        # Analyze career progression paths
+        progression_paths = self._analyze_progression_paths(matches)
+        
+        # Generate AI summary of choices
+        comparison_summary = await self._generate_ai_comparison(profile, matches)
+        
+        return {
+            "skill_patterns": skill_analysis,
+            "progression_paths": progression_paths,
+            "decision_framework": comparison_summary,
+            "diversity_score": self._calculate_match_diversity(matches)
+        }
+
+    def _analyze_skill_patterns(self, matches: List[Dict]) -> Dict:
+        """Analyze common skill patterns across matches"""
+        all_skills = set()
+        skill_frequencies = defaultdict(int)
+        
+        for match in matches:
+            job_name = match["job_name"]
+            job_data = self.onet_jobs.get(job_name, {})
+            skills = job_data.get("skills", {})
+            
+            for skill in skills:
+                all_skills.add(skill)
+                skill_frequencies[skill] += 1
+        
+        # Identify core skills (appear in 50%+ of matches)
+        core_skills = [skill for skill, freq in skill_frequencies.items() 
+                      if freq >= len(matches) * 0.5]
+        
+        # Identify differentiating skills
+        differentiating_skills = [skill for skill, freq in skill_frequencies.items() 
+                                if freq == 1]
+        
+        return {
+            "core_skills": core_skills,
+            "differentiating_skills": differentiating_skills,
+            "skill_overlap": len(core_skills) / len(all_skills) if all_skills else 0
+        }
+
+    def _analyze_progression_paths(self, matches: List[Dict]) -> List[Dict]:
+        """Analyze potential career progression paths"""
+        paths = []
+        
+        # Group by O*NET clusters
+        cluster_groups = defaultdict(list)
+        for match in matches:
+            onet_code = match.get("onet_code", "")
+            if onet_code:
+                cluster = onet_code[:2]
+                cluster_groups[cluster].append(match)
+        
+        for cluster, cluster_matches in cluster_groups.items():
+            if len(cluster_matches) > 1:
+                # Sort by score to suggest progression
+                cluster_matches.sort(key=lambda x: x.get("enhanced_score", 0))
+                
+                paths.append({
+                    "cluster": cluster,
+                    "entry_role": cluster_matches[0]["job_name"],
+                    "target_role": cluster_matches[-1]["job_name"],
+                    "progression_steps": [m["job_name"] for m in cluster_matches]
+                })
+        
+        return paths
+
+    async def _generate_strategic_recommendations(self, profile: PersonProfile, matches: List[Dict]) -> Dict:
+        """Generate strategic career recommendations"""
+        if not matches:
+            return {}
+        
+        # Identify skill development priorities
+        skill_gaps = []
+        for match in matches[:3]:  # Top 3 matches
+            job_name = match["job_name"]
+            scoring_details = match.get("scoring_details", {})
+            skills_result = scoring_details.get("skills", {})
+            gaps = skills_result.get("gaps", [])
+            
+            for gap in gaps[:2]:  # Top 2 gaps per job
+                skill_gaps.append({
+                    "skill": gap["skill"],
+                    "gap": gap["gap"],
+                    "job": job_name
+                })
+        
+        # Prioritize skills that appear in multiple top jobs
+        skill_priority = defaultdict(list)
+        for gap in skill_gaps:
+            skill_priority[gap["skill"]].append(gap)
+        
+        priority_skills = []
+        for skill, gaps in skill_priority.items():
+            if len(gaps) >= 2:  # Appears in multiple jobs
+                avg_gap = sum(g["gap"] for g in gaps) / len(gaps)
+                priority_skills.append({
+                    "skill": skill,
+                    "priority": "High",
+                    "average_gap": avg_gap,
+                    "relevant_jobs": [g["job"] for g in gaps]
+                })
+        
+        priority_skills.sort(key=lambda x: x["average_gap"], reverse=True)
+        
+        return {
+            "immediate_actions": priority_skills[:3],
+            "long_term_development": priority_skills[3:6],
+            "exploration_suggestions": await self._generate_exploration_suggestions(profile, matches)
+        }
+
+    async def _generate_exploration_suggestions(self, profile: PersonProfile, matches: List[Dict]) -> List[str]:
+        """Generate suggestions for career exploration"""
+        suggestions = []
+        
+        # Based on top matches, suggest informational interviews
+        if matches:
+            top_job = matches[0]["job_name"]
+            suggestions.append(f"Schedule informational interviews with professionals in {top_job}")
+        
+        # Suggest skill development based on gaps
+        common_gaps = self._get_most_common_gaps(matches)
+        if common_gaps:
+            top_gap = common_gaps[0]
+            suggestions.append(f"Take an online course or bootcamp in {top_gap}")
+        
+        # Suggest networking in relevant industries
+        industries = self._extract_industries_from_matches(matches)
+        if industries:
+            suggestions.append(f"Join professional associations in {industries[0]}")
+        
+        return suggestions[:5]  # Limit to 5 suggestions
+
+    # ---------- Utility Methods ----------
+    def _get_most_common_gaps(self, matches: List[Dict]) -> List[str]:
+        """Get most common skill gaps across matches"""
+        gap_counter = defaultdict(int)
+        
+        for match in matches:
+            scoring_details = match.get("scoring_details", {})
+            skills_result = scoring_details.get("skills", {})
+            gaps = skills_result.get("gaps", [])
+            
+            for gap in gaps:
+                gap_counter[gap["skill"]] += 1
+        
+        return [skill for skill, count in sorted(gap_counter.items(), key=lambda x: x[1], reverse=True)]
+
+    def _extract_industries_from_matches(self, matches: List[Dict]) -> List[str]:
+        """Extract industries from job matches using O*NET codes"""
+        industry_map = {
+            "11": "Management",
+            "13": "Business and Financial Operations",
+            "15": "Computer and Mathematical",
+            "17": "Architecture and Engineering",
+            "19": "Life, Physical, and Social Science",
+            "21": "Community and Social Service",
+            "23": "Legal",
+            "25": "Education",
+            "27": "Arts, Design, Entertainment, Sports, and Media",
+            "29": "Healthcare Practitioners and Technical",
+            "31": "Healthcare Support",
+            "33": "Protective Service",
+            "35": "Food Preparation and Serving",
+            "37": "Building and Grounds Cleaning and Maintenance",
+            "39": "Personal Care and Service",
+            "41": "Sales and Related",
+            "43": "Office and Administrative Support",
+            "45": "Farming, Fishing, and Forestry",
+            "47": "Construction and Extraction",
+            "49": "Installation, Maintenance, and Repair",
+            "51": "Production",
+            "53": "Transportation and Material Moving"
+        }
+        
+        industry_counter = defaultdict(int)
+        for match in matches:
+            onet_code = match.get("onet_code", "")
+            if onet_code and len(onet_code) >= 2:
+                prefix = onet_code[:2]
+                if prefix in industry_map:
+                    industry_counter[industry_map[prefix]] += 1
+        
+        return [industry for industry, count in sorted(industry_counter.items(), key=lambda x: x[1], reverse=True)]
+
+    def _calculate_match_diversity(self, matches: List[Dict]) -> float:
+        """Calculate how diverse the top matches are (different industries/skill sets)"""
+        if len(matches) < 2:
+            return 0.0
+        
+        # Check O*NET code diversity
+        onet_prefixes = set()
+        for match in matches:
+            onet_code = match.get("onet_code", "")
+            if onet_code and len(onet_code) >= 2:
+                onet_prefixes.add(onet_code[:2])
+        
+        return len(onet_prefixes) / len(matches)
+
+    # ---------- Enhanced AI Insights ----------
+    async def generate_enhanced_ai_insights(self, profile: PersonProfile, job_name: str, 
+                                          traditional_match: Dict, scoring_details: Dict) -> Dict:
+        """Generate enhanced AI insights using detailed scoring information"""
+        job_data = self.onet_jobs[job_name]
+        
+        # Generate all AI components with enhanced context
+        ai_summary = await self._generate_enhanced_ai_summary(profile, job_name, job_data, traditional_match, scoring_details)
+        keywords = await self._generate_keywords(job_name, job_data)
+        onet_categories = await self._generate_onet_categories(job_name, job_data)
+        action_plan = await self._generate_enhanced_action_plan(profile, job_name, traditional_match, scoring_details)
+        career_story = await self._generate_career_story(profile, job_name, traditional_match)
+        interview_insights = await self._generate_enhanced_interview_insights(profile, job_name, traditional_match, scoring_details)
+        growth_potential = await self._generate_growth_potential_analysis(profile, job_name, job_data)
+        skill_development_roadmap = await self._generate_skill_development_roadmap(profile, job_name, scoring_details)
+        
         return {
             "ai_summary": ai_summary,
             "keywords": keywords,
@@ -107,206 +781,374 @@ class AICareerMatcher:
             "action_plan": action_plan,
             "career_story": career_story,
             "interview_insights": interview_insights,
-            "similar_roles": job.get("similar_roles", []),
+            "growth_potential": growth_potential,
+            "skill_development_roadmap": skill_development_roadmap,
+            "similar_roles": job_data.get("similar_roles", []),
         }
 
-    async def _generate_ai_summary(self, profile: PersonProfile, job_name: str, job: Dict, match: Dict) -> str:
+    async def _generate_enhanced_ai_summary(self, profile: PersonProfile, job_name: str, 
+                                          job_data: Dict, match: Dict, scoring_details: Dict) -> str:
+        """Generate enhanced AI summary using detailed scoring"""
+        skills_result = scoring_details.get("skills", {})
+        values_result = scoring_details.get("values", {})
+        
+        strengths = skills_result.get("strengths", [])[:2]
+        gaps = skills_result.get("gaps", [])[:2]
+        value_alignments = values_result.get("alignments", [])[:2]
+        
+        strength_text = ", ".join([s["skill"] for s in strengths]) if strengths else "core competencies"
+        gap_text = ", ".join([g["skill"] for g in gaps]) if gaps else "minor skill areas"
+        alignment_text = ", ".join([a["value"] for a in value_alignments]) if value_alignments else "work values"
+        
         prompt = f"""
-Create a personalized 2-3 paragraph summary for {profile.name} regarding their fit for the {job_name} position.
-Overall {match['overall_match']}%. Skills {match['breakdown']['skills_match']}%, Values {match['breakdown']['values_match']}%, Interests {match['breakdown']['interests_match']}%, Work Styles {match['breakdown']['work_styles_match']}%.
-Tone: encouraging, professional; acknowledge strengths, address gaps, motivate action.
+Create a personalized 2-3 paragraph summary for {profile.name} regarding their fit for {job_name}.
+
+Match Details:
+- Overall: {match['overall_match']}%
+- Key Strengths: {strength_text}
+- Development Areas: {gap_text}
+- Value Alignment: {alignment_text}
+
+Tone: encouraging, professional, specific. Address both strengths and growth opportunities.
 """
+        
         try:
-            r = openai_client.chat(
+            response = openai_client.chat(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=400,
                 temperature=0.7,
             )
-            return r.choices[0].message.content.strip()
+            return response.choices[0].message.content.strip()
         except Exception:
             return (
-                f"AI analysis temporarily unavailable. Based on your {match['overall_match']}% match, "
-                "you show strong potential with several key strengths."
+                f"Based on your {match['overall_match']}% match with {job_name}, you demonstrate strong potential "
+                f"with notable strengths in {strength_text}. Consider developing {gap_text} to increase your competitiveness."
             )
 
-    async def _generate_keywords(self, job_name: str, job: Dict) -> List[str]:
-        if "job_keywords" in job:
-            return job["job_keywords"][:4]
-        try:
-            r = openai_client.chat(
-                model="gpt-4o-mini",
-                messages=[{"role": "user", "content": f"Return 4 concise keywords for {job_name}, comma-separated."}],
-                max_tokens=50,
-                temperature=0.5,
-            )
-            return [k.strip() for k in r.choices[0].message.content.strip().split(",")][:4]
-        except Exception:
-            return ["professional", "skilled", "dedicated", "growth-oriented"]
-
-    async def _generate_onet_categories(self, job_name: str, job: Dict) -> Dict[str, List[str]]:
-        categories = {
-            "skills": list(job["skills"].keys())[:3],
-            "work_values": list(job["work_values"].keys())[:3],
-            "work_styles": list(job.get("work_styles", {}).keys())[:3],
-            "interests": list(job["interests"].keys())[:3],
-        }
-        for k, items in categories.items():
-            categories[k] = [i.replace("_", " ").title() for i in items]
-        return categories
-
-    async def _generate_action_plan(self, profile: PersonProfile, job_name: str, match: Dict) -> Dict:
-        improvements = match.get("improvements", [])[:3]
-        gap_lines = "\n".join(
-            [f"- {imp['skill']}: gap {(imp['required_level'] - imp['current_level']):.1f}" for imp in improvements]
-        )
+    async def _generate_enhanced_action_plan(self, profile: PersonProfile, job_name: str, 
+                                           match: Dict, scoring_details: Dict) -> Dict:
+        """Generate enhanced action plan using detailed gap analysis"""
+        skills_result = scoring_details.get("skills", {})
+        gaps = skills_result.get("gaps", [])[:3]
+        
+        if not gaps:
+            return {
+                "top_needs": ["Maintain current skill levels", "Gain industry experience", "Build professional network"],
+                "action_items": [
+                    "Apply to relevant positions",
+                    "Join professional associations",
+                    "Attend industry events",
+                    "Update portfolio/resume",
+                    "Practice interviewing"
+                ]
+            }
+        
+        gap_details = "\n".join([
+            f"- {gap['skill']}: Current {gap['user_level']:.1f}, Need {gap['required_level']:.1f} (Gap: {gap['gap']:.1f})"
+            for gap in gaps
+        ])
+        
         prompt = f"""
 Create a focused action plan for {profile.name} to become competitive for {job_name}.
-Current gaps:
-{gap_lines}
 
-Provide JSON with "top_needs" (3 items) and "action_items" (4-5 items).
+Specific skill gaps identified:
+{gap_details}
+
+Provide JSON with:
+- "top_needs" (3 most critical development areas)
+- "action_items" (5 specific, actionable steps)
+- "timeline" (realistic timeframe for each top need)
+
+Focus on practical, achievable steps.
 """
+        
         try:
-            r = openai_client.chat(
+            response = openai_client.chat(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=300,
+                max_tokens=400,
                 temperature=0.6,
             )
-            content = r.choices[0].message.content.strip()
+            content = response.choices[0].message.content.strip()
+            
             import re
-            m = re.search(r"\{.*\}", content, re.DOTALL)
-            if m:
-                return json.loads(m.group())
+            match_obj = re.search(r"\{.*\}", content, re.DOTALL)
+            if match_obj:
+                return json.loads(match_obj.group())
         except Exception:
             pass
+        
+        # Fallback based on gaps
         return {
-            "top_needs": [
-                f"Develop {improvements[0]['skill']} skills" if improvements else "Enhance core competencies",
-                "Build relevant experience",
-                "Network in target industry",
-            ],
+            "top_needs": [f"Develop {gap['skill']}" for gap in gaps],
             "action_items": [
-                "Take targeted online courses",
-                "Ship a small portfolio project",
-                "Informational interviews (4–6 people)",
-                "Mock interviews focusing on gaps",
-                "Document progress weekly",
+                f"Take online course in {gaps[0]['skill']}" if gaps else "Build relevant skills",
+                "Complete practice projects",
+                "Seek mentorship or coaching",
+                "Join relevant communities",
+                "Document learning progress"
             ],
+            "timeline": {
+                gaps[0]['skill'] if gaps else "Core skills": "2-3 months",
+                gaps[1]['skill'] if len(gaps) > 1 else "Experience": "3-6 months",
+                gaps[2]['skill'] if len(gaps) > 2 else "Networking": "1-2 months"
+            }
         }
 
-    async def _generate_career_story(self, profile: PersonProfile, job_name: str, match: Dict) -> str:
+    async def _generate_enhanced_interview_insights(self, profile: PersonProfile, job_name: str, 
+                                                  match: Dict, scoring_details: Dict) -> Dict:
+        """Generate enhanced interview insights using detailed match data"""
+        skills_result = scoring_details.get("skills", {})
+        values_result = scoring_details.get("values", {})
+        
+        strengths = skills_result.get("strengths", [])[:3]
+        alignments = values_result.get("alignments", [])[:2]
+        gaps = skills_result.get("gaps", [])[:2]
+        
+        selling_points = []
+        if strengths:
+            selling_points.extend([f"Strong {s['skill']} capabilities" for s in strengths])
+        if alignments:
+            selling_points.extend([f"Alignment with {a['value']} values" for a in alignments])
+        
+        # Pad with defaults if needed
+        while len(selling_points) < 3:
+            selling_points.append("Demonstrated problem-solving abilities")
+        
+        gap_areas = [g['skill'] for g in gaps] if gaps else []
+        
         prompt = f"""
-Write a 2-paragraph first-person career story for {profile.name} targeting {job_name}.
-Match score: {match['overall_match']}%. Be authentic, confident, forward-looking.
-"""
-        try:
-            r = openai_client.chat(
-                model="gpt-4o-mini",
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=300,
-                temperature=0.7,
-            )
-            return r.choices[0].message.content.strip()
-        except Exception:
-            return (
-                f"My journey toward {job_name} reflects strengths that align with the role. "
-                "I'm excited to apply them and grow meaningful impact."
-            )
+Create JSON interview prep for {profile.name} applying for {job_name}:
 
-    async def _generate_interview_insights(self, profile: PersonProfile, job_name: str, match: Dict) -> Dict:
-        prompt = f"""
-Create JSON interview prep for {profile.name} applying for {job_name} with:
-- key_selling_points (3)
-- story_examples (3)
-- questions_interviewer_may_ask (3)
-Be specific and actionable.
+Strengths to highlight: {', '.join(selling_points)}
+Areas to address carefully: {', '.join(gap_areas)}
+
+Include:
+- "key_selling_points" (3 specific strengths)
+- "story_examples" (3 STAR method examples)
+- "questions_to_ask" (3 thoughtful questions)
+- "gap_mitigation" (how to address weakness questions)
 """
+        
         try:
-            r = openai_client.chat(
+            response = openai_client.chat(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=350,
+                max_tokens=450,
                 temperature=0.6,
             )
+            
             import re
-            m = re.search(r"\{.*\}", r.choices[0].message.content.strip(), re.DOTALL)
-            if m:
-                return json.loads(m.group())
+            match_obj = re.search(r"\{.*\}", response.choices[0].message.content.strip(), re.DOTALL)
+            if match_obj:
+                return json.loads(match_obj.group())
         except Exception:
             pass
+        
         return {
-            "key_selling_points": [
-                "Strong analytical and problem-solving abilities",
-                "Clear communication with stakeholders",
-                "Fast learner with bias to action",
-            ],
+            "key_selling_points": selling_points[:3],
             "story_examples": [
-                "Solved a complex data/tech problem under time constraints",
-                "Led a cross-functional mini-project to delivery",
-                "Learned a new tool quickly and applied it to real work",
+                "Describe a challenging project you completed successfully",
+                "Share an example of learning a new skill quickly",
+                "Discuss a time you collaborated effectively with others"
             ],
             "questions_to_ask": [
-                "How is success measured in the first 6–12 months?",
-                "What current challenges is the team most focused on?",
-                "How does this role contribute to the org's strategy?",
+                "What does success look like in this role after 6 months?",
+                "What are the biggest challenges the team is currently facing?",
+                "How does this position contribute to the company's strategic goals?"
             ],
+            "gap_mitigation": f"Emphasize learning agility and provide examples of quickly acquiring new skills like {gap_areas[0] if gap_areas else 'relevant competencies'}"
         }
 
-    # ---------- Scoring ----------
+    async def _generate_growth_potential_analysis(self, profile: PersonProfile, job_name: str, job_data: Dict) -> Dict:
+        """Analyze growth potential and career progression"""
+        similar_roles = job_data.get("similar_roles", [])
+        onet_code = job_data.get("onet_code", "")
+        
+        # Find potential career progression within same cluster
+        cluster_jobs = []
+        if onet_code and len(onet_code) >= 2:
+            cluster = onet_code[:2]
+            cluster_jobs = self.career_clusters.get(cluster, [])
+        
+        prompt = f"""
+Analyze growth potential for {job_name}:
+
+Similar roles: {', '.join(similar_roles[:5])}
+Career cluster: {', '.join(cluster_jobs[:5])}
+
+Provide JSON with:
+- "advancement_timeline" (typical progression timeframe)
+- "next_level_roles" (2-3 natural next steps)
+- "skill_evolution" (how skills will grow)
+- "earning_potential" (growth trajectory)
+"""
+        
+        try:
+            response = openai_client.chat(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=300,
+                temperature=0.6,
+            )
+            
+            import re
+            match_obj = re.search(r"\{.*\}", response.choices[0].message.content.strip(), re.DOTALL)
+            if match_obj:
+                return json.loads(match_obj.group())
+        except Exception:
+            pass
+        
+        return {
+            "advancement_timeline": "2-5 years to next level",
+            "next_level_roles": similar_roles[:3] if similar_roles else ["Senior roles", "Management positions"],
+            "skill_evolution": "Progressive development of expertise and leadership capabilities",
+            "earning_potential": "Strong growth potential with experience and skill development"
+        }
+
+    async def _generate_skill_development_roadmap(self, profile: PersonProfile, job_name: str, scoring_details: Dict) -> Dict:
+        """Generate detailed skill development roadmap"""
+        skills_result = scoring_details.get("skills", {})
+        gaps = skills_result.get("gaps", [])
+        strengths = skills_result.get("strengths", [])
+        
+        if not gaps:
+            return {
+                "immediate": ["Maintain current skill levels"],
+                "short_term": ["Gain specialized experience"],
+                "long_term": ["Develop leadership capabilities"]
+            }
+        
+        # Categorize gaps by severity and timeframe
+        critical_gaps = [g for g in gaps if g.get("severity") == "Critical"]
+        high_gaps = [g for g in gaps if g.get("severity") == "High"]
+        medium_gaps = [g for g in gaps if g.get("severity") == "Medium"]
+        
+        return {
+            "immediate": [f"Address {g['skill']} gap (Critical)" for g in critical_gaps[:2]],
+            "short_term": [f"Develop {g['skill']} skills" for g in high_gaps[:2]],
+            "long_term": [f"Enhance {g['skill']} expertise" for g in medium_gaps[:2]],
+            "maintenance": [f"Maintain strength in {s['skill']}" for s in strengths[:2]]
+        }
+
+    async def _generate_ai_comparison(self, profile: PersonProfile, matches: List[Dict]) -> str:
+        """Generate AI-powered comparison of top career matches"""
+        if len(matches) < 2:
+            return "Insufficient matches for comparison analysis."
+        
+        top_jobs = [m["job_name"] for m in matches[:3]]
+        scores = [f"{m['job_name']}: {m.get('enhanced_score', m['overall_match'])}%" for m in matches[:3]]
+        
+        prompt = f"""
+Provide decision framework for {profile.name} choosing between these career options:
+
+{', '.join(scores)}
+
+Consider:
+- Skill development opportunities
+- Career progression potential
+- Market demand
+- Personal fit
+
+Give 2-3 practical decision criteria in 150 words.
+"""
+        
+        try:
+            response = openai_client.chat(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=200,
+                temperature=0.7,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception:
+            return (
+                f"When choosing between {', '.join(top_jobs)}, consider: "
+                "1) Which role offers the best skill development for your long-term goals, "
+                "2) Market demand and growth potential in each field, "
+                "3) Cultural fit and work environment preferences."
+            )
+
+    # ---------- Backward Compatibility ----------
     def calculate_job_match(self, profile: PersonProfile, job_name: str) -> Dict:
-        job = self.onet_jobs[job_name]
-        skills = self._calculate_skills_match(profile.skills, job["skills"])
-        values = self._calculate_values_match(profile.work_values, job["work_values"])
-        interests = self._calculate_interests_match(profile.interests, job["interests"])
-        styles = self._calculate_work_styles_match(profile.personality, job.get("work_styles", {}))
-        overall = (skills * 0.3 + values * 0.25 + interests * 0.2 + styles * 0.25) * 100
-        strengths, improvements = self._identify_strengths_improvements(profile, job)
+        """Maintain backward compatibility with existing interface"""
+        job_data = self.onet_jobs.get(job_name, {})
+        if not job_data:
+            return {}
+        
+        # Use original scoring methods for compatibility
+        skills_score = self._calculate_skills_match(profile.skills, job_data.get("skills", {}))
+        values_score = self._calculate_values_match(profile.work_values, job_data.get("work_values", {}))
+        interests_score = self._calculate_interests_match(profile.interests, job_data.get("interests", {}))
+        work_styles_score = self._calculate_work_styles_match(profile.personality, job_data.get("work_styles", {}))
+        
+        overall = (skills_score * 0.3 + values_score * 0.25 + interests_score * 0.2 + work_styles_score * 0.25) * 100
+        
+        strengths, improvements = self._identify_strengths_improvements(profile, job_data)
+        
         return {
             "job_name": job_name,
-            "onet_code": job["onet_code"],
+            "onet_code": job_data.get("onet_code", ""),
             "overall_match": round(overall, 1),
             "breakdown": {
-                "skills_match": round(skills * 100, 1),
-                "values_match": round(values * 100, 1),
-                "interests_match": round(interests * 100, 1),
-                "work_styles_match": round(styles * 100, 1),
+                "skills_match": round(skills_score * 100, 1),
+                "values_match": round(values_score * 100, 1),
+                "interests_match": round(interests_score * 100, 1),
+                "work_styles_match": round(work_styles_score * 100, 1),
             },
             "strengths": strengths,
             "improvements": improvements,
-            "required_skills": job["required_skills"],
+            "required_skills": job_data.get("required_skills", []),
         }
 
+    # ---------- Original Methods for Compatibility ----------
     def _calculate_skills_match(self, user_skills: Dict, job_skills: Dict) -> float:
+        """Original skills matching method for backward compatibility"""
+        if not job_skills:
+            return 0.5
+        
         scores, weights = [], []
         for skill, importance in job_skills.items():
-            u = user_skills.get(skill, 2.5) / 5.0
-            w = importance / 5.0
-            score = 1.0 if u >= w else max(0, 1 - ((w - u) * 2))
-            scores.append(score * w)
+            user_level = user_skills.get(skill, 2.5) / 5.0
+            weight = importance / 5.0
+            score = 1.0 if user_level >= weight else max(0, 1 - ((weight - user_level) * 2))
+            scores.append(score * weight)
             weights.append(importance)
+        
         return (sum(scores) / sum(weights) * 5) if scores else 0
 
     def _calculate_values_match(self, user_values: Dict, job_values: Dict) -> float:
+        """Original values matching method"""
+        if not job_values:
+            return 0.5
+        
         scores, weights = [], []
-        for k, j_imp in job_values.items():
-            u_imp = user_values.get(k, 3.5)
-            nj, nu = j_imp / 5.0, u_imp / 6.0
-            sim = 1 - abs(nj - nu)
-            scores.append(sim * nj)
-            weights.append(j_imp)
+        for key, job_importance in job_values.items():
+            user_importance = user_values.get(key, 3.5)
+            normalized_job = job_importance / 5.0
+            normalized_user = user_importance / 6.0
+            similarity = 1 - abs(normalized_job - normalized_user)
+            scores.append(similarity * normalized_job)
+            weights.append(job_importance)
+        
         return (sum(scores) / sum(weights) * 5) if scores else 0
 
     def _calculate_interests_match(self, user_interests: List[str], job_interests: Dict) -> float:
-        if not user_interests: return 0.5
+        """Original interests matching method"""
+        if not user_interests or not job_interests:
+            return 0.5
+        
         max_possible = sum(job_interests.values())
-        got = sum(v for k, v in job_interests.items() if k in user_interests)
-        return (got / max_possible) if max_possible else 0
+        achieved = sum(value for key, value in job_interests.items() if key in user_interests)
+        return (achieved / max_possible) if max_possible else 0
 
     def _calculate_work_styles_match(self, personality: Dict, job_styles: Dict) -> float:
-        if not job_styles: return 0.5
-        map_ps = {
+        """Original work styles matching method"""
+        if not job_styles:
+            return 0.5
+        
+        personality_mapping = {
             "analytical_thinking": personality.get("openness", 3),
             "attention_to_detail": personality.get("conscientiousness", 3),
             "dependability": personality.get("conscientiousness", 3),
@@ -320,20 +1162,24 @@ Be specific and actionable.
             "concern_for_others": personality.get("agreeableness", 3),
             "cooperation": personality.get("agreeableness", 3),
         }
+        
         scores, weights = [], []
-        for style, imp in job_styles.items():
-            u = map_ps.get(style, 3) / 5.0
-            w = imp / 5.0
-            thresh = w * 0.8
-            score = 1.0 if u >= thresh else max(0, 1 - ((thresh - u) * 2))
-            scores.append(score * w)
-            weights.append(imp)
+        for style, importance in job_styles.items():
+            user_level = personality_mapping.get(style, 3) / 5.0
+            weight = importance / 5.0
+            threshold = weight * 0.8
+            score = 1.0 if user_level >= threshold else max(0, 1 - ((threshold - user_level) * 2))
+            scores.append(score * weight)
+            weights.append(importance)
+        
         return (sum(scores) / sum(weights) * 5) if scores else 0
 
-    def _identify_strengths_improvements(self, profile: PersonProfile, job: Dict) -> Tuple[List[str], List[Dict]]:
+    def _identify_strengths_improvements(self, profile: PersonProfile, job_data: Dict) -> Tuple[List[str], List[Dict]]:
+        """Original strengths/improvements identification"""
         strengths, improvements = [], []
-        # Updated mapping to include the 5 new skills
-        mapping = {
+        
+        # Enhanced skill mapping
+        skill_mapping = {
             "Programming": "programming",
             "Problem Solving": "problem_solving",
             "Public Speaking": "public_speaking",
@@ -348,48 +1194,81 @@ Be specific and actionable.
             "Attention to Detail": "attention_to_detail",
             "Project Management": "project_management",
             "Research": "research",
-            # New skill mappings
             "Negotiation": "negotiation",
             "Creativity": "creativity",
             "Languages": "languages",
             "Artistic": "artistic",
             "Hands-On Building": "hands_on_building",
-            "Hands On Building": "hands_on_building",  # Alternative spacing
-            # Additional common variations that might appear in job data
-            "Language Skills": "languages",
-            "Foreign Languages": "languages",
-            "Multilingual": "languages",
-            "Art": "artistic",
-            "Design": "artistic",
-            "Visual Arts": "artistic",
-            "Manual Skills": "hands_on_building",
-            "Construction": "hands_on_building",
-            "Building": "hands_on_building",
-            "Craftsmanship": "hands_on_building",
-            "Creative Thinking": "creativity",
-            "Innovation": "creativity",
-            "Creative Problem Solving": "creativity",
+            "Writing": "writing",
+            "Teamwork": "teamwork",
         }
         
-        for skill_name in job["required_skills"]:
-            # Try direct mapping first
-            key = mapping.get(skill_name)
+        for skill_name in job_data.get("required_skills", []):
+            key = skill_mapping.get(skill_name, skill_name.lower().replace(" ", "_").replace("-", "_"))
+            user_level = profile.skills.get(key, 2.5)
+            required_level = job_data.get("skills", {}).get(key, 3.5)
             
-            # If no direct mapping, try lowercase with underscores
-            if key is None:
-                key = skill_name.lower().replace(" ", "_").replace("-", "_")
-            
-            user = profile.skills.get(key, 2.5)
-            need = job["skills"].get(key, 3.5)
-            
-            if user >= need:
-                strengths.append(f"Strong {skill_name} skills (Level {user}/5)")
-            elif user < need - 0.5:
+            if user_level >= required_level:
+                strengths.append(f"Strong {skill_name} skills (Level {user_level}/5)")
+            elif user_level < required_level - 0.5:
                 improvements.append({
                     "skill": skill_name,
-                    "current_level": user,
-                    "required_level": need,
-                    "gap_severity": "High" if (need - user) > 1.5 else "Medium",
+                    "current_level": user_level,
+                    "required_level": required_level,
+                    "gap_severity": "High" if (required_level - user_level) > 1.5 else "Medium",
                 })
-                
+        
         return strengths, improvements
+
+    # ---------- Additional Utility Methods ----------
+    async def _generate_keywords(self, job_name: str, job_data: Dict) -> List[str]:
+        """Generate keywords (unchanged from original)"""
+        if "job_keywords" in job_data:
+            return job_data["job_keywords"][:4]
+        
+        try:
+            response = openai_client.chat(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": f"Return 4 concise keywords for {job_name}, comma-separated."}],
+                max_tokens=50,
+                temperature=0.5,
+            )
+            return [k.strip() for k in response.choices[0].message.content.strip().split(",")][:4]
+        except Exception:
+            return ["professional", "skilled", "dedicated", "growth-oriented"]
+
+    async def _generate_onet_categories(self, job_name: str, job_data: Dict) -> Dict[str, List[str]]:
+        """Generate O*NET categories (unchanged from original)"""
+        categories = {
+            "skills": list(job_data.get("skills", {}).keys())[:3],
+            "work_values": list(job_data.get("work_values", {}).keys())[:3],
+            "work_styles": list(job_data.get("work_styles", {}).keys())[:3],
+            "interests": list(job_data.get("interests", {}).keys())[:3],
+        }
+        
+        for key, items in categories.items():
+            categories[key] = [item.replace("_", " ").title() for item in items]
+        
+        return categories
+
+    async def _generate_career_story(self, profile: PersonProfile, job_name: str, match: Dict) -> str:
+        """Generate career story (unchanged from original)"""
+        prompt = f"""
+Write a 2-paragraph first-person career story for {profile.name} targeting {job_name}.
+Match score: {match['overall_match']}%. Be authentic, confident, forward-looking.
+"""
+        
+        try:
+            response = openai_client.chat(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=300,
+                temperature=0.7,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"{e}")
+            return (
+                f"My journey toward {job_name} reflects my strengths that align well with this role. "
+                "I'm excited to apply my skills and continue growing to make meaningful impact."
+            )
