@@ -51,6 +51,14 @@ onet_jobs = {
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Chief Sustainability Officers": {
@@ -104,6 +112,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "General and Operations Managers": {
@@ -162,6 +178,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Legislators": {
@@ -213,6 +237,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Advertising and Promotions Managers": {
@@ -271,6 +303,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Marketing Managers": {
@@ -330,6 +370,14 @@ onet_jobs = {
       "campaigns",
       "strategy",
       "growth"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales Managers": {
@@ -390,6 +438,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Public Relations Managers": {
@@ -444,6 +500,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Fundraising Managers": {
@@ -501,6 +565,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Administrative Services Managers": {
@@ -559,6 +631,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Facilities Managers": {
@@ -616,6 +696,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Security Managers": {
@@ -673,6 +761,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Computer and Information Systems Managers": {
@@ -731,6 +827,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Financial Managers": {
@@ -789,6 +893,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Treasurers and Controllers": {
@@ -843,6 +955,14 @@ onet_jobs = {
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Investment Fund Managers": {
@@ -901,6 +1021,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Production Managers": {
@@ -959,6 +1087,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Quality Control Systems Managers": {
@@ -1017,6 +1153,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geothermal Production Managers": {
@@ -1075,6 +1219,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biofuels Production Managers": {
@@ -1133,6 +1285,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biomass Power Plant Managers": {
@@ -1191,6 +1351,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Hydroelectric Production Managers": {
@@ -1249,6 +1417,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Purchasing Managers": {
@@ -1307,6 +1483,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Transportation, Storage, and Distribution Managers": {
@@ -1365,6 +1549,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Supply Chain Managers": {
@@ -1423,6 +1615,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Compensation and Benefits Managers": {
@@ -1481,6 +1681,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Human Resources Managers": {
@@ -1539,6 +1747,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Training and Development Managers": {
@@ -1597,6 +1813,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Farmers, Ranchers, and Other Agricultural Managers": {
@@ -1655,6 +1879,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Construction Managers": {
@@ -1713,6 +1945,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Education and Childcare Administrators, Preschool and Daycare": {
@@ -1770,6 +2010,14 @@ onet_jobs = {
       "planning",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Education Administrators, Kindergarten through Secondary": {
@@ -1828,6 +2076,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Education Administrators, Postsecondary": {
@@ -1884,6 +2140,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Education Administrators, All Other": {
@@ -1937,6 +2201,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Architectural and Engineering Managers": {
@@ -1995,6 +2267,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biofuels/Biodiesel Technology and Product Development Managers": {
@@ -2053,6 +2333,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Service Managers": {
@@ -2111,6 +2399,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Gambling Managers": {
@@ -2169,6 +2465,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Entertainment and Recreation Managers, Except Gambling": {
@@ -2226,6 +2530,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Lodging Managers": {
@@ -2284,6 +2596,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Medical and Health Services Managers": {
@@ -2342,6 +2662,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Natural Sciences Managers": {
@@ -2400,6 +2728,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Research Coordinators": {
@@ -2453,6 +2789,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Water Resource Specialists": {
@@ -2507,6 +2851,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Postmasters and Mail Superintendents": {
@@ -2560,6 +2912,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Property, Real Estate, and Community Association Managers": {
@@ -2618,6 +2978,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Social and Community Service Managers": {
@@ -2676,6 +3044,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Emergency Management Directors": {
@@ -2733,6 +3109,14 @@ onet_jobs = {
       "communication",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Funeral Home Managers": {
@@ -2791,6 +3175,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Personal Service Managers, All Other": {
@@ -2845,6 +3237,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Fitness and Wellness Coordinators": {
@@ -2897,6 +3297,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Spa Managers": {
@@ -2955,6 +3363,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Managers, All Other": {
@@ -3009,6 +3425,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Regulatory Affairs Managers": {
@@ -3067,6 +3491,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Compliance Managers": {
@@ -3125,6 +3557,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Loss Prevention Managers": {
@@ -3183,6 +3623,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Wind Energy Operations Managers": {
@@ -3241,6 +3689,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Wind Energy Development Managers": {
@@ -3299,6 +3755,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Brownfield Redevelopment Specialists and Site Managers": {
@@ -3357,6 +3821,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Agents and Business Managers of Artists, Performers, and Athletes": {
@@ -3415,6 +3887,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Buyers and Purchasing Agents, Farm Products": {
@@ -3470,6 +3950,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Wholesale and Retail Buyers, Except Farm Products": {
@@ -3525,6 +4013,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Purchasing Agents, Except Wholesale, Retail, and Farm Products": {
@@ -3578,6 +4074,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Claims Adjusters, Examiners, and Investigators": {
@@ -3633,6 +4137,14 @@ onet_jobs = {
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Insurance Appraisers, Auto Damage": {
@@ -3688,6 +4200,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Compliance Officers": {
@@ -3740,6 +4260,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Compliance Inspectors": {
@@ -3795,6 +4323,14 @@ onet_jobs = {
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Equal Opportunity Representatives and Officers": {
@@ -3848,6 +4384,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Government Property Inspectors and Investigators": {
@@ -3903,6 +4447,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Coroners": {
@@ -3958,6 +4510,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Regulatory Affairs Specialists": {
@@ -4011,6 +4571,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Customs Brokers": {
@@ -4063,6 +4631,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cost Estimators": {
@@ -4117,6 +4693,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Human Resources Specialists": {
@@ -4169,6 +4753,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Farm Labor Contractors": {
@@ -4224,6 +4816,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Labor Relations Specialists": {
@@ -4276,6 +4876,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Logisticians": {
@@ -4331,6 +4939,14 @@ onet_jobs = {
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Logistics Engineers": {
@@ -4388,6 +5004,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Logistics Analysts": {
@@ -4445,6 +5069,14 @@ onet_jobs = {
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Project Management Specialists": {
@@ -4495,6 +5127,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Management Analysts": {
@@ -4551,6 +5191,14 @@ onet_jobs = {
       "analysis",
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Meeting, Convention, and Event Planners": {
@@ -4604,6 +5252,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Fundraisers": {
@@ -4659,6 +5315,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Compensation, Benefits, and Job Analysis Specialists": {
@@ -4712,6 +5376,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Training and Development Specialists": {
@@ -4766,6 +5438,14 @@ onet_jobs = {
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Market Research Analysts and Marketing Specialists": {
@@ -4825,6 +5505,14 @@ onet_jobs = {
       "campaigns",
       "strategy",
       "growth"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Search Marketing Strategists": {
@@ -4884,6 +5572,14 @@ onet_jobs = {
       "campaigns",
       "strategy",
       "growth"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Business Operations Specialists, All Other": {
@@ -4937,6 +5633,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Business Continuity Planners": {
@@ -4992,6 +5696,14 @@ onet_jobs = {
       "management",
       "communication",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Sustainability Specialists": {
@@ -5045,6 +5757,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Online Merchants": {
@@ -5099,6 +5819,14 @@ onet_jobs = {
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Security Management Specialists": {
@@ -5150,6 +5878,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Accountants and Auditors": {
@@ -5204,6 +5940,14 @@ onet_jobs = {
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Appraisers of Personal and Business Property": {
@@ -5258,6 +6002,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Appraisers and Assessors of Real Estate": {
@@ -5311,6 +6063,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Budget Analysts": {
@@ -5366,6 +6126,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Credit Analysts": {
@@ -5420,6 +6188,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Financial and Investment Analysts": {
@@ -5472,6 +6248,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Personal Financial Advisors": {
@@ -5526,6 +6310,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Insurance Underwriters": {
@@ -5581,6 +6373,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Financial Risk Specialists": {
@@ -5634,6 +6434,14 @@ onet_jobs = {
       "management",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Financial Examiners": {
@@ -5686,6 +6494,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Credit Counselors": {
@@ -5740,6 +6556,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Loan Officers": {
@@ -5793,6 +6617,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Tax Examiners and Collectors, and Revenue Agents": {
@@ -5845,6 +6677,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Tax Preparers": {
@@ -5897,6 +6737,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Financial Specialists, All Other": {
@@ -5950,6 +6798,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Financial Quantitative Analysts": {
@@ -6006,6 +6862,14 @@ onet_jobs = {
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fraud Examiners, Investigators and Analysts": {
@@ -6063,6 +6927,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Systems Analysts": {
@@ -6120,6 +6992,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Health Informatics Specialists": {
@@ -6175,6 +7055,14 @@ onet_jobs = {
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Information Security Analysts": {
@@ -6232,6 +7120,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer and Information Research Scientists": {
@@ -6285,6 +7181,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Network Support Specialists": {
@@ -6337,6 +7241,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer User Support Specialists": {
@@ -6392,6 +7304,14 @@ onet_jobs = {
       "management",
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Network Architects": {
@@ -6446,6 +7366,14 @@ onet_jobs = {
       "communication",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Telecommunications Engineering Specialists": {
@@ -6503,6 +7431,14 @@ onet_jobs = {
       "communication",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Database Administrators": {
@@ -6558,6 +7494,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Database Architects": {
@@ -6614,6 +7558,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Data Warehousing Specialists": {
@@ -6669,6 +7621,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Network and Computer Systems Administrators": {
@@ -6722,6 +7682,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Programmers": {
@@ -6778,6 +7746,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Software Developers": {
@@ -6835,6 +7811,14 @@ onet_jobs = {
       "development",
       "technology",
       "innovation"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Software Quality Assurance Analysts and Testers": {
@@ -6893,6 +7877,14 @@ onet_jobs = {
       "development",
       "technology",
       "innovation"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Web Developers": {
@@ -6951,6 +7943,14 @@ onet_jobs = {
       "development",
       "technology",
       "innovation"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Web and Digital Interface Designers": {
@@ -7004,6 +8004,14 @@ onet_jobs = {
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Video Game Designers": {
@@ -7059,6 +8067,14 @@ onet_jobs = {
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Computer Occupations, All Other": {
@@ -7112,6 +8128,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Web Administrators": {
@@ -7166,6 +8190,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Geographic Information Systems Technologists and Technicians": {
@@ -7220,6 +8252,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Document Management Specialists": {
@@ -7274,6 +8314,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Penetration Testers": {
@@ -7327,6 +8375,14 @@ onet_jobs = {
       "management",
       "communication",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Information Security Engineers": {
@@ -7383,6 +8439,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Digital Forensics Analysts": {
@@ -7435,6 +8499,14 @@ onet_jobs = {
       "analysis",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Blockchain Engineers": {
@@ -7488,6 +8560,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Computer Systems Engineers/Architects": {
@@ -7544,6 +8624,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Information Technology Project Managers": {
@@ -7602,6 +8690,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Actuaries": {
@@ -7656,6 +8752,14 @@ onet_jobs = {
       "analysis",
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mathematicians": {
@@ -7708,6 +8812,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Operations Research Analysts": {
@@ -7763,6 +8875,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Statisticians": {
@@ -7816,6 +8936,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biostatisticians": {
@@ -7870,6 +8998,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Data Scientists": {
@@ -7921,6 +9057,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Business Intelligence Analysts": {
@@ -7977,6 +9121,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Data Managers": {
@@ -8035,6 +9187,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mathematical Science Occupations, All Other": {
@@ -8088,6 +9248,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bioinformatics Technicians": {
@@ -8141,6 +9309,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Architects, Except Landscape and Naval": {
@@ -8193,6 +9369,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Landscape Architects": {
@@ -8246,6 +9430,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Cartographers and Photogrammetrists": {
@@ -8301,6 +9493,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Surveyors": {
@@ -8356,6 +9556,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geodetic Surveyors": {
@@ -8409,6 +9617,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Aerospace Engineers": {
@@ -8466,6 +9682,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Engineers": {
@@ -8520,6 +9744,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Bioengineers and Biomedical Engineers": {
@@ -8577,6 +9809,14 @@ onet_jobs = {
       "planning",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemical Engineers": {
@@ -8631,6 +9871,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Civil Engineers": {
@@ -8686,6 +9934,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Transportation Engineers": {
@@ -8741,6 +9997,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Water/Wastewater Engineers": {
@@ -8796,6 +10060,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Computer Hardware Engineers": {
@@ -8852,6 +10124,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical Engineers": {
@@ -8907,6 +10187,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electronics Engineers, Except Computer": {
@@ -8963,6 +10251,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Radio Frequency Identification Device Specialists": {
@@ -9016,6 +10312,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Environmental Engineers": {
@@ -9073,6 +10377,14 @@ onet_jobs = {
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors": {
@@ -9127,6 +10439,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fire-Prevention and Protection Engineers": {
@@ -9184,6 +10504,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Engineers": {
@@ -9239,6 +10567,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Human Factors Engineers and Ergonomists": {
@@ -9295,6 +10631,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Validation Engineers": {
@@ -9352,6 +10696,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Manufacturing Engineers": {
@@ -9407,6 +10759,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Marine Engineers and Naval Architects": {
@@ -9462,6 +10822,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Materials Engineers": {
@@ -9516,6 +10884,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechanical Engineers": {
@@ -9573,6 +10949,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fuel Cell Engineers": {
@@ -9629,6 +11013,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive Engineers": {
@@ -9684,6 +11076,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mining and Geological Engineers, Including Mining Safety Engineers": {
@@ -9740,6 +11140,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nuclear Engineers": {
@@ -9795,6 +11203,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Petroleum Engineers": {
@@ -9852,6 +11268,14 @@ onet_jobs = {
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Engineers, All Other": {
@@ -9905,6 +11329,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Energy Engineers, Except Wind and Solar": {
@@ -9960,6 +11392,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechatronics Engineers": {
@@ -10016,6 +11456,14 @@ onet_jobs = {
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Microsystems Engineers": {
@@ -10070,6 +11518,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Photonics Engineers": {
@@ -10124,6 +11580,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Robotics Engineers": {
@@ -10180,6 +11644,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Nanosystems Engineers": {
@@ -10235,6 +11707,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Wind Energy Engineers": {
@@ -10290,6 +11770,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Energy Systems Engineers": {
@@ -10345,6 +11833,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Architectural and Civil Drafters": {
@@ -10397,6 +11893,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronics Drafters": {
@@ -10450,6 +11954,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechanical Drafters": {
@@ -10502,6 +12014,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Drafters, All Other": {
@@ -10555,6 +12075,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aerospace Engineering and Operations Technologists and Technicians": {
@@ -10609,6 +12137,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Civil Engineering Technologists and Technicians": {
@@ -10663,6 +12199,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronic Engineering Technologists and Technicians": {
@@ -10719,6 +12263,14 @@ onet_jobs = {
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electro-Mechanical and Mechatronics Technologists and Technicians": {
@@ -10771,6 +12323,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Robotics Technicians": {
@@ -10824,6 +12384,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Environmental Engineering Technologists and Technicians": {
@@ -10880,6 +12448,14 @@ onet_jobs = {
       "analysis",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Industrial Engineering Technologists and Technicians": {
@@ -10935,6 +12511,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Nanotechnology Engineering Technologists and Technicians": {
@@ -10991,6 +12575,14 @@ onet_jobs = {
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Mechanical Engineering Technologists and Technicians": {
@@ -11045,6 +12637,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Automotive Engineering Technicians": {
@@ -11102,6 +12702,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Calibration Technologists and Technicians": {
@@ -11152,6 +12760,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Engineering Technologists and Technicians, Except Drafters, All Other": {
@@ -11205,6 +12821,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Non-Destructive Testing Specialists": {
@@ -11257,6 +12881,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Photonics Technicians": {
@@ -11311,6 +12943,14 @@ onet_jobs = {
       "analysis",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Surveying and Mapping Technicians": {
@@ -11363,6 +13003,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Animal Scientists": {
@@ -11415,6 +13063,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Scientists and Technologists": {
@@ -11468,6 +13124,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Soil and Plant Scientists": {
@@ -11523,6 +13187,14 @@ onet_jobs = {
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biochemists and Biophysicists": {
@@ -11575,6 +13247,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Microbiologists": {
@@ -11629,6 +13309,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Zoologists and Wildlife Biologists": {
@@ -11682,6 +13370,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biological Scientists, All Other": {
@@ -11735,6 +13431,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bioinformatics Scientists": {
@@ -11788,6 +13492,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Molecular and Cellular Biologists": {
@@ -11842,6 +13554,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geneticists": {
@@ -11896,6 +13616,14 @@ onet_jobs = {
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biologists": {
@@ -11950,6 +13678,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Conservation Scientists": {
@@ -12003,6 +13739,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Range Managers": {
@@ -12061,6 +13805,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Park Naturalists": {
@@ -12113,6 +13865,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Foresters": {
@@ -12165,6 +13925,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Epidemiologists": {
@@ -12220,6 +13988,14 @@ onet_jobs = {
       "management",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Scientists, Except Epidemiologists": {
@@ -12278,6 +14054,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Life Scientists, All Other": {
@@ -12331,6 +14115,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Astronomers": {
@@ -12383,6 +14175,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physicists": {
@@ -12436,6 +14236,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Atmospheric and Space Scientists": {
@@ -12489,6 +14297,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemists": {
@@ -12542,6 +14358,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Materials Scientists": {
@@ -12594,6 +14418,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Scientists and Specialists, Including Health": {
@@ -12648,6 +14480,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Climate Change Policy Analysts": {
@@ -12703,6 +14543,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Restoration Planners": {
@@ -12757,6 +14605,14 @@ onet_jobs = {
       "management",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Ecologists": {
@@ -12812,6 +14668,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geoscientists, Except Hydrologists and Geographers": {
@@ -12867,6 +14731,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hydrologists": {
@@ -12922,6 +14794,14 @@ onet_jobs = {
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physical Scientists, All Other": {
@@ -12975,6 +14855,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Remote Sensing Scientists and Technologists": {
@@ -13028,6 +14916,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Economists": {
@@ -13081,6 +14977,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Economists": {
@@ -13134,6 +15038,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Survey Researchers": {
@@ -13188,6 +15100,14 @@ onet_jobs = {
       "analysis",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial-Organizational Psychologists": {
@@ -13242,6 +15162,14 @@ onet_jobs = {
       "management",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical and Counseling Psychologists": {
@@ -13296,6 +15224,14 @@ onet_jobs = {
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "School Psychologists": {
@@ -13350,6 +15286,14 @@ onet_jobs = {
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Psychologists, All Other": {
@@ -13403,6 +15347,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Neuropsychologists": {
@@ -13455,6 +15407,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Neuropsychologists": {
@@ -13507,6 +15467,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sociologists": {
@@ -13562,6 +15530,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Urban and Regional Planners": {
@@ -13615,6 +15591,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Anthropologists and Archeologists": {
@@ -13670,6 +15654,14 @@ onet_jobs = {
       "communication",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geographers": {
@@ -13725,6 +15717,14 @@ onet_jobs = {
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Historians": {
@@ -13777,6 +15777,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Political Scientists": {
@@ -13829,6 +15837,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Scientists and Related Workers, All Other": {
@@ -13882,6 +15898,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Transportation Planners": {
@@ -13936,6 +15960,14 @@ onet_jobs = {
       "analysis",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Technicians": {
@@ -13989,6 +16021,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Precision Agriculture Technicians": {
@@ -14044,6 +16084,14 @@ onet_jobs = {
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Food Science Technicians": {
@@ -14096,6 +16144,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biological Technicians": {
@@ -14151,6 +16207,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemical Technicians": {
@@ -14204,6 +16268,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Environmental Science and Protection Technicians, Including Health": {
@@ -14257,6 +16329,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geological Technicians, Except Hydrologic Technicians": {
@@ -14311,6 +16391,14 @@ onet_jobs = {
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Hydrologic Technicians": {
@@ -14363,6 +16451,14 @@ onet_jobs = {
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Nuclear Technicians": {
@@ -14418,6 +16514,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Nuclear Monitoring Technicians": {
@@ -14473,6 +16577,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Science Research Assistants": {
@@ -14525,6 +16637,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Forest and Conservation Technicians": {
@@ -14577,6 +16697,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Forensic Science Technicians": {
@@ -14629,6 +16757,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Life, Physical, and Social Science Technicians, All Other": {
@@ -14682,6 +16818,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Quality Control Analysts": {
@@ -14736,6 +16880,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Remote Sensing Technicians": {
@@ -14791,6 +16943,14 @@ onet_jobs = {
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Occupational Health and Safety Specialists": {
@@ -14844,6 +17004,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Occupational Health and Safety Technicians": {
@@ -14896,6 +17064,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Substance Abuse and Behavioral Disorder Counselors": {
@@ -14949,6 +17125,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Educational, Guidance, and Career Counselors and Advisors": {
@@ -15007,6 +17191,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Marriage and Family Therapists": {
@@ -15060,6 +17252,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Mental Health Counselors": {
@@ -15113,6 +17313,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Rehabilitation Counselors": {
@@ -15166,6 +17374,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Counselors, All Other": {
@@ -15219,6 +17435,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Child, Family, and School Social Workers": {
@@ -15272,6 +17496,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Healthcare Social Workers": {
@@ -15325,6 +17557,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Mental Health and Substance Abuse Social Workers": {
@@ -15378,6 +17618,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Social Workers, All Other": {
@@ -15431,6 +17679,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Health Education Specialists": {
@@ -15488,6 +17744,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Probation Officers and Correctional Treatment Specialists": {
@@ -15541,6 +17805,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Social and Human Service Assistants": {
@@ -15595,6 +17867,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Community Health Workers": {
@@ -15649,6 +17929,14 @@ onet_jobs = {
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Community and Social Service Specialists, All Other": {
@@ -15702,6 +17990,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Clergy": {
@@ -15755,6 +18051,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Directors, Religious Activities and Education": {
@@ -15812,6 +18116,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Religious Workers, All Other": {
@@ -15865,6 +18177,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Lawyers": {
@@ -15917,6 +18237,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Judicial Law Clerks": {
@@ -15969,6 +18297,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Administrative Law Judges, Adjudicators, and Hearing Officers": {
@@ -16024,6 +18360,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Arbitrators, Mediators, and Conciliators": {
@@ -16078,6 +18422,14 @@ onet_jobs = {
       "communication",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Judges, Magistrate Judges, and Magistrates": {
@@ -16133,6 +18485,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Paralegals and Legal Assistants": {
@@ -16185,6 +18545,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Title Examiners, Abstractors, and Searchers": {
@@ -16237,6 +18605,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Legal Support Workers, All Other": {
@@ -16290,6 +18666,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Business Teachers, Postsecondary": {
@@ -16348,6 +18732,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Science Teachers, Postsecondary": {
@@ -16406,6 +18798,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mathematical Science Teachers, Postsecondary": {
@@ -16464,6 +18864,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Architecture Teachers, Postsecondary": {
@@ -16522,6 +18930,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Engineering Teachers, Postsecondary": {
@@ -16580,6 +18996,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Sciences Teachers, Postsecondary": {
@@ -16638,6 +19062,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biological Science Teachers, Postsecondary": {
@@ -16696,6 +19128,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Forestry and Conservation Science Teachers, Postsecondary": {
@@ -16754,6 +19194,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary": {
@@ -16812,6 +19260,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemistry Teachers, Postsecondary": {
@@ -16870,6 +19326,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Science Teachers, Postsecondary": {
@@ -16928,6 +19392,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physics Teachers, Postsecondary": {
@@ -16986,6 +19458,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Anthropology and Archeology Teachers, Postsecondary": {
@@ -17044,6 +19524,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Area, Ethnic, and Cultural Studies Teachers, Postsecondary": {
@@ -17102,6 +19590,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Economics Teachers, Postsecondary": {
@@ -17160,6 +19656,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geography Teachers, Postsecondary": {
@@ -17218,6 +19722,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Political Science Teachers, Postsecondary": {
@@ -17276,6 +19788,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Psychology Teachers, Postsecondary": {
@@ -17334,6 +19854,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sociology Teachers, Postsecondary": {
@@ -17392,6 +19920,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Sciences Teachers, Postsecondary, All Other": {
@@ -17445,6 +19981,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Health Specialties Teachers, Postsecondary": {
@@ -17503,6 +20047,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nursing Instructors and Teachers, Postsecondary": {
@@ -17561,6 +20113,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Education Teachers, Postsecondary": {
@@ -17619,6 +20179,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Library Science Teachers, Postsecondary": {
@@ -17677,6 +20245,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Criminal Justice and Law Enforcement Teachers, Postsecondary": {
@@ -17735,6 +20311,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Law Teachers, Postsecondary": {
@@ -17793,6 +20377,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Work Teachers, Postsecondary": {
@@ -17851,6 +20443,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Art, Drama, and Music Teachers, Postsecondary": {
@@ -17909,6 +20509,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Communications Teachers, Postsecondary": {
@@ -17967,6 +20575,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "English Language and Literature Teachers, Postsecondary": {
@@ -18025,6 +20641,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Foreign Language and Literature Teachers, Postsecondary": {
@@ -18083,6 +20707,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "History Teachers, Postsecondary": {
@@ -18141,6 +20773,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Philosophy and Religion Teachers, Postsecondary": {
@@ -18199,6 +20839,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Family and Consumer Sciences Teachers, Postsecondary": {
@@ -18257,6 +20905,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Recreation and Fitness Studies Teachers, Postsecondary": {
@@ -18315,6 +20971,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Career/Technical Education Teachers, Postsecondary": {
@@ -18373,6 +21037,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Postsecondary Teachers, All Other": {
@@ -18426,6 +21098,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Preschool Teachers, Except Special Education": {
@@ -18484,6 +21164,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Kindergarten Teachers, Except Special Education": {
@@ -18542,6 +21230,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Elementary School Teachers, Except Special Education": {
@@ -18600,6 +21296,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Middle School Teachers, Except Special and Career/Technical Education": {
@@ -18658,6 +21362,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Career/Technical Education Teachers, Middle School": {
@@ -18716,6 +21428,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Secondary School Teachers, Except Special and Career/Technical Education": {
@@ -18774,6 +21494,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Career/Technical Education Teachers, Secondary School": {
@@ -18832,6 +21560,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Preschool": {
@@ -18890,6 +21626,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Kindergarten": {
@@ -18943,6 +21687,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Special Education Teachers, Elementary School": {
@@ -19000,6 +21752,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Middle School": {
@@ -19058,6 +21818,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Secondary School": {
@@ -19116,6 +21884,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, All Other": {
@@ -19169,6 +21945,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Adapted Physical Education Specialists": {
@@ -19225,6 +22009,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors": {
@@ -19282,6 +22074,14 @@ onet_jobs = {
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Self-Enrichment Teachers": {
@@ -19340,6 +22140,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Substitute Teachers, Short-Term": {
@@ -19397,6 +22205,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Tutors": {
@@ -19449,6 +22265,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Teachers and Instructors, All Other": {
@@ -19502,6 +22326,14 @@ onet_jobs = {
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Archivists": {
@@ -19554,6 +22386,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Curators": {
@@ -19607,6 +22447,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Museum Technicians and Conservators": {
@@ -19659,6 +22507,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Librarians and Media Collections Specialists": {
@@ -19713,6 +22569,14 @@ onet_jobs = {
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Library Technicians": {
@@ -19765,6 +22629,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Farm and Home Management Educators": {
@@ -19819,6 +22691,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Instructional Coordinators": {
@@ -19871,6 +22751,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education": {
@@ -19925,6 +22813,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Teaching Assistants, Special Education": {
@@ -19979,6 +22875,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Teaching Assistants, Postsecondary": {
@@ -20034,6 +22938,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Teaching Assistants, All Other": {
@@ -20087,6 +22999,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Educational Instruction and Library Workers, All Other": {
@@ -20140,6 +23060,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Art Directors": {
@@ -20196,6 +23124,14 @@ onet_jobs = {
       "development",
       "service",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Craft Artists": {
@@ -20248,6 +23184,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Fine Artists, Including Painters, Sculptors, and Illustrators": {
@@ -20300,6 +23244,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Effects Artists and Animators": {
@@ -20353,6 +23305,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Artists and Related Workers, All Other": {
@@ -20406,6 +23366,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Commercial and Industrial Designers": {
@@ -20459,6 +23427,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fashion Designers": {
@@ -20511,6 +23487,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Floral Designers": {
@@ -20563,6 +23547,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Graphic Designers": {
@@ -20615,6 +23607,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Interior Designers": {
@@ -20667,6 +23667,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Merchandise Displayers and Window Trimmers": {
@@ -20719,6 +23727,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Set and Exhibit Designers": {
@@ -20774,6 +23790,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Designers, All Other": {
@@ -20827,6 +23851,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Actors": {
@@ -20882,6 +23914,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Producers and Directors": {
@@ -20938,6 +23978,14 @@ onet_jobs = {
       "management",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Media Programming Directors": {
@@ -20994,6 +24042,14 @@ onet_jobs = {
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Talent Directors": {
@@ -21051,6 +24107,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Media Technical Directors/Managers": {
@@ -21109,6 +24173,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Athletes and Sports Competitors": {
@@ -21164,6 +24236,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Coaches and Scouts": {
@@ -21217,6 +24297,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Umpires, Referees, and Other Sports Officials": {
@@ -21272,6 +24360,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Dancers": {
@@ -21324,6 +24420,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Choreographers": {
@@ -21377,6 +24481,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Music Directors and Composers": {
@@ -21434,6 +24546,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Musicians and Singers": {
@@ -21489,6 +24609,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Disc Jockeys, Except Radio": {
@@ -21539,6 +24667,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Entertainers and Performers, Sports and Related Workers, All Other": {
@@ -21592,6 +24728,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Broadcast Announcers and Radio Disc Jockeys": {
@@ -21644,6 +24788,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "News Analysts, Reporters, and Journalists": {
@@ -21698,6 +24850,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Public Relations Specialists": {
@@ -21753,6 +24913,14 @@ onet_jobs = {
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Editors": {
@@ -21806,6 +24974,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Technical Writers": {
@@ -21860,6 +25036,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Writers and Authors": {
@@ -21913,6 +25097,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Poets, Lyricists and Creative Writers": {
@@ -21968,6 +25160,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Interpreters and Translators": {
@@ -22021,6 +25221,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Court Reporters and Simultaneous Captioners": {
@@ -22076,6 +25284,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Media and Communication Workers, All Other": {
@@ -22129,6 +25345,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Audio and Video Technicians": {
@@ -22181,6 +25405,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Broadcast Technicians": {
@@ -22235,6 +25467,14 @@ onet_jobs = {
       "management",
       "communication",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sound Engineering Technicians": {
@@ -22292,6 +25532,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Lighting Technicians": {
@@ -22345,6 +25593,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Photographers": {
@@ -22400,6 +25656,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Camera Operators, Television, Video, and Film": {
@@ -22452,6 +25716,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Film and Video Editors": {
@@ -22507,6 +25779,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Media and Communication Equipment Workers, All Other": {
@@ -22560,6 +25840,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Chiropractors": {
@@ -22612,6 +25900,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Dentists, General": {
@@ -22664,6 +25960,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Oral and Maxillofacial Surgeons": {
@@ -22719,6 +26023,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthodontists": {
@@ -22773,6 +26085,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Prosthodontists": {
@@ -22828,6 +26148,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Dentists, All Other Specialists": {
@@ -22881,6 +26209,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Dietitians and Nutritionists": {
@@ -22936,6 +26272,14 @@ onet_jobs = {
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Optometrists": {
@@ -22991,6 +26335,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Pharmacists": {
@@ -23044,6 +26396,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physician Assistants": {
@@ -23099,6 +26459,14 @@ onet_jobs = {
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Anesthesiologist Assistants": {
@@ -23153,6 +26521,14 @@ onet_jobs = {
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Podiatrists": {
@@ -23208,6 +26584,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Occupational Therapists": {
@@ -23261,6 +26645,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists": {
@@ -23316,6 +26708,14 @@ onet_jobs = {
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Physical Therapists": {
@@ -23369,6 +26769,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Radiation Therapists": {
@@ -23421,6 +26829,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Recreational Therapists": {
@@ -23476,6 +26892,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Respiratory Therapists": {
@@ -23529,6 +26953,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Speech-Language Pathologists": {
@@ -23584,6 +27016,14 @@ onet_jobs = {
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Exercise Physiologists": {
@@ -23637,6 +27077,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Therapists, All Other": {
@@ -23690,6 +27138,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Art Therapists": {
@@ -23742,6 +27198,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Music Therapists": {
@@ -23795,6 +27259,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Veterinarians": {
@@ -23849,6 +27321,14 @@ onet_jobs = {
       "analysis",
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Registered Nurses": {
@@ -23907,6 +27387,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Acute Care Nurses": {
@@ -23965,6 +27453,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Advanced Practice Psychiatric Nurses": {
@@ -24023,6 +27519,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Critical Care Nurses": {
@@ -24081,6 +27585,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Nurse Specialists": {
@@ -24139,6 +27651,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nurse Anesthetists": {
@@ -24197,6 +27717,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nurse Midwives": {
@@ -24255,6 +27783,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nurse Practitioners": {
@@ -24313,6 +27849,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Audiologists": {
@@ -24367,6 +27911,14 @@ onet_jobs = {
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Anesthesiologists": {
@@ -24420,6 +27972,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cardiologists": {
@@ -24473,6 +28033,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Dermatologists": {
@@ -24525,6 +28093,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Emergency Medicine Physicians": {
@@ -24577,6 +28153,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Family Medicine Physicians": {
@@ -24632,6 +28216,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "General Internal Medicine Physicians": {
@@ -24684,6 +28276,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Neurologists": {
@@ -24736,6 +28336,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Obstetricians and Gynecologists": {
@@ -24788,6 +28396,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Pediatricians, General": {
@@ -24841,6 +28457,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physicians, Pathologists": {
@@ -24893,6 +28517,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Psychiatrists": {
@@ -24945,6 +28577,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Radiologists": {
@@ -24998,6 +28638,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physicians, All Other": {
@@ -25051,6 +28699,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Allergists and Immunologists": {
@@ -25106,6 +28762,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hospitalists": {
@@ -25159,6 +28823,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Urologists": {
@@ -25214,6 +28886,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physical Medicine and Rehabilitation Physicians": {
@@ -25268,6 +28948,14 @@ onet_jobs = {
       "management",
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Preventive Medicine Physicians": {
@@ -25320,6 +29008,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sports Medicine Physicians": {
@@ -25375,6 +29071,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Ophthalmologists, Except Pediatric": {
@@ -25427,6 +29131,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthopedic Surgeons, Except Pediatric": {
@@ -25478,6 +29190,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Pediatric Surgeons": {
@@ -25530,6 +29250,14 @@ onet_jobs = {
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Surgeons, All Other": {
@@ -25583,6 +29311,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Acupuncturists": {
@@ -25635,6 +29371,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Dental Hygienists": {
@@ -25687,6 +29431,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Healthcare Diagnosing or Treating Practitioners, All Other": {
@@ -25740,6 +29492,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Naturopathic Physicians": {
@@ -25793,6 +29553,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthoptists": {
@@ -25846,6 +29614,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical and Clinical Laboratory Technologists": {
@@ -25902,6 +29678,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Cytogenetic Technologists": {
@@ -25955,6 +29739,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cytotechnologists": {
@@ -26010,6 +29802,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Histotechnologists": {
@@ -26064,6 +29864,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical and Clinical Laboratory Technicians": {
@@ -26119,6 +29927,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Histology Technicians": {
@@ -26173,6 +29989,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cardiovascular Technologists and Technicians": {
@@ -26225,6 +30049,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Diagnostic Medical Sonographers": {
@@ -26280,6 +30112,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Nuclear Medicine Technologists": {
@@ -26335,6 +30175,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Radiologic Technologists and Technicians": {
@@ -26387,6 +30235,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Magnetic Resonance Imaging Technologists": {
@@ -26439,6 +30295,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Medical Dosimetrists": {
@@ -26493,6 +30357,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Emergency Medical Technicians": {
@@ -26545,6 +30417,14 @@ onet_jobs = {
       "management",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Paramedics": {
@@ -26595,6 +30475,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Dietetic Technicians": {
@@ -26648,6 +30536,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Pharmacy Technicians": {
@@ -26700,6 +30596,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Psychiatric Technicians": {
@@ -26752,6 +30656,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Surgical Technologists": {
@@ -26805,6 +30717,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Veterinary Technologists and Technicians": {
@@ -26860,6 +30780,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Ophthalmic Medical Technicians": {
@@ -26918,6 +30846,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Licensed Practical and Licensed Vocational Nurses": {
@@ -26976,6 +30912,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Records Specialists": {
@@ -27029,6 +30973,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Opticians, Dispensing": {
@@ -27084,6 +31036,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthotists and Prosthetists": {
@@ -27139,6 +31099,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hearing Aid Specialists": {
@@ -27192,6 +31160,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Health Technologists and Technicians, All Other": {
@@ -27245,6 +31221,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Neurodiagnostic Technologists": {
@@ -27297,6 +31281,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Ophthalmic Medical Technologists": {
@@ -27355,6 +31347,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Patient Representatives": {
@@ -27410,6 +31410,14 @@ onet_jobs = {
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Health Information Technologists and Medical Registrars": {
@@ -27460,6 +31468,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Athletic Trainers": {
@@ -27515,6 +31531,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Genetic Counselors": {
@@ -27568,6 +31592,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Surgical Assistants": {
@@ -27623,6 +31655,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Healthcare Practitioners and Technical Workers, All Other": {
@@ -27676,6 +31716,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Midwives": {
@@ -27728,6 +31776,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Home Health Aides": {
@@ -27783,6 +31839,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Personal Care Aides": {
@@ -27837,6 +31901,14 @@ onet_jobs = {
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Nursing Assistants": {
@@ -27892,6 +31964,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Orderlies": {
@@ -27947,6 +32027,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Psychiatric Aides": {
@@ -27999,6 +32087,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Occupational Therapy Assistants": {
@@ -28052,6 +32148,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Occupational Therapy Aides": {
@@ -28106,6 +32210,14 @@ onet_jobs = {
       "planning",
       "development",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Physical Therapist Assistants": {
@@ -28159,6 +32271,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physical Therapist Aides": {
@@ -28211,6 +32331,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Massage Therapists": {
@@ -28266,6 +32394,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Dental Assistants": {
@@ -28319,6 +32455,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Assistants": {
@@ -28377,6 +32521,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Equipment Preparers": {
@@ -28432,6 +32584,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Medical Transcriptionists": {
@@ -28487,6 +32647,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Pharmacy Aides": {
@@ -28542,6 +32710,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Veterinary Assistants and Laboratory Animal Caretakers": {
@@ -28594,6 +32770,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Phlebotomists": {
@@ -28646,6 +32830,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Healthcare Support Workers, All Other": {
@@ -28699,6 +32891,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Speech-Language Pathology Assistants": {
@@ -28752,6 +32952,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Endoscopy Technicians": {
@@ -28805,6 +33013,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "First-Line Supervisors of Correctional Officers": {
@@ -28859,6 +33075,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Police and Detectives": {
@@ -28916,6 +33140,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Firefighting and Prevention Workers": {
@@ -28970,6 +33202,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Security Workers": {
@@ -29024,6 +33264,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Protective Service Workers, All Other": {
@@ -29077,6 +33325,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Firefighters": {
@@ -29132,6 +33388,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Fire Inspectors and Investigators": {
@@ -29185,6 +33449,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Forest Fire Inspectors and Prevention Specialists": {
@@ -29240,6 +33512,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Bailiffs": {
@@ -29295,6 +33575,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Correctional Officers and Jailers": {
@@ -29347,6 +33635,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Detectives and Criminal Investigators": {
@@ -29399,6 +33695,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Police Identification and Records Officers": {
@@ -29452,6 +33756,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Intelligence Analysts": {
@@ -29507,6 +33819,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fish and Game Wardens": {
@@ -29559,6 +33879,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Parking Enforcement Workers": {
@@ -29611,6 +33939,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Police and Sheriff's Patrol Officers": {
@@ -29663,6 +33999,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Customs and Border Protection Officers": {
@@ -29718,6 +34062,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Transit and Railroad Police": {
@@ -29773,6 +34125,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Control Workers": {
@@ -29825,6 +34185,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Private Detectives and Investigators": {
@@ -29880,6 +34248,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Gambling Surveillance Officers and Gambling Investigators": {
@@ -29932,6 +34308,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Security Guards": {
@@ -29987,6 +34371,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Crossing Guards and Flaggers": {
@@ -30042,6 +34434,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers": {
@@ -30097,6 +34497,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Transportation Security Screeners": {
@@ -30152,6 +34560,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "School Bus Monitors": {
@@ -30202,6 +34618,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Protective Service Workers, All Other": {
@@ -30255,6 +34679,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Retail Loss Prevention Specialists": {
@@ -30307,6 +34739,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chefs and Head Cooks": {
@@ -30360,6 +34800,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Food Preparation and Serving Workers": {
@@ -30415,6 +34863,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Cooks, Fast Food": {
@@ -30470,6 +34926,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Cooks, Institution and Cafeteria": {
@@ -30525,6 +34989,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Cooks, Private Household": {
@@ -30580,6 +35052,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Cooks, Restaurant": {
@@ -30632,6 +35112,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Cooks, Short Order": {
@@ -30687,6 +35175,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cooks, All Other": {
@@ -30740,6 +35236,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Food Preparation Workers": {
@@ -30792,6 +35296,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Bartenders": {
@@ -30847,6 +35359,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Fast Food and Counter Workers": {
@@ -30899,6 +35419,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Baristas": {
@@ -30951,6 +35479,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Waiters and Waitresses": {
@@ -31003,6 +35539,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Servers, Nonrestaurant": {
@@ -31055,6 +35599,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Dining Room and Cafeteria Attendants and Bartender Helpers": {
@@ -31107,6 +35659,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Dishwashers": {
@@ -31162,6 +35722,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop": {
@@ -31215,6 +35783,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Preparation and Serving Related Workers, All Other": {
@@ -31268,6 +35844,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Housekeeping and Janitorial Workers": {
@@ -31322,6 +35906,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers": {
@@ -31376,6 +35968,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Janitors and Cleaners, Except Maids and Housekeeping Cleaners": {
@@ -31428,6 +36028,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Maids and Housekeeping Cleaners": {
@@ -31480,6 +36088,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Building Cleaning Workers, All Other": {
@@ -31533,6 +36149,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Pest Control Workers": {
@@ -31585,6 +36209,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Landscaping and Groundskeeping Workers": {
@@ -31640,6 +36272,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pesticide Handlers, Sprayers, and Applicators, Vegetation": {
@@ -31692,6 +36332,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tree Trimmers and Pruners": {
@@ -31747,6 +36395,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Grounds Maintenance Workers, All Other": {
@@ -31800,6 +36456,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Gambling Services Workers": {
@@ -31854,6 +36518,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services": {
@@ -31905,6 +36577,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Personal Service Workers": {
@@ -31961,6 +36641,14 @@ onet_jobs = {
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Trainers": {
@@ -32016,6 +36704,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Caretakers": {
@@ -32071,6 +36767,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Gambling Dealers": {
@@ -32126,6 +36830,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Gambling and Sports Book Writers and Runners": {
@@ -32181,6 +36893,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Gambling Service Workers, All Other": {
@@ -32234,6 +36954,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Motion Picture Projectionists": {
@@ -32289,6 +37017,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Ushers, Lobby Attendants, and Ticket Takers": {
@@ -32344,6 +37080,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Amusement and Recreation Attendants": {
@@ -32399,6 +37143,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Costume Attendants": {
@@ -32454,6 +37206,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Locker Room, Coatroom, and Dressing Room Attendants": {
@@ -32506,6 +37266,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Entertainment Attendants and Related Workers, All Other": {
@@ -32559,6 +37327,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Embalmers": {
@@ -32614,6 +37390,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Crematory Operators": {
@@ -32667,6 +37451,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Funeral Attendants": {
@@ -32719,6 +37511,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Morticians, Undertakers, and Funeral Arrangers": {
@@ -32771,6 +37571,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Barbers": {
@@ -32823,6 +37631,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Hairdressers, Hairstylists, and Cosmetologists": {
@@ -32875,6 +37691,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Makeup Artists, Theatrical and Performance": {
@@ -32930,6 +37754,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Manicurists and Pedicurists": {
@@ -32982,6 +37814,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Shampooers": {
@@ -33037,6 +37877,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Skincare Specialists": {
@@ -33089,6 +37937,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Baggage Porters and Bellhops": {
@@ -33141,6 +37997,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Concierges": {
@@ -33193,6 +38057,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Tour Guides and Escorts": {
@@ -33248,6 +38120,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Travel Guides": {
@@ -33300,6 +38180,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Childcare Workers": {
@@ -33352,6 +38240,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Nannies": {
@@ -33405,6 +38301,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Exercise Trainers and Group Fitness Instructors": {
@@ -33460,6 +38364,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Recreation Workers": {
@@ -33514,6 +38426,14 @@ onet_jobs = {
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Residential Advisors": {
@@ -33566,6 +38486,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Personal Care and Service Workers, All Other": {
@@ -33619,6 +38547,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Retail Sales Workers": {
@@ -33674,6 +38610,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Non-Retail Sales Workers": {
@@ -33729,6 +38673,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Cashiers": {
@@ -33781,6 +38733,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Gambling Change Persons and Booth Cashiers": {
@@ -33836,6 +38796,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Counter and Rental Clerks": {
@@ -33888,6 +38856,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Parts Salespersons": {
@@ -33945,6 +38921,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Retail Salespersons": {
@@ -33999,6 +38983,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Advertising Sales Agents": {
@@ -34053,6 +39045,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Insurance Sales Agents": {
@@ -34108,6 +39108,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Securities, Commodities, and Financial Services Sales Agents": {
@@ -34164,6 +39172,14 @@ onet_jobs = {
       "analysis",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Travel Agents": {
@@ -34219,6 +39235,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel": {
@@ -34270,6 +39294,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products": {
@@ -34326,6 +39358,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Sales Representatives and Assessors": {
@@ -34382,6 +39422,14 @@ onet_jobs = {
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products": {
@@ -34439,6 +39487,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Demonstrators and Product Promoters": {
@@ -34491,6 +39547,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Models": {
@@ -34546,6 +39610,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Real Estate Brokers": {
@@ -34601,6 +39673,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Real Estate Sales Agents": {
@@ -34655,6 +39735,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales Engineers": {
@@ -34713,6 +39801,14 @@ onet_jobs = {
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Telemarketers": {
@@ -34765,6 +39861,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers": {
@@ -34819,6 +39923,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales and Related Workers, All Other": {
@@ -34872,6 +39984,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Office and Administrative Support Workers": {
@@ -34929,6 +40049,14 @@ onet_jobs = {
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Switchboard Operators, Including Answering Service": {
@@ -34981,6 +40109,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Telephone Operators": {
@@ -35033,6 +40169,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Communications Equipment Operators, All Other": {
@@ -35086,6 +40230,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bill and Account Collectors": {
@@ -35138,6 +40290,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Billing and Posting Clerks": {
@@ -35190,6 +40350,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Bookkeeping, Accounting, and Auditing Clerks": {
@@ -35245,6 +40413,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Gambling Cage Workers": {
@@ -35300,6 +40476,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Payroll and Timekeeping Clerks": {
@@ -35355,6 +40539,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Procurement Clerks": {
@@ -35410,6 +40602,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Tellers": {
@@ -35462,6 +40662,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Financial Clerks, All Other": {
@@ -35515,6 +40723,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Brokerage Clerks": {
@@ -35570,6 +40786,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Correspondence Clerks": {
@@ -35622,6 +40846,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Court, Municipal, and License Clerks": {
@@ -35677,6 +40909,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Credit Authorizers, Checkers, and Clerks": {
@@ -35729,6 +40969,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Customer Service Representatives": {
@@ -35781,6 +41029,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Eligibility Interviewers, Government Programs": {
@@ -35833,6 +41089,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "File Clerks": {
@@ -35888,6 +41152,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hotel, Motel, and Resort Desk Clerks": {
@@ -35940,6 +41212,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Interviewers, Except Eligibility and Loan": {
@@ -35992,6 +41272,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Library Assistants, Clerical": {
@@ -36047,6 +41335,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Loan Interviewers and Clerks": {
@@ -36102,6 +41398,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "New Accounts Clerks": {
@@ -36154,6 +41458,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Order Clerks": {
@@ -36207,6 +41519,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Human Resources Assistants, Except Payroll and Timekeeping": {
@@ -36262,6 +41582,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Receptionists and Information Clerks": {
@@ -36314,6 +41642,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Reservation and Transportation Ticket Agents and Travel Clerks": {
@@ -36366,6 +41702,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Information and Record Clerks, All Other": {
@@ -36419,6 +41763,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Cargo and Freight Agents": {
@@ -36471,6 +41823,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Freight Forwarders": {
@@ -36526,6 +41886,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Couriers and Messengers": {
@@ -36581,6 +41949,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Public Safety Telecommunicators": {
@@ -36634,6 +42010,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Dispatchers, Except Police, Fire, and Ambulance": {
@@ -36687,6 +42071,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Meter Readers, Utilities": {
@@ -36739,6 +42131,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Postal Service Clerks": {
@@ -36791,6 +42191,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Postal Service Mail Carriers": {
@@ -36843,6 +42251,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Postal Service Mail Sorters, Processors, and Processing Machine Operators": {
@@ -36898,6 +42314,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Production, Planning, and Expediting Clerks": {
@@ -36950,6 +42374,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Shipping, Receiving, and Inventory Clerks": {
@@ -37005,6 +42437,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Weighers, Measurers, Checkers, and Samplers, Recordkeeping": {
@@ -37058,6 +42498,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Executive Secretaries and Executive Administrative Assistants": {
@@ -37111,6 +42559,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Legal Secretaries and Administrative Assistants": {
@@ -37166,6 +42622,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Secretaries and Administrative Assistants": {
@@ -37221,6 +42685,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive": {
@@ -37277,6 +42749,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Data Entry Keyers": {
@@ -37334,6 +42814,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Word Processors and Typists": {
@@ -37387,6 +42875,14 @@ onet_jobs = {
     "job_keywords": [
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Desktop Publishers": {
@@ -37442,6 +42938,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Insurance Claims and Policy Processing Clerks": {
@@ -37494,6 +42998,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mail Clerks and Mail Machine Operators, Except Postal Service": {
@@ -37546,6 +43058,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Office Clerks, General": {
@@ -37598,6 +43118,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Office Machine Operators, Except Computer": {
@@ -37650,6 +43178,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Proofreaders and Copy Markers": {
@@ -37705,6 +43241,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Statistical Assistants": {
@@ -37757,6 +43301,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Office and Administrative Support Workers, All Other": {
@@ -37810,6 +43362,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Farming, Fishing, and Forestry Workers": {
@@ -37865,6 +43425,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Inspectors": {
@@ -37917,6 +43485,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Breeders": {
@@ -37972,6 +43548,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Graders and Sorters, Agricultural Products": {
@@ -38027,6 +43611,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Hands-on/Systems"
     ]
   },
   "Agricultural Equipment Operators": {
@@ -38079,6 +43671,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Farmworkers and Laborers, Crop, Nursery, and Greenhouse": {
@@ -38137,6 +43737,14 @@ onet_jobs = {
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Farmworkers, Farm, Ranch, and Aquacultural Animals": {
@@ -38192,6 +43800,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Workers, All Other": {
@@ -38245,6 +43861,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Fishing and Hunting Workers": {
@@ -38297,6 +43921,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Forest and Conservation Workers": {
@@ -38352,6 +43984,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Fallers": {
@@ -38407,6 +44047,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Logging Equipment Operators": {
@@ -38462,6 +44110,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Log Graders and Scalers": {
@@ -38517,6 +44173,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Logging Workers, All Other": {
@@ -38570,6 +44234,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Construction Trades and Extraction Workers": {
@@ -38624,6 +44296,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Energy Installation Managers": {
@@ -38682,6 +44362,14 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Boilermakers": {
@@ -38737,6 +44425,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Brickmasons and Blockmasons": {
@@ -38792,6 +44488,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Stonemasons": {
@@ -38847,6 +44551,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Carpenters": {
@@ -38902,6 +44614,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Carpet Installers": {
@@ -38957,6 +44677,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Floor Layers, Except Carpet, Wood, and Hard Tiles": {
@@ -39012,6 +44740,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Floor Sanders and Finishers": {
@@ -39067,6 +44803,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tile and Stone Setters": {
@@ -39122,6 +44866,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Cement Masons and Concrete Finishers": {
@@ -39177,6 +44929,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Terrazzo Workers and Finishers": {
@@ -39232,6 +44992,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Construction Laborers": {
@@ -39284,6 +45052,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Paving, Surfacing, and Tamping Equipment Operators": {
@@ -39339,6 +45115,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pile Driver Operators": {
@@ -39394,6 +45178,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Operating Engineers and Other Construction Equipment Operators": {
@@ -39448,6 +45240,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Drywall and Ceiling Tile Installers": {
@@ -39503,6 +45303,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tapers": {
@@ -39558,6 +45366,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electricians": {
@@ -39611,6 +45427,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Glaziers": {
@@ -39666,6 +45490,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Insulation Workers, Floor, Ceiling, and Wall": {
@@ -39721,6 +45553,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Insulation Workers, Mechanical": {
@@ -39776,6 +45616,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Painters, Construction and Maintenance": {
@@ -39831,6 +45679,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Paperhangers": {
@@ -39886,6 +45742,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pipelayers": {
@@ -39941,6 +45805,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Plumbers, Pipefitters, and Steamfitters": {
@@ -39996,6 +45868,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Thermal Installers and Technicians": {
@@ -40051,6 +45931,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Plasterers and Stucco Masons": {
@@ -40106,6 +45994,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Reinforcing Iron and Rebar Workers": {
@@ -40161,6 +46057,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Roofers": {
@@ -40216,6 +46120,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sheet Metal Workers": {
@@ -40271,6 +46183,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Structural Iron and Steel Workers": {
@@ -40326,6 +46246,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Photovoltaic Installers": {
@@ -40378,6 +46306,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters": {
@@ -40433,6 +46369,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Carpenters": {
@@ -40488,6 +46432,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Electricians": {
@@ -40543,6 +46495,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons": {
@@ -40598,6 +46558,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters": {
@@ -40650,6 +46618,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Roofers": {
@@ -40705,6 +46681,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers, Construction Trades, All Other": {
@@ -40758,6 +46742,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Construction and Building Inspectors": {
@@ -40813,6 +46805,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Energy Auditors": {
@@ -40867,6 +46867,14 @@ onet_jobs = {
       "analysis",
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Elevator and Escalator Installers and Repairers": {
@@ -40919,6 +46927,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Fence Erectors": {
@@ -40974,6 +46990,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Hazardous Materials Removal Workers": {
@@ -41029,6 +47053,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Highway Maintenance Workers": {
@@ -41084,6 +47116,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rail-Track Laying and Maintenance Equipment Operators": {
@@ -41139,6 +47179,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Septic Tank Servicers and Sewer Pipe Cleaners": {
@@ -41191,6 +47239,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Segmental Pavers": {
@@ -41246,6 +47302,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Construction and Related Workers, All Other": {
@@ -41299,6 +47363,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Weatherization Installers and Technicians": {
@@ -41352,6 +47424,14 @@ onet_jobs = {
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Derrick Operators, Oil and Gas": {
@@ -41407,6 +47487,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rotary Drill Operators, Oil and Gas": {
@@ -41459,6 +47547,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Service Unit Operators, Oil and Gas": {
@@ -41511,6 +47607,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Excavating and Loading Machine and Dragline Operators, Surface Mining": {
@@ -41566,6 +47670,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Earth Drillers, Except Oil and Gas": {
@@ -41618,6 +47730,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Explosives Workers, Ordnance Handling Experts, and Blasters": {
@@ -41670,6 +47790,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Continuous Mining Machine Operators": {
@@ -41725,6 +47853,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Roof Bolters, Mining": {
@@ -41780,6 +47916,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Loading and Moving Machine Operators, Underground Mining": {
@@ -41832,6 +47976,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Underground Mining Machine Operators, All Other": {
@@ -41885,6 +48037,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Rock Splitters, Quarry": {
@@ -41940,6 +48100,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Roustabouts, Oil and Gas": {
@@ -41995,6 +48163,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Extraction Workers": {
@@ -42050,6 +48226,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Extraction Workers, All Other": {
@@ -42103,6 +48287,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Mechanics, Installers, and Repairers": {
@@ -42158,6 +48350,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer, Automated Teller, and Office Machine Repairers": {
@@ -42210,6 +48410,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Radio, Cellular, and Tower Equipment Installers and Repairers": {
@@ -42262,6 +48470,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Telecommunications Equipment Installers and Repairers, Except Line Installers": {
@@ -42316,6 +48532,14 @@ onet_jobs = {
       "communication",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Avionics Technicians": {
@@ -42371,6 +48595,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electric Motor, Power Tool, and Related Repairers": {
@@ -42423,6 +48655,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronics Installers and Repairers, Transportation Equipment": {
@@ -42475,6 +48715,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronics Repairers, Commercial and Industrial Equipment": {
@@ -42527,6 +48775,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay": {
@@ -42582,6 +48838,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electronic Equipment Installers and Repairers, Motor Vehicles": {
@@ -42634,6 +48898,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Audiovisual Equipment Installers and Repairers": {
@@ -42686,6 +48958,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Security and Fire Alarm Systems Installers": {
@@ -42738,6 +49018,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Aircraft Mechanics and Service Technicians": {
@@ -42791,6 +49079,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Automotive Body and Related Repairers": {
@@ -42846,6 +49142,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive Glass Installers and Repairers": {
@@ -42901,6 +49205,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive Service Technicians and Mechanics": {
@@ -42955,6 +49267,14 @@ onet_jobs = {
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Bus and Truck Mechanics and Diesel Engine Specialists": {
@@ -43010,6 +49330,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Farm Equipment Mechanics and Service Technicians": {
@@ -43065,6 +49393,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Mobile Heavy Equipment Mechanics, Except Engines": {
@@ -43118,6 +49454,14 @@ onet_jobs = {
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rail Car Repairers": {
@@ -43173,6 +49517,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Motorboat Mechanics and Service Technicians": {
@@ -43228,6 +49580,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Motorcycle Mechanics": {
@@ -43283,6 +49643,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Outdoor Power Equipment and Other Small Engine Mechanics": {
@@ -43338,6 +49706,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Bicycle Repairers": {
@@ -43393,6 +49769,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Recreational Vehicle Service Technicians": {
@@ -43445,6 +49829,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Tire Repairers and Changers": {
@@ -43497,6 +49889,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechanical Door Repairers": {
@@ -43549,6 +49949,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Control and Valve Installers and Repairers, Except Mechanical Door": {
@@ -43601,6 +50009,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Heating, Air Conditioning, and Refrigeration Mechanics and Installers": {
@@ -43653,6 +50069,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Home Appliance Repairers": {
@@ -43705,6 +50129,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Industrial Machinery Mechanics": {
@@ -43760,6 +50192,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Maintenance Workers, Machinery": {
@@ -43815,6 +50255,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Millwrights": {
@@ -43870,6 +50318,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Refractory Materials Repairers, Except Brickmasons": {
@@ -43925,6 +50381,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical Power-Line Installers and Repairers": {
@@ -43977,6 +50441,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Telecommunications Line Installers and Repairers": {
@@ -44030,6 +50502,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Camera and Photographic Equipment Repairers": {
@@ -44085,6 +50565,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Equipment Repairers": {
@@ -44142,6 +50630,14 @@ onet_jobs = {
       "analysis",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Musical Instrument Repairers and Tuners": {
@@ -44197,6 +50693,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Watch and Clock Repairers": {
@@ -44249,6 +50753,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Precision Instrument and Equipment Repairers, All Other": {
@@ -44302,6 +50814,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Maintenance and Repair Workers, General": {
@@ -44354,6 +50874,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Wind Turbine Service Technicians": {
@@ -44408,6 +50936,14 @@ onet_jobs = {
       "analysis",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Coin, Vending, and Amusement Machine Servicers and Repairers": {
@@ -44460,6 +50996,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Commercial Divers": {
@@ -44515,6 +51059,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Locksmiths and Safe Repairers": {
@@ -44570,6 +51122,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Manufactured Building and Mobile Home Installers": {
@@ -44622,6 +51182,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Riggers": {
@@ -44677,6 +51245,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Signal and Track Switch Repairers": {
@@ -44729,6 +51305,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Installation, Maintenance, and Repair Workers": {
@@ -44784,6 +51368,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Installation, Maintenance, and Repair Workers, All Other": {
@@ -44837,6 +51429,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Geothermal Technicians": {
@@ -44892,6 +51492,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Production and Operating Workers": {
@@ -44947,6 +51555,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers": {
@@ -45002,6 +51618,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Coil Winders, Tapers, and Finishers": {
@@ -45057,6 +51681,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronic Equipment Assemblers": {
@@ -45112,6 +51744,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electromechanical Equipment Assemblers": {
@@ -45167,6 +51807,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Engine and Other Machine Assemblers": {
@@ -45222,6 +51870,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Structural Metal Fabricators and Fitters": {
@@ -45277,6 +51933,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Fiberglass Laminators and Fabricators": {
@@ -45332,6 +51996,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Timing Device Assemblers and Adjusters": {
@@ -45387,6 +52059,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Team Assemblers": {
@@ -45439,6 +52119,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Assemblers and Fabricators, All Other": {
@@ -45492,6 +52180,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bakers": {
@@ -45547,6 +52243,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Butchers and Meat Cutters": {
@@ -45602,6 +52306,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Meat, Poultry, and Fish Cutters and Trimmers": {
@@ -45657,6 +52369,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Slaughterers and Meat Packers": {
@@ -45712,6 +52432,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders": {
@@ -45767,6 +52495,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Batchmakers": {
@@ -45822,6 +52558,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Food Cooking Machine Operators and Tenders": {
@@ -45877,6 +52621,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Food Processing Workers, All Other": {
@@ -45930,6 +52682,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -45985,6 +52745,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Forging Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46040,6 +52808,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46095,6 +52871,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46150,6 +52934,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46205,6 +52997,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46260,6 +53060,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46315,6 +53123,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46370,6 +53186,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Machinists": {
@@ -46424,6 +53248,14 @@ onet_jobs = {
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Metal-Refining Furnace Operators and Tenders": {
@@ -46476,6 +53308,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pourers and Casters, Metal": {
@@ -46528,6 +53368,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Model Makers, Metal and Plastic": {
@@ -46580,6 +53428,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Patternmakers, Metal and Plastic": {
@@ -46635,6 +53491,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Foundry Mold and Coremakers": {
@@ -46690,6 +53554,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46745,6 +53617,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
@@ -46797,6 +53677,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tool and Die Makers": {
@@ -46852,6 +53740,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Welders, Cutters, Solderers, and Brazers": {
@@ -46907,6 +53803,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders": {
@@ -46962,6 +53866,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic": {
@@ -47017,6 +53929,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Layout Workers, Metal and Plastic": {
@@ -47072,6 +53992,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Plating Machine Setters, Operators, and Tenders, Metal and Plastic": {
@@ -47127,6 +54055,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tool Grinders, Filers, and Sharpeners": {
@@ -47182,6 +54118,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Metal Workers and Plastic Workers, All Other": {
@@ -47235,6 +54179,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Prepress Technicians and Workers": {
@@ -47290,6 +54242,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Printing Press Operators": {
@@ -47345,6 +54305,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Print Binding and Finishing Workers": {
@@ -47400,6 +54368,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Laundry and Dry-Cleaning Workers": {
@@ -47455,6 +54431,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pressers, Textile, Garment, and Related Materials": {
@@ -47510,6 +54494,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sewing Machine Operators": {
@@ -47565,6 +54557,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Shoe and Leather Workers and Repairers": {
@@ -47617,6 +54617,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Shoe Machine Operators and Tenders": {
@@ -47672,6 +54680,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sewers, Hand": {
@@ -47727,6 +54743,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Tailors, Dressmakers, and Custom Sewers": {
@@ -47782,6 +54806,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Textile Bleaching and Dyeing Machine Operators and Tenders": {
@@ -47837,6 +54869,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Textile Cutting Machine Setters, Operators, and Tenders": {
@@ -47892,6 +54932,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Textile Knitting and Weaving Machine Setters, Operators, and Tenders": {
@@ -47947,6 +54995,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders": {
@@ -48002,6 +55058,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers": {
@@ -48057,6 +55121,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Fabric and Apparel Patternmakers": {
@@ -48112,6 +55184,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Upholsterers": {
@@ -48167,6 +55247,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Textile, Apparel, and Furnishings Workers, All Other": {
@@ -48220,6 +55308,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Cabinetmakers and Bench Carpenters": {
@@ -48275,6 +55371,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Furniture Finishers": {
@@ -48330,6 +55434,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Model Makers, Wood": {
@@ -48385,6 +55497,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Patternmakers, Wood": {
@@ -48440,6 +55560,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sawing Machine Setters, Operators, and Tenders, Wood": {
@@ -48495,6 +55623,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Woodworking Machine Setters, Operators, and Tenders, Except Sawing": {
@@ -48550,6 +55686,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Woodworkers, All Other": {
@@ -48603,6 +55747,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Nuclear Power Reactor Operators": {
@@ -48655,6 +55807,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Power Distributors and Dispatchers": {
@@ -48710,6 +55870,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Power Plant Operators": {
@@ -48762,6 +55930,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Biomass Plant Technicians": {
@@ -48814,6 +55990,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Hydroelectric Plant Technicians": {
@@ -48869,6 +56053,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Stationary Engineers and Boiler Operators": {
@@ -48923,6 +56115,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Water and Wastewater Treatment Plant and System Operators": {
@@ -48975,6 +56175,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Chemical Plant and System Operators": {
@@ -49027,6 +56235,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Gas Plant Operators": {
@@ -49082,6 +56298,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Petroleum Pump System Operators, Refinery Operators, and Gaugers": {
@@ -49137,6 +56361,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Plant and System Operators, All Other": {
@@ -49190,6 +56422,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Biofuels Processing Technicians": {
@@ -49245,6 +56485,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Chemical Equipment Operators and Tenders": {
@@ -49300,6 +56548,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders": {
@@ -49352,6 +56608,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders": {
@@ -49407,6 +56671,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Grinding and Polishing Workers, Hand": {
@@ -49462,6 +56734,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Mixing and Blending Machine Setters, Operators, and Tenders": {
@@ -49517,6 +56797,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cutters and Trimmers, Hand": {
@@ -49572,6 +56860,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cutting and Slicing Machine Setters, Operators, and Tenders": {
@@ -49627,6 +56923,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders": {
@@ -49679,6 +56983,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders": {
@@ -49734,6 +57046,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Inspectors, Testers, Sorters, Samplers, and Weighers": {
@@ -49789,6 +57109,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Jewelers and Precious Stone and Metal Workers": {
@@ -49844,6 +57172,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Gem and Diamond Workers": {
@@ -49899,6 +57235,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Dental Laboratory Technicians": {
@@ -49954,6 +57298,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Medical Appliance Technicians": {
@@ -50009,6 +57361,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Ophthalmic Laboratory Technicians": {
@@ -50064,6 +57424,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Packaging and Filling Machine Operators and Tenders": {
@@ -50119,6 +57487,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Painting, Coating, and Decorating Workers": {
@@ -50174,6 +57550,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders": {
@@ -50229,6 +57613,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Semiconductor Processing Technicians": {
@@ -50284,6 +57676,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Photographic Process Workers and Processing Machine Operators": {
@@ -50336,6 +57736,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Numerically Controlled Tool Operators": {
@@ -50391,6 +57799,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Numerically Controlled Tool Programmers": {
@@ -50448,6 +57864,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Adhesive Bonding Machine Operators and Tenders": {
@@ -50503,6 +57927,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders": {
@@ -50555,6 +57987,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Cooling and Freezing Equipment Operators and Tenders": {
@@ -50610,6 +58050,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Etchers and Engravers": {
@@ -50665,6 +58113,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Molders, Shapers, and Casters, Except Metal and Plastic": {
@@ -50720,6 +58176,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Stone Cutters and Carvers, Manufacturing": {
@@ -50775,6 +58239,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Glass Blowers, Molders, Benders, and Finishers": {
@@ -50830,6 +58302,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Potters, Manufacturing": {
@@ -50885,6 +58365,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Paper Goods Machine Setters, Operators, and Tenders": {
@@ -50940,6 +58428,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tire Builders": {
@@ -50995,6 +58491,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Production Workers": {
@@ -51050,6 +58554,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Production Workers, All Other": {
@@ -51103,6 +58615,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Cargo Handling Supervisors": {
@@ -51160,6 +58680,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand": {
@@ -51214,6 +58742,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Recycling Coordinators": {
@@ -51267,6 +58803,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Material-Moving Machine and Vehicle Operators": {
@@ -51321,6 +58865,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "First-Line Supervisors of Passenger Attendants": {
@@ -51372,6 +58924,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Transportation Workers, All Other": {
@@ -51425,6 +58985,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Airline Pilots, Copilots, and Flight Engineers": {
@@ -51479,6 +59047,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Commercial Pilots": {
@@ -51534,6 +59110,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Air Traffic Controllers": {
@@ -51587,6 +59171,14 @@ onet_jobs = {
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Airfield Operations Specialists": {
@@ -51642,6 +59234,14 @@ onet_jobs = {
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Flight Attendants": {
@@ -51694,6 +59294,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Ambulance Drivers and Attendants, Except Emergency Medical Technicians": {
@@ -51749,6 +59357,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Driver/Sales Workers": {
@@ -51803,6 +59419,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Heavy and Tractor-Trailer Truck Drivers": {
@@ -51855,6 +59479,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Light Truck Drivers": {
@@ -51910,6 +59542,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Bus Drivers, School": {
@@ -51964,6 +59604,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Bus Drivers, Transit and Intercity": {
@@ -52019,6 +59667,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Shuttle Drivers and Chauffeurs": {
@@ -52070,6 +59726,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Taxi Drivers": {
@@ -52120,6 +59784,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Motor Vehicle Operators, All Other": {
@@ -52173,6 +59845,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Locomotive Engineers": {
@@ -52230,6 +59910,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Rail Yard Engineers, Dinkey Operators, and Hostlers": {
@@ -52284,6 +59972,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Railroad Brake, Signal, and Switch Operators and Locomotive Firers": {
@@ -52337,6 +60033,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Railroad Conductors and Yardmasters": {
@@ -52390,6 +60094,14 @@ onet_jobs = {
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Subway and Streetcar Operators": {
@@ -52445,6 +60157,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Rail Transportation Workers, All Other": {
@@ -52498,6 +60218,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Sailors and Marine Oilers": {
@@ -52553,6 +60281,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Captains, Mates, and Pilots of Water Vessels": {
@@ -52608,6 +60344,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Motorboat Operators": {
@@ -52660,6 +60404,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Ship Engineers": {
@@ -52717,6 +60469,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Bridge and Lock Tenders": {
@@ -52769,6 +60529,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Parking Attendants": {
@@ -52824,6 +60592,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive and Watercraft Service Attendants": {
@@ -52876,6 +60652,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Aircraft Service Attendants": {
@@ -52929,6 +60713,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Traffic Technicians": {
@@ -52982,6 +60774,14 @@ onet_jobs = {
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Transportation Inspectors": {
@@ -53037,6 +60837,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Aviation Inspectors": {
@@ -53089,6 +60897,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation": {
@@ -53144,6 +60960,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Passenger Attendants": {
@@ -53199,6 +61023,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Transportation Workers, All Other": {
@@ -53252,6 +61084,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Conveyor Operators and Tenders": {
@@ -53304,6 +61144,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Crane and Tower Operators": {
@@ -53359,6 +61207,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Dredge Operators": {
@@ -53414,6 +61270,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Hoist and Winch Operators": {
@@ -53469,6 +61333,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Truck and Tractor Operators": {
@@ -53524,6 +61396,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cleaners of Vehicles and Equipment": {
@@ -53579,6 +61459,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Laborers and Freight, Stock, and Material Movers, Hand": {
@@ -53634,6 +61522,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Recycling and Reclamation Workers": {
@@ -53689,6 +61585,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Machine Feeders and Offbearers": {
@@ -53744,6 +61648,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Packers and Packagers, Hand": {
@@ -53799,6 +61711,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Stockers and Order Fillers": {
@@ -53854,6 +61774,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Gas Compressor and Gas Pumping Station Operators": {
@@ -53906,6 +61834,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Pump Operators, Except Wellhead Pumpers": {
@@ -53958,6 +61894,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Wellhead Pumpers": {
@@ -54010,6 +61954,14 @@ onet_jobs = {
     ],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Refuse and Recyclable Material Collectors": {
@@ -54065,6 +62017,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Tank Car, Truck, and Ship Loaders": {
@@ -54120,6 +62080,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Material Moving Workers, All Other": {
@@ -54173,6 +62141,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Air Crew Officers": {
@@ -54226,6 +62202,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Launch and Recovery Officers": {
@@ -54279,6 +62263,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Armored Assault Vehicle Officers": {
@@ -54332,6 +62324,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Artillery and Missile Officers": {
@@ -54385,6 +62385,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Command and Control Center Officers": {
@@ -54438,6 +62446,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Infantry Officers": {
@@ -54491,6 +62507,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Special Forces Officers": {
@@ -54544,6 +62568,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Military Officer Special and Tactical Operations Leaders, All Other": {
@@ -54597,6 +62629,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Air Crew Members": {
@@ -54650,6 +62690,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Weapons Specialists/Crew Members": {
@@ -54703,6 +62751,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of All Other Tactical Operations Specialists": {
@@ -54756,6 +62812,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Air Crew Members": {
@@ -54809,6 +62873,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Launch and Recovery Specialists": {
@@ -54862,6 +62934,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Armored Assault Vehicle Crew Members": {
@@ -54915,6 +62995,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Artillery and Missile Crew Members": {
@@ -54968,6 +63056,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Command and Control Center Specialists": {
@@ -55021,6 +63117,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Infantry": {
@@ -55074,6 +63178,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Special Forces": {
@@ -55127,6 +63239,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other": {
@@ -55180,6 +63300,14 @@ onet_jobs = {
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   }
 }
