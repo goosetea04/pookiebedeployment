@@ -92,6 +92,8 @@ class AICareerMatcher:
             skills=skills,
             interests=request.interests,
             preferred_career=request.preferred_career,
+            dominant_competence=request.dominant_competence,
+            learning_style_preference=request.learning_style_preference,
         )
 
     # ---------- Enhanced Ranking with Multiple Algorithms ----------
@@ -1272,3 +1274,194 @@ Match score: {match['overall_match']}%. Be authentic, confident, forward-looking
                 f"My journey toward {job_name} reflects my strengths that align well with this role. "
                 "I'm excited to apply my skills and continue growing to make meaningful impact."
             )
+    
+    def get_jobs_by_zone_categories(self, profile: PersonProfile, algorithm: str = "comprehensive") -> Dict[str, List[Tuple[str, float, Dict]]]:
+        """
+        Get top 3 jobs from each job zone category:
+        - Entry-level: Zones 1-2 (3 jobs)
+        - Mid-level: Zone 3 (3 jobs)
+        - Advanced: Zones 4-5 (3 jobs)
+        """
+        # Get all job matches first
+        all_matches = self.get_top_job_matches(profile, top_n=len(self.onet_jobs), algorithm=algorithm)
+        
+        # Categorize by job zone
+        entry_level = []  # Zones 1-2
+        mid_level = []    # Zone 3
+        advanced = []     # Zones 4-5
+        
+        for job_name, score, scoring_details in all_matches:
+            job_data = self.onet_jobs.get(job_name, {})
+            job_zone_data = job_data.get("job_zone")
+            
+            if job_zone_data is None or not isinstance(job_zone_data, dict):
+                continue  # Skip jobs without proper job zone data
+            
+            # Extract the zone number from the nested dict
+            job_zone = job_zone_data.get("zone")
+            
+            if job_zone is None:
+                continue
+            
+            # Convert to int if it's a string
+            try:
+                job_zone = int(job_zone)
+            except (ValueError, TypeError):
+                continue
+            
+            if job_zone in [1, 2]:
+                entry_level.append((job_name, score, scoring_details))
+            elif job_zone == 3:
+                mid_level.append((job_name, score, scoring_details))
+            elif job_zone in [4, 5]:
+                advanced.append((job_name, score, scoring_details))
+        
+        return {
+            "entry_level": entry_level[:3],
+            "mid_level": mid_level[:3],
+            "advanced": advanced[:3]
+        }
+
+    async def analyze_person_with_zone_based_matches(self, profile: PersonProfile, algorithm: str = "comprehensive") -> Dict:
+        """
+        Enhanced analysis returning 9 jobs across job zone categories
+        """
+        zone_matches = self.get_jobs_by_zone_categories(profile, algorithm)
+        
+        # Flatten all matches for processing
+        all_zone_matches = (
+            zone_matches["entry_level"] + 
+            zone_matches["mid_level"] + 
+            zone_matches["advanced"]
+        )
+        
+        enhanced_matches = {
+            "entry_level": [],
+            "mid_level": [],
+            "advanced": []
+        }
+        
+        # Process each category
+        for category, matches in zone_matches.items():
+            for job_name, score, scoring_details in matches:
+                # Calculate traditional match for backward compatibility
+                traditional_match = self.calculate_job_match(profile, job_name)
+                
+                # Generate AI insights
+                ai_insights = await self.generate_enhanced_ai_insights(
+                    profile, job_name, traditional_match, scoring_details
+                )
+                
+                job_data = self.onet_jobs.get(job_name, {})
+                
+                enhanced_match = {
+                    **traditional_match,
+                    "enhanced_score": round(score * 100, 1),
+                    "algorithm_used": algorithm,
+                    "scoring_details": scoring_details,
+                    "job_zone": job_data.get("job_zone", {}).get("zone"),  # Extract zone number
+                    "job_zone_description": self._get_job_zone_description(job_data.get("job_zone")),
+                    **ai_insights
+                }
+                
+                enhanced_matches[category].append(enhanced_match)
+        
+        # Generate comparative analysis across all 9 jobs
+        all_matches_flat = (
+            enhanced_matches["entry_level"] + 
+            enhanced_matches["mid_level"] + 
+            enhanced_matches["advanced"]
+        )
+        
+        comparative_analysis = await self._generate_comparative_analysis(profile, all_matches_flat)
+        
+        return {
+            "profile": asdict(profile),
+            "matches_by_zone": enhanced_matches,
+            "total_matches": len(all_matches_flat),
+            "zone_distribution": {
+                "entry_level": len(enhanced_matches["entry_level"]),
+                "mid_level": len(enhanced_matches["mid_level"]),
+                "advanced": len(enhanced_matches["advanced"])
+            },
+            "comparative_analysis": comparative_analysis,
+            "algorithm_used": algorithm,
+            "total_jobs_considered": len(self.onet_jobs),
+            "analysis_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "recommendations": await self._generate_zone_based_recommendations(profile, enhanced_matches)
+        }
+
+    def _get_job_zone_description(self, job_zone_data: Optional[dict]) -> str:
+        """Get human-readable job zone description"""
+        if job_zone_data is None or not isinstance(job_zone_data, dict):
+            return "Unknown"
+        
+        # If description exists in the data, use it
+        if "description" in job_zone_data:
+            return job_zone_data["description"]
+        
+        # Otherwise, fall back to zone number lookup
+        zone = job_zone_data.get("zone")
+        descriptions = {
+            1: "Little or no preparation needed",
+            2: "Some preparation needed",
+            3: "Medium preparation needed",
+            4: "Considerable preparation needed",
+            5: "Extensive preparation needed"
+        }
+        return descriptions.get(zone, "Unknown")
+
+    async def _generate_zone_based_recommendations(self, profile: PersonProfile, zone_matches: Dict) -> Dict:
+        """Generate recommendations considering job zone progression"""
+        recommendations = {
+            "immediate_opportunities": [],
+            "short_term_goals": [],
+            "long_term_aspirations": [],
+            "skill_development_path": []
+        }
+        
+        # Immediate: Best entry/mid-level match
+        if zone_matches["entry_level"]:
+            best_entry = zone_matches["entry_level"][0]
+            recommendations["immediate_opportunities"].append(
+                f"Start with {best_entry['job_name']} ({best_entry['enhanced_score']}% match)"
+            )
+        
+        if zone_matches["mid_level"]:
+            best_mid = zone_matches["mid_level"][0]
+            recommendations["short_term_goals"].append(
+                f"Progress to {best_mid['job_name']} ({best_mid['enhanced_score']}% match)"
+            )
+        
+        if zone_matches["advanced"]:
+            best_advanced = zone_matches["advanced"][0]
+            recommendations["long_term_aspirations"].append(
+                f"Aim for {best_advanced['job_name']} ({best_advanced['enhanced_score']}% match)"
+            )
+        
+        # Build skill development path
+        all_gaps = []
+        for category in ["entry_level", "mid_level", "advanced"]:
+            for match in zone_matches[category][:1]:  # Top match per category
+                scoring_details = match.get("scoring_details", {})
+                skills_result = scoring_details.get("skills", {})
+                gaps = skills_result.get("gaps", [])
+                for gap in gaps[:2]:
+                    all_gaps.append({
+                        "skill": gap["skill"],
+                        "zone": category,
+                        "gap": gap["gap"]
+                    })
+        
+        # Deduplicate and prioritize
+        seen_skills = set()
+        for gap in sorted(all_gaps, key=lambda x: x["gap"], reverse=True):
+            if gap["skill"] not in seen_skills:
+                recommendations["skill_development_path"].append(
+                    f"Develop {gap['skill']} (needed for {gap['zone'].replace('_', ' ')} roles)"
+                )
+                seen_skills.add(gap["skill"])
+                if len(recommendations["skill_development_path"]) >= 5:
+                    break
+        
+        return recommendations

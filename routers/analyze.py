@@ -35,6 +35,39 @@ async def analyze_profile_top_3_matches(request: PersonProfileRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error analyzing profile: {str(e)}")
 
+@router.post("/analyze-profile-by-zones", response_model=AnalysisResponse)
+async def analyze_profile_by_job_zones(request: PersonProfileRequest):
+    """
+    Analyze profile and return 9 career matches:
+    - 3 from job zones 1-2 (entry level)
+    - 3 from job zone 3 (mid level)
+    - 3 from job zones 4-5 (advanced)
+    """
+    # Firestore write
+    try:
+        db = get_db()
+        data = request.model_dump(mode="json", exclude_none=True)
+        data["created_at"] = firestore.SERVER_TIMESTAMP
+        db.collection("user").document().set(data, merge=True)
+    except Exception as e:
+        print(f"[Firestore] write failed: {e}")
+
+    try:
+        profile = matcher.create_profile_from_request(request)
+        result = await matcher.analyze_person_with_zone_based_matches(
+            profile, 
+            algorithm="comprehensive"
+        )
+        
+        return AnalysisResponse(
+            success=True,
+            message=f"Successfully analyzed 9 career matches across job zones for {profile.name}",
+            result=result,
+            analysis_date=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error analyzing profile: {str(e)}")
+
 @router.post("/analyze-profile-ai", response_model=AnalysisResponse)
 async def analyze_profile_with_ai(request: PersonProfileRequest):
     """Legacy: analyze all jobs."""

@@ -16,6 +16,15 @@ class PersonProfileRequest(BaseModel):
     agreeableness: int = Field(..., ge=1, le=5)
     neuroticism: int = Field(..., ge=1, le=5)
 
+    # Competence (user selects exactly 2)
+    dominant_competence: List[str] = Field(default_factory=list)
+    # Options: "analytical", "creative", "practical", "people"
+    
+    # Learning style (user selects exactly 2)
+    learning_style_preference: List[str] = Field(default_factory=list)
+    # Options: "research_reading", "teamwork_interviewing", 
+    #          "hands_on_systems", "brainstorming_ideation"
+
     # Work values (1-6 rank => we invert later)
     income_importance: int = Field(..., ge=1, le=6)
     impact_importance: int = Field(..., ge=1, le=6)
@@ -68,3 +77,5 @@ class PersonProfile:
     skills: Dict[str, float]
     interests: List[str]
     preferred_career: str
+    dominant_competence: List[str]
+    learning_style_preference: List[str]

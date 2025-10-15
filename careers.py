@@ -1,6 +1,10 @@
 onet_jobs = {
   "Chief Executives": {
     "onet_code": "11-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.3,
@@ -41,20 +45,27 @@ onet_jobs = {
       "Management of Financial Resources",
       "Management of Personnel Resources"
     ],
-    "similar_roles": [
-      "Treasurers and Controllers",
-      "Rehabilitation Counselors",
-      "Training and Development Specialists",
-      "First-Line Supervisors of Mechanics, Installers, and Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Chief Sustainability Officers": {
     "onet_code": "11-1011.03",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.2,
@@ -95,19 +106,26 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Sustainability Specialists",
-      "News Analysts, Reporters, and Journalists",
-      "Climate Change Policy Analysts",
-      "Geographers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "General and Operations Managers": {
     "onet_code": "11-1021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.9,
@@ -162,10 +180,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Legislators": {
     "onet_code": "11-1031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "problem_solving": 4,
       "working_with_people": 3.5,
@@ -205,18 +235,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "School Bus Monitors",
-      "Paramedics",
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
-      "First-Line Supervisors of Passenger Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Advertising and Promotions Managers": {
     "onet_code": "11-2011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.9,
@@ -271,10 +308,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Marketing Managers": {
     "onet_code": "11-2021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.9,
@@ -330,10 +379,22 @@ onet_jobs = {
       "campaigns",
       "strategy",
       "growth"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales Managers": {
     "onet_code": "11-2022.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.9,
@@ -390,10 +451,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Public Relations Managers": {
     "onet_code": "11-2032.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "leadership": 4.4,
       "problem_solving": 4,
@@ -444,10 +517,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Fundraising Managers": {
     "onet_code": "11-2033.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -501,10 +586,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Administrative Services Managers": {
     "onet_code": "11-3012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -559,10 +656,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Facilities Managers": {
     "onet_code": "11-3013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.7,
@@ -616,10 +725,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Security Managers": {
     "onet_code": "11-3013.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4,
@@ -673,10 +794,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Computer and Information Systems Managers": {
     "onet_code": "11-3021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -731,10 +864,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Financial Managers": {
     "onet_code": "11-3031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4,
@@ -789,10 +934,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Treasurers and Controllers": {
     "onet_code": "11-3031.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -833,20 +990,27 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Chief Executives",
-      "Gambling Surveillance Officers and Gambling Investigators",
-      "Financial Examiners",
-      "Accountants and Auditors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Investment Fund Managers": {
     "onet_code": "11-3031.03",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4,
@@ -901,10 +1065,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Production Managers": {
     "onet_code": "11-3051.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.8,
@@ -959,10 +1135,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Quality Control Systems Managers": {
     "onet_code": "11-3051.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -1017,10 +1205,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geothermal Production Managers": {
     "onet_code": "11-3051.02",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.9,
@@ -1075,10 +1275,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biofuels Production Managers": {
     "onet_code": "11-3051.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.7,
@@ -1133,10 +1345,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biomass Power Plant Managers": {
     "onet_code": "11-3051.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.8,
@@ -1191,10 +1415,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Hydroelectric Production Managers": {
     "onet_code": "11-3051.06",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.9,
@@ -1249,10 +1485,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Purchasing Managers": {
     "onet_code": "11-3061.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 4,
@@ -1307,10 +1555,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Transportation, Storage, and Distribution Managers": {
     "onet_code": "11-3071.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.7,
@@ -1365,10 +1625,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Supply Chain Managers": {
     "onet_code": "11-3071.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4,
@@ -1423,10 +1695,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Compensation and Benefits Managers": {
     "onet_code": "11-3111.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4.1,
@@ -1481,10 +1765,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Human Resources Managers": {
     "onet_code": "11-3121.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.2,
@@ -1539,10 +1835,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Training and Development Managers": {
     "onet_code": "11-3131.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -1597,10 +1905,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Farmers, Ranchers, and Other Agricultural Managers": {
     "onet_code": "11-9013.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.7,
@@ -1655,10 +1975,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Construction Managers": {
     "onet_code": "11-9021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -1713,10 +2045,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Education and Childcare Administrators, Preschool and Daycare": {
     "onet_code": "11-9031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4,
@@ -1760,20 +2104,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Educational, Guidance, and Career Counselors and Advisors",
-      "Airfield Operations Specialists",
-      "First-Line Supervisors of Correctional Officers",
-      "Education Administrators, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Education Administrators, Kindergarten through Secondary": {
     "onet_code": "11-9032.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.7,
@@ -1817,21 +2168,28 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Business Teachers, Postsecondary",
-      "Health Education Specialists",
-      "Philosophy and Religion Teachers, Postsecondary",
-      "Sociology Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Education Administrators, Postsecondary": {
     "onet_code": "11-9033.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.3,
@@ -1875,19 +2233,26 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Law Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary",
-      "Education Teachers, Postsecondary",
-      "Library Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Education Administrators, All Other": {
     "onet_code": "11-9039.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4,
       "working_with_people": 3.5,
@@ -1926,21 +2291,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Architectural and Engineering Managers": {
     "onet_code": "11-9041.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.2,
@@ -1995,10 +2367,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biofuels/Biodiesel Technology and Product Development Managers": {
     "onet_code": "11-9041.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.9,
@@ -2053,10 +2437,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Service Managers": {
     "onet_code": "11-9051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.5,
@@ -2111,10 +2507,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Gambling Managers": {
     "onet_code": "11-9071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -2169,10 +2577,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Entertainment and Recreation Managers, Except Gambling": {
     "onet_code": "11-9072.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -2226,10 +2646,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Lodging Managers": {
     "onet_code": "11-9081.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -2284,10 +2716,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Medical and Health Services Managers": {
     "onet_code": "11-9111.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4,
@@ -2342,10 +2786,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Natural Sciences Managers": {
     "onet_code": "11-9121.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.5,
@@ -2400,10 +2856,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Research Coordinators": {
     "onet_code": "11-9121.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.1,
@@ -2444,19 +2912,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Logisticians",
-      "Exercise Physiologists",
-      "Naturopathic Physicians",
-      "Occupational Health and Safety Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Water Resource Specialists": {
     "onet_code": "11-9121.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4,
@@ -2497,20 +2972,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Traffic Technicians",
-      "Precision Agriculture Technicians",
-      "Occupational Health and Safety Specialists",
-      "Environmental Scientists and Specialists, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Postmasters and Mail Superintendents": {
     "onet_code": "11-9131.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -2551,19 +3033,26 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Order Clerks",
-      "Loan Officers",
-      "Credit Counselors",
-      "Bill and Account Collectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Property, Real Estate, and Community Association Managers": {
     "onet_code": "11-9141.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.9,
@@ -2618,10 +3107,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Social and Community Service Managers": {
     "onet_code": "11-9151.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.9,
@@ -2676,10 +3177,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Emergency Management Directors": {
     "onet_code": "11-9161.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.1,
@@ -2722,21 +3235,28 @@ onet_jobs = {
       "Coordination",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Logisticians",
-      "First-Line Supervisors of Food Preparation and Serving Workers",
-      "First-Line Supervisors of Farming, Fishing, and Forestry Workers",
-      "Chefs and Head Cooks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Funeral Home Managers": {
     "onet_code": "11-9171.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.6,
@@ -2791,10 +3311,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Personal Service Managers, All Other": {
     "onet_code": "11-9179.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "leadership": 4.4,
       "problem_solving": 4,
@@ -2845,10 +3377,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Fitness and Wellness Coordinators": {
     "onet_code": "11-9179.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -2889,18 +3433,25 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Park Naturalists",
-      "Eligibility Interviewers, Government Programs",
-      "Customs Brokers",
-      "Bill and Account Collectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Spa Managers": {
     "onet_code": "11-9179.02",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.5,
@@ -2955,10 +3506,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Managers, All Other": {
     "onet_code": "11-9199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "leadership": 4.4,
       "problem_solving": 4,
@@ -3009,10 +3572,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Regulatory Affairs Managers": {
     "onet_code": "11-9199.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.2,
@@ -3067,10 +3642,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Compliance Managers": {
     "onet_code": "11-9199.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4,
@@ -3125,10 +3712,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Loss Prevention Managers": {
     "onet_code": "11-9199.08",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -3183,10 +3782,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Wind Energy Operations Managers": {
     "onet_code": "11-9199.09",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -3241,10 +3852,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Wind Energy Development Managers": {
     "onet_code": "11-9199.10",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -3299,10 +3922,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Brownfield Redevelopment Specialists and Site Managers": {
     "onet_code": "11-9199.11",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.1,
@@ -3357,10 +3992,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Agents and Business Managers of Artists, Performers, and Athletes": {
     "onet_code": "13-1011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -3415,10 +4062,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Buyers and Purchasing Agents, Farm Products": {
     "onet_code": "13-1021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.3,
@@ -3459,21 +4118,28 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Umpires, Referees, and Other Sports Officials",
-      "Transit and Railroad Police",
-      "Prepress Technicians and Workers",
-      "Helpers--Electricians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Wholesale and Retail Buyers, Except Farm Products": {
     "onet_code": "13-1022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.4,
@@ -3514,21 +4180,28 @@ onet_jobs = {
       "Persuasion",
       "Negotiation"
     ],
-    "similar_roles": [
-      "Security Guards",
-      "Transportation Security Screeners",
-      "Forest and Conservation Workers",
-      "Bakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Purchasing Agents, Except Wholesale, Retail, and Farm Products": {
     "onet_code": "13-1023.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4.1,
@@ -3569,19 +4242,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Negotiation"
     ],
-    "similar_roles": [
-      "Police Identification and Records Officers",
-      "Network and Computer Systems Administrators",
-      "Web Administrators",
-      "Title Examiners, Abstractors, and Searchers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Claims Adjusters, Examiners, and Investigators": {
     "onet_code": "13-1031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4,
@@ -3622,21 +4302,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Online Merchants",
-      "Personal Financial Advisors",
-      "Accountants and Auditors",
-      "Retail Loss Prevention Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Insurance Appraisers, Auto Damage": {
     "onet_code": "13-1032.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.6,
@@ -3677,21 +4364,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Log Graders and Scalers",
-      "Customs and Border Protection Officers",
-      "Prosthodontists",
-      "Transportation Inspectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Compliance Officers": {
     "onet_code": "13-1041.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -3732,18 +4426,25 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Library Technicians",
-      "Magnetic Resonance Imaging Technologists",
-      "Compensation, Benefits, and Job Analysis Specialists",
-      "Police Identification and Records Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Compliance Inspectors": {
     "onet_code": "13-1041.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.2,
@@ -3784,21 +4485,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
-      "Mail Clerks and Mail Machine Operators, Except Postal Service",
-      "Anesthesiologists",
-      "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Equal Opportunity Representatives and Officers": {
     "onet_code": "13-1041.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.3,
@@ -3839,19 +4547,26 @@ onet_jobs = {
       "Critical Thinking",
       "Writing"
     ],
-    "similar_roles": [
-      "Curators",
-      "Transportation Planners",
-      "Document Management Specialists",
-      "Food Scientists and Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Government Property Inspectors and Investigators": {
     "onet_code": "13-1041.04",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.1,
@@ -3892,21 +4607,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Procurement Clerks",
-      "Opticians, Dispensing",
-      "Brokerage Clerks",
-      "Court, Municipal, and License Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Coroners": {
     "onet_code": "13-1041.06",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4,
@@ -3947,21 +4669,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Glaziers",
-      "Automotive Engineering Technicians",
-      "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
-      "Government Property Inspectors and Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Regulatory Affairs Specialists": {
     "onet_code": "13-1041.07",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.2,
@@ -4002,19 +4731,26 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Sustainability Specialists",
-      "Economists",
-      "Judicial Law Clerks",
-      "Chief Sustainability Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Customs Brokers": {
     "onet_code": "13-1041.08",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -4055,18 +4791,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Tellers",
-      "Bill and Account Collectors",
-      "Credit Authorizers, Checkers, and Clerks",
-      "Eligibility Interviewers, Government Programs"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cost Estimators": {
     "onet_code": "13-1051.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -4107,20 +4850,27 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Statistical Assistants",
-      "Statisticians",
-      "Financial Quantitative Analysts",
-      "Actuaries"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Human Resources Specialists": {
     "onet_code": "13-1071.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 4,
@@ -4161,18 +4911,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Production, Planning, and Expediting Clerks",
-      "Loan Officers",
-      "Postmasters and Mail Superintendents",
-      "Credit Counselors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Farm Labor Contractors": {
     "onet_code": "13-1074.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.8,
@@ -4213,21 +4970,28 @@ onet_jobs = {
       "Speaking",
       "Coordination"
     ],
-    "similar_roles": [
-      "Helpers--Carpenters",
-      "Athletes and Sports Competitors",
-      "Segmental Pavers",
-      "Customs and Border Protection Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Labor Relations Specialists": {
     "onet_code": "13-1075.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4.2,
@@ -4268,18 +5032,25 @@ onet_jobs = {
       "Writing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Human Resources Specialists",
-      "Insurance Appraisers, Auto Damage",
-      "Industrial-Organizational Psychologists",
-      "Production, Planning, and Expediting Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Logisticians": {
     "onet_code": "13-1081.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.8,
@@ -4320,21 +5091,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Freight Forwarders",
-      "Clinical Research Coordinators",
-      "Airfield Operations Specialists",
-      "Anesthesiologist Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Logistics Engineers": {
     "onet_code": "13-1081.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.2,
@@ -4377,21 +5155,28 @@ onet_jobs = {
       "Systems Evaluation",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Manufacturing Engineers",
-      "Industrial Engineering Technologists and Technicians",
-      "Industrial Engineers",
-      "Environmental Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Logistics Analysts": {
     "onet_code": "13-1081.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -4434,21 +5219,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Accountants and Auditors",
-      "Intelligence Analysts",
-      "Information Security Analysts",
-      "Retail Loss Prevention Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Project Management Specialists": {
     "onet_code": "13-1082.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -4487,18 +5279,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Calibration Technologists and Technicians",
-      "First-Line Supervisors of Passenger Attendants",
-      "Financial Risk Specialists",
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Management Analysts": {
     "onet_code": "13-1111.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.1,
@@ -4541,20 +5340,27 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Computer User Support Specialists",
-      "Occupational Health and Safety Specialists",
-      "Appraisers and Assessors of Real Estate",
-      "Intelligence Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Meeting, Convention, and Event Planners": {
     "onet_code": "13-1121.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -4595,19 +5401,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Executive Secretaries and Executive Administrative Assistants",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Appraisers and Assessors of Real Estate",
-      "Librarians and Media Collections Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Fundraisers": {
     "onet_code": "13-1131.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4,
@@ -4648,21 +5461,28 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Insurance Appraisers, Auto Damage",
-      "Sociologists",
-      "Labor Relations Specialists",
-      "Musicians and Singers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Compensation, Benefits, and Job Analysis Specialists": {
     "onet_code": "13-1141.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.8,
@@ -4703,19 +5523,26 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Compliance Officers",
-      "Detectives and Criminal Investigators",
-      "Library Technicians",
-      "Loan Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Training and Development Specialists": {
     "onet_code": "13-1151.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -4756,20 +5583,27 @@ onet_jobs = {
       "Instructing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Animal Trainers",
-      "Elementary School Teachers, Except Special Education",
-      "Coaches and Scouts",
-      "Community Health Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Market Research Analysts and Marketing Specialists": {
     "onet_code": "13-1161.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.2,
@@ -4825,10 +5659,22 @@ onet_jobs = {
       "campaigns",
       "strategy",
       "growth"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Search Marketing Strategists": {
     "onet_code": "13-1161.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.8,
@@ -4884,10 +5730,22 @@ onet_jobs = {
       "campaigns",
       "strategy",
       "growth"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Business Operations Specialists, All Other": {
     "onet_code": "13-1199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -4926,21 +5784,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Financial Specialists, All Other",
-      "Communications Equipment Operators, All Other",
-      "Financial Clerks, All Other",
-      "Information and Record Clerks, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Business Continuity Planners": {
     "onet_code": "13-1199.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.2,
@@ -4981,21 +5846,28 @@ onet_jobs = {
       "Writing",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Computer Network Architects",
-      "Petroleum Engineers",
-      "Judicial Law Clerks",
-      "Actuaries"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "communication",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Sustainability Specialists": {
     "onet_code": "13-1199.05",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.1,
@@ -5036,19 +5908,26 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Chief Sustainability Officers",
-      "Regulatory Affairs Specialists",
-      "Climate Change Policy Analysts",
-      "Geographers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Online Merchants": {
     "onet_code": "13-1199.06",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -5089,20 +5968,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Claims Adjusters, Examiners, and Investigators",
-      "Personal Financial Advisors",
-      "Retail Loss Prevention Specialists",
-      "Accountants and Auditors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Security Management Specialists": {
     "onet_code": "13-1199.07",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -5142,18 +6028,25 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Transit and Railroad Police",
-      "Animal Control Workers",
-      "Buyers and Purchasing Agents, Farm Products",
-      "Umpires, Referees, and Other Sports Officials"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Accountants and Auditors": {
     "onet_code": "13-2011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -5194,20 +6087,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Personal Financial Advisors",
-      "Physician Assistants",
-      "Claims Adjusters, Examiners, and Investigators",
-      "Retail Loss Prevention Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Appraisers of Personal and Business Property": {
     "onet_code": "13-2022.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.7,
@@ -5247,21 +6147,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Private Detectives and Investigators",
-      "Power Distributors and Dispatchers",
-      "Histology Technicians",
-      "Insurance Underwriters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Appraisers and Assessors of Real Estate": {
     "onet_code": "13-2023.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -5302,19 +6209,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Computer User Support Specialists",
-      "Executive Secretaries and Executive Administrative Assistants",
-      "Occupational Health and Safety Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Budget Analysts": {
     "onet_code": "13-2031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.7,
@@ -5357,19 +6271,26 @@ onet_jobs = {
       "Writing",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Environmental Economists",
-      "Energy Auditors",
-      "Environmental Science and Protection Technicians, Including Health",
-      "Social Science Research Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Credit Analysts": {
     "onet_code": "13-2041.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -5412,18 +6333,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Human Resources Specialists",
-      "Production, Planning, and Expediting Clerks",
-      "Loan Officers",
-      "Postmasters and Mail Superintendents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Financial and Investment Analysts": {
     "onet_code": "13-2051.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "data_analysis": 3.5,
       "math": 2.8,
@@ -5462,20 +6390,27 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Digital Forensics Analysts",
-      "Data Scientists",
-      "Web and Digital Interface Designers",
-      "Project Management Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Personal Financial Advisors": {
     "onet_code": "13-2052.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4,
@@ -5516,20 +6451,27 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Accountants and Auditors",
-      "Online Merchants",
-      "Claims Adjusters, Examiners, and Investigators",
-      "Retail Loss Prevention Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Insurance Underwriters": {
     "onet_code": "13-2053.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -5570,21 +6512,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Private Detectives and Investigators",
-      "Power Distributors and Dispatchers",
-      "Sports Medicine Physicians",
-      "Optometrists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Financial Risk Specialists": {
     "onet_code": "13-2054.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -5623,21 +6572,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Penetration Testers",
-      "Web and Digital Interface Designers",
-      "Project Management Specialists",
-      "Communications Equipment Operators, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Financial Examiners": {
     "onet_code": "13-2061.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.1,
@@ -5678,18 +6634,25 @@ onet_jobs = {
       "Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Anesthesiologists",
-      "Gambling Surveillance Officers and Gambling Investigators",
-      "Pharmacists",
-      "Judicial Law Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Credit Counselors": {
     "onet_code": "13-2071.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -5730,20 +6693,27 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Loan Officers",
-      "Postmasters and Mail Superintendents",
-      "Eligibility Interviewers, Government Programs",
-      "Order Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Loan Officers": {
     "onet_code": "13-2072.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -5784,19 +6754,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Postmasters and Mail Superintendents",
-      "Order Clerks",
-      "Credit Counselors",
-      "Human Resources Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Tax Examiners and Collectors, and Revenue Agents": {
     "onet_code": "13-2081.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -5837,18 +6814,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Executive Secretaries and Executive Administrative Assistants",
-      "Appraisers and Assessors of Real Estate",
-      "Meeting, Convention, and Event Planners",
-      "Librarians and Media Collections Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Tax Preparers": {
     "onet_code": "13-2082.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.5,
@@ -5889,18 +6873,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Interior Designers",
-      "Librarians and Media Collections Specialists",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Title Examiners, Abstractors, and Searchers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Financial Specialists, All Other": {
     "onet_code": "13-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -5939,21 +6930,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Business Operations Specialists, All Other",
-      "Communications Equipment Operators, All Other",
-      "Financial Clerks, All Other",
-      "Information and Record Clerks, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Financial Quantitative Analysts": {
     "onet_code": "13-2099.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.1,
@@ -5996,20 +6994,27 @@ onet_jobs = {
       "Critical Thinking",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Statisticians",
-      "Statistical Assistants",
-      "Cost Estimators",
-      "Survey Researchers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fraud Examiners, Investigators and Analysts": {
     "onet_code": "13-2099.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4.1,
@@ -6052,21 +7057,28 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Administrative Law Judges, Adjudicators, and Hearing Officers",
-      "Information Security Analysts",
-      "Log Graders and Scalers",
-      "Insurance Underwriters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Systems Analysts": {
     "onet_code": "15-1211.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -6109,21 +7121,28 @@ onet_jobs = {
       "Systems Evaluation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Precision Agriculture Technicians",
-      "Computer and Information Research Scientists",
-      "Logistics Analysts",
-      "Management Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Health Informatics Specialists": {
     "onet_code": "15-1211.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.3,
@@ -6164,21 +7183,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Systems Evaluation"
     ],
-    "similar_roles": [
-      "Computer and Information Research Scientists",
-      "Speech-Language Pathologists",
-      "Dentists, General",
-      "Bioinformatics Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Information Security Analysts": {
     "onet_code": "15-1212.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.9,
@@ -6221,21 +7247,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Cytotechnologists",
-      "Nuclear Medicine Technologists",
-      "Private Detectives and Investigators",
-      "Power Distributors and Dispatchers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer and Information Research Scientists": {
     "onet_code": "15-1221.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4,
@@ -6276,19 +7309,26 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Health Informatics Specialists",
-      "Allergists and Immunologists",
-      "Computer Systems Analysts",
-      "Physicians, Pathologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Network Support Specialists": {
     "onet_code": "15-1231.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.5,
@@ -6329,18 +7369,25 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Forest and Conservation Technicians",
-      "Neurodiagnostic Technologists",
-      "Radio Frequency Identification Device Specialists",
-      "Mechanical Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer User Support Specialists": {
     "onet_code": "15-1232.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -6381,21 +7428,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Occupational Health and Safety Specialists",
-      "Appraisers and Assessors of Real Estate",
-      "Precision Agriculture Technicians",
-      "Endoscopy Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Network Architects": {
     "onet_code": "15-1241.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.9,
@@ -6436,20 +7490,27 @@ onet_jobs = {
       "Critical Thinking",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Architectural and Civil Drafters",
-      "Actuaries",
-      "Petroleum Engineers",
-      "Web Administrators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Telecommunications Engineering Specialists": {
     "onet_code": "15-1241.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.7,
@@ -6492,21 +7553,28 @@ onet_jobs = {
       "Writing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Fuel Cell Engineers",
-      "Radiologists",
-      "Curators",
-      "Food Scientists and Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Database Administrators": {
     "onet_code": "15-1242.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.8,
@@ -6549,19 +7617,26 @@ onet_jobs = {
       "Complex Problem Solving",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Business Intelligence Analysts",
-      "Oral and Maxillofacial Surgeons",
-      "Computer Network Architects",
-      "Actuaries"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Database Architects": {
     "onet_code": "15-1243.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.8,
@@ -6604,20 +7679,27 @@ onet_jobs = {
       "Complex Problem Solving",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Database Administrators",
-      "Water Resource Specialists",
-      "Video Game Designers",
-      "Computer Systems Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Data Warehousing Specialists": {
     "onet_code": "15-1243.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -6660,19 +7742,26 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Geographic Information Systems Technologists and Technicians",
-      "Web Administrators",
-      "Business Intelligence Analysts",
-      "Intelligence Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Network and Computer Systems Administrators": {
     "onet_code": "15-1244.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.7,
@@ -6713,19 +7802,26 @@ onet_jobs = {
       "Complex Problem Solving",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Police Identification and Records Officers",
-      "Computer Network Architects",
-      "Water Resource Specialists",
-      "Aircraft Mechanics and Service Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Programmers": {
     "onet_code": "15-1251.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.4,
@@ -6768,20 +7864,27 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Radio Frequency Identification Device Specialists",
-      "Software Developers",
-      "Remote Sensing Technicians",
-      "Bioinformatics Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Software Developers": {
     "onet_code": "15-1252.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.7,
@@ -6835,10 +7938,22 @@ onet_jobs = {
       "development",
       "technology",
       "innovation"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Software Quality Assurance Analysts and Testers": {
     "onet_code": "15-1253.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -6893,10 +8008,22 @@ onet_jobs = {
       "development",
       "technology",
       "innovation"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Web Developers": {
     "onet_code": "15-1254.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.6,
@@ -6951,10 +8078,22 @@ onet_jobs = {
       "development",
       "technology",
       "innovation"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Web and Digital Interface Designers": {
     "onet_code": "15-1255.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "problem_solving": 4.4,
       "working_with_people": 3.5,
@@ -6993,21 +8132,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Penetration Testers",
-      "Financial Risk Specialists",
-      "Computer Occupations, All Other",
-      "Mathematical Science Occupations, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Video Game Designers": {
     "onet_code": "15-1255.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -7048,21 +8194,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Special Effects Artists and Animators",
-      "Precision Agriculture Technicians",
-      "Set and Exhibit Designers",
-      "Document Management Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Computer Occupations, All Other": {
     "onet_code": "15-1299.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.4,
       "working_with_people": 3.5,
@@ -7101,21 +8254,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Mathematical Science Occupations, All Other",
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other",
-      "Physical Scientists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Web Administrators": {
     "onet_code": "15-1299.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.7,
@@ -7156,20 +8316,27 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Geographic Information Systems Technologists and Technicians",
-      "Biological Technicians",
-      "Electrical and Electronic Engineering Technologists and Technicians",
-      "Data Warehousing Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Geographic Information Systems Technologists and Technicians": {
     "onet_code": "15-1299.02",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.6,
@@ -7210,20 +8377,27 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Web Administrators",
-      "Biological Technicians",
-      "Electrical and Electronic Engineering Technologists and Technicians",
-      "Data Warehousing Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Document Management Specialists": {
     "onet_code": "15-1299.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -7264,20 +8438,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Conservation Scientists",
-      "Energy Auditors",
-      "Orthodontists",
-      "Geological Technicians, Except Hydrologic Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Penetration Testers": {
     "onet_code": "15-1299.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "problem_solving": 4.4,
       "working_with_people": 3.5,
@@ -7316,21 +8497,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Hydrologic Technicians",
-      "Web and Digital Interface Designers",
-      "Financial Risk Specialists",
-      "Calibration Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "communication",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Information Security Engineers": {
     "onet_code": "15-1299.05",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.1,
@@ -7372,21 +8560,28 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Solar Energy Systems Engineers",
-      "Energy Auditors",
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Digital Forensics Analysts": {
     "onet_code": "15-1299.06",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "data_analysis": 3.5,
       "math": 3.9,
@@ -7425,20 +8620,27 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Data Scientists",
-      "Financial and Investment Analysts",
-      "Penetration Testers",
-      "Hydrologic Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Blockchain Engineers": {
     "onet_code": "15-1299.07",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "math": 3.9,
       "technical_design": 3.5,
@@ -7477,21 +8679,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Engineers, All Other",
-      "Engineering Technologists and Technicians, Except Drafters, All Other",
-      "Computer Occupations, All Other",
-      "Mathematical Science Occupations, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Computer Systems Engineers/Architects": {
     "onet_code": "15-1299.08",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4,
@@ -7534,20 +8743,27 @@ onet_jobs = {
       "Active Learning",
       "Systems Evaluation"
     ],
-    "similar_roles": [
-      "Computer Hardware Engineers",
-      "Robotics Engineers",
-      "Aerospace Engineers",
-      "Nanosystems Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Information Technology Project Managers": {
     "onet_code": "15-1299.09",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4,
@@ -7602,10 +8818,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Actuaries": {
     "onet_code": "15-2011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.2,
@@ -7646,20 +8874,27 @@ onet_jobs = {
       "Critical Thinking",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Marine Engineers and Naval Architects",
-      "Statisticians",
-      "Statistical Assistants",
-      "Computer Network Architects"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mathematicians": {
     "onet_code": "15-2021.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.3,
@@ -7700,18 +8935,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Bioinformatics Technicians",
-      "Physicists",
-      "Astronomers",
-      "Statistical Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Operations Research Analysts": {
     "onet_code": "15-2031.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.1,
@@ -7754,19 +8996,26 @@ onet_jobs = {
       "Complex Problem Solving",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Actuaries",
-      "Financial Quantitative Analysts",
-      "Transportation Engineers",
-      "Computer Systems Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Statisticians": {
     "onet_code": "15-2041.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -7807,19 +9056,26 @@ onet_jobs = {
       "Mathematics",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Statistical Assistants",
-      "Wind Energy Engineers",
-      "Biostatisticians",
-      "Actuaries"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biostatisticians": {
     "onet_code": "15-2041.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.5,
@@ -7860,20 +9116,27 @@ onet_jobs = {
       "Writing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Survey Researchers",
-      "Nuclear Engineers",
-      "Statisticians",
-      "Geodetic Surveyors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Data Scientists": {
     "onet_code": "15-2051.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "data_analysis": 3.5,
       "math": 3.9,
@@ -7912,19 +9175,26 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Digital Forensics Analysts",
-      "Financial and Investment Analysts",
-      "Penetration Testers",
-      "Web and Digital Interface Designers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Business Intelligence Analysts": {
     "onet_code": "15-2051.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4,
@@ -7967,20 +9237,27 @@ onet_jobs = {
       "Active Learning",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Data Warehousing Specialists",
-      "Database Administrators",
-      "Geographic Information Systems Technologists and Technicians",
-      "Financial Quantitative Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Data Managers": {
     "onet_code": "15-2051.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -8035,10 +9312,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mathematical Science Occupations, All Other": {
     "onet_code": "15-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.4,
       "working_with_people": 3.5,
@@ -8077,21 +9366,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Computer Occupations, All Other",
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other",
-      "Physical Scientists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bioinformatics Technicians": {
     "onet_code": "15-2099.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 3.9,
@@ -8132,19 +9428,26 @@ onet_jobs = {
       "Active Learning",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Mathematicians",
-      "Physicists",
-      "Mechanical Drafters",
-      "Civil Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Architects, Except Landscape and Naval": {
     "onet_code": "17-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.2,
@@ -8185,18 +9488,25 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Audio and Video Technicians",
-      "Agricultural Inspectors",
-      "Neurologists",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Landscape Architects": {
     "onet_code": "17-1012.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.9,
@@ -8237,19 +9547,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Exercise Physiologists",
-      "Physical Therapists",
-      "Commercial and Industrial Designers",
-      "Park Naturalists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Cartographers and Photogrammetrists": {
     "onet_code": "17-1021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.8,
@@ -8290,21 +9607,28 @@ onet_jobs = {
       "Critical Thinking",
       "Writing"
     ],
-    "similar_roles": [
-      "Historians",
-      "Agricultural Technicians",
-      "Upholsterers",
-      "Proofreaders and Copy Markers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Surveyors": {
     "onet_code": "17-1022.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -8345,21 +9669,28 @@ onet_jobs = {
       "Writing",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Geodetic Surveyors",
-      "Cartographers and Photogrammetrists",
-      "Transportation Inspectors",
-      "Proofreaders and Copy Markers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geodetic Surveyors": {
     "onet_code": "17-1022.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4,
@@ -8400,19 +9731,26 @@ onet_jobs = {
       "Writing",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Surveyors",
-      "Environmental Economists",
-      "Nuclear Engineers",
-      "Biostatisticians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Aerospace Engineers": {
     "onet_code": "17-2011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.4,
@@ -8455,21 +9793,28 @@ onet_jobs = {
       "Operations Analysis",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Mechanical Engineers",
-      "Water/Wastewater Engineers",
-      "Nanotechnology Engineering Technologists and Technicians",
-      "Hydrologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Engineers": {
     "onet_code": "17-2021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.2,
@@ -8512,18 +9857,25 @@ onet_jobs = {
       "Mathematics",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Marine Engineers and Naval Architects",
-      "Water Resource Specialists",
-      "Mechanical Engineers",
-      "Water/Wastewater Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Bioengineers and Biomedical Engineers": {
     "onet_code": "17-2031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.3,
@@ -8567,20 +9919,27 @@ onet_jobs = {
       "Critical Thinking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Medical Scientists, Except Epidemiologists",
-      "Dentists, General",
-      "Chemical Technicians",
-      "Hospitalists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemical Engineers": {
     "onet_code": "17-2041.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 3.9,
@@ -8623,18 +9982,25 @@ onet_jobs = {
       "Mathematics",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Civil Engineers",
-      "Automotive Engineers",
-      "Robotics Engineers",
-      "Nanosystems Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Civil Engineers": {
     "onet_code": "17-2051.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4,
@@ -8677,19 +10043,26 @@ onet_jobs = {
       "Critical Thinking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Automotive Engineers",
-      "Nanosystems Engineers",
-      "Robotics Engineers",
-      "Marine Engineers and Naval Architects"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Transportation Engineers": {
     "onet_code": "17-2051.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.1,
@@ -8732,19 +10105,26 @@ onet_jobs = {
       "Complex Problem Solving",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Water/Wastewater Engineers",
-      "Mining and Geological Engineers, Including Mining Safety Engineers",
-      "Electronics Engineers, Except Computer",
-      "Mechatronics Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Water/Wastewater Engineers": {
     "onet_code": "17-2051.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.1,
@@ -8787,19 +10167,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Science"
     ],
-    "similar_roles": [
-      "Mechanical Engineers",
-      "Transportation Engineers",
-      "Electronics Engineers, Except Computer",
-      "Aerospace Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Computer Hardware Engineers": {
     "onet_code": "17-2061.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.1,
@@ -8842,20 +10229,27 @@ onet_jobs = {
       "Critical Thinking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Robotics Engineers",
-      "Nuclear Engineers",
-      "Nanosystems Engineers",
-      "Fuel Cell Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical Engineers": {
     "onet_code": "17-2071.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.2,
@@ -8898,19 +10292,26 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Human Factors Engineers and Ergonomists",
-      "Solar Energy Systems Engineers",
-      "Forensic Science Technicians",
-      "Cytogenetic Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electronics Engineers, Except Computer": {
     "onet_code": "17-2072.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.9,
@@ -8953,20 +10354,27 @@ onet_jobs = {
       "Critical Thinking",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Marine Engineers and Naval Architects",
-      "Mechanical Engineers",
-      "Nuclear Engineers",
-      "Transportation Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Radio Frequency Identification Device Specialists": {
     "onet_code": "17-2072.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.6,
@@ -9007,19 +10415,26 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Computer Network Support Specialists",
-      "Forest and Conservation Technicians",
-      "Neurodiagnostic Technologists",
-      "Electrical and Electronics Drafters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Environmental Engineers": {
     "onet_code": "17-2081.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -9062,21 +10477,28 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Geographers",
-      "Industrial Engineers",
-      "Human Factors Engineers and Ergonomists",
-      "Environmental Compliance Inspectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors": {
     "onet_code": "17-2111.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.9,
@@ -9119,18 +10541,25 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Museum Technicians and Conservators",
-      "Solar Energy Systems Engineers",
-      "Environmental Science and Protection Technicians, Including Health",
-      "Conservation Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fire-Prevention and Protection Engineers": {
     "onet_code": "17-2111.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4,
@@ -9173,21 +10602,28 @@ onet_jobs = {
       "Active Learning",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Allergists and Immunologists",
-      "Oral and Maxillofacial Surgeons",
-      "Ship Engineers",
-      "Family Medicine Physicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Engineers": {
     "onet_code": "17-2112.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.1,
@@ -9230,19 +10666,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Energy Auditors",
-      "Information Security Engineers",
-      "Environmental Engineers",
-      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Human Factors Engineers and Ergonomists": {
     "onet_code": "17-2112.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -9285,20 +10728,27 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Electrical Engineers",
-      "Cytogenetic Technologists",
-      "Solar Energy Systems Engineers",
-      "Environmental Restoration Planners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Validation Engineers": {
     "onet_code": "17-2112.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -9341,21 +10791,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Energy Engineers, Except Wind and Solar",
-      "Nanotechnology Engineering Technologists and Technicians",
-      "Microbiologists",
-      "Materials Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Manufacturing Engineers": {
     "onet_code": "17-2112.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -9398,19 +10855,26 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Systems Analysis"
     ],
-    "similar_roles": [
-      "Transportation Engineers",
-      "Mining and Geological Engineers, Including Mining Safety Engineers",
-      "Mechatronics Engineers",
-      "Solar Energy Systems Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Marine Engineers and Naval Architects": {
     "onet_code": "17-2121.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.1,
@@ -9453,19 +10917,26 @@ onet_jobs = {
       "Complex Problem Solving",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Electronics Engineers, Except Computer",
-      "Actuaries",
-      "Civil Engineers",
-      "Automotive Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Materials Engineers": {
     "onet_code": "17-2131.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.3,
@@ -9508,18 +10979,25 @@ onet_jobs = {
       "Active Learning",
       "Writing"
     ],
-    "similar_roles": [
-      "Biochemists and Biophysicists",
-      "Materials Scientists",
-      "Energy Engineers, Except Wind and Solar",
-      "Validation Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechanical Engineers": {
     "onet_code": "17-2141.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4,
@@ -9562,21 +11040,28 @@ onet_jobs = {
       "Science",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Water/Wastewater Engineers",
-      "Electronics Engineers, Except Computer",
-      "Aerospace Engineers",
-      "Transportation Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fuel Cell Engineers": {
     "onet_code": "17-2141.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -9619,20 +11104,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Telecommunications Engineering Specialists",
-      "Solar Energy Systems Engineers",
-      "Food Scientists and Technologists",
-      "Bioinformatics Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive Engineers": {
     "onet_code": "17-2141.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -9675,19 +11167,26 @@ onet_jobs = {
       "Critical Thinking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Civil Engineers",
-      "Nanosystems Engineers",
-      "Robotics Engineers",
-      "Marine Engineers and Naval Architects"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mining and Geological Engineers, Including Mining Safety Engineers": {
     "onet_code": "17-2151.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -9730,20 +11229,27 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Transportation Engineers",
-      "Civil Engineers",
-      "Nuclear Engineers",
-      "Marine Engineers and Naval Architects"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nuclear Engineers": {
     "onet_code": "17-2161.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.5,
@@ -9786,19 +11292,26 @@ onet_jobs = {
       "Writing",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Biostatisticians",
-      "Nanosystems Engineers",
-      "Geodetic Surveyors",
-      "Wind Energy Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Petroleum Engineers": {
     "onet_code": "17-2171.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -9841,21 +11354,28 @@ onet_jobs = {
       "Writing",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Marine Engineers and Naval Architects",
-      "Nuclear Engineers",
-      "Computer Network Architects",
-      "Molecular and Cellular Biologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Engineers, All Other": {
     "onet_code": "17-2199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "math": 4,
       "technical_design": 3.5,
@@ -9894,21 +11414,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Engineering Technologists and Technicians, Except Drafters, All Other",
-      "Blockchain Engineers",
-      "Drafters, All Other",
-      "Computer Occupations, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Energy Engineers, Except Wind and Solar": {
     "onet_code": "17-2199.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.2,
@@ -9951,19 +11478,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Nanotechnology Engineering Technologists and Technicians",
-      "Validation Engineers",
-      "Microbiologists",
-      "Environmental Scientists and Specialists, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechatronics Engineers": {
     "onet_code": "17-2199.05",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.9,
@@ -10006,20 +11540,27 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Transportation Engineers",
-      "Traffic Technicians",
-      "Industrial Engineering Technologists and Technicians",
-      "Microsystems Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Microsystems Engineers": {
     "onet_code": "17-2199.06",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -10062,18 +11603,25 @@ onet_jobs = {
       "Complex Problem Solving",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Occupational Health and Safety Technicians",
-      "Dermatologists",
-      "Aerospace Engineering and Operations Technologists and Technicians",
-      "Mechanical Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Photonics Engineers": {
     "onet_code": "17-2199.07",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.4,
@@ -10116,18 +11664,25 @@ onet_jobs = {
       "Mathematics",
       "Writing"
     ],
-    "similar_roles": [
-      "Nanosystems Engineers",
-      "Biochemists and Biophysicists",
-      "Nuclear Engineers",
-      "Geodetic Surveyors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Robotics Engineers": {
     "onet_code": "17-2199.08",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.1,
@@ -10170,20 +11725,27 @@ onet_jobs = {
       "Critical Thinking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Nanosystems Engineers",
-      "Automotive Engineers",
-      "Civil Engineers",
-      "Wind Energy Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Nanosystems Engineers": {
     "onet_code": "17-2199.09",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.4,
@@ -10226,19 +11788,26 @@ onet_jobs = {
       "Active Learning",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Robotics Engineers",
-      "Automotive Engineers",
-      "Civil Engineers",
-      "Nuclear Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Wind Energy Engineers": {
     "onet_code": "17-2199.10",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 3.9,
@@ -10281,19 +11850,26 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Statisticians",
-      "Robotics Engineers",
-      "Statistical Assistants",
-      "Nanosystems Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Energy Systems Engineers": {
     "onet_code": "17-2199.11",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4,
@@ -10336,19 +11912,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
-      "Information Security Engineers",
-      "Electrical Engineers",
-      "Orthodontists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Architectural and Civil Drafters": {
     "onet_code": "17-3011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.6,
@@ -10389,18 +11972,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Computer Network Architects",
-      "Geographic Information Systems Technologists and Technicians",
-      "Marine Engineers and Naval Architects",
-      "Computer Network Support Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronics Drafters": {
     "onet_code": "17-3012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -10441,19 +12031,26 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Computer Network Support Specialists",
-      "Forest and Conservation Technicians",
-      "Broadcast Technicians",
-      "Neurodiagnostic Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechanical Drafters": {
     "onet_code": "17-3013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.3,
@@ -10494,18 +12091,25 @@ onet_jobs = {
       "Speaking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Bioinformatics Technicians",
-      "Magnetic Resonance Imaging Technologists",
-      "Forensic Science Technicians",
-      "Soil and Plant Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Drafters, All Other": {
     "onet_code": "17-3019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.3,
       "working_with_people": 3.5,
@@ -10544,21 +12148,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Computer Occupations, All Other",
-      "Mathematical Science Occupations, All Other",
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aerospace Engineering and Operations Technologists and Technicians": {
     "onet_code": "17-3021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.5,
@@ -10601,18 +12212,25 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Civil Engineering Technologists and Technicians",
-      "Radio Frequency Identification Device Specialists",
-      "Mechanical Engineering Technologists and Technicians",
-      "Environmental Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Civil Engineering Technologists and Technicians": {
     "onet_code": "17-3022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.7,
@@ -10655,18 +12273,25 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Aerospace Engineering and Operations Technologists and Technicians",
-      "Radio Frequency Identification Device Specialists",
-      "Mechanical Engineering Technologists and Technicians",
-      "Electrical and Electronics Drafters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronic Engineering Technologists and Technicians": {
     "onet_code": "17-3023.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.6,
@@ -10709,20 +12334,27 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Geographic Information Systems Technologists and Technicians",
-      "Biological Technicians",
-      "Web Administrators",
-      "Mechanical Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electro-Mechanical and Mechatronics Technologists and Technicians": {
     "onet_code": "17-3024.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.4,
@@ -10763,18 +12395,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Electrical and Electronic Equipment Assemblers",
-      "Fiberglass Laminators and Fabricators",
-      "Food Cooking Machine Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Robotics Technicians": {
     "onet_code": "17-3024.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.6,
@@ -10815,19 +12454,26 @@ onet_jobs = {
       "Troubleshooting",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Photonics Technicians",
-      "Biological Technicians",
-      "Geographic Information Systems Technologists and Technicians",
-      "Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Environmental Engineering Technologists and Technicians": {
     "onet_code": "17-3025.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 3.7,
@@ -10870,20 +12516,27 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Fire Inspectors and Investigators",
-      "Mechanical Engineering Technologists and Technicians",
-      "Aerospace Engineering and Operations Technologists and Technicians",
-      "Civil Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Industrial Engineering Technologists and Technicians": {
     "onet_code": "17-3026.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.7,
@@ -10926,19 +12579,26 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Mechatronics Engineers",
-      "Occupational Health and Safety Specialists",
-      "Precision Agriculture Technicians",
-      "Agricultural Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Nanotechnology Engineering Technologists and Technicians": {
     "onet_code": "17-3026.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.2,
@@ -10981,20 +12641,27 @@ onet_jobs = {
       "Writing",
       "Science"
     ],
-    "similar_roles": [
-      "Energy Engineers, Except Wind and Solar",
-      "Validation Engineers",
-      "Microbiologists",
-      "Geneticists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Mechanical Engineering Technologists and Technicians": {
     "onet_code": "17-3027.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.8,
@@ -11037,18 +12704,25 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Computer Network Support Specialists",
-      "Neurodiagnostic Technologists",
-      "Forest and Conservation Technicians",
-      "Aerospace Engineering and Operations Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Automotive Engineering Technicians": {
     "onet_code": "17-3027.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.6,
@@ -11091,21 +12765,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Coroners",
-      "Glaziers",
-      "Sound Engineering Technicians",
-      "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Calibration Technologists and Technicians": {
     "onet_code": "17-3028.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.3,
       "working_with_people": 3.5,
@@ -11144,18 +12825,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Hydrologic Technicians",
-      "Penetration Testers",
-      "Project Management Specialists",
-      "Crematory Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Engineering Technologists and Technicians, Except Drafters, All Other": {
     "onet_code": "17-3029.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "math": 4,
       "technical_design": 3.5,
@@ -11194,21 +12882,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Engineers, All Other",
-      "Blockchain Engineers",
-      "Drafters, All Other",
-      "Computer Occupations, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Non-Destructive Testing Specialists": {
     "onet_code": "17-3029.01",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.6,
@@ -11249,18 +12944,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
-      "Engine and Other Machine Assemblers",
-      "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
-      "Mechanical Door Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Photonics Technicians": {
     "onet_code": "17-3029.08",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.4,
@@ -11301,20 +13003,27 @@ onet_jobs = {
       "Troubleshooting",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Robotics Technicians",
-      "Geographic Information Systems Technologists and Technicians",
-      "Electrical and Electronic Engineering Technologists and Technicians",
-      "Biological Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Surveying and Mapping Technicians": {
     "onet_code": "17-3031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.6,
@@ -11355,18 +13064,25 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Food Science Technicians",
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Orthodontists",
-      "Environmental Science and Protection Technicians, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Animal Scientists": {
     "onet_code": "19-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.3,
@@ -11407,18 +13123,25 @@ onet_jobs = {
       "Writing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Industrial Ecologists",
-      "Zoologists and Wildlife Biologists",
-      "Foresters",
-      "Judicial Law Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Scientists and Technologists": {
     "onet_code": "19-1012.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.2,
@@ -11459,19 +13182,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Bioinformatics Scientists",
-      "Transportation Planners",
-      "Radiologists",
-      "Fuel Cell Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Soil and Plant Scientists": {
     "onet_code": "19-1013.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.3,
@@ -11512,21 +13242,28 @@ onet_jobs = {
       "Speaking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Geoscientists, Except Hydrologists and Geographers",
-      "Epidemiologists",
-      "Biochemists and Biophysicists",
-      "Hydrologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biochemists and Biophysicists": {
     "onet_code": "19-1021.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.7,
       "writing": 4.7,
@@ -11567,18 +13304,25 @@ onet_jobs = {
       "Writing",
       "Science"
     ],
-    "similar_roles": [
-      "Physicians, Pathologists",
-      "Microbiologists",
-      "Materials Engineers",
-      "Physicists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Microbiologists": {
     "onet_code": "19-1022.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.5,
       "writing": 4.5,
@@ -11619,20 +13363,27 @@ onet_jobs = {
       "Writing",
       "Science"
     ],
-    "similar_roles": [
-      "Energy Engineers, Except Wind and Solar",
-      "Nanotechnology Engineering Technologists and Technicians",
-      "Environmental Scientists and Specialists, Including Health",
-      "Molecular and Cellular Biologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Zoologists and Wildlife Biologists": {
     "onet_code": "19-1023.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -11673,19 +13424,26 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Animal Scientists",
-      "Industrial Ecologists",
-      "Physicians, Pathologists",
-      "Foresters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Biological Scientists, All Other": {
     "onet_code": "19-1029.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -11724,21 +13482,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Life Scientists, All Other",
-      "Physical Scientists, All Other",
-      "Psychologists, All Other",
-      "Social Scientists and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bioinformatics Scientists": {
     "onet_code": "19-1029.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.4,
@@ -11779,19 +13544,26 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Transportation Planners",
-      "Food Scientists and Technologists",
-      "Remote Sensing Scientists and Technologists",
-      "Geological Technicians, Except Hydrologic Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Molecular and Cellular Biologists": {
     "onet_code": "19-1029.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.6,
       "writing": 4.7,
@@ -11832,20 +13604,27 @@ onet_jobs = {
       "Science",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Biologists",
-      "Geneticists",
-      "Materials Scientists",
-      "Environmental Scientists and Specialists, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geneticists": {
     "onet_code": "19-1029.03",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.6,
@@ -11886,20 +13665,27 @@ onet_jobs = {
       "Science",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Biologists",
-      "Molecular and Cellular Biologists",
-      "Materials Scientists",
-      "Nanotechnology Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biologists": {
     "onet_code": "19-1029.04",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.6,
       "writing": 4.6,
@@ -11940,20 +13726,27 @@ onet_jobs = {
       "Science",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Molecular and Cellular Biologists",
-      "Geneticists",
-      "Materials Scientists",
-      "Environmental Scientists and Specialists, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Conservation Scientists": {
     "onet_code": "19-1031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.8,
@@ -11994,19 +13787,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Energy Auditors",
-      "Museum Technicians and Conservators",
-      "Document Management Specialists",
-      "Orthoptists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Range Managers": {
     "onet_code": "19-1031.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.8,
@@ -12061,10 +13861,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Park Naturalists": {
     "onet_code": "19-1031.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4,
@@ -12105,18 +13917,25 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Fitness and Wellness Coordinators",
-      "Broadcast Announcers and Radio Disc Jockeys",
-      "Pharmacy Technicians",
-      "Physical Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Foresters": {
     "onet_code": "19-1032.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4,
@@ -12157,18 +13976,25 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Animal Scientists",
-      "Zoologists and Wildlife Biologists",
-      "Industrial Ecologists",
-      "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Epidemiologists": {
     "onet_code": "19-1041.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.5,
       "writing": 4.5,
@@ -12209,21 +14035,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Atmospheric and Space Scientists",
-      "Environmental Restoration Planners",
-      "Exercise Physiologists",
-      "Compensation, Benefits, and Job Analysis Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Scientists, Except Epidemiologists": {
     "onet_code": "19-1042.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.5,
       "writing": 4.6,
@@ -12267,21 +14100,28 @@ onet_jobs = {
       "Active Learning",
       "Writing"
     ],
-    "similar_roles": [
-      "Biochemists and Biophysicists",
-      "Validation Engineers",
-      "Orthotists and Prosthetists",
-      "Podiatrists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Life Scientists, All Other": {
     "onet_code": "19-1099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -12320,21 +14160,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Biological Scientists, All Other",
-      "Physical Scientists, All Other",
-      "Psychologists, All Other",
-      "Social Scientists and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Astronomers": {
     "onet_code": "19-2011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.6,
       "writing": 4.6,
@@ -12375,18 +14222,25 @@ onet_jobs = {
       "Writing",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Chemists",
-      "Physicists",
-      "Microbiologists",
-      "Mathematicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physicists": {
     "onet_code": "19-2012.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.6,
       "writing": 4.6,
@@ -12427,19 +14281,26 @@ onet_jobs = {
       "Mathematics",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Mathematicians",
-      "Bioinformatics Technicians",
-      "Biochemists and Biophysicists",
-      "Astronomers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Atmospheric and Space Scientists": {
     "onet_code": "19-2021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.2,
@@ -12480,19 +14341,26 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Epidemiologists",
-      "Detectives and Criminal Investigators",
-      "Cardiovascular Technologists and Technicians",
-      "Park Naturalists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemists": {
     "onet_code": "19-2031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.4,
@@ -12533,19 +14401,26 @@ onet_jobs = {
       "Writing",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Astronomers",
-      "Geodetic Surveyors",
-      "Microbiologists",
-      "Materials Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Materials Scientists": {
     "onet_code": "19-2032.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.3,
@@ -12586,18 +14461,25 @@ onet_jobs = {
       "Writing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Molecular and Cellular Biologists",
-      "Biologists",
-      "Geneticists",
-      "Chemical Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Scientists and Specialists, Including Health": {
     "onet_code": "19-2041.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.4,
@@ -12638,20 +14520,27 @@ onet_jobs = {
       "Science",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Conservation Scientists",
-      "Document Management Specialists",
-      "Biologists",
-      "Molecular and Cellular Biologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Climate Change Policy Analysts": {
     "onet_code": "19-2041.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.2,
@@ -12694,19 +14583,26 @@ onet_jobs = {
       "Speaking",
       "Writing"
     ],
-    "similar_roles": [
-      "News Analysts, Reporters, and Journalists",
-      "Chief Sustainability Officers",
-      "Sustainability Specialists",
-      "Geographers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Restoration Planners": {
     "onet_code": "19-2041.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.1,
@@ -12747,20 +14643,27 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Forensic Science Technicians",
-      "Cytogenetic Technologists",
-      "Conservation Scientists",
-      "Paralegals and Legal Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Ecologists": {
     "onet_code": "19-2041.03",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.4,
@@ -12801,21 +14704,28 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Animal Scientists",
-      "Zoologists and Wildlife Biologists",
-      "Biologists",
-      "Molecular and Cellular Biologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geoscientists, Except Hydrologists and Geographers": {
     "onet_code": "19-2042.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.4,
@@ -12856,21 +14766,28 @@ onet_jobs = {
       "Science",
       "Speaking"
     ],
-    "similar_roles": [
-      "Geographers",
-      "Microbiologists",
-      "Geneticists",
-      "Environmental Scientists and Specialists, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hydrologists": {
     "onet_code": "19-2043.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.1,
@@ -12911,21 +14828,28 @@ onet_jobs = {
       "Mathematics",
       "Science"
     ],
-    "similar_roles": [
-      "Molecular and Cellular Biologists",
-      "Biologists",
-      "Remote Sensing Technicians",
-      "Chemical Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physical Scientists, All Other": {
     "onet_code": "19-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -12964,21 +14888,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other",
-      "Psychologists, All Other",
-      "Social Scientists and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Remote Sensing Scientists and Technologists": {
     "onet_code": "19-2099.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -13019,19 +14950,26 @@ onet_jobs = {
       "Critical Thinking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Anthropologists and Archeologists",
-      "Bioinformatics Scientists",
-      "Geographers",
-      "Economists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Economists": {
     "onet_code": "19-3011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.3,
@@ -13072,19 +15010,26 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Regulatory Affairs Specialists",
-      "Curators",
-      "Remote Sensing Scientists and Technologists",
-      "Anthropologists and Archeologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Economists": {
     "onet_code": "19-3011.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.3,
@@ -13125,19 +15070,26 @@ onet_jobs = {
       "Writing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Geodetic Surveyors",
-      "Solar Energy Systems Engineers",
-      "Document Management Specialists",
-      "Budget Analysts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Survey Researchers": {
     "onet_code": "19-3022.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.4,
@@ -13178,20 +15130,27 @@ onet_jobs = {
       "Mathematics",
       "Writing"
     ],
-    "similar_roles": [
-      "Biostatisticians",
-      "Transportation Planners",
-      "Historians",
-      "Statisticians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial-Organizational Psychologists": {
     "onet_code": "19-3032.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.6,
@@ -13232,20 +15191,27 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Sociologists",
-      "Paralegals and Legal Assistants",
-      "Environmental Restoration Planners",
-      "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical and Counseling Psychologists": {
     "onet_code": "19-3033.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.5,
@@ -13286,20 +15252,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Substance Abuse and Behavioral Disorder Counselors",
-      "Mental Health and Substance Abuse Social Workers",
-      "School Psychologists",
-      "Music Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "School Psychologists": {
     "onet_code": "19-3034.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.3,
@@ -13340,20 +15313,27 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Mental Health and Substance Abuse Social Workers",
-      "Clinical and Counseling Psychologists",
-      "Music Therapists",
-      "Probation Officers and Correctional Treatment Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Psychologists, All Other": {
     "onet_code": "19-3039.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -13392,21 +15372,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other",
-      "Physical Scientists, All Other",
-      "Social Scientists and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Neuropsychologists": {
     "onet_code": "19-3039.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.7,
@@ -13446,19 +15433,26 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Dietitians and Nutritionists",
-      "Clinical Neuropsychologists",
-      "Audiologists",
-      "Geographers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Neuropsychologists": {
     "onet_code": "19-3039.03",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.3,
@@ -13498,19 +15492,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Mental Health and Substance Abuse Social Workers",
-      "Music Therapists",
-      "School Psychologists",
-      "Clinical and Counseling Psychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sociologists": {
     "onet_code": "19-3041.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.4,
@@ -13551,21 +15552,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Industrial-Organizational Psychologists",
-      "Court Reporters and Simultaneous Captioners",
-      "Paralegals and Legal Assistants",
-      "Environmental Restoration Planners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Urban and Regional Planners": {
     "onet_code": "19-3051.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.1,
@@ -13606,19 +15614,26 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Fire Inspectors and Investigators",
-      "Political Scientists",
-      "Graphic Designers",
-      "Accountants and Auditors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Anthropologists and Archeologists": {
     "onet_code": "19-3091.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.6,
@@ -13659,21 +15674,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Remote Sensing Scientists and Technologists",
-      "Geographers",
-      "Economists",
-      "Regulatory Affairs Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geographers": {
     "onet_code": "19-3092.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.5,
@@ -13714,21 +15736,28 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Environmental Engineers",
-      "Anthropologists and Archeologists",
-      "Geoscientists, Except Hydrologists and Geographers",
-      "Sustainability Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Historians": {
     "onet_code": "19-3093.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.7,
@@ -13769,18 +15798,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Genetic Counselors",
-      "Cartographers and Photogrammetrists",
-      "Judicial Law Clerks",
-      "Bioinformatics Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Political Scientists": {
     "onet_code": "19-3094.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.4,
@@ -13821,18 +15857,25 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Urban and Regional Planners",
-      "Detectives and Criminal Investigators",
-      "Respiratory Therapists",
-      "Graphic Designers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Scientists and Related Workers, All Other": {
     "onet_code": "19-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -13871,21 +15914,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other",
-      "Physical Scientists, All Other",
-      "Psychologists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Transportation Planners": {
     "onet_code": "19-3099.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.1,
@@ -13926,20 +15976,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Bioinformatics Scientists",
-      "Food Scientists and Technologists",
-      "Equal Opportunity Representatives and Officers",
-      "Curators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Technicians": {
     "onet_code": "19-4012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.4,
@@ -13980,19 +16037,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Cartographers and Photogrammetrists",
-      "Judicial Law Clerks",
-      "Geneticists",
-      "Industrial Ecologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Precision Agriculture Technicians": {
     "onet_code": "19-4012.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.7,
@@ -14033,21 +16097,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Occupational Health and Safety Specialists",
-      "Computer User Support Specialists",
-      "Radiation Therapists",
-      "Endoscopy Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Food Science Technicians": {
     "onet_code": "19-4013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.7,
@@ -14088,18 +16159,25 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Surveying and Mapping Technicians",
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Orthodontists",
-      "Environmental Science and Protection Technicians, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biological Technicians": {
     "onet_code": "19-4021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4,
@@ -14140,21 +16218,28 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Web Administrators",
-      "Geographic Information Systems Technologists and Technicians",
-      "Electrical and Electronic Engineering Technologists and Technicians",
-      "Upholsterers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemical Technicians": {
     "onet_code": "19-4031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4,
@@ -14195,19 +16280,26 @@ onet_jobs = {
       "Science",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Materials Scientists",
-      "Geographic Information Systems Technologists and Technicians",
-      "Radio Frequency Identification Device Specialists",
-      "Molecular and Cellular Biologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Environmental Science and Protection Technicians, Including Health": {
     "onet_code": "19-4042.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4,
@@ -14248,19 +16340,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Energy Auditors",
-      "Museum Technicians and Conservators",
-      "Social Science Research Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geological Technicians, Except Hydrologic Technicians": {
     "onet_code": "19-4043.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.7,
@@ -14301,20 +16400,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Environmental Science and Protection Technicians, Including Health",
-      "Energy Auditors",
-      "Orthodontists",
-      "Food Science Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Hydrologic Technicians": {
     "onet_code": "19-4044.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -14353,20 +16459,27 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Penetration Testers",
-      "Calibration Technologists and Technicians",
-      "Web and Digital Interface Designers",
-      "Orthopedic Surgeons, Except Pediatric"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Nuclear Technicians": {
     "onet_code": "19-4051.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.5,
@@ -14407,21 +16520,28 @@ onet_jobs = {
       "Active Listening",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-      "Packaging and Filling Machine Operators and Tenders",
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Recycling and Reclamation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Nuclear Monitoring Technicians": {
     "onet_code": "19-4051.02",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -14462,21 +16582,28 @@ onet_jobs = {
       "Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Shoe Machine Operators and Tenders",
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians",
-      "Cytotechnologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Science Research Assistants": {
     "onet_code": "19-4061.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.1,
@@ -14517,18 +16644,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Environmental Science and Protection Technicians, Including Health",
-      "Energy Auditors",
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Archivists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Forest and Conservation Technicians": {
     "onet_code": "19-4071.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.3,
@@ -14569,18 +16703,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Neurodiagnostic Technologists",
-      "Computer Network Support Specialists",
-      "Mechanical Engineering Technologists and Technicians",
-      "Radio Frequency Identification Device Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Forensic Science Technicians": {
     "onet_code": "19-4092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.1,
@@ -14621,18 +16762,25 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Cytogenetic Technologists",
-      "Magnetic Resonance Imaging Technologists",
-      "Environmental Restoration Planners",
-      "Museum Technicians and Conservators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Life, Physical, and Social Science Technicians, All Other": {
     "onet_code": "19-4099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 4.2,
       "working_with_people": 3.5,
@@ -14671,21 +16819,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Biological Scientists, All Other",
-      "Life Scientists, All Other",
-      "Physical Scientists, All Other",
-      "Psychologists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Quality Control Analysts": {
     "onet_code": "19-4099.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.6,
@@ -14728,18 +16883,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Electro-Mechanical and Mechatronics Technologists and Technicians",
-      "Agricultural Inspectors",
-      "Non-Destructive Testing Specialists",
-      "Surgical Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Remote Sensing Technicians": {
     "onet_code": "19-4099.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.7,
@@ -14780,21 +16942,28 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Radio Frequency Identification Device Specialists",
-      "Physician Assistants",
-      "Statisticians",
-      "Occupational Health and Safety Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Occupational Health and Safety Specialists": {
     "onet_code": "19-5011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4,
@@ -14835,19 +17004,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Computer User Support Specialists",
-      "Precision Agriculture Technicians",
-      "Appraisers and Assessors of Real Estate",
-      "Radiation Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Occupational Health and Safety Technicians": {
     "onet_code": "19-5012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.9,
@@ -14888,18 +17064,25 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Dermatologists",
-      "Physician Assistants",
-      "Forest and Conservation Technicians",
-      "Nuclear Medicine Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Substance Abuse and Behavioral Disorder Counselors": {
     "onet_code": "21-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.1,
@@ -14940,19 +17123,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Clinical and Counseling Psychologists",
-      "Psychiatrists",
-      "Mental Health and Substance Abuse Social Workers",
-      "Probation Officers and Correctional Treatment Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Educational, Guidance, and Career Counselors and Advisors": {
     "onet_code": "21-1012.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -14996,21 +17186,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",
-      "Clinical and Counseling Psychologists",
-      "Substance Abuse and Behavioral Disorder Counselors",
-      "Adapted Physical Education Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Marriage and Family Therapists": {
     "onet_code": "21-1013.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.2,
@@ -15051,19 +17248,26 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Mental Health Counselors",
-      "Psychiatric Technicians",
-      "Probation Officers and Correctional Treatment Specialists",
-      "School Psychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Mental Health Counselors": {
     "onet_code": "21-1014.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -15104,19 +17308,26 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Marriage and Family Therapists",
-      "Psychiatric Technicians",
-      "Mental Health and Substance Abuse Social Workers",
-      "Child, Family, and School Social Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Rehabilitation Counselors": {
     "onet_code": "21-1015.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.9,
@@ -15157,19 +17368,26 @@ onet_jobs = {
       "Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Mental Health and Substance Abuse Social Workers",
-      "Music Therapists",
-      "School Psychologists",
-      "Clinical and Counseling Psychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Counselors, All Other": {
     "onet_code": "21-1019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 4.2,
@@ -15208,21 +17426,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Social Workers, All Other",
-      "Community and Social Service Specialists, All Other",
-      "Religious Workers, All Other",
-      "Dentists, All Other Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Child, Family, and School Social Workers": {
     "onet_code": "21-1021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4,
@@ -15263,19 +17488,26 @@ onet_jobs = {
       "Social Perceptiveness",
       "Speaking"
     ],
-    "similar_roles": [
-      "Community Health Workers",
-      "Patient Representatives",
-      "Mental Health Counselors",
-      "Tour Guides and Escorts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Healthcare Social Workers": {
     "onet_code": "21-1022.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.1,
@@ -15316,19 +17548,26 @@ onet_jobs = {
       "Service Orientation",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Mental Health and Substance Abuse Social Workers",
-      "Music Therapists",
-      "Clinical Neuropsychologists",
-      "Clinical and Counseling Psychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Mental Health and Substance Abuse Social Workers": {
     "onet_code": "21-1023.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4,
@@ -15369,19 +17608,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Music Therapists",
-      "School Psychologists",
-      "Clinical and Counseling Psychologists",
-      "Clinical Neuropsychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Social Workers, All Other": {
     "onet_code": "21-1029.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 4.2,
@@ -15420,21 +17666,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Counselors, All Other",
-      "Community and Social Service Specialists, All Other",
-      "Religious Workers, All Other",
-      "Dentists, All Other Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Health Education Specialists": {
     "onet_code": "21-1091.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4,
@@ -15478,20 +17731,27 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Career/Technical Education Teachers, Postsecondary",
-      "Education Administrators, Postsecondary",
-      "Law Teachers, Postsecondary",
-      "Library Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Probation Officers and Correctional Treatment Specialists": {
     "onet_code": "21-1092.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -15532,19 +17792,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "School Psychologists",
-      "Psychiatrists",
-      "Substance Abuse and Behavioral Disorder Counselors",
-      "Mental Health and Substance Abuse Social Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Social and Human Service Assistants": {
     "onet_code": "21-1093.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -15585,20 +17852,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Credit Counselors",
-      "Probation Officers and Correctional Treatment Specialists",
-      "Police and Sheriff's Patrol Officers",
-      "Substance Abuse and Behavioral Disorder Counselors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Community Health Workers": {
     "onet_code": "21-1094.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4,
@@ -15639,20 +17913,27 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Patient Representatives",
-      "Child, Family, and School Social Workers",
-      "Tour Guides and Escorts",
-      "Social and Human Service Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Community and Social Service Specialists, All Other": {
     "onet_code": "21-1099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 4.2,
@@ -15691,21 +17972,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Counselors, All Other",
-      "Social Workers, All Other",
-      "Religious Workers, All Other",
-      "Dentists, All Other Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Clergy": {
     "onet_code": "21-2011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.2,
@@ -15746,19 +18034,26 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Social and Human Service Assistants",
-      "Dietitians and Nutritionists",
-      "Probation Officers and Correctional Treatment Specialists",
-      "Police and Sheriff's Patrol Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Directors, Religious Activities and Education": {
     "onet_code": "21-2021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.8,
@@ -15801,21 +18096,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Talent Directors",
-      "Tour Guides and Escorts",
-      "Court, Municipal, and License Clerks",
-      "Loan Interviewers and Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Religious Workers, All Other": {
     "onet_code": "21-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 4.2,
@@ -15854,21 +18156,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Counselors, All Other",
-      "Social Workers, All Other",
-      "Community and Social Service Specialists, All Other",
-      "Dentists, All Other Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Lawyers": {
     "onet_code": "23-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.7,
@@ -15909,18 +18218,25 @@ onet_jobs = {
       "Persuasion",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Retail Loss Prevention Specialists",
-      "Fish and Game Wardens",
-      "Chiropractors",
-      "Personal Financial Advisors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Judicial Law Clerks": {
     "onet_code": "23-1012.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.5,
@@ -15961,18 +18277,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Historians",
-      "Agricultural Technicians",
-      "Genetic Counselors",
-      "Regulatory Affairs Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Administrative Law Judges, Adjudicators, and Hearing Officers": {
     "onet_code": "23-1021.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.5,
@@ -16013,21 +18336,28 @@ onet_jobs = {
       "Writing",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Fraud Examiners, Investigators and Analysts",
-      "Family Medicine Physicians",
-      "Insurance Underwriters",
-      "Judges, Magistrate Judges, and Magistrates"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Arbitrators, Mediators, and Conciliators": {
     "onet_code": "23-1022.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.3,
@@ -16068,20 +18398,27 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Urban and Regional Planners",
-      "Merchandise Displayers and Window Trimmers",
-      "Umpires, Referees, and Other Sports Officials",
-      "Public Relations Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "planning",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Judges, Magistrate Judges, and Magistrates": {
     "onet_code": "23-1023.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.5,
@@ -16122,21 +18459,28 @@ onet_jobs = {
       "Active Listening",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Private Detectives and Investigators",
-      "Insurance Underwriters",
-      "Animal Breeders",
-      "Umpires, Referees, and Other Sports Officials"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Paralegals and Legal Assistants": {
     "onet_code": "23-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 4,
@@ -16177,18 +18521,25 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Environmental Restoration Planners",
-      "Industrial-Organizational Psychologists",
-      "Sociologists",
-      "Tax Preparers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Title Examiners, Abstractors, and Searchers": {
     "onet_code": "23-2093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -16229,18 +18580,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Radiation Therapists",
-      "Tax Preparers",
-      "Compliance Officers",
-      "Appraisers and Assessors of Real Estate"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Legal Support Workers, All Other": {
     "onet_code": "23-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -16279,21 +18637,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Business Teachers, Postsecondary": {
     "onet_code": "25-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.5,
@@ -16337,21 +18702,28 @@ onet_jobs = {
       "Speaking",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Sociology Teachers, Postsecondary",
-      "Philosophy and Religion Teachers, Postsecondary",
-      "Psychology Teachers, Postsecondary",
-      "Anthropology and Archeology Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Science Teachers, Postsecondary": {
     "onet_code": "25-1021.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.5,
@@ -16395,21 +18767,28 @@ onet_jobs = {
       "Speaking",
       "Instructing"
     ],
-    "similar_roles": [
-      "Nursing Instructors and Teachers, Postsecondary",
-      "Recreation and Fitness Studies Teachers, Postsecondary",
-      "Geography Teachers, Postsecondary",
-      "Chemistry Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mathematical Science Teachers, Postsecondary": {
     "onet_code": "25-1022.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.4,
@@ -16453,21 +18832,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "History Teachers, Postsecondary",
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Architecture Teachers, Postsecondary": {
     "onet_code": "25-1031.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.5,
@@ -16511,21 +18897,28 @@ onet_jobs = {
       "Speaking",
       "Instructing"
     ],
-    "similar_roles": [
-      "Geography Teachers, Postsecondary",
-      "Recreation and Fitness Studies Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary",
-      "Nursing Instructors and Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Engineering Teachers, Postsecondary": {
     "onet_code": "25-1032.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.4,
@@ -16569,21 +18962,28 @@ onet_jobs = {
       "Writing",
       "Instructing"
     ],
-    "similar_roles": [
-      "Chemistry Teachers, Postsecondary",
-      "Agricultural Sciences Teachers, Postsecondary",
-      "Geography Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Sciences Teachers, Postsecondary": {
     "onet_code": "25-1041.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.5,
@@ -16627,21 +19027,28 @@ onet_jobs = {
       "Speaking",
       "Instructing"
     ],
-    "similar_roles": [
-      "Chemistry Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary",
-      "Nursing Instructors and Teachers, Postsecondary",
-      "Engineering Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Biological Science Teachers, Postsecondary": {
     "onet_code": "25-1042.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.5,
@@ -16685,21 +19092,28 @@ onet_jobs = {
       "Speaking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "History Teachers, Postsecondary",
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Forestry and Conservation Science Teachers, Postsecondary": {
     "onet_code": "25-1043.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.5,
@@ -16743,21 +19157,28 @@ onet_jobs = {
       "Instructing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Health Specialties Teachers, Postsecondary",
-      "Agricultural Sciences Teachers, Postsecondary",
-      "Chemistry Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary": {
     "onet_code": "25-1051.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.5,
@@ -16801,21 +19222,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "History Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary",
-      "Environmental Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chemistry Teachers, Postsecondary": {
     "onet_code": "25-1052.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.5,
@@ -16859,21 +19287,28 @@ onet_jobs = {
       "Writing",
       "Instructing"
     ],
-    "similar_roles": [
-      "Agricultural Sciences Teachers, Postsecondary",
-      "Engineering Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary",
-      "Geography Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Environmental Science Teachers, Postsecondary": {
     "onet_code": "25-1053.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.5,
@@ -16917,21 +19352,28 @@ onet_jobs = {
       "Speaking",
       "Science"
     ],
-    "similar_roles": [
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "History Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physics Teachers, Postsecondary": {
     "onet_code": "25-1054.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.5,
@@ -16975,21 +19417,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "History Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Anthropology and Archeology Teachers, Postsecondary": {
     "onet_code": "25-1061.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.9,
@@ -17033,21 +19482,28 @@ onet_jobs = {
       "Learning Strategies",
       "Speaking"
     ],
-    "similar_roles": [
-      "Sociology Teachers, Postsecondary",
-      "Psychology Teachers, Postsecondary",
-      "Philosophy and Religion Teachers, Postsecondary",
-      "Business Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Area, Ethnic, and Cultural Studies Teachers, Postsecondary": {
     "onet_code": "25-1062.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.5,
@@ -17091,21 +19547,28 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "History Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary",
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "Architecture Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Economics Teachers, Postsecondary": {
     "onet_code": "25-1063.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.1,
@@ -17149,21 +19612,28 @@ onet_jobs = {
       "Instructing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-      "Career/Technical Education Teachers, Middle School",
-      "Special Education Teachers, Preschool",
-      "Art, Drama, and Music Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Geography Teachers, Postsecondary": {
     "onet_code": "25-1064.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.5,
@@ -17207,21 +19677,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Instructing"
     ],
-    "similar_roles": [
-      "Architecture Teachers, Postsecondary",
-      "Recreation and Fitness Studies Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary",
-      "Nursing Instructors and Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Political Science Teachers, Postsecondary": {
     "onet_code": "25-1065.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.5,
@@ -17265,21 +19742,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "History Teachers, Postsecondary",
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "Law Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Psychology Teachers, Postsecondary": {
     "onet_code": "25-1066.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.5,
@@ -17323,21 +19807,28 @@ onet_jobs = {
       "Speaking",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Sociology Teachers, Postsecondary",
-      "Anthropology and Archeology Teachers, Postsecondary",
-      "Philosophy and Religion Teachers, Postsecondary",
-      "Business Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sociology Teachers, Postsecondary": {
     "onet_code": "25-1067.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.4,
@@ -17381,21 +19872,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Psychology Teachers, Postsecondary",
-      "Philosophy and Religion Teachers, Postsecondary",
-      "Anthropology and Archeology Teachers, Postsecondary",
-      "Business Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Sciences Teachers, Postsecondary, All Other": {
     "onet_code": "25-1069.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "teaching": 3.5,
       "communication": 3.5,
@@ -17434,21 +19932,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Postsecondary Teachers, All Other",
-      "Special Education Teachers, All Other",
-      "Teachers and Instructors, All Other",
-      "Special Education Teachers, Kindergarten"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Health Specialties Teachers, Postsecondary": {
     "onet_code": "25-1071.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.5,
@@ -17492,21 +19997,28 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Library Science Teachers, Postsecondary",
-      "Education Teachers, Postsecondary",
-      "Law Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nursing Instructors and Teachers, Postsecondary": {
     "onet_code": "25-1072.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.5,
@@ -17550,21 +20062,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Computer Science Teachers, Postsecondary",
-      "Recreation and Fitness Studies Teachers, Postsecondary",
-      "Geography Teachers, Postsecondary",
-      "Agricultural Sciences Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Education Teachers, Postsecondary": {
     "onet_code": "25-1081.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.5,
@@ -17608,21 +20127,28 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Library Science Teachers, Postsecondary",
-      "Law Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary",
-      "Health Specialties Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Library Science Teachers, Postsecondary": {
     "onet_code": "25-1082.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.5,
@@ -17666,21 +20192,28 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Education Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary",
-      "Health Specialties Teachers, Postsecondary",
-      "Law Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Criminal Justice and Law Enforcement Teachers, Postsecondary": {
     "onet_code": "25-1111.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.4,
@@ -17724,21 +20257,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Career/Technical Education Teachers, Middle School",
-      "Special Education Teachers, Preschool",
-      "Law Teachers, Postsecondary",
-      "Family and Consumer Sciences Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Law Teachers, Postsecondary": {
     "onet_code": "25-1112.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.6,
@@ -17782,21 +20322,28 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Education Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary",
-      "Library Science Teachers, Postsecondary",
-      "Health Specialties Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Social Work Teachers, Postsecondary": {
     "onet_code": "25-1113.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.4,
@@ -17840,21 +20387,28 @@ onet_jobs = {
       "Active Learning",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Self-Enrichment Teachers",
-      "Family and Consumer Sciences Teachers, Postsecondary",
-      "Sociology Teachers, Postsecondary",
-      "Psychology Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Art, Drama, and Music Teachers, Postsecondary": {
     "onet_code": "25-1121.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.2,
@@ -17898,21 +20452,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Architecture Teachers, Postsecondary",
-      "Nursing Instructors and Teachers, Postsecondary",
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Middle School Teachers, Except Special and Career/Technical Education"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Communications Teachers, Postsecondary": {
     "onet_code": "25-1122.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.4,
@@ -17956,21 +20517,28 @@ onet_jobs = {
       "Writing",
       "Instructing"
     ],
-    "similar_roles": [
-      "Recreation and Fitness Studies Teachers, Postsecondary",
-      "Architecture Teachers, Postsecondary",
-      "Geography Teachers, Postsecondary",
-      "Nursing Instructors and Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "English Language and Literature Teachers, Postsecondary": {
     "onet_code": "25-1123.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.8,
@@ -18014,21 +20582,28 @@ onet_jobs = {
       "Writing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Philosophy and Religion Teachers, Postsecondary",
-      "Sociology Teachers, Postsecondary",
-      "Psychology Teachers, Postsecondary",
-      "Business Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Foreign Language and Literature Teachers, Postsecondary": {
     "onet_code": "25-1124.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.4,
@@ -18072,21 +20647,28 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Education Teachers, Postsecondary",
-      "Law Teachers, Postsecondary",
-      "Library Science Teachers, Postsecondary",
-      "Health Specialties Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "History Teachers, Postsecondary": {
     "onet_code": "25-1125.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.5,
@@ -18130,21 +20712,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-      "Political Science Teachers, Postsecondary",
-      "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-      "Education Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Philosophy and Religion Teachers, Postsecondary": {
     "onet_code": "25-1126.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.6,
@@ -18188,21 +20777,28 @@ onet_jobs = {
       "Speaking",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Sociology Teachers, Postsecondary",
-      "Business Teachers, Postsecondary",
-      "Psychology Teachers, Postsecondary",
-      "Anthropology and Archeology Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Family and Consumer Sciences Teachers, Postsecondary": {
     "onet_code": "25-1192.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.1,
@@ -18246,21 +20842,28 @@ onet_jobs = {
       "Active Listening",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-      "Career/Technical Education Teachers, Middle School",
-      "Special Education Teachers, Middle School",
-      "Special Education Teachers, Preschool"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Recreation and Fitness Studies Teachers, Postsecondary": {
     "onet_code": "25-1193.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.1,
@@ -18304,21 +20907,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Geography Teachers, Postsecondary",
-      "Architecture Teachers, Postsecondary",
-      "Computer Science Teachers, Postsecondary",
-      "Nursing Instructors and Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Career/Technical Education Teachers, Postsecondary": {
     "onet_code": "25-1194.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.9,
@@ -18362,21 +20972,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Health Specialties Teachers, Postsecondary",
-      "Library Science Teachers, Postsecondary",
-      "Education Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Postsecondary Teachers, All Other": {
     "onet_code": "25-1199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "teaching": 3.5,
       "communication": 3.5,
@@ -18415,21 +21032,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Social Sciences Teachers, Postsecondary, All Other",
-      "Special Education Teachers, All Other",
-      "Teachers and Instructors, All Other",
-      "Special Education Teachers, Kindergarten"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Preschool Teachers, Except Special Education": {
     "onet_code": "25-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -18473,21 +21097,28 @@ onet_jobs = {
       "Instructing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Elementary School Teachers, Except Special Education",
-      "Middle School Teachers, Except Special and Career/Technical Education",
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Family and Consumer Sciences Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Kindergarten Teachers, Except Special Education": {
     "onet_code": "25-2012.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -18531,21 +21162,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Adapted Physical Education Specialists",
-      "Preschool Teachers, Except Special Education",
-      "Forestry and Conservation Science Teachers, Postsecondary",
-      "Economics Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Elementary School Teachers, Except Special Education": {
     "onet_code": "25-2021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.9,
@@ -18589,21 +21227,28 @@ onet_jobs = {
       "Instructing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Middle School Teachers, Except Special and Career/Technical Education",
-      "Preschool Teachers, Except Special Education",
-      "Special Education Teachers, Secondary School"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Middle School Teachers, Except Special and Career/Technical Education": {
     "onet_code": "25-2022.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.9,
@@ -18647,21 +21292,28 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Special Education Teachers, Secondary School",
-      "Elementary School Teachers, Except Special Education",
-      "Self-Enrichment Teachers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Career/Technical Education Teachers, Middle School": {
     "onet_code": "25-2023.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.8,
@@ -18705,21 +21357,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Special Education Teachers, Preschool",
-      "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-      "Family and Consumer Sciences Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Secondary School Teachers, Except Special and Career/Technical Education": {
     "onet_code": "25-2031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.9,
@@ -18763,21 +21422,28 @@ onet_jobs = {
       "Instructing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Middle School Teachers, Except Special and Career/Technical Education",
-      "Elementary School Teachers, Except Special Education",
-      "Special Education Teachers, Secondary School",
-      "Self-Enrichment Teachers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Career/Technical Education Teachers, Secondary School": {
     "onet_code": "25-2032.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4,
@@ -18821,21 +21487,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Special Education Teachers, Secondary School",
-      "Art, Drama, and Music Teachers, Postsecondary",
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Middle School Teachers, Except Special and Career/Technical Education"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Preschool": {
     "onet_code": "25-2051.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4,
@@ -18879,21 +21552,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Career/Technical Education Teachers, Middle School",
-      "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-      "Foreign Language and Literature Teachers, Postsecondary",
-      "Family and Consumer Sciences Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Kindergarten": {
     "onet_code": "25-2055.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "teaching": 3.5,
       "communication": 3.5,
@@ -18932,21 +21612,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Social Sciences Teachers, Postsecondary, All Other",
-      "Postsecondary Teachers, All Other",
-      "Special Education Teachers, All Other",
-      "Teachers and Instructors, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Special Education Teachers, Elementary School": {
     "onet_code": "25-2056.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4,
@@ -18989,21 +21676,28 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Family and Consumer Sciences Teachers, Postsecondary",
-      "Preschool Teachers, Except Special Education",
-      "Teaching Assistants, Special Education",
-      "Elementary School Teachers, Except Special Education"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Middle School": {
     "onet_code": "25-2057.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -19047,21 +21741,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Family and Consumer Sciences Teachers, Postsecondary",
-      "Special Education Teachers, Secondary School",
-      "Substitute Teachers, Short-Term",
-      "Special Education Teachers, Preschool"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, Secondary School": {
     "onet_code": "25-2058.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -19105,21 +21806,28 @@ onet_jobs = {
       "Instructing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Middle School Teachers, Except Special and Career/Technical Education",
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Career/Technical Education Teachers, Secondary School",
-      "Special Education Teachers, Middle School"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Education Teachers, All Other": {
     "onet_code": "25-2059.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "teaching": 3.5,
       "communication": 3.5,
@@ -19158,21 +21866,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Social Sciences Teachers, Postsecondary, All Other",
-      "Postsecondary Teachers, All Other",
-      "Teachers and Instructors, All Other",
-      "Special Education Teachers, Kindergarten"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Adapted Physical Education Specialists": {
     "onet_code": "25-2059.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.9,
@@ -19216,19 +21931,26 @@ onet_jobs = {
       "Instructing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Kindergarten Teachers, Except Special Education",
-      "Educational, Guidance, and Career Counselors and Advisors",
-      "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",
-      "Mental Health and Substance Abuse Social Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors": {
     "onet_code": "25-3011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -19272,20 +21994,27 @@ onet_jobs = {
       "Instructing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Art, Drama, and Music Teachers, Postsecondary",
-      "Middle School Teachers, Except Special and Career/Technical Education",
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Communications Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Self-Enrichment Teachers": {
     "onet_code": "25-3021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -19329,21 +22058,28 @@ onet_jobs = {
       "Speaking",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Middle School Teachers, Except Special and Career/Technical Education",
-      "Secondary School Teachers, Except Special and Career/Technical Education",
-      "Social Work Teachers, Postsecondary",
-      "Family and Consumer Sciences Teachers, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Substitute Teachers, Short-Term": {
     "onet_code": "25-3031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -19386,21 +22122,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Career/Technical Education Teachers, Middle School",
-      "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-      "Special Education Teachers, Middle School",
-      "Special Education Teachers, Preschool"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Tutors": {
     "onet_code": "25-3041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.9,
@@ -19441,18 +22184,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Librarians and Media Collections Specialists",
-      "Dermatologists",
-      "Instructional Coordinators",
-      "Special Effects Artists and Animators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Teachers and Instructors, All Other": {
     "onet_code": "25-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "teaching": 3.5,
       "communication": 3.5,
@@ -19491,21 +22241,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Social Sciences Teachers, Postsecondary, All Other",
-      "Postsecondary Teachers, All Other",
-      "Special Education Teachers, All Other",
-      "Special Education Teachers, Kindergarten"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "education",
       "learning",
       "instruction",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Archivists": {
     "onet_code": "25-4011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.1,
@@ -19546,18 +22303,25 @@ onet_jobs = {
       "Writing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Correspondence Clerks",
-      "Orthodontists",
-      "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
-      "Social Science Research Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Curators": {
     "onet_code": "25-4012.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 4.3,
@@ -19598,19 +22362,26 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Equal Opportunity Representatives and Officers",
-      "Radiologists",
-      "Transportation Planners",
-      "Electrical and Electronics Drafters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Museum Technicians and Conservators": {
     "onet_code": "25-4013.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.7,
@@ -19651,18 +22422,25 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
-      "Environmental Science and Protection Technicians, Including Health",
-      "Conservation Scientists",
-      "Word Processors and Typists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Librarians and Media Collections Specialists": {
     "onet_code": "25-4022.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -19703,20 +22481,27 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Endoscopy Technicians",
-      "Tax Preparers",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Appraisers and Assessors of Real Estate"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Library Technicians": {
     "onet_code": "25-4031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -19757,18 +22542,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Compliance Officers",
-      "Magnetic Resonance Imaging Technologists",
-      "Police Identification and Records Officers",
-      "Interpreters and Translators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Farm and Home Management Educators": {
     "onet_code": "25-9021.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.3,
@@ -19809,20 +22601,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Podiatrists",
-      "Orthotists and Prosthetists",
-      "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
-      "Conservation Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Instructional Coordinators": {
     "onet_code": "25-9031.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.3,
@@ -19863,18 +22662,25 @@ onet_jobs = {
       "Writing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
-      "Food Science Technicians",
-      "Document Management Specialists",
-      "Equal Opportunity Representatives and Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education": {
     "onet_code": "25-9042.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -19917,18 +22723,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Teaching Assistants, Special Education",
-      "Educational, Guidance, and Career Counselors and Advisors",
-      "Substitute Teachers, Short-Term",
-      "Adapted Physical Education Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Teaching Assistants, Special Education": {
     "onet_code": "25-9043.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -19971,18 +22784,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",
-      "Career/Technical Education Teachers, Middle School",
-      "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-      "Special Education Teachers, Elementary School"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Teaching Assistants, Postsecondary": {
     "onet_code": "25-9044.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.7,
@@ -20023,21 +22843,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Legal Secretaries and Administrative Assistants",
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Payroll and Timekeeping Clerks",
-      "Set and Exhibit Designers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Teaching Assistants, All Other": {
     "onet_code": "25-9049.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 4,
@@ -20076,21 +22903,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Educational Instruction and Library Workers, All Other",
-      "Counselors, All Other",
-      "Social Workers, All Other",
-      "Community and Social Service Specialists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Educational Instruction and Library Workers, All Other": {
     "onet_code": "25-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 4,
@@ -20129,21 +22963,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Teaching Assistants, All Other",
-      "Counselors, All Other",
-      "Social Workers, All Other",
-      "Community and Social Service Specialists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Art Directors": {
     "onet_code": "27-1011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -20186,20 +23027,27 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Labor Relations Specialists",
-      "Insurance Appraisers, Auto Damage",
-      "Public Relations Specialists",
-      "Producers and Directors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Craft Artists": {
     "onet_code": "27-1012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -20240,18 +23088,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Upholsterers",
-      "Geographic Information Systems Technologists and Technicians",
-      "Web Administrators",
-      "Film and Video Editors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Fine Artists, Including Painters, Sculptors, and Illustrators": {
     "onet_code": "27-1013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -20292,18 +23147,25 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Camera Operators, Television, Video, and Film",
-      "Neurodiagnostic Technologists",
-      "Forest and Conservation Technicians",
-      "Computer Network Support Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Special Effects Artists and Animators": {
     "onet_code": "27-1014.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.5,
@@ -20344,19 +23206,26 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Interior Designers",
-      "Set and Exhibit Designers",
-      "Librarians and Media Collections Specialists",
-      "Precision Agriculture Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Artists and Related Workers, All Other": {
     "onet_code": "27-1019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -20395,21 +23264,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Designers, All Other",
-      "Entertainers and Performers, Sports and Related Workers, All Other",
-      "Media and Communication Workers, All Other",
-      "Media and Communication Equipment Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Commercial and Industrial Designers": {
     "onet_code": "27-1021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.8,
@@ -20450,19 +23326,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Physical Therapist Assistants",
-      "Park Naturalists",
-      "Broadcast Announcers and Radio Disc Jockeys",
-      "Police Identification and Records Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fashion Designers": {
     "onet_code": "27-1022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -20503,18 +23386,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Merchandise Displayers and Window Trimmers",
-      "Floral Designers",
-      "Jewelers and Precious Stone and Metal Workers",
-      "Umpires, Referees, and Other Sports Officials"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Floral Designers": {
     "onet_code": "27-1023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -20555,18 +23445,25 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Postal Service Mail Carriers",
-      "Animal Control Workers",
-      "Dental Hygienists",
-      "Hairdressers, Hairstylists, and Cosmetologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Graphic Designers": {
     "onet_code": "27-1024.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -20607,18 +23504,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Cargo and Freight Agents",
-      "Postal Service Clerks",
-      "Broadcast Announcers and Radio Disc Jockeys",
-      "Floral Designers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Interior Designers": {
     "onet_code": "27-1025.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.9,
@@ -20659,18 +23563,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Tax Preparers",
-      "Special Effects Artists and Animators",
-      "Librarians and Media Collections Specialists",
-      "Set and Exhibit Designers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Merchandise Displayers and Window Trimmers": {
     "onet_code": "27-1026.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -20711,18 +23622,25 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Floral Designers",
-      "Fashion Designers",
-      "Jewelers and Precious Stone and Metal Workers",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Set and Exhibit Designers": {
     "onet_code": "27-1027.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -20763,21 +23681,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Teaching Assistants, Postsecondary",
-      "Butchers and Meat Cutters",
-      "Legal Secretaries and Administrative Assistants",
-      "Human Resources Assistants, Except Payroll and Timekeeping"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Designers, All Other": {
     "onet_code": "27-1029.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -20816,21 +23741,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Artists and Related Workers, All Other",
-      "Entertainers and Performers, Sports and Related Workers, All Other",
-      "Media and Communication Workers, All Other",
-      "Media and Communication Equipment Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Actors": {
     "onet_code": "27-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -20871,21 +23803,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Makeup Artists, Theatrical and Performance",
-      "Costume Attendants",
-      "Talent Directors",
-      "Real Estate Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Producers and Directors": {
     "onet_code": "27-2012.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 4,
@@ -20928,20 +23867,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Music Directors and Composers",
-      "Art Directors",
-      "Choreographers",
-      "First-Line Supervisors of Construction Trades and Extraction Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Media Programming Directors": {
     "onet_code": "27-2012.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -20984,20 +23930,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Office and Administrative Support Workers",
-      "Graphic Designers",
-      "Talent Directors",
-      "First-Line Supervisors of Food Preparation and Serving Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Talent Directors": {
     "onet_code": "27-2012.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -21040,21 +23993,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Directors, Religious Activities and Education",
-      "Makeup Artists, Theatrical and Performance",
-      "Costume Attendants",
-      "Real Estate Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Media Technical Directors/Managers": {
     "onet_code": "27-2012.05",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -21109,10 +24069,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Athletes and Sports Competitors": {
     "onet_code": "27-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -21153,21 +24125,28 @@ onet_jobs = {
       "Critical Thinking",
       "Coordination"
     ],
-    "similar_roles": [
-      "Segmental Pavers",
-      "Fence Erectors",
-      "Umpires, Referees, and Other Sports Officials",
-      "Farm Labor Contractors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Coaches and Scouts": {
     "onet_code": "27-2022.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.9,
@@ -21208,19 +24187,26 @@ onet_jobs = {
       "Instructing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Training and Development Specialists",
-      "First-Line Supervisors of Farming, Fishing, and Forestry Workers",
-      "Flight Attendants",
-      "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Umpires, Referees, and Other Sports Officials": {
     "onet_code": "27-2023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -21261,21 +24247,28 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Buyers and Purchasing Agents, Farm Products",
-      "Transit and Railroad Police",
-      "Prepress Technicians and Workers",
-      "Helpers--Electricians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Dancers": {
     "onet_code": "27-2031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -21316,18 +24309,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Farm Labor Contractors",
-      "Helpers--Carpenters",
-      "Construction Laborers",
-      "Camera Operators, Television, Video, and Film"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Choreographers": {
     "onet_code": "27-2032.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -21368,19 +24368,26 @@ onet_jobs = {
       "Instructing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Dancers",
-      "Producers and Directors",
-      "Camera Operators, Television, Video, and Film",
-      "Tutors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Music Directors and Composers": {
     "onet_code": "27-2041.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.5,
@@ -21423,21 +24430,28 @@ onet_jobs = {
       "Coordination",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Athletes and Sports Competitors",
-      "Roofers",
-      "Film and Video Editors",
-      "Judges, Magistrate Judges, and Magistrates"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Musicians and Singers": {
     "onet_code": "27-2042.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -21478,21 +24492,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Photographers",
-      "Massage Therapists",
-      "Prosthodontists",
-      "Customs and Border Protection Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Disc Jockeys, Except Radio": {
     "onet_code": "27-2091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -21531,18 +24552,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Taxi Drivers",
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
-      "First-Line Supervisors of Passenger Attendants",
-      "Artists and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Entertainers and Performers, Sports and Related Workers, All Other": {
     "onet_code": "27-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -21581,21 +24609,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Artists and Related Workers, All Other",
-      "Designers, All Other",
-      "Media and Communication Workers, All Other",
-      "Media and Communication Equipment Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Broadcast Announcers and Radio Disc Jockeys": {
     "onet_code": "27-3011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -21636,18 +24671,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Fitness and Wellness Coordinators",
-      "Park Naturalists",
-      "Customs Brokers",
-      "Eligibility Interviewers, Government Programs"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "News Analysts, Reporters, and Journalists": {
     "onet_code": "27-3023.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 4,
@@ -21690,18 +24732,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Climate Change Policy Analysts",
-      "Chief Sustainability Officers",
-      "Sustainability Specialists",
-      "Geographers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Public Relations Specialists": {
     "onet_code": "27-3031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 4,
@@ -21742,21 +24791,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Recreation Workers",
-      "Interviewers, Except Eligibility and Loan",
-      "New Accounts Clerks",
-      "Public Safety Telecommunicators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Editors": {
     "onet_code": "27-3041.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 4.8,
@@ -21797,19 +24853,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Writers and Authors",
-      "Technical Writers",
-      "Poets, Lyricists and Creative Writers",
-      "Proofreaders and Copy Markers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Technical Writers": {
     "onet_code": "27-3042.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 4.7,
@@ -21850,20 +24913,27 @@ onet_jobs = {
       "Writing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Editors",
-      "Writers and Authors",
-      "Proofreaders and Copy Markers",
-      "Poets, Lyricists and Creative Writers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Writers and Authors": {
     "onet_code": "27-3043.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 4.5,
@@ -21904,19 +24974,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Editors",
-      "Technical Writers",
-      "Poets, Lyricists and Creative Writers",
-      "Proofreaders and Copy Markers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Poets, Lyricists and Creative Writers": {
     "onet_code": "27-3043.05",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4.7,
@@ -21957,21 +25034,28 @@ onet_jobs = {
       "Writing",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Proofreaders and Copy Markers",
-      "Editors",
-      "Writers and Authors",
-      "Technical Writers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Interpreters and Translators": {
     "onet_code": "27-3091.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.9,
@@ -22012,19 +25096,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Police Identification and Records Officers",
-      "Park Naturalists",
-      "Broadcast Announcers and Radio Disc Jockeys",
-      "Speech-Language Pathology Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Court Reporters and Simultaneous Captioners": {
     "onet_code": "27-3092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3.4,
@@ -22065,21 +25156,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Writing"
     ],
-    "similar_roles": [
-      "Proofreaders and Copy Markers",
-      "Word Processors and Typists",
-      "Correspondence Clerks",
-      "Teaching Assistants, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Media and Communication Workers, All Other": {
     "onet_code": "27-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -22118,21 +25216,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Artists and Related Workers, All Other",
-      "Designers, All Other",
-      "Entertainers and Performers, Sports and Related Workers, All Other",
-      "Media and Communication Equipment Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Audio and Video Technicians": {
     "onet_code": "27-4011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.3,
@@ -22173,18 +25278,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Explosives Workers, Ordnance Handling Experts, and Blasters",
-      "Architects, Except Landscape and Naval",
-      "Anesthesiologists",
-      "Agricultural Inspectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Broadcast Technicians": {
     "onet_code": "27-4012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -22225,20 +25337,27 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Electrical and Electronics Drafters",
-      "Fish and Game Wardens",
-      "Computer Network Support Specialists",
-      "Forest and Conservation Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sound Engineering Technicians": {
     "onet_code": "27-4014.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -22281,21 +25400,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Jewelers and Precious Stone and Metal Workers",
-      "Film and Video Editors",
-      "Makeup Artists, Theatrical and Performance",
-      "Glaziers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Lighting Technicians": {
     "onet_code": "27-4015.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -22334,21 +25460,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Aircraft Service Attendants",
-      "Crematory Operators",
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Photographers": {
     "onet_code": "27-4021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -22389,21 +25522,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Musicians and Singers",
-      "Massage Therapists",
-      "Prosthodontists",
-      "Customs and Border Protection Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Camera Operators, Television, Video, and Film": {
     "onet_code": "27-4031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -22444,18 +25584,25 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Forest and Conservation Technicians",
-      "Electrical and Electronics Drafters",
-      "Neurodiagnostic Technologists",
-      "Computer Network Support Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Film and Video Editors": {
     "onet_code": "27-4032.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.4,
@@ -22496,21 +25643,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Desktop Publishers",
-      "Private Detectives and Investigators",
-      "Appraisers of Personal and Business Property",
-      "Power Distributors and Dispatchers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Media and Communication Equipment Workers, All Other": {
     "onet_code": "27-4099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -22549,21 +25703,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Artists and Related Workers, All Other",
-      "Designers, All Other",
-      "Entertainers and Performers, Sports and Related Workers, All Other",
-      "Media and Communication Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Chiropractors": {
     "onet_code": "29-1011.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4,
@@ -22604,18 +25765,25 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Fish and Game Wardens",
-      "Retail Loss Prevention Specialists",
-      "Physician Assistants",
-      "Optometrists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Dentists, General": {
     "onet_code": "29-1021.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.1,
@@ -22656,18 +25824,25 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Neurologists",
-      "Hospitalists",
-      "Obstetricians and Gynecologists",
-      "Oral and Maxillofacial Surgeons"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Oral and Maxillofacial Surgeons": {
     "onet_code": "29-1022.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.1,
@@ -22708,21 +25883,28 @@ onet_jobs = {
       "Active Learning",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Dentists, General",
-      "Urologists",
-      "Optometrists",
-      "Sports Medicine Physicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthodontists": {
     "onet_code": "29-1023.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 3.9,
@@ -22763,20 +25945,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Museum Technicians and Conservators",
-      "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
-      "Environmental Science and Protection Technicians, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Prosthodontists": {
     "onet_code": "29-1024.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.6,
@@ -22817,21 +26006,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Massage Therapists",
-      "Customs and Border Protection Officers",
-      "Photographers",
-      "Musicians and Singers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Dentists, All Other Specialists": {
     "onet_code": "29-1029.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -22870,21 +26066,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Therapists, All Other",
-      "Physicians, All Other",
-      "Surgeons, All Other",
-      "Healthcare Diagnosing or Treating Practitioners, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Dietitians and Nutritionists": {
     "onet_code": "29-1031.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -22925,21 +26128,28 @@ onet_jobs = {
       "Social Perceptiveness",
       "Speaking"
     ],
-    "similar_roles": [
-      "Neuropsychologists",
-      "Geographers",
-      "Clergy",
-      "Speech-Language Pathologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Optometrists": {
     "onet_code": "29-1041.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.3,
@@ -22980,21 +26190,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Urologists",
-      "Sports Medicine Physicians",
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Pharmacists": {
     "onet_code": "29-1051.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -23035,19 +26252,26 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Anesthesiologists",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters",
-      "Obstetricians and Gynecologists",
-      "Nuclear Monitoring Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physician Assistants": {
     "onet_code": "29-1071.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.2,
@@ -23088,21 +26312,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Accountants and Auditors",
-      "Chiropractors",
-      "Dermatologists",
-      "Neurodiagnostic Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Anesthesiologist Assistants": {
     "onet_code": "29-1071.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.7,
@@ -23143,20 +26374,27 @@ onet_jobs = {
       "Active Listening",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Surgical Technologists",
-      "Animal Caretakers",
-      "Airfield Operations Specialists",
-      "Occupational Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Podiatrists": {
     "onet_code": "29-1081.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.3,
@@ -23197,21 +26435,28 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Orthotists and Prosthetists",
-      "Farm and Home Management Educators",
-      "Court Reporters and Simultaneous Captioners",
-      "Sociologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Occupational Therapists": {
     "onet_code": "29-1122.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4,
@@ -23252,19 +26497,26 @@ onet_jobs = {
       "Service Orientation",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Anesthesiologist Assistants",
-      "Naturopathic Physicians",
-      "Healthcare Social Workers",
-      "Exercise Physiologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists": {
     "onet_code": "29-1122.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.9,
@@ -23305,21 +26557,28 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Orthoptists",
-      "Orthodontists",
-      "Archivists",
-      "Conservation Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Physical Therapists": {
     "onet_code": "29-1123.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.1,
@@ -23360,19 +26619,26 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Speech-Language Pathology Assistants",
-      "Park Naturalists",
-      "Exercise Physiologists",
-      "Physical Therapist Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Radiation Therapists": {
     "onet_code": "29-1124.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.5,
@@ -23413,18 +26679,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Title Examiners, Abstractors, and Searchers",
-      "Diagnostic Medical Sonographers",
-      "Precision Agriculture Technicians",
-      "Neurodiagnostic Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Recreational Therapists": {
     "onet_code": "29-1125.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -23465,21 +26738,28 @@ onet_jobs = {
       "Service Orientation",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Home Health Aides",
-      "Healthcare Social Workers",
-      "Nursing Assistants",
-      "Bartenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Respiratory Therapists": {
     "onet_code": "29-1126.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.6,
@@ -23520,19 +26800,26 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Fire Inspectors and Investigators",
-      "Cardiovascular Technologists and Technicians",
-      "Chiropractors",
-      "Political Scientists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Speech-Language Pathologists": {
     "onet_code": "29-1127.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.4,
@@ -23573,21 +26860,28 @@ onet_jobs = {
       "Speaking",
       "Active Learning"
     ],
-    "similar_roles": [
-      "Farm and Home Management Educators",
-      "Dietitians and Nutritionists",
-      "Geographers",
-      "Anthropologists and Archeologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Exercise Physiologists": {
     "onet_code": "29-1128.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4.1,
@@ -23628,19 +26922,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Landscape Architects",
-      "Physical Therapists",
-      "Occupational Therapy Assistants",
-      "Dental Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Therapists, All Other": {
     "onet_code": "29-1129.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -23679,21 +26980,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Physicians, All Other",
-      "Surgeons, All Other",
-      "Healthcare Diagnosing or Treating Practitioners, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Art Therapists": {
     "onet_code": "29-1129.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.9,
@@ -23734,18 +27042,25 @@ onet_jobs = {
       "Speaking",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Hotel, Motel, and Resort Desk Clerks",
-      "Barbers",
-      "Concierges",
-      "Psychiatric Aides"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Music Therapists": {
     "onet_code": "29-1129.02",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.8,
@@ -23786,19 +27101,26 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Mental Health and Substance Abuse Social Workers",
-      "School Psychologists",
-      "Clinical and Counseling Psychologists",
-      "Clinical Neuropsychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Veterinarians": {
     "onet_code": "29-1131.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.2,
@@ -23839,20 +27161,27 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Dental Assistants",
-      "Cardiovascular Technologists and Technicians",
-      "Respiratory Therapists",
-      "Exercise Physiologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Registered Nurses": {
     "onet_code": "29-1141.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 4,
@@ -23896,21 +27225,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Nurse Practitioners",
-      "Advanced Practice Psychiatric Nurses",
-      "Medical Assistants",
-      "Licensed Practical and Licensed Vocational Nurses"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Acute Care Nurses": {
     "onet_code": "29-1141.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -23954,21 +27290,28 @@ onet_jobs = {
       "Active Learning",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Critical Care Nurses",
-      "Clinical Nurse Specialists",
-      "Nurse Practitioners",
-      "Advanced Practice Psychiatric Nurses"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Advanced Practice Psychiatric Nurses": {
     "onet_code": "29-1141.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.1,
@@ -24012,21 +27355,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Nurse Practitioners",
-      "Registered Nurses",
-      "Licensed Practical and Licensed Vocational Nurses",
-      "Nurse Midwives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Critical Care Nurses": {
     "onet_code": "29-1141.03",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 3.9,
@@ -24070,21 +27420,28 @@ onet_jobs = {
       "Social Perceptiveness",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Acute Care Nurses",
-      "Clinical Nurse Specialists",
-      "Nurse Practitioners",
-      "Nurse Midwives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Clinical Nurse Specialists": {
     "onet_code": "29-1141.04",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.1,
@@ -24128,21 +27485,28 @@ onet_jobs = {
       "Active Learning",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Critical Care Nurses",
-      "Acute Care Nurses",
-      "Nurse Midwives",
-      "Nurse Practitioners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nurse Anesthetists": {
     "onet_code": "29-1151.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 3.8,
@@ -24186,21 +27550,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Nurse Midwives",
-      "Critical Care Nurses",
-      "Clinical Nurse Specialists",
-      "Computer Network Architects"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nurse Midwives": {
     "onet_code": "29-1161.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4,
@@ -24244,21 +27615,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Nurse Practitioners",
-      "Advanced Practice Psychiatric Nurses",
-      "Nurse Anesthetists",
-      "Critical Care Nurses"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Nurse Practitioners": {
     "onet_code": "29-1171.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.3,
@@ -24302,21 +27680,28 @@ onet_jobs = {
       "Social Perceptiveness",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Advanced Practice Psychiatric Nurses",
-      "Registered Nurses",
-      "Licensed Practical and Licensed Vocational Nurses",
-      "Nurse Midwives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Audiologists": {
     "onet_code": "29-1181.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.4,
@@ -24357,20 +27742,27 @@ onet_jobs = {
       "Social Perceptiveness",
       "Speaking"
     ],
-    "similar_roles": [
-      "Police and Sheriff's Patrol Officers",
-      "Physical Therapists",
-      "Speech-Language Pathology Assistants",
-      "Social and Human Service Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Anesthesiologists": {
     "onet_code": "29-1211.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.2,
@@ -24411,19 +27803,26 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Pharmacists",
-      "Audio and Video Technicians",
-      "Financial Examiners",
-      "Neurologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cardiologists": {
     "onet_code": "29-1212.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -24462,21 +27861,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Therapists, All Other",
-      "Physicians, All Other",
-      "Surgeons, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Dermatologists": {
     "onet_code": "29-1213.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.1,
@@ -24517,18 +27923,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Occupational Health and Safety Technicians",
-      "Physician Assistants",
-      "Optometrists",
-      "Urologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Emergency Medicine Physicians": {
     "onet_code": "29-1214.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.4,
@@ -24568,19 +27981,26 @@ onet_jobs = {
       "Social Perceptiveness",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Physical Medicine and Rehabilitation Physicians",
-      "Chiropractors",
-      "Fish and Game Wardens",
-      "Broadcast Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Family Medicine Physicians": {
     "onet_code": "29-1215.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.4,
@@ -24621,21 +28041,28 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Optometrists",
-      "Urologists",
-      "Sports Medicine Physicians",
-      "Nuclear Medicine Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "General Internal Medicine Physicians": {
     "onet_code": "29-1216.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.3,
@@ -24676,18 +28103,25 @@ onet_jobs = {
       "Active Listening",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Pediatricians, General",
-      "Obstetricians and Gynecologists",
-      "Family Medicine Physicians",
-      "Ophthalmologists, Except Pediatric"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Neurologists": {
     "onet_code": "29-1217.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.4,
@@ -24728,18 +28162,25 @@ onet_jobs = {
       "Active Learning",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Dentists, General",
-      "Anesthesiologists",
-      "Audio and Video Technicians",
-      "Architects, Except Landscape and Naval"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Obstetricians and Gynecologists": {
     "onet_code": "29-1218.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.3,
@@ -24780,18 +28221,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "General Internal Medicine Physicians",
-      "Ophthalmologists, Except Pediatric",
-      "Optometrists",
-      "Chiropractors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Pediatricians, General": {
     "onet_code": "29-1221.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.3,
@@ -24832,19 +28280,26 @@ onet_jobs = {
       "Active Listening",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "General Internal Medicine Physicians",
-      "Family Medicine Physicians",
-      "Obstetricians and Gynecologists",
-      "Dermatologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physicians, Pathologists": {
     "onet_code": "29-1222.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.6,
@@ -24885,18 +28340,25 @@ onet_jobs = {
       "Active Learning",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Biochemists and Biophysicists",
-      "Zoologists and Wildlife Biologists",
-      "Allergists and Immunologists",
-      "Food Science Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Psychiatrists": {
     "onet_code": "29-1223.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.4,
@@ -24937,18 +28399,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Mental Health and Substance Abuse Social Workers",
-      "Substance Abuse and Behavioral Disorder Counselors",
-      "School Psychologists",
-      "Clinical and Counseling Psychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Radiologists": {
     "onet_code": "29-1224.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.5,
@@ -24989,19 +28458,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Curators",
-      "Food Scientists and Technologists",
-      "Telecommunications Engineering Specialists",
-      "Transportation Planners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physicians, All Other": {
     "onet_code": "29-1229.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -25040,21 +28516,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Therapists, All Other",
-      "Surgeons, All Other",
-      "Healthcare Diagnosing or Treating Practitioners, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Allergists and Immunologists": {
     "onet_code": "29-1229.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.3,
       "writing": 4.4,
@@ -25095,21 +28578,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "Family Medicine Physicians",
-      "Podiatrists",
-      "Oral and Maxillofacial Surgeons",
-      "Orthotists and Prosthetists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hospitalists": {
     "onet_code": "29-1229.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.4,
@@ -25150,19 +28640,26 @@ onet_jobs = {
       "Social Perceptiveness",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Dentists, General",
-      "Neurologists",
-      "Clinical Nurse Specialists",
-      "Substance Abuse and Behavioral Disorder Counselors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Urologists": {
     "onet_code": "29-1229.03",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.1,
       "writing": 4.4,
@@ -25203,21 +28700,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Optometrists",
-      "Sports Medicine Physicians",
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physical Medicine and Rehabilitation Physicians": {
     "onet_code": "29-1229.04",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -25258,20 +28762,27 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Emergency Medicine Physicians",
-      "Chiropractors",
-      "Obstetricians and Gynecologists",
-      "Naturopathic Physicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Preventive Medicine Physicians": {
     "onet_code": "29-1229.05",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.4,
       "writing": 4.6,
@@ -25312,18 +28823,25 @@ onet_jobs = {
       "Complex Problem Solving",
       "Judgment and Decision Making"
     ],
-    "similar_roles": [
-      "General Internal Medicine Physicians",
-      "Architects, Except Landscape and Naval",
-      "Pediatricians, General",
-      "Obstetricians and Gynecologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sports Medicine Physicians": {
     "onet_code": "29-1229.06",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4,
       "writing": 4.2,
@@ -25364,21 +28882,28 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Urologists",
-      "Optometrists",
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Ophthalmologists, Except Pediatric": {
     "onet_code": "29-1241.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 4.2,
       "writing": 4.3,
@@ -25419,18 +28944,25 @@ onet_jobs = {
       "Active Listening",
       "Instructing"
     ],
-    "similar_roles": [
-      "Obstetricians and Gynecologists",
-      "General Internal Medicine Physicians",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters",
-      "Pediatricians, General"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthopedic Surgeons, Except Pediatric": {
     "onet_code": "29-1242.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -25469,19 +29001,26 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Pediatric Surgeons",
-      "Taxi Drivers",
-      "Cardiologists",
-      "Paramedics"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Pediatric Surgeons": {
     "onet_code": "29-1243.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -25520,20 +29059,27 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Orthopedic Surgeons, Except Pediatric",
-      "Cardiologists",
-      "Paramedics",
-      "Taxi Drivers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Surgeons, All Other": {
     "onet_code": "29-1249.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -25572,21 +29118,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Therapists, All Other",
-      "Physicians, All Other",
-      "Healthcare Diagnosing or Treating Practitioners, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Acupuncturists": {
     "onet_code": "29-1291.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.5,
@@ -25627,18 +29180,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Physical Therapists",
-      "Exercise Physiologists",
-      "Physical Therapist Assistants",
-      "Cardiovascular Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Dental Hygienists": {
     "onet_code": "29-1292.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.2,
@@ -25679,18 +29239,25 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Animal Control Workers",
-      "Postal Service Mail Carriers",
-      "Floral Designers",
-      "Pesticide Handlers, Sprayers, and Applicators, Vegetation"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Healthcare Diagnosing or Treating Practitioners, All Other": {
     "onet_code": "29-1299.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -25729,21 +29296,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Therapists, All Other",
-      "Physicians, All Other",
-      "Surgeons, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Naturopathic Physicians": {
     "onet_code": "29-1299.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -25784,19 +29358,26 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "School Psychologists",
-      "Mental Health and Substance Abuse Social Workers",
-      "Probation Officers and Correctional Treatment Specialists",
-      "Clinical Neuropsychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthoptists": {
     "onet_code": "29-1299.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 3.9,
@@ -25837,19 +29418,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
-      "Conservation Scientists",
-      "Orthodontists",
-      "Energy Auditors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical and Clinical Laboratory Technologists": {
     "onet_code": "29-2011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 3.7,
@@ -25893,19 +29481,26 @@ onet_jobs = {
       "Active Listening",
       "Science"
     ],
-    "similar_roles": [
-      "Diagnostic Medical Sonographers",
-      "Medical and Clinical Laboratory Technicians",
-      "Epidemiologists",
-      "Environmental Science and Protection Technicians, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Cytogenetic Technologists": {
     "onet_code": "29-2011.01",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.7,
       "writing": 4.1,
@@ -25946,19 +29541,26 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Forensic Science Technicians",
-      "Environmental Science and Protection Technicians, Including Health",
-      "Environmental Restoration Planners",
-      "Human Factors Engineers and Ergonomists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cytotechnologists": {
     "onet_code": "29-2011.02",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -25999,21 +29601,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians",
-      "Optometrists",
-      "Histology Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Histotechnologists": {
     "onet_code": "29-2011.04",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.4,
@@ -26053,21 +29662,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Nuclear Monitoring Technicians",
-      "Forest and Conservation Workers",
-      "Sheet Metal Workers",
-      "Print Binding and Finishing Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical and Clinical Laboratory Technicians": {
     "onet_code": "29-2012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.3,
@@ -26111,18 +29727,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Cardiovascular Technologists and Technicians",
-      "Ophthalmic Medical Technicians",
-      "Ophthalmic Medical Technologists",
-      "Detectives and Criminal Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Histology Technicians": {
     "onet_code": "29-2012.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.2,
@@ -26162,21 +29785,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Cytotechnologists",
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians",
-      "Appraisers of Personal and Business Property"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cardiovascular Technologists and Technicians": {
     "onet_code": "29-2031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -26217,18 +29847,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Detectives and Criminal Investigators",
-      "Medical and Clinical Laboratory Technicians",
-      "Magnetic Resonance Imaging Technologists",
-      "Dental Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Diagnostic Medical Sonographers": {
     "onet_code": "29-2032.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -26272,18 +29909,25 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Radiation Therapists",
-      "Medical Transcriptionists",
-      "Title Examiners, Abstractors, and Searchers",
-      "Medical and Clinical Laboratory Technologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Nuclear Medicine Technologists": {
     "onet_code": "29-2033.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -26324,21 +29968,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Veterinary Technologists and Technicians",
-      "Cytotechnologists",
-      "Optometrists",
-      "Urologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Radiologic Technologists and Technicians": {
     "onet_code": "29-2034.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.3,
@@ -26379,18 +30030,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Naturopathic Physicians",
-      "Psychiatrists",
-      "Probation Officers and Correctional Treatment Specialists",
-      "Audiologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Magnetic Resonance Imaging Technologists": {
     "onet_code": "29-2035.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.5,
@@ -26431,18 +30089,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Library Technicians",
-      "Compliance Officers",
-      "Police Identification and Records Officers",
-      "Forensic Science Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Medical Dosimetrists": {
     "onet_code": "29-2036.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -26485,18 +30150,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Transportation Planners",
-      "Radiologists",
-      "Bioinformatics Scientists",
-      "Nurse Midwives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Emergency Medical Technicians": {
     "onet_code": "29-2042.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "medical_knowledge": 3.5,
       "patient_care": 3.5,
@@ -26535,20 +30207,27 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Medical Records Specialists",
-      "Health Information Technologists and Medical Registrars",
-      "Paramedics",
-      "Pediatric Surgeons"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Paramedics": {
     "onet_code": "29-2043.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -26587,18 +30266,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "School Bus Monitors",
-      "Cardiologists",
-      "Pediatric Surgeons",
-      "Orthopedic Surgeons, Except Pediatric"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Dietetic Technicians": {
     "onet_code": "29-2051.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.2,
@@ -26639,19 +30325,26 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Physical Therapist Assistants",
-      "Counter and Rental Clerks",
-      "Mail Clerks and Mail Machine Operators, Except Postal Service",
-      "Occupational Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Pharmacy Technicians": {
     "onet_code": "29-2052.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.4,
@@ -26692,18 +30385,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Office Clerks, General",
-      "Meter Readers, Utilities",
-      "Tellers",
-      "Bill and Account Collectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Psychiatric Technicians": {
     "onet_code": "29-2053.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.5,
@@ -26744,18 +30444,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Mental Health Counselors",
-      "Residential Advisors",
-      "Marriage and Family Therapists",
-      "Naturopathic Physicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Surgical Technologists": {
     "onet_code": "29-2055.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.2,
@@ -26796,19 +30503,26 @@ onet_jobs = {
       "Monitoring",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Anesthesiologist Assistants",
-      "Animal Caretakers",
-      "Airfield Operations Specialists",
-      "Radiation Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Veterinary Technologists and Technicians": {
     "onet_code": "29-2056.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.4,
@@ -26849,21 +30563,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Nuclear Medicine Technologists",
-      "Cytotechnologists",
-      "Optometrists",
-      "Urologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Ophthalmic Medical Technicians": {
     "onet_code": "29-2057.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.2,
@@ -26907,21 +30628,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Ophthalmic Medical Technologists",
-      "Medical Assistants",
-      "Medical and Clinical Laboratory Technicians",
-      "Surgical Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Licensed Practical and Licensed Vocational Nurses": {
     "onet_code": "29-2061.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.6,
@@ -26965,21 +30693,28 @@ onet_jobs = {
       "Service Orientation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Nurse Practitioners",
-      "Advanced Practice Psychiatric Nurses",
-      "Registered Nurses",
-      "Nurse Midwives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Records Specialists": {
     "onet_code": "29-2072.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "medical_knowledge": 3.5,
       "patient_care": 3.5,
@@ -27018,21 +30753,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Health Information Technologists and Medical Registrars",
-      "Emergency Medical Technicians",
-      "Cardiologists",
-      "Dentists, All Other Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Opticians, Dispensing": {
     "onet_code": "29-2081.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -27073,21 +30815,28 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Shipping, Receiving, and Inventory Clerks",
-      "Government Property Inspectors and Investigators",
-      "Procurement Clerks",
-      "Court, Municipal, and License Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Orthotists and Prosthetists": {
     "onet_code": "29-2091.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.8,
       "writing": 4.2,
@@ -27128,21 +30877,28 @@ onet_jobs = {
       "Active Learning",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Podiatrists",
-      "Farm and Home Management Educators",
-      "Court Reporters and Simultaneous Captioners",
-      "Sociologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hearing Aid Specialists": {
     "onet_code": "29-2092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -27183,19 +30939,26 @@ onet_jobs = {
       "Service Orientation",
       "Speaking"
     ],
-    "similar_roles": [
-      "Occupational Therapy Aides",
-      "Skincare Specialists",
-      "Travel Guides",
-      "Telephone Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Health Technologists and Technicians, All Other": {
     "onet_code": "29-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -27234,21 +30997,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Therapists, All Other",
-      "Physicians, All Other",
-      "Surgeons, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Neurodiagnostic Technologists": {
     "onet_code": "29-2099.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.7,
@@ -27289,18 +31059,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Forest and Conservation Technicians",
-      "Computer Network Support Specialists",
-      "Mechanical Engineering Technologists and Technicians",
-      "Radio Frequency Identification Device Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Ophthalmic Medical Technologists": {
     "onet_code": "29-2099.05",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.4,
@@ -27344,21 +31121,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Ophthalmic Medical Technicians",
-      "Medical Assistants",
-      "Surgical Assistants",
-      "Medical and Clinical Laboratory Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Patient Representatives": {
     "onet_code": "29-2099.08",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.7,
@@ -27399,21 +31183,28 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Community Health Workers",
-      "Child, Family, and School Social Workers",
-      "Audiologists",
-      "Tour Guides and Escorts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Health Information Technologists and Medical Registrars": {
     "onet_code": "29-9021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "medical_knowledge": 3.5,
       "patient_care": 3.5,
@@ -27452,18 +31243,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Medical Records Specialists",
-      "Emergency Medical Technicians",
-      "Orthopedic Surgeons, Except Pediatric",
-      "Taxi Drivers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Athletic Trainers": {
     "onet_code": "29-9091.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.8,
@@ -27504,21 +31302,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Farmworkers, Farm, Ranch, and Aquacultural Animals",
-      "Insulation Workers, Mechanical",
-      "Bus Drivers, School",
-      "Furniture Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Genetic Counselors": {
     "onet_code": "29-9092.00",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.9,
       "writing": 4.3,
@@ -27559,19 +31364,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Historians",
-      "Judicial Law Clerks",
-      "Cartographers and Photogrammetrists",
-      "Curators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Surgical Assistants": {
     "onet_code": "29-9093.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.5,
@@ -27612,21 +31424,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Opticians, Dispensing",
-      "Construction and Building Inspectors",
-      "Structural Metal Fabricators and Fitters",
-      "Government Property Inspectors and Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Healthcare Practitioners and Technical Workers, All Other": {
     "onet_code": "29-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.9,
@@ -27665,21 +31484,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Dentists, All Other Specialists",
-      "Therapists, All Other",
-      "Physicians, All Other",
-      "Surgeons, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Midwives": {
     "onet_code": "29-9099.01",
+    "job_zone": {
+      "zone": 5,
+      "description": "Extensive preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.7,
@@ -27720,18 +31546,25 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Rehabilitation Counselors",
-      "Physical Therapist Aides",
-      "Substance Abuse and Behavioral Disorder Counselors",
-      "Clinical and Counseling Psychologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Home Health Aides": {
     "onet_code": "31-1121.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.2,
@@ -27772,21 +31605,28 @@ onet_jobs = {
       "Service Orientation",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Nursing Assistants",
-      "Bartenders",
-      "Orderlies",
-      "Passenger Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Personal Care Aides": {
     "onet_code": "31-1122.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -27827,20 +31667,27 @@ onet_jobs = {
       "Service Orientation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Funeral Attendants",
-      "Nursing Assistants",
-      "Home Health Aides",
-      "Bartenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Nursing Assistants": {
     "onet_code": "31-1131.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -27881,21 +31728,28 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Home Health Aides",
-      "Bartenders",
-      "Orderlies",
-      "Passenger Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Orderlies": {
     "onet_code": "31-1132.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.3,
@@ -27936,21 +31790,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Passenger Attendants",
-      "Amusement and Recreation Attendants",
-      "Parking Attendants",
-      "Ushers, Lobby Attendants, and Ticket Takers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Psychiatric Aides": {
     "onet_code": "31-1133.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.1,
@@ -27991,18 +31852,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Art Therapists",
-      "Hotel, Motel, and Resort Desk Clerks",
-      "Childcare Workers",
-      "Phlebotomists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Occupational Therapy Assistants": {
     "onet_code": "31-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.6,
@@ -28043,19 +31911,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Speech-Language Pathology Assistants",
-      "Physical Therapists",
-      "Exercise Physiologists",
-      "Physical Therapist Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Occupational Therapy Aides": {
     "onet_code": "31-2012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.2,
@@ -28096,20 +31971,27 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Hearing Aid Specialists",
-      "Skincare Specialists",
-      "Baggage Porters and Bellhops",
-      "Telephone Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "creative"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Physical Therapist Assistants": {
     "onet_code": "31-2021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.4,
@@ -28150,19 +32032,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Commercial and Industrial Designers",
-      "Dental Assistants",
-      "Pharmacy Technicians",
-      "Physical Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Physical Therapist Aides": {
     "onet_code": "31-2022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -28203,18 +32092,25 @@ onet_jobs = {
       "Monitoring",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Midwives",
-      "Personal Care Aides",
-      "Nursing Assistants",
-      "Home Health Aides"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Massage Therapists": {
     "onet_code": "31-9011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -28255,21 +32151,28 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Prosthodontists",
-      "Photographers",
-      "Musicians and Singers",
-      "Customs and Border Protection Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Dental Assistants": {
     "onet_code": "31-9091.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.2,
@@ -28310,19 +32213,26 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Pharmacy Technicians",
-      "Order Clerks",
-      "Physical Therapist Assistants",
-      "Meter Readers, Utilities"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Assistants": {
     "onet_code": "31-9092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.6,
@@ -28366,21 +32276,28 @@ onet_jobs = {
       "Social Perceptiveness",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Ophthalmic Medical Technicians",
-      "Ophthalmic Medical Technologists",
-      "Registered Nurses",
-      "Nurse Practitioners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Equipment Preparers": {
     "onet_code": "31-9093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -28424,18 +32341,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Medical Appliance Technicians",
-      "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters",
-      "Agricultural Inspectors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Medical Transcriptionists": {
     "onet_code": "31-9094.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.9,
@@ -28479,18 +32403,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Diagnostic Medical Sonographers",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Endoscopy Technicians",
-      "Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Pharmacy Aides": {
     "onet_code": "31-9095.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -28531,21 +32462,28 @@ onet_jobs = {
       "Service Orientation",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Gambling and Sports Book Writers and Runners",
-      "Shipping, Receiving, and Inventory Clerks",
-      "Opticians, Dispensing",
-      "Procurement Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Veterinary Assistants and Laboratory Animal Caretakers": {
     "onet_code": "31-9096.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.2,
@@ -28586,18 +32524,25 @@ onet_jobs = {
       "Writing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Pest Control Workers",
-      "Radiologists",
-      "Dental Hygienists",
-      "Animal Control Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Phlebotomists": {
     "onet_code": "31-9097.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -28638,18 +32583,25 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Orderlies",
-      "Switchboard Operators, Including Answering Service",
-      "Passenger Attendants",
-      "Locker Room, Coatroom, and Dressing Room Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Healthcare Support Workers, All Other": {
     "onet_code": "31-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -28688,21 +32640,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other",
-      "Grounds Maintenance Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Speech-Language Pathology Assistants": {
     "onet_code": "31-9099.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.6,
@@ -28743,19 +32702,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Physical Therapists",
-      "Occupational Therapy Assistants",
-      "Park Naturalists",
-      "Interpreters and Translators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Endoscopy Technicians": {
     "onet_code": "31-9099.02",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.4,
@@ -28796,19 +32762,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Librarians and Media Collections Specialists",
-      "Computer User Support Specialists",
-      "Precision Agriculture Technicians",
-      "Radiation Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "First-Line Supervisors of Correctional Officers": {
     "onet_code": "33-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.7,
@@ -28851,18 +32824,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Airfield Operations Specialists",
-      "First-Line Supervisors of Firefighting and Prevention Workers",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "First-Line Supervisors of Non-Retail Sales Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Police and Detectives": {
     "onet_code": "33-1012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 4,
@@ -28905,21 +32885,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Gambling Change Persons and Booth Cashiers",
-      "Legal Secretaries and Administrative Assistants",
-      "Teaching Assistants, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Firefighting and Prevention Workers": {
     "onet_code": "33-1021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.5,
@@ -28962,18 +32949,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Obstetricians and Gynecologists",
-      "First-Line Supervisors of Correctional Officers",
-      "Cargo and Freight Agents",
-      "Online Merchants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Security Workers": {
     "onet_code": "33-1091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -29015,19 +33009,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Office and Administrative Support Workers",
-      "Production, Planning, and Expediting Clerks",
-      "Order Clerks",
-      "Postmasters and Mail Superintendents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Protective Service Workers, All Other": {
     "onet_code": "33-1099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -29066,21 +33067,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Protective Service Workers, All Other",
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Firefighters": {
     "onet_code": "33-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.2,
@@ -29121,21 +33129,28 @@ onet_jobs = {
       "Coordination",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Forest Fire Inspectors and Prevention Specialists",
-      "Roofers",
-      "Stonemasons",
-      "Reinforcing Iron and Rebar Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Fire Inspectors and Investigators": {
     "onet_code": "33-2021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.5,
@@ -29176,19 +33191,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Respiratory Therapists",
-      "Urban and Regional Planners",
-      "Fish and Game Wardens",
-      "Environmental Engineering Technologists and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Forest Fire Inspectors and Prevention Specialists": {
     "onet_code": "33-2022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.2,
@@ -29229,21 +33251,28 @@ onet_jobs = {
       "Speaking",
       "Coordination"
     ],
-    "similar_roles": [
-      "Athletes and Sports Competitors",
-      "Fence Erectors",
-      "Segmental Pavers",
-      "Firefighters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Bailiffs": {
     "onet_code": "33-3011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -29284,21 +33313,28 @@ onet_jobs = {
       "Monitoring",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
-      "Embalmers",
-      "Correctional Officers and Jailers",
-      "Security Guards"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Correctional Officers and Jailers": {
     "onet_code": "33-3012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.3,
@@ -29339,18 +33375,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Speaking"
     ],
-    "similar_roles": [
-      "Flight Attendants",
-      "Police and Sheriff's Patrol Officers",
-      "Baristas",
-      "Locker Room, Coatroom, and Dressing Room Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Detectives and Criminal Investigators": {
     "onet_code": "33-3021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.8,
@@ -29391,18 +33434,25 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Cardiovascular Technologists and Technicians",
-      "Compensation, Benefits, and Job Analysis Specialists",
-      "Police Identification and Records Officers",
-      "Government Property Inspectors and Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Police Identification and Records Officers": {
     "onet_code": "33-3021.02",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -29443,19 +33493,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Interpreters and Translators",
-      "Compliance Officers",
-      "Pharmacy Technicians",
-      "Meter Readers, Utilities"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Intelligence Analysts": {
     "onet_code": "33-3021.06",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 4.3,
@@ -29498,19 +33555,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Logistics Analysts",
-      "Information Security Analysts",
-      "Claims Adjusters, Examiners, and Investigators",
-      "Radio Frequency Identification Device Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Fish and Game Wardens": {
     "onet_code": "33-3031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.6,
@@ -29551,18 +33615,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Retail Loss Prevention Specialists",
-      "Chiropractors",
-      "Broadcast Technicians",
-      "Physician Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Parking Enforcement Workers": {
     "onet_code": "33-3041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -29603,18 +33674,25 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Bridge and Lock Tenders",
-      "Security Guards",
-      "Transportation Security Screeners",
-      "Bakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Police and Sheriff's Patrol Officers": {
     "onet_code": "33-3051.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -29655,18 +33733,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Fitness and Wellness Coordinators",
-      "Pharmacy Technicians",
-      "Customs Brokers",
-      "Office Clerks, General"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Customs and Border Protection Officers": {
     "onet_code": "33-3051.04",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -29707,21 +33792,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Prosthodontists",
-      "Massage Therapists",
-      "Photographers",
-      "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Transit and Railroad Police": {
     "onet_code": "33-3052.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.2,
@@ -29762,21 +33854,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Buyers and Purchasing Agents, Farm Products",
-      "Umpires, Referees, and Other Sports Officials",
-      "Prepress Technicians and Workers",
-      "Helpers--Electricians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Control Workers": {
     "onet_code": "33-9011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3,
@@ -29817,18 +33916,25 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Dental Hygienists",
-      "Postal Service Mail Carriers",
-      "Floral Designers",
-      "Pest Control Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Private Detectives and Investigators": {
     "onet_code": "33-9021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.8,
@@ -29869,21 +33975,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Insurance Underwriters",
-      "Sports Medicine Physicians",
-      "Power Distributors and Dispatchers",
-      "Cytotechnologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Gambling Surveillance Officers and Gambling Investigators": {
     "onet_code": "33-9031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -29924,18 +34037,25 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Weatherization Installers and Technicians",
-      "Financial Examiners",
-      "Anesthesiologists",
-      "First-Line Supervisors of Farming, Fishing, and Forestry Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Security Guards": {
     "onet_code": "33-9032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -29976,21 +34096,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Transportation Security Screeners",
-      "Bakers",
-      "Meat, Poultry, and Fish Cutters and Trimmers",
-      "Transit and Railroad Police"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Crossing Guards and Flaggers": {
     "onet_code": "33-9091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 2,
@@ -30031,21 +34158,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
-      "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
-      "Bailiffs",
-      "Embalmers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers": {
     "onet_code": "33-9092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.7,
@@ -30086,21 +34220,28 @@ onet_jobs = {
       "Monitoring",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Bailiffs",
-      "Embalmers",
-      "Correctional Officers and Jailers",
-      "Tour Guides and Escorts"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Transportation Security Screeners": {
     "onet_code": "33-9093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -30141,21 +34282,28 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Security Guards",
-      "Meat, Poultry, and Fish Cutters and Trimmers",
-      "Bakers",
-      "Transit and Railroad Police"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "School Bus Monitors": {
     "onet_code": "33-9094.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -30194,18 +34342,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Paramedics",
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
-      "First-Line Supervisors of Passenger Attendants",
-      "Legislators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Protective Service Workers, All Other": {
     "onet_code": "33-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -30244,21 +34399,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Protective Service Workers, All Other",
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Retail Loss Prevention Specialists": {
     "onet_code": "33-9099.02",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -30299,18 +34461,25 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Fish and Game Wardens",
-      "Chiropractors",
-      "Online Merchants",
-      "Accountants and Auditors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Chefs and Head Cooks": {
     "onet_code": "35-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.3,
@@ -30351,19 +34520,26 @@ onet_jobs = {
       "Coordination",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Railroad Conductors and Yardmasters",
-      "First-Line Supervisors of Food Preparation and Serving Workers",
-      "Cement Masons and Concrete Finishers",
-      "Carpet Installers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Food Preparation and Serving Workers": {
     "onet_code": "35-1012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.3,
@@ -30406,19 +34582,26 @@ onet_jobs = {
       "Coordination",
       "Management of Personnel Resources"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Housekeeping and Janitorial Workers",
-      "Railroad Conductors and Yardmasters",
-      "Chefs and Head Cooks",
-      "First-Line Supervisors of Production and Operating Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Cooks, Fast Food": {
     "onet_code": "35-2011.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.3,
@@ -30459,21 +34642,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Shampooers",
-      "Laundry and Dry-Cleaning Workers",
-      "Bartenders",
-      "Library Assistants, Clerical"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Cooks, Institution and Cafeteria": {
     "onet_code": "35-2012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -30514,21 +34704,28 @@ onet_jobs = {
       "Coordination",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Cement Masons and Concrete Finishers",
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles",
-      "Helpers--Carpenters",
-      "Bailiffs"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Cooks, Private Household": {
     "onet_code": "35-2013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -30569,21 +34766,28 @@ onet_jobs = {
       "Critical Thinking",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Bartenders",
-      "Painters, Construction and Maintenance",
-      "Fabric and Apparel Patternmakers",
-      "Upholsterers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Cooks, Restaurant": {
     "onet_code": "35-2014.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.4,
@@ -30624,18 +34828,25 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Mail Clerks and Mail Machine Operators, Except Postal Service",
-      "Shoe and Leather Workers and Repairers",
-      "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
-      "Flight Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Cooks, Short Order": {
     "onet_code": "35-2015.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.5,
@@ -30676,21 +34887,28 @@ onet_jobs = {
       "Time Management",
       "Time Management"
     ],
-    "similar_roles": [
-      "Couriers and Messengers",
-      "Butchers and Meat Cutters",
-      "Stockers and Order Fillers",
-      "Gambling Change Persons and Booth Cashiers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Cooks, All Other": {
     "onet_code": "35-2019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -30729,21 +34947,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other",
-      "Grounds Maintenance Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Food Preparation Workers": {
     "onet_code": "35-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.1,
@@ -30784,18 +35009,25 @@ onet_jobs = {
       "Time Management",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Food Servers, Nonrestaurant",
-      "Maids and Housekeeping Cleaners",
-      "Dining Room and Cafeteria Attendants and Bartender Helpers",
-      "Baggage Porters and Bellhops"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Bartenders": {
     "onet_code": "35-3011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3,
@@ -30836,21 +35068,28 @@ onet_jobs = {
       "Social Perceptiveness",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Home Health Aides",
-      "Nursing Assistants",
-      "Amusement and Recreation Attendants",
-      "Passenger Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Fast Food and Counter Workers": {
     "onet_code": "35-3023.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 2.1,
@@ -30891,18 +35130,25 @@ onet_jobs = {
       "Coordination",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Funeral Attendants",
-      "Dining Room and Cafeteria Attendants and Bartender Helpers",
-      "Baristas",
-      "Waiters and Waitresses"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Baristas": {
     "onet_code": "35-3023.01",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -30943,18 +35189,25 @@ onet_jobs = {
       "Service Orientation",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Waiters and Waitresses",
-      "Manicurists and Pedicurists",
-      "Locker Room, Coatroom, and Dressing Room Attendants",
-      "Barbers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Waiters and Waitresses": {
     "onet_code": "35-3031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.3,
@@ -30995,18 +35248,25 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Baristas",
-      "Concierges",
-      "Cashiers",
-      "Manicurists and Pedicurists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Servers, Nonrestaurant": {
     "onet_code": "35-3041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -31047,18 +35307,25 @@ onet_jobs = {
       "Service Orientation",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Baggage Porters and Bellhops",
-      "Skincare Specialists",
-      "Telephone Operators",
-      "Shampooers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Dining Room and Cafeteria Attendants and Bartender Helpers": {
     "onet_code": "35-9011.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 1.9,
@@ -31099,18 +35366,25 @@ onet_jobs = {
       "Service Orientation",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Maids and Housekeeping Cleaners",
-      "Fast Food and Counter Workers",
-      "Food Servers, Nonrestaurant",
-      "Food Preparation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Dishwashers": {
     "onet_code": "35-9021.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.6,
       "writing": 1.8,
@@ -31151,21 +35425,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Tapers",
-      "Slaughterers and Meat Packers",
-      "Cutters and Trimmers, Hand",
-      "Helpers--Production Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop": {
     "onet_code": "35-9031.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -31206,19 +35487,26 @@ onet_jobs = {
       "Service Orientation",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Waiters and Waitresses",
-      "Concierges",
-      "Baristas",
-      "Cashiers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Preparation and Serving Related Workers, All Other": {
     "onet_code": "35-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -31257,21 +35545,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Building Cleaning Workers, All Other",
-      "Grounds Maintenance Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Housekeeping and Janitorial Workers": {
     "onet_code": "37-1011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -31314,18 +35609,25 @@ onet_jobs = {
       "Time Management",
       "Coordination"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
-      "First-Line Supervisors of Food Preparation and Serving Workers",
-      "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
-      "First-Line Supervisors of Mechanics, Installers, and Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers": {
     "onet_code": "37-1012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -31368,18 +35670,25 @@ onet_jobs = {
       "Time Management",
       "Active Listening"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Production and Operating Workers",
-      "Flight Attendants",
-      "First-Line Supervisors of Correctional Officers",
-      "Correctional Officers and Jailers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Janitors and Cleaners, Except Maids and Housekeeping Cleaners": {
     "onet_code": "37-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.4,
@@ -31420,18 +35729,25 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Food Servers, Nonrestaurant",
-      "Baggage Porters and Bellhops",
-      "Postal Service Mail Carriers",
-      "Food Preparation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Maids and Housekeeping Cleaners": {
     "onet_code": "37-2012.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 2.2,
@@ -31472,18 +35788,25 @@ onet_jobs = {
       "Time Management",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Dining Room and Cafeteria Attendants and Bartender Helpers",
-      "Food Preparation Workers",
-      "Fast Food and Counter Workers",
-      "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Building Cleaning Workers, All Other": {
     "onet_code": "37-2019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -31522,21 +35845,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Grounds Maintenance Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Pest Control Workers": {
     "onet_code": "37-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -31577,18 +35907,25 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Animal Control Workers",
-      "Dental Hygienists",
-      "Veterinary Assistants and Laboratory Animal Caretakers",
-      "Log Graders and Scalers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Landscaping and Groundskeeping Workers": {
     "onet_code": "37-3011.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 1.8,
@@ -31629,21 +35966,28 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Molders, Shapers, and Casters, Except Metal and Plastic",
-      "Pressers, Textile, Garment, and Related Materials",
-      "Tapers",
-      "Sewing Machine Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pesticide Handlers, Sprayers, and Applicators, Vegetation": {
     "onet_code": "37-3012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.7,
@@ -31684,18 +36028,25 @@ onet_jobs = {
       "Critical Thinking",
       "Time Management"
     ],
-    "similar_roles": [
-      "Animal Control Workers",
-      "Dental Hygienists",
-      "Postal Service Mail Carriers",
-      "Pest Control Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tree Trimmers and Pruners": {
     "onet_code": "37-3013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.5,
@@ -31736,21 +36087,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Fallers",
-      "Hazardous Materials Removal Workers",
-      "Boilermakers",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Grounds Maintenance Workers, All Other": {
     "onet_code": "37-3019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -31789,21 +36147,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Gambling Services Workers": {
     "onet_code": "39-1013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -31846,18 +36211,25 @@ onet_jobs = {
       "Service Orientation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Correctional Officers",
-      "First-Line Supervisors of Firefighting and Prevention Workers",
-      "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
-      "First-Line Supervisors of Personal Service Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services": {
     "onet_code": "39-1014.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -31896,19 +36268,26 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Passenger Attendants",
-      "School Bus Monitors",
-      "Taxi Drivers",
-      "Disc Jockeys, Except Radio"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Personal Service Workers": {
     "onet_code": "39-1022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.5,
@@ -31951,20 +36330,27 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Firefighting and Prevention Workers",
-      "First-Line Supervisors of Gambling Services Workers",
-      "Online Merchants",
-      "Animal Breeders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Trainers": {
     "onet_code": "39-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.9,
@@ -32005,21 +36391,28 @@ onet_jobs = {
       "Speaking",
       "Learning Strategies"
     ],
-    "similar_roles": [
-      "Training and Development Specialists",
-      "Massage Therapists",
-      "Embalmers",
-      "Prosthodontists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Caretakers": {
     "onet_code": "39-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -32060,21 +36453,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Data Entry Keyers",
-      "Shoe Machine Operators and Tenders",
-      "Nuclear Monitoring Technicians",
-      "Plating Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Gambling Dealers": {
     "onet_code": "39-3011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -32115,21 +36515,28 @@ onet_jobs = {
       "Social Perceptiveness",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Amusement and Recreation Attendants",
-      "Passenger Attendants",
-      "Ushers, Lobby Attendants, and Ticket Takers",
-      "Parking Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Gambling and Sports Book Writers and Runners": {
     "onet_code": "39-3012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -32170,21 +36577,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Brokerage Clerks",
-      "Shipping, Receiving, and Inventory Clerks",
-      "Court, Municipal, and License Clerks",
-      "Procurement Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Gambling Service Workers, All Other": {
     "onet_code": "39-3019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -32223,21 +36637,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Motion Picture Projectionists": {
     "onet_code": "39-3021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.7,
@@ -32278,21 +36699,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Butchers and Meat Cutters",
-      "Semiconductor Processing Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Ushers, Lobby Attendants, and Ticket Takers": {
     "onet_code": "39-3031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -32333,21 +36761,28 @@ onet_jobs = {
       "Service Orientation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Passenger Attendants",
-      "Amusement and Recreation Attendants",
-      "Parking Attendants",
-      "Gambling Dealers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Amusement and Recreation Attendants": {
     "onet_code": "39-3091.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.2,
@@ -32388,21 +36823,28 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Passenger Attendants",
-      "Ushers, Lobby Attendants, and Ticket Takers",
-      "Gambling Dealers",
-      "Parking Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Costume Attendants": {
     "onet_code": "39-3092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -32443,21 +36885,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Makeup Artists, Theatrical and Performance",
-      "Opticians, Dispensing",
-      "Shipping, Receiving, and Inventory Clerks",
-      "Court, Municipal, and License Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Locker Room, Coatroom, and Dressing Room Attendants": {
     "onet_code": "39-3093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.4,
@@ -32498,18 +36947,25 @@ onet_jobs = {
       "Service Orientation",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Baristas",
-      "Waiters and Waitresses",
-      "Manicurists and Pedicurists",
-      "Cashiers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Entertainment Attendants and Related Workers, All Other": {
     "onet_code": "39-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -32548,21 +37004,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Embalmers": {
     "onet_code": "39-4011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.1,
@@ -32603,21 +37066,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Tour Guides and Escorts",
-      "Amusement and Recreation Attendants",
-      "Orderlies",
-      "Passenger Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Crematory Operators": {
     "onet_code": "39-4012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -32656,21 +37126,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Aircraft Service Attendants",
-      "Lighting Technicians",
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Funeral Attendants": {
     "onet_code": "39-4021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -32711,18 +37188,25 @@ onet_jobs = {
       "Service Orientation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Personal Care Aides",
-      "Baristas",
-      "Waiters and Waitresses",
-      "Manicurists and Pedicurists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Morticians, Undertakers, and Funeral Arrangers": {
     "onet_code": "39-4031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.6,
@@ -32763,18 +37247,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Mental Health Counselors",
-      "Funeral Attendants",
-      "Marriage and Family Therapists",
-      "Concierges"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Barbers": {
     "onet_code": "39-5011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.2,
@@ -32815,18 +37306,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Manicurists and Pedicurists",
-      "Baristas",
-      "Waiters and Waitresses",
-      "Locker Room, Coatroom, and Dressing Room Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Hairdressers, Hairstylists, and Cosmetologists": {
     "onet_code": "39-5012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -32867,18 +37365,25 @@ onet_jobs = {
       "Service Orientation",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Tire Repairers and Changers",
-      "Skincare Specialists",
-      "Floral Designers",
-      "Travel Guides"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Makeup Artists, Theatrical and Performance": {
     "onet_code": "39-5091.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -32919,21 +37424,28 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Costume Attendants",
-      "Opticians, Dispensing",
-      "Surgical Assistants",
-      "Real Estate Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Manicurists and Pedicurists": {
     "onet_code": "39-5092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.2,
@@ -32974,18 +37486,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Baristas",
-      "Barbers",
-      "Waiters and Waitresses",
-      "Locker Room, Coatroom, and Dressing Room Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Shampooers": {
     "onet_code": "39-5093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -33026,21 +37545,28 @@ onet_jobs = {
       "Service Orientation",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Food Servers, Nonrestaurant",
-      "Passenger Attendants",
-      "Cooks, Fast Food",
-      "Orderlies"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Skincare Specialists": {
     "onet_code": "39-5094.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -33081,18 +37607,25 @@ onet_jobs = {
       "Active Listening",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Travel Guides",
-      "Baggage Porters and Bellhops",
-      "Telephone Operators",
-      "Reservation and Transportation Ticket Agents and Travel Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Baggage Porters and Bellhops": {
     "onet_code": "39-6011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.6,
@@ -33133,18 +37666,25 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Telephone Operators",
-      "Reservation and Transportation Ticket Agents and Travel Clerks",
-      "Skincare Specialists",
-      "Receptionists and Information Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Concierges": {
     "onet_code": "39-6012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3,
@@ -33185,18 +37725,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Waiters and Waitresses",
-      "Cashiers",
-      "Baristas",
-      "Locker Room, Coatroom, and Dressing Room Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Tour Guides and Escorts": {
     "onet_code": "39-7011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -33237,21 +37784,28 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Embalmers",
-      "Ushers, Lobby Attendants, and Ticket Takers",
-      "Passenger Attendants",
-      "Amusement and Recreation Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Travel Guides": {
     "onet_code": "39-7012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.4,
@@ -33292,18 +37846,25 @@ onet_jobs = {
       "Speaking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Reservation and Transportation Ticket Agents and Travel Clerks",
-      "Customer Service Representatives",
-      "Receptionists and Information Clerks",
-      "Skincare Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Childcare Workers": {
     "onet_code": "39-9011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -33344,18 +37905,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Psychiatric Aides",
-      "Physical Therapist Aides",
-      "Nannies",
-      "Residential Advisors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Nannies": {
     "onet_code": "39-9011.01",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -33396,19 +37964,26 @@ onet_jobs = {
       "Social Perceptiveness",
       "Speaking"
     ],
-    "similar_roles": [
-      "Correctional Officers and Jailers",
-      "Child, Family, and School Social Workers",
-      "Patient Representatives",
-      "Community Health Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Exercise Trainers and Group Fitness Instructors": {
     "onet_code": "39-9031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -33452,18 +38027,25 @@ onet_jobs = {
       "Service Orientation",
       "Speaking"
     ],
-    "similar_roles": [
-      "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
-      "Elementary School Teachers, Except Special Education",
-      "Art, Drama, and Music Teachers, Postsecondary",
-      "Secondary School Teachers, Except Special and Career/Technical Education"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Recreation Workers": {
     "onet_code": "39-9032.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.2,
@@ -33504,20 +38086,27 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Public Relations Specialists",
-      "New Accounts Clerks",
-      "Interviewers, Except Eligibility and Loan",
-      "Public Safety Telecommunicators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Residential Advisors": {
     "onet_code": "39-9041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.1,
@@ -33558,18 +38147,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Psychiatric Technicians",
-      "Mental Health Counselors",
-      "Occupational Health and Safety Technicians",
-      "Dermatologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Personal Care and Service Workers, All Other": {
     "onet_code": "39-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -33608,21 +38204,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Retail Sales Workers": {
     "onet_code": "41-1011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.4,
@@ -33665,19 +38268,26 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Cargo and Freight Agents",
-      "Postal Service Clerks",
-      "Postmasters and Mail Superintendents",
-      "Insurance Sales Agents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Non-Retail Sales Workers": {
     "onet_code": "41-1012.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -33720,19 +38330,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Airfield Operations Specialists",
-      "First-Line Supervisors of Correctional Officers",
-      "First-Line Supervisors of Retail Sales Workers",
-      "Executive Secretaries and Executive Administrative Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Cashiers": {
     "onet_code": "41-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -33773,18 +38390,25 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Waiters and Waitresses",
-      "Baristas",
-      "Concierges",
-      "Locker Room, Coatroom, and Dressing Room Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Gambling Change Persons and Booth Cashiers": {
     "onet_code": "41-2012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.9,
@@ -33825,21 +38449,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Stockers and Order Fillers",
-      "Payroll and Timekeeping Clerks",
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Legal Secretaries and Administrative Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Counter and Rental Clerks": {
     "onet_code": "41-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3.1,
@@ -33880,18 +38511,25 @@ onet_jobs = {
       "Service Orientation",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Office Clerks, General",
-      "Bill and Account Collectors",
-      "Telephone Operators",
-      "Receptionists and Information Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Parts Salespersons": {
     "onet_code": "41-2022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -33934,21 +38572,28 @@ onet_jobs = {
       "Active Listening",
       "Persuasion"
     ],
-    "similar_roles": [
-      "Solar Sales Representatives and Assessors",
-      "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
-      "Advertising Sales Agents",
-      "Customs and Border Protection Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Retail Salespersons": {
     "onet_code": "41-2031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3,
@@ -33991,18 +38636,25 @@ onet_jobs = {
       "Service Orientation",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Real Estate Sales Agents",
-      "Advertising Sales Agents",
-      "Solar Sales Representatives and Assessors",
-      "Customer Service Representatives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Advertising Sales Agents": {
     "onet_code": "41-3011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -34045,18 +38697,25 @@ onet_jobs = {
       "Speaking",
       "Persuasion"
     ],
-    "similar_roles": [
-      "Solar Sales Representatives and Assessors",
-      "Demonstrators and Product Promoters",
-      "Telemarketers",
-      "Real Estate Sales Agents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Insurance Sales Agents": {
     "onet_code": "41-3021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.8,
@@ -34099,19 +38758,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Securities, Commodities, and Financial Services Sales Agents",
-      "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-      "Credit Authorizers, Checkers, and Clerks",
-      "Eligibility Interviewers, Government Programs"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Securities, Commodities, and Financial Services Sales Agents": {
     "onet_code": "41-3031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -34154,20 +38820,27 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Insurance Sales Agents",
-      "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-      "Customs Brokers",
-      "Loan Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Travel Agents": {
     "onet_code": "41-3041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.5,
@@ -34208,21 +38881,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Library Assistants, Clerical",
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Pharmacy Aides",
-      "Payroll and Timekeeping Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel": {
     "onet_code": "41-3091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "public_speaking": 4.2,
       "networking": 4.1,
@@ -34261,19 +38941,26 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Sales and Related Workers, All Other",
-      "First-Line Supervisors of Passenger Attendants",
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
-      "Legislators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products": {
     "onet_code": "41-4011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -34316,20 +39003,27 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Sales Engineers",
-      "Insurance Sales Agents",
-      "Solar Sales Representatives and Assessors",
-      "Securities, Commodities, and Financial Services Sales Agents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Sales Representatives and Assessors": {
     "onet_code": "41-4011.07",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -34372,20 +39066,27 @@ onet_jobs = {
       "Persuasion",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Advertising Sales Agents",
-      "Parts Salespersons",
-      "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-      "Sales Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products": {
     "onet_code": "41-4012.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -34428,21 +39129,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Customs and Border Protection Officers",
-      "Parts Salespersons",
-      "Musicians and Singers",
-      "Photographers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Demonstrators and Product Promoters": {
     "onet_code": "41-9011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.2,
@@ -34483,18 +39191,25 @@ onet_jobs = {
       "Speaking",
       "Persuasion"
     ],
-    "similar_roles": [
-      "Telemarketers",
-      "Advertising Sales Agents",
-      "New Accounts Clerks",
-      "Interviewers, Except Eligibility and Loan"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Models": {
     "onet_code": "41-9012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 2.1,
@@ -34535,21 +39250,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Sewers, Hand",
-      "Painting, Coating, and Decorating Workers",
-      "Tapers",
-      "Cutters and Trimmers, Hand"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Real Estate Brokers": {
     "onet_code": "41-9021.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.7,
@@ -34590,21 +39312,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Court, Municipal, and License Clerks",
-      "Procurement Clerks",
-      "Brokerage Clerks",
-      "Government Property Inspectors and Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Real Estate Sales Agents": {
     "onet_code": "41-9022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.6,
@@ -34647,18 +39376,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-      "Advertising Sales Agents",
-      "Retail Salespersons",
-      "Tax Examiners and Collectors, and Revenue Agents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales Engineers": {
     "onet_code": "41-9031.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 4.2,
@@ -34703,20 +39439,27 @@ onet_jobs = {
       "Persuasion",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-      "Solar Sales Representatives and Assessors",
-      "Insurance Sales Agents",
-      "Securities, Commodities, and Financial Services Sales Agents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Telemarketers": {
     "onet_code": "41-9041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.9,
@@ -34757,18 +39500,25 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Demonstrators and Product Promoters",
-      "New Accounts Clerks",
-      "Interviewers, Except Eligibility and Loan",
-      "Advertising Sales Agents"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers": {
     "onet_code": "41-9091.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -34811,18 +39561,25 @@ onet_jobs = {
       "Persuasion",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Advertising Sales Agents",
-      "Solar Sales Representatives and Assessors",
-      "Retail Salespersons",
-      "Demonstrators and Product Promoters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Sales and Related Workers, All Other": {
     "onet_code": "41-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "public_speaking": 4.2,
       "networking": 4.1,
@@ -34861,21 +39618,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
-      "Education Administrators, All Other",
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Office and Administrative Support Workers": {
     "onet_code": "43-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.9,
@@ -34918,21 +39682,28 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Credit Counselors",
-      "Postmasters and Mail Superintendents",
-      "Loan Officers",
-      "Order Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "planning",
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Switchboard Operators, Including Answering Service": {
     "onet_code": "43-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.8,
@@ -34973,18 +39744,25 @@ onet_jobs = {
       "Social Perceptiveness",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Cashiers",
-      "Gambling Dealers",
-      "Passenger Attendants",
-      "Amusement and Recreation Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Telephone Operators": {
     "onet_code": "43-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.6,
@@ -35025,18 +39803,25 @@ onet_jobs = {
       "Active Listening",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Reservation and Transportation Ticket Agents and Travel Clerks",
-      "Receptionists and Information Clerks",
-      "Customer Service Representatives",
-      "Baggage Porters and Bellhops"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Communications Equipment Operators, All Other": {
     "onet_code": "43-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -35075,21 +39860,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Financial Clerks, All Other",
-      "Information and Record Clerks, All Other",
-      "Office and Administrative Support Workers, All Other",
-      "Business Operations Specialists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bill and Account Collectors": {
     "onet_code": "43-3011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.3,
@@ -35130,18 +39922,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Tellers",
-      "Credit Authorizers, Checkers, and Clerks",
-      "Office Clerks, General",
-      "Customs Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Billing and Posting Clerks": {
     "onet_code": "43-3021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.2,
@@ -35182,18 +39981,25 @@ onet_jobs = {
       "Active Listening",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Bookkeeping, Accounting, and Auditing Clerks",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Tellers",
-      "Office Clerks, General"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Bookkeeping, Accounting, and Auditing Clerks": {
     "onet_code": "43-3031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.3,
@@ -35234,21 +40040,28 @@ onet_jobs = {
       "Mathematics",
       "Mathematics"
     ],
-    "similar_roles": [
-      "Billing and Posting Clerks",
-      "Payroll and Timekeeping Clerks",
-      "Legal Secretaries and Administrative Assistants",
-      "Human Resources Assistants, Except Payroll and Timekeeping"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Gambling Cage Workers": {
     "onet_code": "43-3041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 3,
@@ -35289,21 +40102,28 @@ onet_jobs = {
       "Mathematics",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Umpires, Referees, and Other Sports Officials",
-      "Buyers and Purchasing Agents, Farm Products",
-      "Transit and Railroad Police",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Payroll and Timekeeping Clerks": {
     "onet_code": "43-3051.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.5,
@@ -35344,21 +40164,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Gambling Change Persons and Booth Cashiers",
-      "Legal Secretaries and Administrative Assistants",
-      "Stockers and Order Fillers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Procurement Clerks": {
     "onet_code": "43-3061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.7,
@@ -35399,21 +40226,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Brokerage Clerks",
-      "Government Property Inspectors and Investigators",
-      "Real Estate Brokers",
-      "Shipping, Receiving, and Inventory Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Tellers": {
     "onet_code": "43-3071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -35454,18 +40288,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Bill and Account Collectors",
-      "Office Clerks, General",
-      "Credit Authorizers, Checkers, and Clerks",
-      "Customs Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Financial Clerks, All Other": {
     "onet_code": "43-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -35504,21 +40345,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Communications Equipment Operators, All Other",
-      "Information and Record Clerks, All Other",
-      "Office and Administrative Support Workers, All Other",
-      "Business Operations Specialists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Brokerage Clerks": {
     "onet_code": "43-4011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.6,
@@ -35559,21 +40407,28 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Procurement Clerks",
-      "Court, Municipal, and License Clerks",
-      "Real Estate Brokers",
-      "Loan Interviewers and Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Correspondence Clerks": {
     "onet_code": "43-4021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 4,
@@ -35614,18 +40469,25 @@ onet_jobs = {
       "Writing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Archivists",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Document Management Specialists",
-      "Court Reporters and Simultaneous Captioners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Court, Municipal, and License Clerks": {
     "onet_code": "43-4031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.5,
@@ -35666,21 +40528,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Loan Interviewers and Clerks",
-      "Brokerage Clerks",
-      "Real Estate Brokers",
-      "Procurement Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Credit Authorizers, Checkers, and Clerks": {
     "onet_code": "43-4041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.3,
@@ -35721,18 +40590,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Bill and Account Collectors",
-      "Eligibility Interviewers, Government Programs",
-      "Tellers",
-      "Customs Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Customer Service Representatives": {
     "onet_code": "43-4051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -35773,18 +40649,25 @@ onet_jobs = {
       "Service Orientation",
       "Speaking"
     ],
-    "similar_roles": [
-      "Receptionists and Information Clerks",
-      "Reservation and Transportation Ticket Agents and Travel Clerks",
-      "Telephone Operators",
-      "Travel Guides"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Eligibility Interviewers, Government Programs": {
     "onet_code": "43-4061.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -35825,18 +40708,25 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Credit Authorizers, Checkers, and Clerks",
-      "Bill and Account Collectors",
-      "Office Clerks, General",
-      "Tellers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "File Clerks": {
     "onet_code": "43-4071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.3,
@@ -35877,21 +40767,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Shipping, Receiving, and Inventory Clerks",
-      "Opticians, Dispensing",
-      "Procurement Clerks",
-      "Government Property Inspectors and Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Hotel, Motel, and Resort Desk Clerks": {
     "onet_code": "43-4081.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3.1,
@@ -35932,18 +40829,25 @@ onet_jobs = {
       "Service Orientation",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Concierges",
-      "Cashiers",
-      "Waiters and Waitresses",
-      "Art Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Interviewers, Except Eligibility and Loan": {
     "onet_code": "43-4111.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.5,
@@ -35984,18 +40888,25 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "New Accounts Clerks",
-      "Public Safety Telecommunicators",
-      "Eligibility Interviewers, Government Programs",
-      "Recreation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Library Assistants, Clerical": {
     "onet_code": "43-4121.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 3.2,
@@ -36036,21 +40947,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Travel Agents",
-      "Pharmacy Aides",
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Teaching Assistants, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Loan Interviewers and Clerks": {
     "onet_code": "43-4131.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -36091,21 +41009,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Court, Municipal, and License Clerks",
-      "Brokerage Clerks",
-      "Real Estate Brokers",
-      "Government Property Inspectors and Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "New Accounts Clerks": {
     "onet_code": "43-4141.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.3,
@@ -36146,18 +41071,25 @@ onet_jobs = {
       "Speaking",
       "Speaking"
     ],
-    "similar_roles": [
-      "Interviewers, Except Eligibility and Loan",
-      "Public Safety Telecommunicators",
-      "Customer Service Representatives",
-      "Credit Authorizers, Checkers, and Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Order Clerks": {
     "onet_code": "43-4151.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.3,
@@ -36198,19 +41130,26 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Postmasters and Mail Superintendents",
-      "Loan Officers",
-      "Production, Planning, and Expediting Clerks",
-      "Tellers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Human Resources Assistants, Except Payroll and Timekeeping": {
     "onet_code": "43-4161.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.8,
@@ -36251,21 +41190,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Payroll and Timekeeping Clerks",
-      "Legal Secretaries and Administrative Assistants",
-      "Gambling Change Persons and Booth Cashiers",
-      "Teaching Assistants, Postsecondary"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Receptionists and Information Clerks": {
     "onet_code": "43-4171.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 3.1,
@@ -36306,18 +41252,25 @@ onet_jobs = {
       "Service Orientation",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Customer Service Representatives",
-      "Reservation and Transportation Ticket Agents and Travel Clerks",
-      "Telephone Operators",
-      "Travel Guides"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Research/Reading"
     ]
   },
   "Reservation and Transportation Ticket Agents and Travel Clerks": {
     "onet_code": "43-4181.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.2,
@@ -36358,18 +41311,25 @@ onet_jobs = {
       "Speaking",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Telephone Operators",
-      "Customer Service Representatives",
-      "Receptionists and Information Clerks",
-      "Travel Guides"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Information and Record Clerks, All Other": {
     "onet_code": "43-4199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -36408,21 +41368,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Communications Equipment Operators, All Other",
-      "Financial Clerks, All Other",
-      "Office and Administrative Support Workers, All Other",
-      "Business Operations Specialists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Cargo and Freight Agents": {
     "onet_code": "43-5011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3.1,
@@ -36463,18 +41430,25 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Postal Service Clerks",
-      "Graphic Designers",
-      "Tellers",
-      "Customs Brokers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Freight Forwarders": {
     "onet_code": "43-5011.01",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.4,
@@ -36515,21 +41489,28 @@ onet_jobs = {
       "Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Logisticians",
-      "Data Entry Keyers",
-      "Animal Caretakers",
-      "Helpers--Roofers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Couriers and Messengers": {
     "onet_code": "43-5021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -36570,21 +41551,28 @@ onet_jobs = {
       "Time Management",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Shipping, Receiving, and Inventory Clerks",
-      "Opticians, Dispensing",
-      "File Clerks",
-      "Cooks, Short Order"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Public Safety Telecommunicators": {
     "onet_code": "43-5031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.4,
@@ -36625,19 +41613,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Dispatchers, Except Police, Fire, and Ambulance",
-      "New Accounts Clerks",
-      "Interviewers, Except Eligibility and Loan",
-      "Recreation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Dispatchers, Except Police, Fire, and Ambulance": {
     "onet_code": "43-5032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.3,
@@ -36678,19 +41673,26 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Public Safety Telecommunicators",
-      "New Accounts Clerks",
-      "Interviewers, Except Eligibility and Loan",
-      "Customs and Border Protection Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Meter Readers, Utilities": {
     "onet_code": "43-5041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -36731,18 +41733,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Pharmacy Technicians",
-      "Office Clerks, General",
-      "Tellers",
-      "Park Naturalists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Postal Service Clerks": {
     "onet_code": "43-5051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 3,
@@ -36783,18 +41792,25 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Cargo and Freight Agents",
-      "Graphic Designers",
-      "Postal Service Mail Carriers",
-      "Office Clerks, General"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Postal Service Mail Carriers": {
     "onet_code": "43-5052.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.4,
@@ -36835,18 +41851,25 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Animal Control Workers",
-      "Floral Designers",
-      "Dental Hygienists",
-      "Postal Service Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Postal Service Mail Sorters, Processors, and Processing Machine Operators": {
     "onet_code": "43-5053.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -36887,21 +41910,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Glaziers",
-      "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
-      "Mail Clerks and Mail Machine Operators, Except Postal Service",
-      "Transportation Security Screeners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Production, Planning, and Expediting Clerks": {
     "onet_code": "43-5061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.4,
@@ -36942,18 +41972,25 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Human Resources Specialists",
-      "Order Clerks",
-      "Postmasters and Mail Superintendents",
-      "Loan Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Shipping, Receiving, and Inventory Clerks": {
     "onet_code": "43-5071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.9,
@@ -36994,21 +42031,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Procurement Clerks",
-      "Opticians, Dispensing",
-      "File Clerks",
-      "Gambling and Sports Book Writers and Runners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Weighers, Measurers, Checkers, and Samplers, Recordkeeping": {
     "onet_code": "43-5111.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -37049,19 +42093,26 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Mail Clerks and Mail Machine Operators, Except Postal Service",
-      "Environmental Compliance Inspectors",
-      "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
-      "Audio and Video Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Executive Secretaries and Executive Administrative Assistants": {
     "onet_code": "43-6011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.9,
@@ -37102,19 +42153,26 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Meeting, Convention, and Event Planners",
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Appraisers and Assessors of Real Estate",
-      "Human Resources Assistants, Except Payroll and Timekeeping"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Legal Secretaries and Administrative Assistants": {
     "onet_code": "43-6012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 4,
@@ -37155,21 +42213,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Human Resources Assistants, Except Payroll and Timekeeping",
-      "Payroll and Timekeeping Clerks",
-      "Teaching Assistants, Postsecondary",
-      "Gambling Change Persons and Booth Cashiers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Secretaries and Administrative Assistants": {
     "onet_code": "43-6013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 3.2,
@@ -37213,18 +42278,25 @@ onet_jobs = {
       "Speaking",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Receptionists and Information Clerks",
-      "Telephone Operators",
-      "Reservation and Transportation Ticket Agents and Travel Clerks",
-      "Customer Service Representatives"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive": {
     "onet_code": "43-6014.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.8,
@@ -37268,19 +42340,26 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Postmasters and Mail Superintendents",
-      "Order Clerks",
-      "Loan Officers",
-      "Dental Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Data Entry Keyers": {
     "onet_code": "43-9021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3.3,
@@ -37323,21 +42402,28 @@ onet_jobs = {
       "Active Listening",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Animal Caretakers",
-      "Freight Forwarders",
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Plating Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Word Processors and Typists": {
     "onet_code": "43-9022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 3.4,
@@ -37378,19 +42464,26 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Museum Technicians and Conservators",
-      "Document Management Specialists",
-      "Court Reporters and Simultaneous Captioners",
-      "Environmental Science and Protection Technicians, Including Health"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Desktop Publishers": {
     "onet_code": "43-9031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.6,
@@ -37431,21 +42524,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Film and Video Editors",
-      "Power Distributors and Dispatchers",
-      "Private Detectives and Investigators",
-      "Cytotechnologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Insurance Claims and Policy Processing Clerks": {
     "onet_code": "43-9041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.3,
@@ -37486,18 +42586,25 @@ onet_jobs = {
       "Active Listening",
       "Time Management"
     ],
-    "similar_roles": [
-      "Tax Examiners and Collectors, and Revenue Agents",
-      "Correspondence Clerks",
-      "Credit Authorizers, Checkers, and Clerks",
-      "Executive Secretaries and Executive Administrative Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Mail Clerks and Mail Machine Operators, Except Postal Service": {
     "onet_code": "43-9051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.8,
@@ -37538,18 +42645,25 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
-      "Cooks, Restaurant",
-      "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
-      "Audio and Video Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Office Clerks, General": {
     "onet_code": "43-9061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.4,
@@ -37590,18 +42704,25 @@ onet_jobs = {
       "Speaking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Tellers",
-      "Pharmacy Technicians",
-      "Bill and Account Collectors",
-      "Credit Authorizers, Checkers, and Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Office Machine Operators, Except Computer": {
     "onet_code": "43-9071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -37642,18 +42763,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Wellhead Pumpers",
-      "Agricultural Equipment Operators",
-      "Loading and Moving Machine Operators, Underground Mining",
-      "Motorboat Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Proofreaders and Copy Markers": {
     "onet_code": "43-9081.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 4.1,
@@ -37694,21 +42822,28 @@ onet_jobs = {
       "Writing",
       "Writing"
     ],
-    "similar_roles": [
-      "Poets, Lyricists and Creative Writers",
-      "Court Reporters and Simultaneous Captioners",
-      "Technical Writers",
-      "Editors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Creative"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Statistical Assistants": {
     "onet_code": "43-9111.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.8,
@@ -37749,18 +42884,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Statisticians",
-      "Wind Energy Engineers",
-      "Financial Quantitative Analysts",
-      "Cost Estimators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Office and Administrative Support Workers, All Other": {
     "onet_code": "43-9199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -37799,21 +42941,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Communications Equipment Operators, All Other",
-      "Financial Clerks, All Other",
-      "Information and Record Clerks, All Other",
-      "Business Operations Specialists, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Farming, Fishing, and Forestry Workers": {
     "onet_code": "45-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.4,
@@ -37856,19 +43005,26 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Cooks, Restaurant",
-      "Environmental Compliance Inspectors",
-      "First-Line Supervisors of Production and Operating Workers",
-      "Gambling Surveillance Officers and Gambling Investigators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Inspectors": {
     "onet_code": "45-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -37909,18 +43065,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Mechanical Door Repairers",
-      "Audio and Video Technicians",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters",
-      "Architects, Except Landscape and Naval"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Animal Breeders": {
     "onet_code": "45-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 2.8,
@@ -37961,21 +43124,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Painters, Construction and Maintenance",
-      "Fabric and Apparel Patternmakers",
-      "Commercial Divers",
-      "Cytotechnologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Graders and Sorters, Agricultural Products": {
     "onet_code": "45-2041.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.6,
       "writing": 1.9,
@@ -38016,21 +43186,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Helpers--Production Workers",
-      "Tapers",
-      "Cutters and Trimmers, Hand",
-      "Slaughterers and Meat Packers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Hands-on/Systems"
     ]
   },
   "Agricultural Equipment Operators": {
     "onet_code": "45-2091.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2,
@@ -38071,18 +43248,25 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Loading and Moving Machine Operators, Underground Mining",
-      "Wellhead Pumpers",
-      "Motorboat Operators",
-      "Operating Engineers and Other Construction Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Farmworkers and Laborers, Crop, Nursery, and Greenhouse": {
     "onet_code": "45-2092.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -38126,21 +43310,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Registered Nurses",
-      "Refuse and Recyclable Material Collectors",
-      "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
-      "Licensed Practical and Licensed Vocational Nurses"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "healthcare",
       "patient care",
       "medical",
       "wellness"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Farmworkers, Farm, Ranch, and Aquacultural Animals": {
     "onet_code": "45-2093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -38181,21 +43372,28 @@ onet_jobs = {
       "Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Furniture Finishers",
-      "Insulation Workers, Mechanical",
-      "Athletic Trainers",
-      "Bus Drivers, School"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Agricultural Workers, All Other": {
     "onet_code": "45-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -38234,21 +43432,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Fishing and Hunting Workers": {
     "onet_code": "45-3031.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -38289,18 +43494,25 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Speaking"
     ],
-    "similar_roles": [
-      "Construction Laborers",
-      "Forest Fire Inspectors and Prevention Specialists",
-      "Fence Erectors",
-      "Segmental Pavers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Forest and Conservation Workers": {
     "onet_code": "45-4011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.7,
@@ -38341,21 +43553,28 @@ onet_jobs = {
       "Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Nuclear Monitoring Technicians",
-      "Histotechnologists",
-      "Carpenters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Fallers": {
     "onet_code": "45-4021.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 1.7,
@@ -38396,21 +43615,28 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Tree Trimmers and Pruners",
-      "Hazardous Materials Removal Workers",
-      "Sawing Machine Setters, Operators, and Tenders, Wood",
-      "Cooling and Freezing Equipment Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Logging Equipment Operators": {
     "onet_code": "45-4022.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -38451,21 +43677,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Excavating and Loading Machine and Dragline Operators, Surface Mining",
-      "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
-      "Pile Driver Operators",
-      "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Log Graders and Scalers": {
     "onet_code": "45-4023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -38506,21 +43739,28 @@ onet_jobs = {
       "Speaking",
       "Writing"
     ],
-    "similar_roles": [
-      "Insurance Appraisers, Auto Damage",
-      "Prepress Technicians and Workers",
-      "Transit and Railroad Police",
-      "Helpers--Electricians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Logging Workers, All Other": {
     "onet_code": "45-4029.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -38559,21 +43799,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Construction Trades and Extraction Workers": {
     "onet_code": "47-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -38616,18 +43863,25 @@ onet_jobs = {
       "Management of Personnel Resources",
       "Active Listening"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
-      "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",
-      "Producers and Directors",
-      "First-Line Supervisors of Food Preparation and Serving Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Energy Installation Managers": {
     "onet_code": "47-1011.03",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.4,
@@ -38682,10 +43936,22 @@ onet_jobs = {
       "strategy",
       "management",
       "planning"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Boilermakers": {
     "onet_code": "47-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -38726,21 +43992,28 @@ onet_jobs = {
       "Operation and Control",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Sawing Machine Setters, Operators, and Tenders, Wood",
-      "Cooling and Freezing Equipment Operators and Tenders",
-      "Crane and Tower Operators",
-      "Potters, Manufacturing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Brickmasons and Blockmasons": {
     "onet_code": "47-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.4,
@@ -38781,21 +44054,28 @@ onet_jobs = {
       "Coordination",
       "Coordination"
     ],
-    "similar_roles": [
-      "Carpenters",
-      "Roofers",
-      "Reinforcing Iron and Rebar Workers",
-      "Layout Workers, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Stonemasons": {
     "onet_code": "47-2022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -38836,21 +44116,28 @@ onet_jobs = {
       "Critical Thinking",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Brickmasons and Blockmasons",
-      "Roofers",
-      "Reinforcing Iron and Rebar Workers",
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Carpenters": {
     "onet_code": "47-2031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -38891,21 +44178,28 @@ onet_jobs = {
       "Mathematics",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Brickmasons and Blockmasons",
-      "Carpet Installers",
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Sheet Metal Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Carpet Installers": {
     "onet_code": "47-2041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.2,
@@ -38946,21 +44240,28 @@ onet_jobs = {
       "Coordination",
       "Coordination"
     ],
-    "similar_roles": [
-      "Carpenters",
-      "Cement Masons and Concrete Finishers",
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Helpers--Roofers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Floor Layers, Except Carpet, Wood, and Hard Tiles": {
     "onet_code": "47-2042.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -39001,21 +44302,28 @@ onet_jobs = {
       "Monitoring",
       "Coordination"
     ],
-    "similar_roles": [
-      "Cement Masons and Concrete Finishers",
-      "Helpers--Carpenters",
-      "Helpers--Roofers",
-      "Segmental Pavers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Floor Sanders and Finishers": {
     "onet_code": "47-2043.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.3,
@@ -39056,21 +44364,28 @@ onet_jobs = {
       "Coordination",
       "Coordination"
     ],
-    "similar_roles": [
-      "Roofers",
-      "Rock Splitters, Quarry",
-      "Helpers--Carpenters",
-      "Industrial Truck and Tractor Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tile and Stone Setters": {
     "onet_code": "47-2044.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -39111,21 +44426,28 @@ onet_jobs = {
       "Critical Thinking",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Painters, Construction and Maintenance",
-      "Fabric and Apparel Patternmakers",
-      "Animal Breeders",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Cement Masons and Concrete Finishers": {
     "onet_code": "47-2051.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.1,
@@ -39166,21 +44488,28 @@ onet_jobs = {
       "Speaking",
       "Coordination"
     ],
-    "similar_roles": [
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles",
-      "Cooks, Institution and Cafeteria",
-      "Railroad Conductors and Yardmasters",
-      "Carpet Installers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Terrazzo Workers and Finishers": {
     "onet_code": "47-2053.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 1.9,
@@ -39221,21 +44550,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Welders, Cutters, Solderers, and Brazers",
-      "Reinforcing Iron and Rebar Workers",
-      "Drywall and Ceiling Tile Installers",
-      "Plasterers and Stucco Masons"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Construction Laborers": {
     "onet_code": "47-2061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -39276,18 +44612,25 @@ onet_jobs = {
       "Active Listening",
       "Coordination"
     ],
-    "similar_roles": [
-      "Helpers--Carpenters",
-      "Farm Labor Contractors",
-      "Fence Erectors",
-      "Segmental Pavers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Paving, Surfacing, and Tamping Equipment Operators": {
     "onet_code": "47-2071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2,
@@ -39328,21 +44671,28 @@ onet_jobs = {
       "Monitoring",
       "Coordination"
     ],
-    "similar_roles": [
-      "Highway Maintenance Workers",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Industrial Truck and Tractor Operators",
-      "Structural Iron and Steel Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pile Driver Operators": {
     "onet_code": "47-2072.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -39383,21 +44733,28 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Continuous Mining Machine Operators",
-      "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Operating Engineers and Other Construction Equipment Operators": {
     "onet_code": "47-2073.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.3,
@@ -39440,18 +44797,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Wellhead Pumpers",
-      "Loading and Moving Machine Operators, Underground Mining",
-      "Agricultural Equipment Operators",
-      "Motorboat Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Drywall and Ceiling Tile Installers": {
     "onet_code": "47-2081.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -39492,21 +44856,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Reinforcing Iron and Rebar Workers",
-      "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
-      "Laborers and Freight, Stock, and Material Movers, Hand",
-      "Stonemasons"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tapers": {
     "onet_code": "47-2082.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.1,
@@ -39547,21 +44918,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Cutters and Trimmers, Hand",
-      "Slaughterers and Meat Packers",
-      "Dishwashers",
-      "Helpers--Production Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electricians": {
     "onet_code": "47-2111.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -39602,19 +44980,26 @@ onet_jobs = {
       "Quality Control Analysis",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Audiovisual Equipment Installers and Repairers",
-      "Mechanical Door Repairers",
-      "Musical Instrument Repairers and Tuners",
-      "Telecommunications Equipment Installers and Repairers, Except Line Installers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Glaziers": {
     "onet_code": "47-2121.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -39655,21 +45040,28 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Coroners",
-      "Automotive Engineering Technicians",
-      "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
-      "Upholsterers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Insulation Workers, Floor, Ceiling, and Wall": {
     "onet_code": "47-2131.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -39710,21 +45102,28 @@ onet_jobs = {
       "Critical Thinking",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Pipelayers",
-      "Helpers--Electricians",
-      "Prepress Technicians and Workers",
-      "Jewelers and Precious Stone and Metal Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Insulation Workers, Mechanical": {
     "onet_code": "47-2132.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.4,
@@ -39765,21 +45164,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Farmworkers, Farm, Ranch, and Aquacultural Animals",
-      "Furniture Finishers",
-      "Athletic Trainers",
-      "Bus Drivers, School"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Painters, Construction and Maintenance": {
     "onet_code": "47-2141.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -39820,21 +45226,28 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Fabric and Apparel Patternmakers",
-      "Animal Breeders",
-      "Tile and Stone Setters",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Paperhangers": {
     "onet_code": "47-2142.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.2,
@@ -39875,21 +45288,28 @@ onet_jobs = {
       "Coordination",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Helpers--Carpenters",
-      "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles",
-      "Segmental Pavers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pipelayers": {
     "onet_code": "47-2151.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -39930,21 +45350,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Insulation Workers, Floor, Ceiling, and Wall",
-      "Prosthodontists",
-      "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Structural Metal Fabricators and Fitters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Plumbers, Pipefitters, and Steamfitters": {
     "onet_code": "47-2152.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -39985,21 +45412,28 @@ onet_jobs = {
       "Troubleshooting",
       "Repairing"
     ],
-    "similar_roles": [
-      "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
-      "Bicycle Repairers",
-      "Telecommunications Equipment Installers and Repairers, Except Line Installers",
-      "Bus and Truck Mechanics and Diesel Engine Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Thermal Installers and Technicians": {
     "onet_code": "47-2152.04",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -40040,21 +45474,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Inspectors, Testers, Sorters, Samplers, and Weighers",
-      "Solar Photovoltaic Installers",
-      "Musical Instrument Repairers and Tuners",
-      "Animal Breeders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Plasterers and Stucco Masons": {
     "onet_code": "47-2161.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -40095,21 +45536,28 @@ onet_jobs = {
       "Time Management",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Terrazzo Workers and Finishers",
-      "Tailors, Dressmakers, and Custom Sewers",
-      "Gem and Diamond Workers",
-      "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Reinforcing Iron and Rebar Workers": {
     "onet_code": "47-2171.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.1,
@@ -40150,21 +45598,28 @@ onet_jobs = {
       "Critical Thinking",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Drywall and Ceiling Tile Installers",
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Brickmasons and Blockmasons",
-      "Roofers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Roofers": {
     "onet_code": "47-2181.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -40205,21 +45660,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Segmental Pavers",
-      "Fence Erectors",
-      "Painters, Construction and Maintenance",
-      "Athletes and Sports Competitors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sheet Metal Workers": {
     "onet_code": "47-2211.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -40260,21 +45722,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Layout Workers, Metal and Plastic",
-      "Carpenters",
-      "Etchers and Engravers",
-      "Print Binding and Finishing Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Structural Iron and Steel Workers": {
     "onet_code": "47-2221.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -40315,21 +45784,28 @@ onet_jobs = {
       "Operation and Control",
       "Coordination"
     ],
-    "similar_roles": [
-      "Industrial Truck and Tractor Operators",
-      "Captains, Mates, and Pilots of Water Vessels",
-      "Highway Maintenance Workers",
-      "Paving, Surfacing, and Tamping Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Solar Photovoltaic Installers": {
     "onet_code": "47-2231.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.8,
@@ -40370,18 +45846,25 @@ onet_jobs = {
       "Installation",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
-      "Solar Thermal Installers and Technicians",
-      "Security and Fire Alarm Systems Installers",
-      "Watch and Clock Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters": {
     "onet_code": "47-3011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.1,
@@ -40422,21 +45905,28 @@ onet_jobs = {
       "Monitoring",
       "Coordination"
     ],
-    "similar_roles": [
-      "Roustabouts, Oil and Gas",
-      "Roof Bolters, Mining",
-      "Carpenters",
-      "Forest and Conservation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Carpenters": {
     "onet_code": "47-3012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -40477,21 +45967,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Farm Labor Contractors",
-      "Fence Erectors",
-      "Segmental Pavers",
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Electricians": {
     "onet_code": "47-3013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.4,
@@ -40532,21 +46029,28 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Prepress Technicians and Workers",
-      "Transit and Railroad Police",
-      "Jewelers and Precious Stone and Metal Workers",
-      "Umpires, Referees, and Other Sports Officials"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons": {
     "onet_code": "47-3014.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 1.9,
@@ -40587,21 +46091,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Paperhangers",
-      "Crossing Guards and Flaggers",
-      "Laborers and Freight, Stock, and Material Movers, Hand",
-      "Drywall and Ceiling Tile Installers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters": {
     "onet_code": "47-3015.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2,
@@ -40642,18 +46153,25 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Laborers and Freight, Stock, and Material Movers, Hand",
-      "Taxi Drivers",
-      "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
-      "Maids and Housekeeping Cleaners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Roofers": {
     "onet_code": "47-3016.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -40694,21 +46212,28 @@ onet_jobs = {
       "Active Listening",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles",
-      "Freight Forwarders",
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Helpers--Carpenters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers, Construction Trades, All Other": {
     "onet_code": "47-3019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -40747,21 +46272,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Construction and Related Workers, All Other",
-      "Underground Mining Machine Operators, All Other",
-      "Extraction Workers, All Other",
-      "Precision Instrument and Equipment Repairers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Construction and Building Inspectors": {
     "onet_code": "47-4011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.6,
@@ -40802,21 +46334,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Structural Metal Fabricators and Fitters",
-      "Opticians, Dispensing",
-      "Government Property Inspectors and Investigators",
-      "Surgical Assistants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Energy Auditors": {
     "onet_code": "47-4011.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.8,
@@ -40857,20 +46396,27 @@ onet_jobs = {
       "Active Listening",
       "Writing"
     ],
-    "similar_roles": [
-      "Environmental Science and Protection Technicians, Including Health",
-      "Conservation Scientists",
-      "Geological Technicians, Except Hydrologic Technicians",
-      "Document Management Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "management",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Elevator and Escalator Installers and Repairers": {
     "onet_code": "47-4021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3,
@@ -40911,18 +46457,25 @@ onet_jobs = {
       "Troubleshooting",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Signal and Track Switch Repairers",
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Mobile Heavy Equipment Mechanics, Except Engines",
-      "Aircraft Mechanics and Service Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Fence Erectors": {
     "onet_code": "47-4031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.2,
@@ -40963,21 +46516,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Segmental Pavers",
-      "Athletes and Sports Competitors",
-      "Helpers--Electricians",
-      "Helpers--Carpenters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Hazardous Materials Removal Workers": {
     "onet_code": "47-4041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3,
@@ -41018,21 +46578,28 @@ onet_jobs = {
       "Critical Thinking",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Roof Bolters, Mining",
-      "Tree Trimmers and Pruners",
-      "Fallers",
-      "Insulation Workers, Mechanical"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Highway Maintenance Workers": {
     "onet_code": "47-4051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -41073,21 +46640,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Paving, Surfacing, and Tamping Equipment Operators",
-      "Industrial Truck and Tractor Operators",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Structural Iron and Steel Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rail-Track Laying and Maintenance Equipment Operators": {
     "onet_code": "47-4061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.3,
@@ -41128,21 +46702,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Industrial Machinery Mechanics",
-      "Helpers--Extraction Workers",
-      "Logging Equipment Operators",
-      "Tire Builders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Septic Tank Servicers and Sewer Pipe Cleaners": {
     "onet_code": "47-4071.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -41183,18 +46764,25 @@ onet_jobs = {
       "Critical Thinking",
       "Repairing"
     ],
-    "similar_roles": [
-      "Watch and Clock Repairers",
-      "Rotary Drill Operators, Oil and Gas",
-      "Service Unit Operators, Oil and Gas",
-      "Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Segmental Pavers": {
     "onet_code": "47-4091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -41235,21 +46823,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Fence Erectors",
-      "Athletes and Sports Competitors",
-      "Roofers",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Construction and Related Workers, All Other": {
     "onet_code": "47-4099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -41288,21 +46883,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Helpers, Construction Trades, All Other",
-      "Underground Mining Machine Operators, All Other",
-      "Extraction Workers, All Other",
-      "Precision Instrument and Equipment Repairers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Weatherization Installers and Technicians": {
     "onet_code": "47-4099.03",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -41343,19 +46945,26 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Gambling Surveillance Officers and Gambling Investigators",
-      "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",
-      "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
-      "Audio and Video Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Derrick Operators, Oil and Gas": {
     "onet_code": "47-5011.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -41396,21 +47005,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
-      "Continuous Mining Machine Operators",
-      "Tire Builders",
-      "Dredge Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rotary Drill Operators, Oil and Gas": {
     "onet_code": "47-5012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -41451,18 +47067,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Service Unit Operators, Oil and Gas",
-      "Septic Tank Servicers and Sewer Pipe Cleaners",
-      "Wellhead Pumpers",
-      "Boilermakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Service Unit Operators, Oil and Gas": {
     "onet_code": "47-5013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -41503,18 +47126,25 @@ onet_jobs = {
       "Operation and Control",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Rotary Drill Operators, Oil and Gas",
-      "Heavy and Tractor-Trailer Truck Drivers",
-      "Rail Yard Engineers, Dinkey Operators, and Hostlers",
-      "Tree Trimmers and Pruners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Excavating and Loading Machine and Dragline Operators, Surface Mining": {
     "onet_code": "47-5022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.7,
@@ -41555,21 +47185,28 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Logging Equipment Operators",
-      "Tire Builders",
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Pile Driver Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Earth Drillers, Except Oil and Gas": {
     "onet_code": "47-5023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.5,
@@ -41610,18 +47247,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Metal-Refining Furnace Operators and Tenders",
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-      "Gas Compressor and Gas Pumping Station Operators",
-      "Power Plant Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Explosives Workers, Ordnance Handling Experts, and Blasters": {
     "onet_code": "47-5032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.1,
@@ -41662,18 +47306,25 @@ onet_jobs = {
       "Reading Comprehension",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Audio and Video Technicians",
-      "Pharmacists",
-      "Nuclear Monitoring Technicians",
-      "Obstetricians and Gynecologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Continuous Mining Machine Operators": {
     "onet_code": "47-5041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.3,
@@ -41714,21 +47365,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Pile Driver Operators",
-      "Derrick Operators, Oil and Gas",
-      "Dredge Operators",
-      "Tire Builders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Roof Bolters, Mining": {
     "onet_code": "47-5043.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.3,
@@ -41769,21 +47427,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Hazardous Materials Removal Workers",
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Roustabouts, Oil and Gas",
-      "Paving, Surfacing, and Tamping Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Loading and Moving Machine Operators, Underground Mining": {
     "onet_code": "47-5044.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.4,
@@ -41824,18 +47489,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Agricultural Equipment Operators",
-      "Wellhead Pumpers",
-      "Motorboat Operators",
-      "Operating Engineers and Other Construction Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Underground Mining Machine Operators, All Other": {
     "onet_code": "47-5049.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -41874,21 +47546,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other",
-      "Extraction Workers, All Other",
-      "Precision Instrument and Equipment Repairers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Rock Splitters, Quarry": {
     "onet_code": "47-5051.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -41929,21 +47608,28 @@ onet_jobs = {
       "Active Listening",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Recycling and Reclamation Workers",
-      "Pourers and Casters, Metal",
-      "Pile Driver Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Roustabouts, Oil and Gas": {
     "onet_code": "47-5071.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.1,
@@ -41984,21 +47670,28 @@ onet_jobs = {
       "Coordination",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-      "Paving, Surfacing, and Tamping Equipment Operators",
-      "Highway Maintenance Workers",
-      "Roof Bolters, Mining"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Extraction Workers": {
     "onet_code": "47-5081.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.5,
@@ -42039,21 +47732,28 @@ onet_jobs = {
       "Operation and Control",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Coil Winders, Tapers, and Finishers",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Rail-Track Laying and Maintenance Equipment Operators",
-      "Geothermal Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Extraction Workers, All Other": {
     "onet_code": "47-5099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -42092,21 +47792,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other",
-      "Underground Mining Machine Operators, All Other",
-      "Precision Instrument and Equipment Repairers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Mechanics, Installers, and Repairers": {
     "onet_code": "49-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.5,
@@ -42149,19 +47856,26 @@ onet_jobs = {
       "Monitoring",
       "Management of Personnel Resources"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Correctional Officers",
-      "First-Line Supervisors of Housekeeping and Janitorial Workers",
-      "First-Line Supervisors of Production and Operating Workers",
-      "Aircraft Cargo Handling Supervisors"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer, Automated Teller, and Office Machine Repairers": {
     "onet_code": "49-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.1,
@@ -42202,18 +47916,25 @@ onet_jobs = {
       "Critical Thinking",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Home Appliance Repairers",
-      "Control and Valve Installers and Repairers, Except Mechanical Door",
-      "Watch and Clock Repairers",
-      "Animal Control Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Radio, Cellular, and Tower Equipment Installers and Repairers": {
     "onet_code": "49-2021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.1,
@@ -42254,18 +47975,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Repairing"
     ],
-    "similar_roles": [
-      "Electronic Equipment Installers and Repairers, Motor Vehicles",
-      "Timing Device Assemblers and Adjusters",
-      "Audiovisual Equipment Installers and Repairers",
-      "Automotive Service Technicians and Mechanics"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Telecommunications Equipment Installers and Repairers, Except Line Installers": {
     "onet_code": "49-2022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.3,
@@ -42306,20 +48034,27 @@ onet_jobs = {
       "Critical Thinking",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Plumbers, Pipefitters, and Steamfitters",
-      "Audiovisual Equipment Installers and Repairers",
-      "Automotive Service Technicians and Mechanics",
-      "Recreational Vehicle Service Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Avionics Technicians": {
     "onet_code": "49-2091.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.3,
@@ -42360,21 +48095,28 @@ onet_jobs = {
       "Repairing",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Motorboat Mechanics and Service Technicians",
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Rail Car Repairers",
-      "Camera and Photographic Equipment Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electric Motor, Power Tool, and Related Repairers": {
     "onet_code": "49-2092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 2.9,
@@ -42415,18 +48157,25 @@ onet_jobs = {
       "Equipment Maintenance",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Signal and Track Switch Repairers",
-      "Mobile Heavy Equipment Mechanics, Except Engines",
-      "Aircraft Mechanics and Service Technicians",
-      "Coin, Vending, and Amusement Machine Servicers and Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronics Installers and Repairers, Transportation Equipment": {
     "onet_code": "49-2093.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.1,
@@ -42467,18 +48216,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Electrical Power-Line Installers and Repairers",
-      "Rotary Drill Operators, Oil and Gas",
-      "Aviation Inspectors",
-      "Commercial Divers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronics Repairers, Commercial and Industrial Equipment": {
     "onet_code": "49-2094.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.3,
@@ -42519,18 +48275,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Foresters",
-      "Semiconductor Processing Technicians",
-      "Water Resource Specialists",
-      "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay": {
     "onet_code": "49-2095.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.2,
@@ -42571,21 +48334,28 @@ onet_jobs = {
       "Repairing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Motorboat Mechanics and Service Technicians",
-      "Avionics Technicians",
-      "Plumbers, Pipefitters, and Steamfitters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Electronic Equipment Installers and Repairers, Motor Vehicles": {
     "onet_code": "49-2096.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -42626,18 +48396,25 @@ onet_jobs = {
       "Repairing",
       "Repairing"
     ],
-    "similar_roles": [
-      "Automotive Service Technicians and Mechanics",
-      "Bus and Truck Mechanics and Diesel Engine Specialists",
-      "Recreational Vehicle Service Technicians",
-      "Motorcycle Mechanics"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Audiovisual Equipment Installers and Repairers": {
     "onet_code": "49-2097.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -42678,18 +48455,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Musical Instrument Repairers and Tuners",
-      "Electricians",
-      "Telecommunications Equipment Installers and Repairers, Except Line Installers",
-      "Plumbers, Pipefitters, and Steamfitters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Security and Fire Alarm Systems Installers": {
     "onet_code": "49-2098.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.1,
@@ -42730,18 +48514,25 @@ onet_jobs = {
       "Critical Thinking",
       "Installation"
     ],
-    "similar_roles": [
-      "Solar Photovoltaic Installers",
-      "Occupational Health and Safety Technicians",
-      "Telecommunications Line Installers and Repairers",
-      "Solar Thermal Installers and Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Aircraft Mechanics and Service Technicians": {
     "onet_code": "49-3011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.6,
@@ -42782,19 +48573,26 @@ onet_jobs = {
       "Repairing",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Mobile Heavy Equipment Mechanics, Except Engines",
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Signal and Track Switch Repairers",
-      "Avionics Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Automotive Body and Related Repairers": {
     "onet_code": "49-3021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -42835,21 +48633,28 @@ onet_jobs = {
       "Troubleshooting",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Bicycle Repairers",
-      "Bus and Truck Mechanics and Diesel Engine Specialists",
-      "Motorcycle Mechanics",
-      "Plumbers, Pipefitters, and Steamfitters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive Glass Installers and Repairers": {
     "onet_code": "49-3022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.5,
@@ -42890,21 +48695,28 @@ onet_jobs = {
       "Equipment Selection",
       "Time Management"
     ],
-    "similar_roles": [
-      "Tailors, Dressmakers, and Custom Sewers",
-      "Couriers and Messengers",
-      "Pipelayers",
-      "Cement Masons and Concrete Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive Service Technicians and Mechanics": {
     "onet_code": "49-3023.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -42945,20 +48757,27 @@ onet_jobs = {
       "Repairing",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Recreational Vehicle Service Technicians",
-      "Electronic Equipment Installers and Repairers, Motor Vehicles",
-      "Bus and Truck Mechanics and Diesel Engine Specialists",
-      "Motorcycle Mechanics"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Bus and Truck Mechanics and Diesel Engine Specialists": {
     "onet_code": "49-3031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -42999,21 +48818,28 @@ onet_jobs = {
       "Repairing",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Motorcycle Mechanics",
-      "Automotive Service Technicians and Mechanics",
-      "Electronic Equipment Installers and Repairers, Motor Vehicles",
-      "Avionics Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Farm Equipment Mechanics and Service Technicians": {
     "onet_code": "49-3041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.9,
@@ -43054,21 +48880,28 @@ onet_jobs = {
       "Equipment Maintenance",
       "Repairing"
     ],
-    "similar_roles": [
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Motorboat Mechanics and Service Technicians",
-      "Maintenance and Repair Workers, General",
-      "Rail Car Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Mobile Heavy Equipment Mechanics, Except Engines": {
     "onet_code": "49-3042.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.1,
@@ -43109,19 +48942,26 @@ onet_jobs = {
       "Equipment Maintenance",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Aircraft Mechanics and Service Technicians",
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Signal and Track Switch Repairers",
-      "Avionics Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rail Car Repairers": {
     "onet_code": "49-3043.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -43162,21 +49002,28 @@ onet_jobs = {
       "Repairing",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Motorboat Mechanics and Service Technicians",
-      "Avionics Technicians",
-      "Camera and Photographic Equipment Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Motorboat Mechanics and Service Technicians": {
     "onet_code": "49-3051.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.7,
@@ -43217,21 +49064,28 @@ onet_jobs = {
       "Equipment Maintenance",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Rail Car Repairers",
-      "Avionics Technicians",
-      "Camera and Photographic Equipment Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Motorcycle Mechanics": {
     "onet_code": "49-3052.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.9,
@@ -43272,21 +49126,28 @@ onet_jobs = {
       "Repairing",
       "Repairing"
     ],
-    "similar_roles": [
-      "Bus and Truck Mechanics and Diesel Engine Specialists",
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Recreational Vehicle Service Technicians",
-      "Motorboat Mechanics and Service Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Outdoor Power Equipment and Other Small Engine Mechanics": {
     "onet_code": "49-3053.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.7,
@@ -43327,21 +49188,28 @@ onet_jobs = {
       "Troubleshooting",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Motorboat Mechanics and Service Technicians",
-      "Rail Car Repairers",
-      "Avionics Technicians",
-      "Camera and Photographic Equipment Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Bicycle Repairers": {
     "onet_code": "49-3091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.9,
@@ -43382,21 +49250,28 @@ onet_jobs = {
       "Critical Thinking",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Automotive Body and Related Repairers",
-      "Plumbers, Pipefitters, and Steamfitters",
-      "Locksmiths and Safe Repairers",
-      "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Recreational Vehicle Service Technicians": {
     "onet_code": "49-3092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -43437,18 +49312,25 @@ onet_jobs = {
       "Troubleshooting",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Automotive Service Technicians and Mechanics",
-      "Bus and Truck Mechanics and Diesel Engine Specialists",
-      "Electronic Equipment Installers and Repairers, Motor Vehicles",
-      "Motorcycle Mechanics"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Tire Repairers and Changers": {
     "onet_code": "49-3093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.2,
@@ -43489,18 +49371,25 @@ onet_jobs = {
       "Critical Thinking",
       "Service Orientation"
     ],
-    "similar_roles": [
-      "Hairdressers, Hairstylists, and Cosmetologists",
-      "Baggage Porters and Bellhops",
-      "Animal Control Workers",
-      "Postal Service Mail Carriers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Mechanical Door Repairers": {
     "onet_code": "49-9011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -43541,18 +49430,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Agricultural Inspectors",
-      "Audio and Video Technicians",
-      "Audiovisual Equipment Installers and Repairers",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Control and Valve Installers and Repairers, Except Mechanical Door": {
     "onet_code": "49-9012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -43593,18 +49489,25 @@ onet_jobs = {
       "Repairing",
       "Repairing"
     ],
-    "similar_roles": [
-      "Home Appliance Repairers",
-      "Maintenance and Repair Workers, General",
-      "Signal and Track Switch Repairers",
-      "Electric Motor, Power Tool, and Related Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Heating, Air Conditioning, and Refrigeration Mechanics and Installers": {
     "onet_code": "49-9021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -43645,18 +49548,25 @@ onet_jobs = {
       "Repairing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Watch and Clock Repairers",
-      "Septic Tank Servicers and Sewer Pipe Cleaners",
-      "Solar Photovoltaic Installers",
-      "Home Appliance Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Home Appliance Repairers": {
     "onet_code": "49-9031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -43697,18 +49607,25 @@ onet_jobs = {
       "Critical Thinking",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Control and Valve Installers and Repairers, Except Mechanical Door",
-      "Maintenance and Repair Workers, General",
-      "Signal and Track Switch Repairers",
-      "Watch and Clock Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Industrial Machinery Mechanics": {
     "onet_code": "49-9041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.9,
@@ -43749,21 +49666,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Rail-Track Laying and Maintenance Equipment Operators",
-      "Helpers--Extraction Workers",
-      "Chemical Equipment Operators and Tenders",
-      "Maintenance Workers, Machinery"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Maintenance Workers, Machinery": {
     "onet_code": "49-9043.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -43804,21 +49728,28 @@ onet_jobs = {
       "Equipment Maintenance",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Industrial Machinery Mechanics",
-      "Rail-Track Laying and Maintenance Equipment Operators",
-      "Millwrights",
-      "Hydroelectric Plant Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Millwrights": {
     "onet_code": "49-9044.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -43859,21 +49790,28 @@ onet_jobs = {
       "Equipment Maintenance",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Maintenance Workers, Machinery",
-      "Industrial Machinery Mechanics",
-      "Rail-Track Laying and Maintenance Equipment Operators",
-      "Hydroelectric Plant Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Refractory Materials Repairers, Except Brickmasons": {
     "onet_code": "49-9045.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.6,
@@ -43914,21 +49852,28 @@ onet_jobs = {
       "Repairing",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Automotive Body and Related Repairers",
-      "Rock Splitters, Quarry",
-      "Commercial Divers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical Power-Line Installers and Repairers": {
     "onet_code": "49-9051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.8,
@@ -43969,18 +49914,25 @@ onet_jobs = {
       "Troubleshooting",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Electrical and Electronics Installers and Repairers, Transportation Equipment",
-      "Elevator and Escalator Installers and Repairers",
-      "Automotive Body and Related Repairers",
-      "Signal and Track Switch Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Telecommunications Line Installers and Repairers": {
     "onet_code": "49-9052.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -44021,19 +49973,26 @@ onet_jobs = {
       "Critical Thinking",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Animal Control Workers",
-      "Aviation Inspectors",
-      "Cooks, Restaurant",
-      "Postal Service Mail Carriers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Camera and Photographic Equipment Repairers": {
     "onet_code": "49-9061.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -44074,21 +50033,28 @@ onet_jobs = {
       "Repairing",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Outdoor Power Equipment and Other Small Engine Mechanics",
-      "Motorboat Mechanics and Service Technicians",
-      "Avionics Technicians",
-      "Rail Car Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Medical Equipment Repairers": {
     "onet_code": "49-9062.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -44132,20 +50098,27 @@ onet_jobs = {
       "Equipment Maintenance",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Mobile Heavy Equipment Mechanics, Except Engines",
-      "Aircraft Mechanics and Service Technicians",
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Signal and Track Switch Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Musical Instrument Repairers and Tuners": {
     "onet_code": "49-9063.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -44186,21 +50159,28 @@ onet_jobs = {
       "Repairing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Plumbers, Pipefitters, and Steamfitters",
-      "Timing Device Assemblers and Adjusters",
-      "Audiovisual Equipment Installers and Repairers",
-      "Bicycle Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Watch and Clock Repairers": {
     "onet_code": "49-9064.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -44241,18 +50221,25 @@ onet_jobs = {
       "Critical Thinking",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
-      "Septic Tank Servicers and Sewer Pipe Cleaners",
-      "Home Appliance Repairers",
-      "Control and Valve Installers and Repairers, Except Mechanical Door"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Precision Instrument and Equipment Repairers, All Other": {
     "onet_code": "49-9069.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -44291,21 +50278,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Installation, Maintenance, and Repair Workers, All Other",
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other",
-      "Underground Mining Machine Operators, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Maintenance and Repair Workers, General": {
     "onet_code": "49-9071.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -44346,18 +50340,25 @@ onet_jobs = {
       "Repairing",
       "Repairing"
     ],
-    "similar_roles": [
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Signal and Track Switch Repairers",
-      "Home Appliance Repairers",
-      "Farm Equipment Mechanics and Service Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Wind Turbine Service Technicians": {
     "onet_code": "49-9081.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -44398,20 +50399,27 @@ onet_jobs = {
       "Troubleshooting",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Elevator and Escalator Installers and Repairers",
-      "Aircraft Mechanics and Service Technicians",
-      "Mobile Heavy Equipment Mechanics, Except Engines",
-      "Maintenance Workers, Machinery"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis",
       "service",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Coin, Vending, and Amusement Machine Servicers and Repairers": {
     "onet_code": "49-9091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -44452,18 +50460,25 @@ onet_jobs = {
       "Troubleshooting",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Signal and Track Switch Repairers",
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Aircraft Mechanics and Service Technicians",
-      "Mobile Heavy Equipment Mechanics, Except Engines"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Commercial Divers": {
     "onet_code": "49-9092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3,
       "writing": 3.2,
@@ -44504,21 +50519,28 @@ onet_jobs = {
       "Critical Thinking",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Animal Breeders",
-      "Painters, Construction and Maintenance",
-      "Bus Drivers, Transit and Intercity",
-      "Ship Engineers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Locksmiths and Safe Repairers": {
     "onet_code": "49-9094.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -44559,21 +50581,28 @@ onet_jobs = {
       "Time Management",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Bicycle Repairers",
-      "Helpers--Installation, Maintenance, and Repair Workers",
-      "Animal Breeders",
-      "Painters, Construction and Maintenance"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Manufactured Building and Mobile Home Installers": {
     "onet_code": "49-9095.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -44614,18 +50643,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Coordination"
     ],
-    "similar_roles": [
-      "Roof Bolters, Mining",
-      "Camera Operators, Television, Video, and Film",
-      "Chemical Plant and System Operators",
-      "Biomass Plant Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Riggers": {
     "onet_code": "49-9096.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -44666,21 +50702,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Butchers and Meat Cutters",
-      "Stockers and Order Fillers",
-      "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
-      "Pipelayers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Signal and Track Switch Repairers": {
     "onet_code": "49-9097.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -44721,18 +50764,25 @@ onet_jobs = {
       "Troubleshooting",
       "Repairing"
     ],
-    "similar_roles": [
-      "Electric Motor, Power Tool, and Related Repairers",
-      "Mobile Heavy Equipment Mechanics, Except Engines",
-      "Aircraft Mechanics and Service Technicians",
-      "Coin, Vending, and Amusement Machine Servicers and Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Installation, Maintenance, and Repair Workers": {
     "onet_code": "49-9098.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.2,
@@ -44773,21 +50823,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Bicycle Repairers",
-      "Locksmiths and Safe Repairers",
-      "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
-      "Farm Equipment Mechanics and Service Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Installation, Maintenance, and Repair Workers, All Other": {
     "onet_code": "49-9099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -44826,21 +50883,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Precision Instrument and Equipment Repairers, All Other",
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other",
-      "Underground Mining Machine Operators, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Geothermal Technicians": {
     "onet_code": "49-9099.01",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -44881,21 +50945,28 @@ onet_jobs = {
       "Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Coil Winders, Tapers, and Finishers",
-      "Recycling and Reclamation Workers",
-      "Glass Blowers, Molders, Benders, and Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Production and Operating Workers": {
     "onet_code": "51-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.5,
@@ -44938,19 +51009,26 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Flight Attendants",
-      "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
-      "Air Traffic Controllers",
-      "Correctional Officers and Jailers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers": {
     "onet_code": "51-2011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -44991,21 +51069,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Butchers and Meat Cutters",
-      "Stockers and Order Fillers",
-      "Engine and Other Machine Assemblers",
-      "Structural Metal Fabricators and Fitters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Coil Winders, Tapers, and Finishers": {
     "onet_code": "51-2021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -45046,21 +51131,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Geothermal Technicians",
-      "Helpers--Extraction Workers",
-      "Recycling and Reclamation Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electrical and Electronic Equipment Assemblers": {
     "onet_code": "51-2022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -45101,21 +51193,28 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Fiberglass Laminators and Fabricators",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Food Cooking Machine Operators and Tenders",
-      "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Electromechanical Equipment Assemblers": {
     "onet_code": "51-2023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.7,
@@ -45156,21 +51255,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Troubleshooting"
     ],
-    "similar_roles": [
-      "Engine and Other Machine Assemblers",
-      "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
-      "Tool and Die Makers",
-      "Ophthalmic Laboratory Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Engine and Other Machine Assemblers": {
     "onet_code": "51-2031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.7,
@@ -45211,21 +51317,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
-      "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Semiconductor Processing Technicians",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Structural Metal Fabricators and Fitters": {
     "onet_code": "51-2041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.5,
@@ -45266,21 +51379,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Construction and Building Inspectors",
-      "Surgical Assistants",
-      "Shipping, Receiving, and Inventory Clerks",
-      "Opticians, Dispensing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Fiberglass Laminators and Fabricators": {
     "onet_code": "51-2051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -45321,21 +51441,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Electrical and Electronic Equipment Assemblers",
-      "Food Cooking Machine Operators and Tenders",
-      "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Timing Device Assemblers and Adjusters": {
     "onet_code": "51-2061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -45376,21 +51503,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Repairing"
     ],
-    "similar_roles": [
-      "Musical Instrument Repairers and Tuners",
-      "Bus and Truck Mechanics and Diesel Engine Specialists",
-      "Motorcycle Mechanics",
-      "Rail Car Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Team Assemblers": {
     "onet_code": "51-2092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.9,
@@ -45431,18 +51565,25 @@ onet_jobs = {
       "Monitoring",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Helpers--Roofers",
-      "Construction Laborers",
-      "Freight Forwarders",
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Assemblers and Fabricators, All Other": {
     "onet_code": "51-2099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -45481,21 +51622,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Bakers": {
     "onet_code": "51-3011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.5,
@@ -45536,21 +51684,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Transportation Security Screeners",
-      "Security Guards",
-      "Meat, Poultry, and Fish Cutters and Trimmers",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "Butchers and Meat Cutters": {
     "onet_code": "51-3021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -45591,21 +51746,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Stockers and Order Fillers",
-      "Gambling Change Persons and Booth Cashiers",
-      "Set and Exhibit Designers",
-      "Payroll and Timekeeping Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Meat, Poultry, and Fish Cutters and Trimmers": {
     "onet_code": "51-3022.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.2,
@@ -45646,21 +51808,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Transportation Security Screeners",
-      "Security Guards",
-      "Bakers",
-      "Helpers--Electricians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Slaughterers and Meat Packers": {
     "onet_code": "51-3023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.5,
       "writing": 1.6,
@@ -45701,21 +51870,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Tapers",
-      "Helpers--Production Workers",
-      "Dishwashers",
-      "Cutters and Trimmers, Hand"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders": {
     "onet_code": "51-3091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3,
@@ -45756,21 +51932,28 @@ onet_jobs = {
       "Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Food Cooking Machine Operators and Tenders",
-      "Fiberglass Laminators and Fabricators",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Electrical and Electronic Equipment Assemblers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Food Batchmakers": {
     "onet_code": "51-3092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -45811,21 +51994,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Print Binding and Finishing Workers",
-      "Etchers and Engravers",
-      "Semiconductor Processing Technicians",
-      "Upholsterers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Food Cooking Machine Operators and Tenders": {
     "onet_code": "51-3093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -45866,21 +52056,28 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Fiberglass Laminators and Fabricators",
-      "Electrical and Electronic Equipment Assemblers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Food Processing Workers, All Other": {
     "onet_code": "51-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -45919,21 +52116,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -45974,21 +52178,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Adhesive Bonding Machine Operators and Tenders",
-      "Textile Bleaching and Dyeing Machine Operators and Tenders",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Forging Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -46029,21 +52240,28 @@ onet_jobs = {
       "Active Listening",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-      "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -46084,21 +52302,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Adhesive Bonding Machine Operators and Tenders",
-      "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Tire Builders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -46139,21 +52364,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
-      "Tire Builders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -46194,21 +52426,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Food Cooking Machine Operators and Tenders",
-      "Electrical and Electronic Equipment Assemblers",
-      "Fiberglass Laminators and Fabricators",
-      "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4033.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -46249,21 +52488,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-      "Tire Builders",
-      "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4034.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -46304,21 +52550,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Mixing and Blending Machine Setters, Operators, and Tenders",
-      "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Tool and Die Makers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4035.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -46359,21 +52612,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Tool Grinders, Filers, and Sharpeners",
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-      "Computer Numerically Controlled Tool Operators",
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Machinists": {
     "onet_code": "51-4041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -46414,20 +52674,27 @@ onet_jobs = {
       "Operation and Control",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Sawing Machine Setters, Operators, and Tenders, Wood",
-      "Crane and Tower Operators",
-      "Cooling and Freezing Equipment Operators and Tenders",
-      "Boilermakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "planning",
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Metal-Refining Furnace Operators and Tenders": {
     "onet_code": "51-4051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -46468,18 +52735,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-      "Earth Drillers, Except Oil and Gas",
-      "Gas Compressor and Gas Pumping Station Operators",
-      "Power Plant Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pourers and Casters, Metal": {
     "onet_code": "51-4052.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -46520,18 +52794,25 @@ onet_jobs = {
       "Operation and Control",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-      "Rock Splitters, Quarry",
-      "Metal-Refining Furnace Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Model Makers, Metal and Plastic": {
     "onet_code": "51-4061.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.7,
@@ -46572,18 +52853,25 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-      "Tool Grinders, Filers, and Sharpeners",
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Computer Numerically Controlled Tool Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Patternmakers, Metal and Plastic": {
     "onet_code": "51-4062.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -46624,21 +52912,28 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Cabinetmakers and Bench Carpenters",
-      "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
-      "Printing Press Operators",
-      "Glass Blowers, Molders, Benders, and Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Foundry Mold and Coremakers": {
     "onet_code": "51-4071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2,
@@ -46679,21 +52974,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Machine Feeders and Offbearers",
-      "Sewing Machine Operators",
-      "Refuse and Recyclable Material Collectors",
-      "Laundry and Dry-Cleaning Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4072.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -46734,21 +53036,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Rock Splitters, Quarry",
-      "Recycling and Reclamation Workers",
-      "Pourers and Casters, Metal",
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4081.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -46789,18 +53098,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Paper Goods Machine Setters, Operators, and Tenders",
-      "Wellhead Pumpers",
-      "Loading and Moving Machine Operators, Underground Mining",
-      "Cutting and Slicing Machine Setters, Operators, and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tool and Die Makers": {
     "onet_code": "51-4111.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.7,
@@ -46841,21 +53157,28 @@ onet_jobs = {
       "Operation and Control",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Ophthalmic Laboratory Technicians",
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Paper Goods Machine Setters, Operators, and Tenders",
-      "Grinding and Polishing Workers, Hand"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Welders, Cutters, Solderers, and Brazers": {
     "onet_code": "51-4121.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2,
@@ -46896,21 +53219,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
-      "Cabinetmakers and Bench Carpenters",
-      "Terrazzo Workers and Finishers",
-      "Machine Feeders and Offbearers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders": {
     "onet_code": "51-4122.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -46951,21 +53281,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
-      "Mixing and Blending Machine Setters, Operators, and Tenders",
-      "Tank Car, Truck, and Ship Loaders",
-      "Biofuels Processing Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4191.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -47006,21 +53343,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Layout Workers, Metal and Plastic": {
     "onet_code": "51-4192.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -47061,21 +53405,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Sheet Metal Workers",
-      "Upholsterers",
-      "Statistical Assistants",
-      "Tile and Stone Setters"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Plating Machine Setters, Operators, and Tenders, Metal and Plastic": {
     "onet_code": "51-4193.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -47116,21 +53467,28 @@ onet_jobs = {
       "Active Listening",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Fiberglass Laminators and Fabricators",
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-      "Electrical and Electronic Equipment Assemblers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tool Grinders, Filers, and Sharpeners": {
     "onet_code": "51-4194.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -47171,21 +53529,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-      "Computer Numerically Controlled Tool Operators",
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Metal Workers and Plastic Workers, All Other": {
     "onet_code": "51-4199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -47224,21 +53589,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Prepress Technicians and Workers": {
     "onet_code": "51-5111.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3,
@@ -47279,21 +53651,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Jewelers and Precious Stone and Metal Workers",
-      "Helpers--Electricians",
-      "Transit and Railroad Police",
-      "Buyers and Purchasing Agents, Farm Products"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Printing Press Operators": {
     "onet_code": "51-5112.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -47334,21 +53713,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
-      "Patternmakers, Metal and Plastic",
-      "Cabinetmakers and Bench Carpenters",
-      "Glass Blowers, Molders, Benders, and Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Print Binding and Finishing Workers": {
     "onet_code": "51-5113.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.9,
@@ -47389,21 +53775,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Etchers and Engravers",
-      "Food Cooking Machine Operators and Tenders",
-      "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
-      "Fiberglass Laminators and Fabricators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Laundry and Dry-Cleaning Workers": {
     "onet_code": "51-6011.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -47444,21 +53837,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Packers and Packagers, Hand",
-      "Sewing Machine Operators",
-      "Cooks, Fast Food",
-      "Foundry Mold and Coremakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Pressers, Textile, Garment, and Related Materials": {
     "onet_code": "51-6021.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.6,
       "writing": 1.8,
@@ -47499,21 +53899,28 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Molders, Shapers, and Casters, Except Metal and Plastic",
-      "Landscaping and Groundskeeping Workers",
-      "Cutters and Trimmers, Hand",
-      "Slaughterers and Meat Packers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sewing Machine Operators": {
     "onet_code": "51-6031.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.2,
@@ -47554,21 +53961,28 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Packers and Packagers, Hand",
-      "Helpers--Production Workers",
-      "Cutters and Trimmers, Hand",
-      "Foundry Mold and Coremakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Shoe and Leather Workers and Repairers": {
     "onet_code": "51-6041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.3,
@@ -47609,18 +54023,25 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Floral Designers",
-      "Cooks, Restaurant",
-      "Bakers",
-      "Animal Control Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Shoe Machine Operators and Tenders": {
     "onet_code": "51-6042.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -47661,21 +54082,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Nuclear Monitoring Technicians",
-      "Farmworkers, Farm, Ranch, and Aquacultural Animals",
-      "Insulation Workers, Mechanical",
-      "Furniture Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sewers, Hand": {
     "onet_code": "51-6051.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.1,
@@ -47716,21 +54144,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Painting, Coating, and Decorating Workers",
-      "Tapers",
-      "Cutters and Trimmers, Hand",
-      "Helpers--Production Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Tailors, Dressmakers, and Custom Sewers": {
     "onet_code": "51-6052.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.5,
@@ -47771,21 +54206,28 @@ onet_jobs = {
       "Active Listening",
       "Speaking"
     ],
-    "similar_roles": [
-      "Photographers",
-      "Musicians and Singers",
-      "Couriers and Messengers",
-      "Massage Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Textile Bleaching and Dyeing Machine Operators and Tenders": {
     "onet_code": "51-6061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -47826,21 +54268,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Adhesive Bonding Machine Operators and Tenders",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Textile Cutting Machine Setters, Operators, and Tenders": {
     "onet_code": "51-6062.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.6,
@@ -47881,21 +54330,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Adhesive Bonding Machine Operators and Tenders",
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Textile Knitting and Weaving Machine Setters, Operators, and Tenders": {
     "onet_code": "51-6063.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.4,
@@ -47936,21 +54392,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Packaging and Filling Machine Operators and Tenders",
-      "Nuclear Technicians",
-      "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders": {
     "onet_code": "51-6064.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -47991,21 +54454,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Textile Cutting Machine Setters, Operators, and Tenders",
-      "Pile Driver Operators",
-      "Logging Equipment Operators",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers": {
     "onet_code": "51-6091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -48046,21 +54516,28 @@ onet_jobs = {
       "Operation and Control",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Coil Winders, Tapers, and Finishers",
-      "Geothermal Technicians",
-      "Paving, Surfacing, and Tamping Equipment Operators",
-      "Highway Maintenance Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Fabric and Apparel Patternmakers": {
     "onet_code": "51-6092.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -48101,21 +54578,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Painters, Construction and Maintenance",
-      "Animal Breeders",
-      "Tile and Stone Setters",
-      "Prepress Technicians and Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Upholsterers": {
     "onet_code": "51-6093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -48156,21 +54640,28 @@ onet_jobs = {
       "Critical Thinking",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Layout Workers, Metal and Plastic",
-      "Glaziers",
-      "Food Batchmakers",
-      "Desktop Publishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Textile, Apparel, and Furnishings Workers, All Other": {
     "onet_code": "51-6099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -48209,21 +54700,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Cabinetmakers and Bench Carpenters": {
     "onet_code": "51-7011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.6,
@@ -48264,21 +54762,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Patternmakers, Metal and Plastic",
-      "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
-      "Printing Press Operators",
-      "Glass Blowers, Molders, Benders, and Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Furniture Finishers": {
     "onet_code": "51-7021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -48319,21 +54824,28 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Farmworkers, Farm, Ranch, and Aquacultural Animals",
-      "Insulation Workers, Mechanical",
-      "Athletic Trainers",
-      "Bus Drivers, School"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Model Makers, Wood": {
     "onet_code": "51-7031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -48374,21 +54886,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Speaking"
     ],
-    "similar_roles": [
-      "Fiberglass Laminators and Fabricators",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Food Cooking Machine Operators and Tenders",
-      "Electrical and Electronic Equipment Assemblers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Patternmakers, Wood": {
     "onet_code": "51-7032.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.7,
@@ -48429,21 +54948,28 @@ onet_jobs = {
       "Monitoring",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Etchers and Engravers",
-      "Sheet Metal Workers",
-      "Print Binding and Finishing Workers",
-      "Upholsterers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Sawing Machine Setters, Operators, and Tenders, Wood": {
     "onet_code": "51-7041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.1,
@@ -48484,21 +55010,28 @@ onet_jobs = {
       "Operation and Control",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Cooling and Freezing Equipment Operators and Tenders",
-      "Boilermakers",
-      "Crane and Tower Operators",
-      "Potters, Manufacturing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Woodworking Machine Setters, Operators, and Tenders, Except Sawing": {
     "onet_code": "51-7042.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.3,
@@ -48539,21 +55072,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Computer Numerically Controlled Tool Operators",
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Tool Grinders, Filers, and Sharpeners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Woodworkers, All Other": {
     "onet_code": "51-7099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -48592,21 +55132,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Nuclear Power Reactor Operators": {
     "onet_code": "51-8011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.3,
       "writing": 3.6,
@@ -48647,18 +55194,25 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Print Binding and Finishing Workers",
-      "Etchers and Engravers",
-      "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Power Distributors and Dispatchers": {
     "onet_code": "51-8012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.3,
@@ -48699,21 +55253,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Nuclear Medicine Technologists",
-      "Cytotechnologists",
-      "Veterinary Technologists and Technicians",
-      "Sports Medicine Physicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Power Plant Operators": {
     "onet_code": "51-8013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.1,
@@ -48754,18 +55315,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Gas Compressor and Gas Pumping Station Operators",
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-      "Conveyor Operators and Tenders",
-      "Earth Drillers, Except Oil and Gas"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Biomass Plant Technicians": {
     "onet_code": "51-8013.03",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3,
@@ -48806,18 +55374,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Chemical Plant and System Operators",
-      "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-      "Gas Plant Operators",
-      "Gas Compressor and Gas Pumping Station Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Hydroelectric Plant Technicians": {
     "onet_code": "51-8013.04",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.2,
@@ -48858,21 +55433,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Equipment Maintenance"
     ],
-    "similar_roles": [
-      "Maintenance Workers, Machinery",
-      "Ship Engineers",
-      "Industrial Machinery Mechanics",
-      "Boilermakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Stationary Engineers and Boiler Operators": {
     "onet_code": "51-8021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3,
@@ -48915,18 +55497,25 @@ onet_jobs = {
       "Repairing",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Model Makers, Metal and Plastic",
-      "Operating Engineers and Other Construction Equipment Operators",
-      "Locomotive Engineers",
-      "Septic Tank Servicers and Sewer Pipe Cleaners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Water and Wastewater Treatment Plant and System Operators": {
     "onet_code": "51-8031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 2.9,
@@ -48967,18 +55556,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Pump Operators, Except Wellhead Pumpers",
-      "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",
-      "Metal-Refining Furnace Operators and Tenders",
-      "Gas Compressor and Gas Pumping Station Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Chemical Plant and System Operators": {
     "onet_code": "51-8091.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.3,
@@ -49019,18 +55615,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Biomass Plant Technicians",
-      "Chemical Equipment Operators and Tenders",
-      "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-      "Gas Plant Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "technical"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Gas Plant Operators": {
     "onet_code": "51-8092.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.1,
@@ -49071,21 +55674,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-      "Chemical Equipment Operators and Tenders",
-      "Computer Numerically Controlled Tool Operators",
-      "Logging Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Petroleum Pump System Operators, Refinery Operators, and Gaugers": {
     "onet_code": "51-8093.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.2,
@@ -49126,21 +55736,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Gas Plant Operators",
-      "Chemical Equipment Operators and Tenders",
-      "Computer Numerically Controlled Tool Operators",
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Plant and System Operators, All Other": {
     "onet_code": "51-8099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -49179,21 +55796,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Biofuels Processing Technicians": {
     "onet_code": "51-8099.01",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.4,
@@ -49234,21 +55858,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Mixing and Blending Machine Setters, Operators, and Tenders",
-      "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
-      "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
-      "Tank Car, Truck, and Ship Loaders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Chemical Equipment Operators and Tenders": {
     "onet_code": "51-9011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.9,
       "writing": 3.2,
@@ -49289,21 +55920,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Computer Numerically Controlled Tool Operators",
-      "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-      "Gas Plant Operators",
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9012.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 2.9,
@@ -49344,18 +55982,25 @@ onet_jobs = {
       "Critical Thinking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Pump Operators, Except Wellhead Pumpers",
-      "Water and Wastewater Treatment Plant and System Operators",
-      "Weatherization Installers and Technicians",
-      "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -49396,21 +56041,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Grinding and Polishing Workers, Hand": {
     "onet_code": "51-9022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -49451,21 +56103,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Paper Goods Machine Setters, Operators, and Tenders",
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Ophthalmic Laboratory Technicians",
-      "Tool and Die Makers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Mixing and Blending Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9023.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -49506,21 +56165,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
-      "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
-      "Tank Car, Truck, and Ship Loaders",
-      "Biofuels Processing Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cutters and Trimmers, Hand": {
     "onet_code": "51-9031.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.4,
@@ -49561,21 +56227,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Tapers",
-      "Helpers--Production Workers",
-      "Painting, Coating, and Decorating Workers",
-      "Graders and Sorters, Agricultural Products"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cutting and Slicing Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.6,
@@ -49616,21 +56289,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Paper Goods Machine Setters, Operators, and Tenders",
-      "Ophthalmic Laboratory Technicians",
-      "Grinding and Polishing Workers, Hand",
-      "Tool and Die Makers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -49671,18 +56351,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Gas Compressor and Gas Pumping Station Operators",
-      "Metal-Refining Furnace Operators and Tenders",
-      "Power Plant Operators",
-      "Earth Drillers, Except Oil and Gas"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders": {
     "onet_code": "51-9051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -49723,21 +56410,28 @@ onet_jobs = {
       "Operation and Control",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Mixing and Blending Machine Setters, Operators, and Tenders",
-      "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
-      "Tank Car, Truck, and Ship Loaders",
-      "Biofuels Processing Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Inspectors, Testers, Sorters, Samplers, and Weighers": {
     "onet_code": "51-9061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 3.1,
@@ -49778,21 +56472,28 @@ onet_jobs = {
       "Writing",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Solar Thermal Installers and Technicians",
-      "Cartographers and Photogrammetrists",
-      "Log Graders and Scalers",
-      "Musical Instrument Repairers and Tuners"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Jewelers and Precious Stone and Metal Workers": {
     "onet_code": "51-9071.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -49833,21 +56534,28 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Prepress Technicians and Workers",
-      "Helpers--Electricians",
-      "Transit and Railroad Police",
-      "Buyers and Purchasing Agents, Farm Products"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Gem and Diamond Workers": {
     "onet_code": "51-9071.06",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -49888,21 +56596,28 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
-      "Stone Cutters and Carvers, Manufacturing",
-      "Plasterers and Stucco Masons",
-      "Painters, Construction and Maintenance"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Dental Laboratory Technicians": {
     "onet_code": "51-9081.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.1,
@@ -49943,21 +56658,28 @@ onet_jobs = {
       "Critical Thinking",
       "Time Management"
     ],
-    "similar_roles": [
-      "Upholsterers",
-      "Nuclear Medicine Technologists",
-      "Veterinary Technologists and Technicians",
-      "Cytotechnologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Medical Appliance Technicians": {
     "onet_code": "51-9082.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.3,
@@ -50001,18 +56723,25 @@ onet_jobs = {
       "Quality Control Analysis",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Medical Equipment Preparers",
-      "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
-      "Dental Hygienists",
-      "Animal Control Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Hands-on/Systems"
     ]
   },
   "Ophthalmic Laboratory Technicians": {
     "onet_code": "51-9083.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -50053,21 +56782,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Tool and Die Makers",
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Paper Goods Machine Setters, Operators, and Tenders",
-      "Grinding and Polishing Workers, Hand"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Packaging and Filling Machine Operators and Tenders": {
     "onet_code": "51-9111.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -50108,21 +56844,28 @@ onet_jobs = {
       "Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-      "Nuclear Technicians",
-      "Recycling and Reclamation Workers",
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Painting, Coating, and Decorating Workers": {
     "onet_code": "51-9123.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.3,
@@ -50163,21 +56906,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Sewers, Hand",
-      "Cutters and Trimmers, Hand",
-      "Tapers",
-      "Graders and Sorters, Agricultural Products"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9124.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -50218,21 +56968,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Patternmakers, Metal and Plastic",
-      "Cabinetmakers and Bench Carpenters",
-      "Printing Press Operators",
-      "Glass Blowers, Molders, Benders, and Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Semiconductor Processing Technicians": {
     "onet_code": "51-9141.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.1,
@@ -50273,21 +57030,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Engine and Other Machine Assemblers",
-      "Electrical and Electronic Equipment Assemblers",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Photographic Process Workers and Processing Machine Operators": {
     "onet_code": "51-9151.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.1,
@@ -50328,18 +57092,25 @@ onet_jobs = {
       "Active Listening",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Model Makers, Metal and Plastic",
-      "Patternmakers, Metal and Plastic",
-      "Surveying and Mapping Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Numerically Controlled Tool Operators": {
     "onet_code": "51-9161.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -50380,21 +57151,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-      "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Tool Grinders, Filers, and Sharpeners",
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Computer Numerically Controlled Tool Programmers": {
     "onet_code": "51-9162.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.1,
@@ -50437,21 +57215,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Programming"
     ],
-    "similar_roles": [
-      "Semiconductor Processing Technicians",
-      "Engine and Other Machine Assemblers",
-      "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Adhesive Bonding Machine Operators and Tenders": {
     "onet_code": "51-9191.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -50492,21 +57277,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Textile Bleaching and Dyeing Machine Operators and Tenders",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders": {
     "onet_code": "51-9192.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -50547,18 +57339,25 @@ onet_jobs = {
       "Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Pump Operators, Except Wellhead Pumpers",
-      "Water and Wastewater Treatment Plant and System Operators",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Power Plant Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Cooling and Freezing Equipment Operators and Tenders": {
     "onet_code": "51-9193.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -50599,21 +57398,28 @@ onet_jobs = {
       "Operation and Control",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Sawing Machine Setters, Operators, and Tenders, Wood",
-      "Crane and Tower Operators",
-      "Boilermakers",
-      "Potters, Manufacturing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Etchers and Engravers": {
     "onet_code": "51-9194.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -50654,21 +57460,28 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Print Binding and Finishing Workers",
-      "Fiberglass Laminators and Fabricators",
-      "Electrical and Electronic Equipment Assemblers",
-      "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Molders, Shapers, and Casters, Except Metal and Plastic": {
     "onet_code": "51-9195.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.7,
@@ -50709,21 +57522,28 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Pressers, Textile, Garment, and Related Materials",
-      "Landscaping and Groundskeeping Workers",
-      "Cutters and Trimmers, Hand",
-      "Tapers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Stone Cutters and Carvers, Manufacturing": {
     "onet_code": "51-9195.03",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -50764,21 +57584,28 @@ onet_jobs = {
       "Judgment and Decision Making",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Painters, Construction and Maintenance",
-      "Fabric and Apparel Patternmakers",
-      "Furniture Finishers",
-      "Gem and Diamond Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Glass Blowers, Molders, Benders, and Finishers": {
     "onet_code": "51-9195.04",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.8,
@@ -50819,21 +57646,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Ophthalmic Laboratory Technicians",
-      "Paper Goods Machine Setters, Operators, and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Potters, Manufacturing": {
     "onet_code": "51-9195.05",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.7,
@@ -50874,21 +57708,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Boilermakers",
-      "Crane and Tower Operators",
-      "Sawing Machine Setters, Operators, and Tenders, Wood",
-      "Cooling and Freezing Equipment Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Paper Goods Machine Setters, Operators, and Tenders": {
     "onet_code": "51-9196.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -50929,21 +57770,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Quality Control Analysis"
     ],
-    "similar_roles": [
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Grinding and Polishing Workers, Hand",
-      "Ophthalmic Laboratory Technicians",
-      "Tool and Die Makers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Tire Builders": {
     "onet_code": "51-9197.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 2.1,
@@ -50984,21 +57832,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Helpers--Production Workers": {
     "onet_code": "51-9198.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.9,
       "writing": 2.1,
@@ -51039,21 +57894,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Graders and Sorters, Agricultural Products",
-      "Cutters and Trimmers, Hand",
-      "Slaughterers and Meat Packers",
-      "Tapers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Production Workers, All Other": {
     "onet_code": "51-9199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -51092,21 +57954,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Cargo Handling Supervisors": {
     "onet_code": "53-1041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.2,
@@ -51149,21 +58018,28 @@ onet_jobs = {
       "Management of Personnel Resources",
       "Management of Personnel Resources"
     ],
-    "similar_roles": [
-      "Wholesale and Retail Buyers, Except Farm Products",
-      "First-Line Supervisors of Farming, Fishing, and Forestry Workers",
-      "Security Guards",
-      "First-Line Supervisors of Mechanics, Installers, and Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand": {
     "onet_code": "53-1042.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.2,
@@ -51206,18 +58082,25 @@ onet_jobs = {
       "Coordination",
       "Coordination"
     ],
-    "similar_roles": [
-      "Farm Labor Contractors",
-      "Helpers--Carpenters",
-      "Construction Laborers",
-      "First-Line Supervisors of Office and Administrative Support Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Recycling Coordinators": {
     "onet_code": "53-1042.01",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.3,
@@ -51258,19 +58141,26 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Postal Service Mail Carriers",
-      "Animal Control Workers",
-      "Floral Designers",
-      "Dental Hygienists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Teamwork/Interviewing"
     ]
   },
   "First-Line Supervisors of Material-Moving Machine and Vehicle Operators": {
     "onet_code": "53-1043.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.6,
@@ -51313,18 +58203,25 @@ onet_jobs = {
       "Time Management",
       "Management of Personnel Resources"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Housekeeping and Janitorial Workers",
-      "First-Line Supervisors of Construction Trades and Extraction Workers",
-      "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
-      "First-Line Supervisors of Firefighting and Prevention Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "First-Line Supervisors of Passenger Attendants": {
     "onet_code": "53-1044.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -51363,19 +58260,26 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
-      "School Bus Monitors",
-      "Taxi Drivers",
-      "Disc Jockeys, Except Radio"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Transportation Workers, All Other": {
     "onet_code": "53-1049.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -51414,21 +58318,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Airline Pilots, Copilots, and Flight Engineers": {
     "onet_code": "53-2011.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 3.6,
       "writing": 3.6,
@@ -51471,18 +58382,25 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Locomotive Engineers",
-      "Commercial Pilots",
-      "Operating Engineers and Other Construction Equipment Operators",
-      "Motorboat Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Commercial Pilots": {
     "onet_code": "53-2012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.5,
       "writing": 3.5,
@@ -51523,21 +58441,28 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-      "Gas Plant Operators",
-      "Subway and Streetcar Operators",
-      "Sailors and Marine Oilers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Air Traffic Controllers": {
     "onet_code": "53-2021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.1,
       "writing": 3.5,
@@ -51578,19 +58503,26 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "First-Line Supervisors of Production and Operating Workers",
-      "Flight Attendants",
-      "Correctional Officers and Jailers",
-      "Order Clerks"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Airfield Operations Specialists": {
     "onet_code": "53-2022.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.6,
@@ -51631,21 +58563,28 @@ onet_jobs = {
       "Active Listening",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Anesthesiologist Assistants",
-      "Surgical Technologists",
-      "Animal Caretakers",
-      "First-Line Supervisors of Correctional Officers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "management",
       "communication",
       "planning",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Brainstorming/Ideation",
+      "Research/Reading"
     ]
   },
   "Flight Attendants": {
     "onet_code": "53-2031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.1,
@@ -51686,18 +58625,25 @@ onet_jobs = {
       "Monitoring",
       "Speaking"
     ],
-    "similar_roles": [
-      "Correctional Officers and Jailers",
-      "First-Line Supervisors of Production and Operating Workers",
-      "New Accounts Clerks",
-      "Interviewers, Except Eligibility and Loan"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Teamwork/Interviewing"
     ]
   },
   "Ambulance Drivers and Attendants, Except Emergency Medical Technicians": {
     "onet_code": "53-3011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -51741,18 +58687,25 @@ onet_jobs = {
       "Active Listening",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Medical Transcriptionists",
-      "Medical Appliance Technicians",
-      "Nurse Midwives",
-      "Obstetricians and Gynecologists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Driver/Sales Workers": {
     "onet_code": "53-3031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 3,
@@ -51795,18 +58748,25 @@ onet_jobs = {
       "Critical Thinking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Postal Service Mail Carriers",
-      "Animal Control Workers",
-      "Floral Designers",
-      "Dental Hygienists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Heavy and Tractor-Trailer Truck Drivers": {
     "onet_code": "53-3032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.9,
@@ -51847,18 +58807,25 @@ onet_jobs = {
       "Operation and Control",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Rail Yard Engineers, Dinkey Operators, and Hostlers",
-      "Service Unit Operators, Oil and Gas",
-      "Pump Operators, Except Wellhead Pumpers",
-      "Water and Wastewater Treatment Plant and System Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Light Truck Drivers": {
     "onet_code": "53-3033.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.8,
@@ -51899,21 +58866,28 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Structural Metal Fabricators and Fitters",
-      "Shipping, Receiving, and Inventory Clerks",
-      "File Clerks",
-      "Opticians, Dispensing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Bus Drivers, School": {
     "onet_code": "53-3051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.8,
@@ -51953,21 +58927,28 @@ onet_jobs = {
       "Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Athletic Trainers",
-      "Farmworkers, Farm, Ranch, and Aquacultural Animals",
-      "Insulation Workers, Mechanical",
-      "Furniture Finishers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Bus Drivers, Transit and Intercity": {
     "onet_code": "53-3052.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.4,
@@ -52008,21 +58989,28 @@ onet_jobs = {
       "Active Listening",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Cooling and Freezing Equipment Operators and Tenders",
-      "Crane and Tower Operators",
-      "Boilermakers",
-      "Sawing Machine Setters, Operators, and Tenders, Wood"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Shuttle Drivers and Chauffeurs": {
     "onet_code": "53-3053.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.8,
@@ -52062,18 +59050,25 @@ onet_jobs = {
       "Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Bus Drivers, School",
-      "Service Unit Operators, Oil and Gas",
-      "Explosives Workers, Ordnance Handling Experts, and Blasters",
-      "Shoe and Leather Workers and Repairers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Taxi Drivers": {
     "onet_code": "53-3054.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -52112,18 +59107,25 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Disc Jockeys, Except Radio",
-      "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
-      "First-Line Supervisors of Passenger Attendants",
-      "Orthopedic Surgeons, Except Pediatric"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Motor Vehicle Operators, All Other": {
     "onet_code": "53-3099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -52162,21 +59164,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Locomotive Engineers": {
     "onet_code": "53-4011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3.2,
@@ -52219,21 +59228,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-      "Gas Plant Operators",
-      "Chemical Equipment Operators and Tenders",
-      "Sailors and Marine Oilers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Rail Yard Engineers, Dinkey Operators, and Hostlers": {
     "onet_code": "53-4013.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -52276,18 +59292,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Heavy and Tractor-Trailer Truck Drivers",
-      "Service Unit Operators, Oil and Gas",
-      "Operating Engineers and Other Construction Equipment Operators",
-      "Pump Operators, Except Wellhead Pumpers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Railroad Brake, Signal, and Switch Operators and Locomotive Firers": {
     "onet_code": "53-4022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -52328,19 +59351,26 @@ onet_jobs = {
       "Operations Monitoring",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-      "Packaging and Filling Machine Operators and Tenders",
-      "Nuclear Technicians",
-      "Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Railroad Conductors and Yardmasters": {
     "onet_code": "53-4031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.1,
@@ -52381,19 +59411,26 @@ onet_jobs = {
       "Speaking",
       "Monitoring"
     ],
-    "similar_roles": [
-      "Cement Masons and Concrete Finishers",
-      "Chefs and Head Cooks",
-      "Cooks, Institution and Cafeteria",
-      "Floor Layers, Except Carpet, Wood, and Hard Tiles"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication",
       "service"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Subway and Streetcar Operators": {
     "onet_code": "53-4041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.9,
@@ -52434,21 +59471,28 @@ onet_jobs = {
       "Operation and Control",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Textile Cutting Machine Setters, Operators, and Tenders",
-      "Sailors and Marine Oilers",
-      "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Rail Transportation Workers, All Other": {
     "onet_code": "53-4099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -52487,21 +59531,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Sailors and Marine Oilers": {
     "onet_code": "53-5011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 2.9,
@@ -52542,21 +59593,28 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Dredge Operators",
-      "Derrick Operators, Oil and Gas",
-      "Continuous Mining Machine Operators",
-      "Pile Driver Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Captains, Mates, and Pilots of Water Vessels": {
     "onet_code": "53-5021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.7,
       "writing": 3.2,
@@ -52597,21 +59655,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Structural Iron and Steel Workers",
-      "Industrial Truck and Tractor Operators",
-      "Commercial Pilots",
-      "Highway Maintenance Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Motorboat Operators": {
     "onet_code": "53-5022.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.3,
       "writing": 2.8,
@@ -52652,18 +59717,25 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Wellhead Pumpers",
-      "Agricultural Equipment Operators",
-      "Loading and Moving Machine Operators, Underground Mining",
-      "Operating Engineers and Other Construction Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Ship Engineers": {
     "onet_code": "53-5031.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.8,
       "writing": 3.1,
@@ -52706,21 +59778,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Hydroelectric Plant Technicians",
-      "Commercial Divers",
-      "Crane and Tower Operators",
-      "Boilermakers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Bridge and Lock Tenders": {
     "onet_code": "53-6011.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.8,
@@ -52761,18 +59840,25 @@ onet_jobs = {
       "Speaking",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Parking Enforcement Workers",
-      "Transportation Security Screeners",
-      "Security Guards",
-      "Meat, Poultry, and Fish Cutters and Trimmers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "communication"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Parking Attendants": {
     "onet_code": "53-6021.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.3,
@@ -52813,21 +59899,28 @@ onet_jobs = {
       "Active Listening",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Passenger Attendants",
-      "Amusement and Recreation Attendants",
-      "Ushers, Lobby Attendants, and Ticket Takers",
-      "Gambling Dealers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Automotive and Watercraft Service Attendants": {
     "onet_code": "53-6031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.6,
@@ -52868,18 +59961,25 @@ onet_jobs = {
       "Service Orientation",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Baggage Porters and Bellhops",
-      "Tire Repairers and Changers",
-      "Skincare Specialists",
-      "Telephone Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Aircraft Service Attendants": {
     "onet_code": "53-6032.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -52918,21 +60018,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Crematory Operators",
-      "Lighting Technicians",
-      "Helpers, Construction Trades, All Other",
-      "Construction and Related Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Traffic Technicians": {
     "onet_code": "53-6041.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.2,
       "writing": 3.4,
@@ -52973,19 +60080,26 @@ onet_jobs = {
       "Active Listening",
       "Complex Problem Solving"
     ],
-    "similar_roles": [
-      "Water Resource Specialists",
-      "Precision Agriculture Technicians",
-      "Special Effects Artists and Animators",
-      "Radiation Therapists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "development",
       "technical"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "People"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Transportation Inspectors": {
     "onet_code": "53-6051.00",
+    "job_zone": {
+      "zone": 4,
+      "description": "Considerable preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3.6,
@@ -53026,21 +60140,28 @@ onet_jobs = {
       "Writing",
       "Speaking"
     ],
-    "similar_roles": [
-      "Geographers",
-      "Insurance Appraisers, Auto Damage",
-      "Construction and Building Inspectors",
-      "Sustainability Specialists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Brainstorming/Ideation"
     ]
   },
   "Aviation Inspectors": {
     "onet_code": "53-6051.01",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 3.4,
       "writing": 3.6,
@@ -53081,18 +60202,25 @@ onet_jobs = {
       "Critical Thinking",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Rotary Drill Operators, Oil and Gas",
-      "Animal Control Workers",
-      "Watch and Clock Repairers",
-      "Dental Hygienists"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation": {
     "onet_code": "53-6051.07",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 2.9,
@@ -53133,21 +60261,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Engine and Other Machine Assemblers",
-      "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-      "Semiconductor Processing Technicians",
-      "Biofuels Processing Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Passenger Attendants": {
     "onet_code": "53-6061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.7,
@@ -53188,21 +60323,28 @@ onet_jobs = {
       "Speaking",
       "Social Perceptiveness"
     ],
-    "similar_roles": [
-      "Ushers, Lobby Attendants, and Ticket Takers",
-      "Amusement and Recreation Attendants",
-      "Orderlies",
-      "Parking Attendants"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Transportation Workers, All Other": {
     "onet_code": "53-6099.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -53241,21 +60383,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Conveyor Operators and Tenders": {
     "onet_code": "53-7011.00",
+    "job_zone": {
+      "zone": 1,
+      "description": "Little or no preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 2.8,
@@ -53296,18 +60445,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Power Plant Operators",
-      "Gas Compressor and Gas Pumping Station Operators",
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-      "Earth Drillers, Except Oil and Gas"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Crane and Tower Operators": {
     "onet_code": "53-7021.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "research": 2.2,
       "writing": 2.8,
@@ -53348,21 +60504,28 @@ onet_jobs = {
       "Operation and Control",
       "Critical Thinking"
     ],
-    "similar_roles": [
-      "Cooling and Freezing Equipment Operators and Tenders",
-      "Sawing Machine Setters, Operators, and Tenders, Wood",
-      "Boilermakers",
-      "Potters, Manufacturing"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Dredge Operators": {
     "onet_code": "53-7031.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.3,
@@ -53403,21 +60566,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Sailors and Marine Oilers",
-      "Derrick Operators, Oil and Gas",
-      "Continuous Mining Machine Operators",
-      "Pile Driver Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Hoist and Winch Operators": {
     "onet_code": "53-7041.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.4,
@@ -53458,21 +60628,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Time Management"
     ],
-    "similar_roles": [
-      "Tree Trimmers and Pruners",
-      "Fallers",
-      "Roustabouts, Oil and Gas",
-      "Print Binding and Finishing Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Industrial Truck and Tractor Operators": {
     "onet_code": "53-7051.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -53513,21 +60690,28 @@ onet_jobs = {
       "Coordination",
       "Coordination"
     ],
-    "similar_roles": [
-      "Structural Iron and Steel Workers",
-      "Captains, Mates, and Pilots of Water Vessels",
-      "Highway Maintenance Workers",
-      "Paving, Surfacing, and Tamping Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Cleaners of Vehicles and Equipment": {
     "onet_code": "53-7061.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 1.8,
@@ -53568,21 +60752,28 @@ onet_jobs = {
       "Quality Control Analysis",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Grinding and Polishing Workers, Hand",
-      "Paper Goods Machine Setters, Operators, and Tenders",
-      "Cutting and Slicing Machine Setters, Operators, and Tenders",
-      "Ophthalmic Laboratory Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Laborers and Freight, Stock, and Material Movers, Hand": {
     "onet_code": "53-7062.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.8,
       "writing": 2.3,
@@ -53623,21 +60814,28 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
-      "Dishwashers",
-      "Packers and Packagers, Hand",
-      "Helpers--Production Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Recycling and Reclamation Workers": {
     "onet_code": "53-7062.04",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -53678,21 +60876,28 @@ onet_jobs = {
       "Monitoring",
       "Operations Monitoring"
     ],
-    "similar_roles": [
-      "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
-      "Coil Winders, Tapers, and Finishers",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Machine Feeders and Offbearers": {
     "onet_code": "53-7063.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2,
       "writing": 2.5,
@@ -53733,21 +60938,28 @@ onet_jobs = {
       "Monitoring",
       "Problem Solving"
     ],
-    "similar_roles": [
-      "Foundry Mold and Coremakers",
-      "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-      "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-      "Food Cooking Machine Operators and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Packers and Packagers, Hand": {
     "onet_code": "53-7064.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.6,
       "writing": 2.1,
@@ -53788,21 +61000,28 @@ onet_jobs = {
       "Communication",
       "Attention to Detail"
     ],
-    "similar_roles": [
-      "Sewing Machine Operators",
-      "Laborers and Freight, Stock, and Material Movers, Hand",
-      "Dishwashers",
-      "Laundry and Dry-Cleaning Workers"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Practical"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Stockers and Order Fillers": {
     "onet_code": "53-7065.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.8,
@@ -53843,21 +61062,28 @@ onet_jobs = {
       "Reading Comprehension",
       "Active Listening"
     ],
-    "similar_roles": [
-      "Gambling Change Persons and Booth Cashiers",
-      "Butchers and Meat Cutters",
-      "Payroll and Timekeeping Clerks",
-      "Human Resources Assistants, Except Payroll and Timekeeping"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "People",
+      "Analytical"
+    ],
+    "learning_style": [
+      "Teamwork/Interviewing",
+      "Brainstorming/Ideation"
     ]
   },
   "Gas Compressor and Gas Pumping Station Operators": {
     "onet_code": "53-7071.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.5,
       "writing": 3,
@@ -53898,18 +61124,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-      "Power Plant Operators",
-      "Metal-Refining Furnace Operators and Tenders",
-      "Earth Drillers, Except Oil and Gas"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Pump Operators, Except Wellhead Pumpers": {
     "onet_code": "53-7072.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.6,
       "writing": 3,
@@ -53950,18 +61183,25 @@ onet_jobs = {
       "Monitoring",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Water and Wastewater Treatment Plant and System Operators",
-      "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",
-      "Gas Compressor and Gas Pumping Station Operators",
-      "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "analysis"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Wellhead Pumpers": {
     "onet_code": "53-7073.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.1,
       "writing": 2.6,
@@ -54002,18 +61242,25 @@ onet_jobs = {
       "Operation and Control",
       "Operation and Control"
     ],
-    "similar_roles": [
-      "Agricultural Equipment Operators",
-      "Loading and Moving Machine Operators, Underground Mining",
-      "Motorboat Operators",
-      "Operating Engineers and Other Construction Equipment Operators"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "service"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Brainstorming/Ideation"
     ]
   },
   "Refuse and Recyclable Material Collectors": {
     "onet_code": "53-7081.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 1.7,
       "writing": 2.3,
@@ -54054,21 +61301,28 @@ onet_jobs = {
       "Problem Solving",
       "Communication"
     ],
-    "similar_roles": [
-      "Molders, Shapers, and Casters, Except Metal and Plastic",
-      "Cleaners of Vehicles and Equipment",
-      "Landscaping and Groundskeeping Workers",
-      "Pressers, Textile, Garment, and Related Materials"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Teamwork/Interviewing"
     ]
   },
   "Tank Car, Truck, and Ship Loaders": {
     "onet_code": "53-7121.00",
+    "job_zone": {
+      "zone": 2,
+      "description": "Some preparation needed"
+    },
     "skills": {
       "research": 2.4,
       "writing": 3.1,
@@ -54109,21 +61363,28 @@ onet_jobs = {
       "Operations Monitoring",
       "Reading Comprehension"
     ],
-    "similar_roles": [
-      "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
-      "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
-      "Mixing and Blending Machine Setters, Operators, and Tenders",
-      "Biofuels Processing Technicians"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Practical",
+      "People"
+    ],
+    "learning_style": [
+      "Hands-on/Systems",
+      "Research/Reading"
     ]
   },
   "Material Moving Workers, All Other": {
     "onet_code": "53-7199.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54162,21 +61423,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Air Crew Officers": {
     "onet_code": "55-1011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54215,21 +61483,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Launch and Recovery Officers": {
     "onet_code": "55-1012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54268,21 +61543,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Armored Assault Vehicle Officers": {
     "onet_code": "55-1013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54321,21 +61603,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Artillery and Missile Officers": {
     "onet_code": "55-1014.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54374,21 +61663,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Command and Control Center Officers": {
     "onet_code": "55-1015.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54427,21 +61723,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Infantry Officers": {
     "onet_code": "55-1016.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54480,21 +61783,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Special Forces Officers": {
     "onet_code": "55-1017.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54533,21 +61843,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Military Officer Special and Tactical Operations Leaders, All Other": {
     "onet_code": "55-1019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54586,21 +61903,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Air Crew Members": {
     "onet_code": "55-2011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54639,21 +61963,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of Weapons Specialists/Crew Members": {
     "onet_code": "55-2012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54692,21 +62023,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "First-Line Supervisors of All Other Tactical Operations Specialists": {
     "onet_code": "55-2013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54745,21 +62083,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Air Crew Members": {
     "onet_code": "55-3011.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54798,21 +62143,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Aircraft Launch and Recovery Specialists": {
     "onet_code": "55-3012.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54851,21 +62203,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Armored Assault Vehicle Crew Members": {
     "onet_code": "55-3013.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54904,21 +62263,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Artillery and Missile Crew Members": {
     "onet_code": "55-3014.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -54957,21 +62323,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Command and Control Center Specialists": {
     "onet_code": "55-3015.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -55010,21 +62383,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Infantry": {
     "onet_code": "55-3016.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -55063,21 +62443,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Special Forces": {
     "onet_code": "55-3018.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -55116,21 +62503,28 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   },
   "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other": {
     "onet_code": "55-3019.00",
+    "job_zone": {
+      "zone": 3,
+      "description": "Medium preparation needed"
+    },
     "skills": {
       "problem_solving": 3.5,
       "working_with_people": 3.5,
@@ -55169,17 +62563,20 @@ onet_jobs = {
       "Attention to Detail",
       "Leadership"
     ],
-    "similar_roles": [
-      "Healthcare Support Workers, All Other",
-      "Cooks, All Other",
-      "Food Preparation and Serving Related Workers, All Other",
-      "Building Cleaning Workers, All Other"
-    ],
+    "similar_roles": [],
     "job_keywords": [
       "professional",
       "skilled",
       "experienced",
       "dedicated"
+    ],
+    "dominant_competence": [
+      "Analytical",
+      "Practical"
+    ],
+    "learning_style": [
+      "Research/Reading",
+      "Hands-on/Systems"
     ]
   }
 }
