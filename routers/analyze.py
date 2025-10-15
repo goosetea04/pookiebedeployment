@@ -11,6 +11,14 @@ router = APIRouter()
 # Singleton matcher (simple)
 matcher = AICareerMatcher()
 
+@router.get("/")
+def read_root():
+    return {"status": "API is running", "message": "Welcome to Career Matching API"}
+
+@router.get("/health")
+def health_check():
+    return {"status": "healthy"}
+
 @router.post("/analyze-profile-top3", response_model=AnalysisResponse)
 async def analyze_profile_top_3_matches(request: PersonProfileRequest):
     # Firestore write (same as main.py)
