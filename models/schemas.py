@@ -44,7 +44,7 @@ class PersonProfileRequest(BaseModel):
     leadership: int = Field(..., ge=1, le=5)
     networking: int = Field(..., ge=1, le=5)
     negotiation: int = Field(..., ge=1, le=5)
-    creativity: int = Field(..., ge=1, le=5)
+    innovation: int = Field(..., ge=1, le=5)
     programming: int = Field(..., ge=1, le=5)
     languages: int = Field(..., ge=1, le=5)
     empathy: int = Field(..., ge=1, le=5)
