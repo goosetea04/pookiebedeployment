@@ -4,8 +4,11 @@ from dataclasses import asdict
 import json
 import math
 import numpy as np
+import logging
 from collections import defaultdict
-import careers as careers  # your existing careers module
+import careers as careers  # Existing careers module
+
+logger =logging.getLogger(__name__)
 
 from core.openai_client import openai_client
 from models.schemas import PersonProfileRequest, PersonProfile
@@ -15,6 +18,7 @@ class AICareerMatcher:
         self.onet_jobs = careers.onet_jobs
         self._build_skill_index()
         self._build_career_clusters()
+        self._build_competence_learning_mappings()  # New
 
     def _build_skill_index(self):
         """Build reverse index of skills to jobs for better matching"""
@@ -36,6 +40,36 @@ class AICareerMatcher:
                 # Group by first 2 digits (major occupation group)
                 cluster = onet_code[:2]
                 self.career_clusters[cluster].append(job_name)
+    
+    def _build_competence_learning_mappings(self):
+        """Build mappings for dominant competence and learning styles"""
+        # Map competences to skill categories
+        self.competence_skill_map = {
+            "Analytical": ["math", "problem_solving", "research", "attention_to_detail"],
+            "Practical": ["hands_on_building", "tech_savvy", "attention_to_detail"],
+            "Creative": ["creative", "innovation", "artistic", "writing"],
+            "People": ["working_with_people", "empathy", "public_speaking", "leadership", "teamwork"]
+        }
+        
+        # Map learning styles to work preferences
+        self.learning_style_preferences = {
+            "Research/Reading": {
+                "preferred_skills": ["research", "writing", "problem_solving"],
+                "work_context": "analytical and knowledge-intensive"
+            },
+            "Hands-on/Systems": {
+                "preferred_skills": ["hands_on_building", "tech_savvy", "programming"],
+                "work_context": "technical and practical"
+            },
+            "Teamwork/Interviewing": {
+                "preferred_skills": ["working_with_people", "teamwork", "networking", "empathy"],
+                "work_context": "collaborative and interpersonal"
+            },
+            "Brainstorming/Ideation": {
+                "preferred_skills": ["creative", "innovation", "problem_solving"],
+                "work_context": "innovative and strategic"
+            }
+        }
 
     # ---------- Enhanced Profile Creation ----------
     def create_profile_from_request(self, request: PersonProfileRequest) -> PersonProfile:
@@ -71,6 +105,7 @@ class AICareerMatcher:
             "networking": request.networking,
             "negotiation": request.negotiation,
             "innovation": request.innovation,
+            "innovation": request.innovation,
             "programming": request.programming,
             "languages": request.languages,
             "empathy": request.empathy,
@@ -92,8 +127,8 @@ class AICareerMatcher:
             skills=skills,
             interests=request.interests,
             preferred_career=request.preferred_career,
-            dominant_competence=request.dominant_competence,
-            learning_style_preference=request.learning_style_preference,
+            dominant_competence=request.dominant_competence,  # NEW
+            learning_style=request.learning_style,  # NEW
         )
 
     # ---------- Enhanced Ranking with Multiple Algorithms ----------
@@ -110,7 +145,7 @@ class AICareerMatcher:
             return self._get_comprehensive_matches(profile, top_n)
 
     def _get_comprehensive_matches(self, profile: PersonProfile, top_n: int) -> List[Tuple[str, float, Dict]]:
-        """Enhanced comprehensive matching with detailed scoring"""
+        """Enhanced comprehensive matching with detailed scoring including competence and learning style"""
         job_scores: List[Tuple[str, float, Dict]] = []
         
         for job_name, job_data in self.onet_jobs.items():
@@ -120,15 +155,42 @@ class AICareerMatcher:
             interests_result = self._calculate_enhanced_interests_match(profile.interests, job_data.get("interests", {}))
             work_styles_result = self._calculate_enhanced_work_styles_match(profile.personality, job_data.get("work_styles", {}))
             
-            # Adaptive weighting based on data availability and quality
-            weights = self._calculate_adaptive_weights(job_data, skills_result, values_result, interests_result, work_styles_result)
+            # NEW: Calculate competence and learning style matches
+            competence_result = self._calculate_competence_match(
+                profile.dominant_competence, 
+                job_data.get("dominant_competence", []),
+                job_data.get("skills", {})
+            )
+            learning_style_result = self._calculate_learning_style_match(
+                profile.learning_style,
+                job_data.get("learning_style", []),
+                job_data
+            )
+            
+            # Updated weights to include new factors
+            base_weights = {
+                "skills": 0.25,
+                "values": 0.20,
+                "interests": 0.15,
+                "work_styles": 0.18,
+                "competence": 0.12,  # NEW
+                "learning_style": 0.10  # NEW
+            }
+            
+            # Adaptive weighting
+            weights = self._calculate_adaptive_weights_v2(
+                job_data, skills_result, values_result, interests_result, 
+                work_styles_result, competence_result, learning_style_result, base_weights
+            )
             
             # Calculate weighted overall score
             overall_score = (
                 skills_result["score"] * weights["skills"] +
                 values_result["score"] * weights["values"] +
                 interests_result["score"] * weights["interests"] +
-                work_styles_result["score"] * weights["work_styles"]
+                work_styles_result["score"] * weights["work_styles"] +
+                competence_result["score"] * weights["competence"] +
+                learning_style_result["score"] * weights["learning_style"]
             )
             
             # Bonus for career preference alignment
@@ -144,6 +206,8 @@ class AICareerMatcher:
                 "values": values_result,
                 "interests": interests_result,
                 "work_styles": work_styles_result,
+                "competence": competence_result,  # NEW
+                "learning_style": learning_style_result,  # NEW
                 "weights": weights,
                 "preference_bonus": preference_bonus,
                 "gap_penalty": gap_penalty,
@@ -156,16 +220,18 @@ class AICareerMatcher:
         job_scores.sort(key=lambda x: x[1], reverse=True)
         return job_scores[:top_n]
 
-    def _calculate_adaptive_weights(self, job_data: Dict, skills_result: Dict, values_result: Dict, 
-                                  interests_result: Dict, work_styles_result: Dict) -> Dict[str, float]:
-        """Dynamically adjust weights based on data quality and availability"""
-        base_weights = {"skills": 0.35, "values": 0.25, "interests": 0.20, "work_styles": 0.20}
+    def _calculate_adaptive_weights_v2(self, job_data: Dict, skills_result: Dict, values_result: Dict, 
+                                     interests_result: Dict, work_styles_result: Dict, competence_result: Dict, 
+                                     learning_style_result: Dict, base_weights: Dict) -> Dict[str, float]:
+        """Dynamically adjust weights based on data quality and availability - V2 with competence/learning"""
         
         # Adjust based on data completeness
-        skills_completeness = len(job_data.get("skills", {})) / 6.0  # Assume 6 is ideal
+        skills_completeness = len(job_data.get("skills", {})) / 6.0
         values_completeness = len(job_data.get("work_values", {})) / 6.0
         interests_completeness = len(job_data.get("interests", {})) / 6.0
         work_styles_completeness = len(job_data.get("work_styles", {})) / 6.0
+        competence_completeness = 1.0 if job_data.get("dominant_competence") else 0.5
+        learning_style_completeness = 1.0 if job_data.get("learning_style") else 0.5
         
         # Adjust based on confidence scores
         confidence_multipliers = {
@@ -173,6 +239,8 @@ class AICareerMatcher:
             "values": values_result.get("confidence", 1.0) * values_completeness,
             "interests": interests_result.get("confidence", 1.0) * interests_completeness,
             "work_styles": work_styles_result.get("confidence", 1.0) * work_styles_completeness,
+            "competence": competence_result.get("confidence", 1.0) * competence_completeness,
+            "learning_style": learning_style_result.get("confidence", 1.0) * learning_style_completeness,
         }
         
         # Normalize weights
@@ -181,6 +249,119 @@ class AICareerMatcher:
         return {
             k: (base_weights[k] * confidence_multipliers[k]) / total_weight 
             for k in base_weights
+        }
+
+    def _calculate_competence_match(self, user_competences: List[str], job_competences: List[str], job_skills: Dict) -> Dict:
+        """Calculate match based on dominant competences"""
+        if not user_competences:
+            return {"score": 0.5, "confidence": 0.2, "matches": [], "mismatches": []}
+        
+        # Direct competence matching
+        direct_matches = []
+        mismatches = []
+        
+        for user_comp in user_competences:
+            if user_comp in job_competences:
+                direct_matches.append({
+                    "competence": user_comp,
+                    "match_type": "direct",
+                    "strength": 1.0
+                })
+            else:
+                mismatches.append({
+                    "user_competence": user_comp,
+                    "job_has": job_competences
+                })
+        
+        # Skill-based competence validation
+        skill_alignment_score = 0
+        for user_comp in user_competences:
+            related_skills = self.competence_skill_map.get(user_comp, [])
+            
+            # Check how many related skills are required by the job
+            relevant_job_skills = {skill: level for skill, level in job_skills.items() if skill in related_skills}
+            
+            if relevant_job_skills:
+                avg_importance = sum(relevant_job_skills.values()) / len(relevant_job_skills)
+                skill_alignment_score += avg_importance / 5.0  # Normalize to 0-1
+        
+        # Calculate final score
+        direct_match_score = len(direct_matches) / len(user_competences) if user_competences else 0
+        skill_validation_score = skill_alignment_score / len(user_competences) if user_competences else 0
+        
+        # Weighted combination: 60% direct match, 40% skill validation
+        final_score = (direct_match_score * 0.6) + (skill_validation_score * 0.4)
+        
+        confidence = 0.9 if job_competences else 0.5  # High confidence if job has competence data
+        
+        return {
+            "score": min(final_score, 1.0),
+            "confidence": confidence,
+            "matches": direct_matches,
+            "mismatches": mismatches,
+            "direct_match_rate": direct_match_score,
+            "skill_alignment": skill_validation_score
+        }
+
+    def _calculate_learning_style_match(self, user_learning_styles: List[str], job_learning_styles: List[str], job_data: Dict) -> Dict:
+        """Calculate job fit based on learning style preferences"""
+        if not user_learning_styles:
+            return {"score": 0.5, "confidence": 0.2, "matches": [], "context_fit": []}
+        
+        # Direct learning style matching
+        direct_matches = []
+        context_fits = []
+        
+        for user_style in user_learning_styles:
+            if user_style in job_learning_styles:
+                direct_matches.append({
+                    "learning_style": user_style,
+                    "match_type": "direct",
+                    "strength": 1.0
+                })
+            
+            # Check skill alignment with learning style preferences
+            style_prefs = self.learning_style_preferences.get(user_style, {})
+            preferred_skills = style_prefs.get("preferred_skills", [])
+            work_context = style_prefs.get("work_context", "")
+            
+            # Calculate how well job skills align with this learning style
+            job_skills = job_data.get("skills", {})
+            alignment_score = 0
+            
+            for skill in preferred_skills:
+                if skill in job_skills:
+                    alignment_score += job_skills[skill] / 5.0
+            
+            if preferred_skills:
+                avg_alignment = alignment_score / len(preferred_skills)
+                context_fits.append({
+                    "learning_style": user_style,
+                    "work_context": work_context,
+                    "skill_alignment": avg_alignment,
+                    "fit_level": "High" if avg_alignment > 0.7 else "Medium" if avg_alignment > 0.4 else "Low"
+                })
+        
+        # Calculate final score
+        direct_match_score = len(direct_matches) / len(user_learning_styles) if user_learning_styles else 0
+        
+        # Average context fit score
+        context_fit_score = 0
+        if context_fits:
+            context_fit_score = sum(cf["skill_alignment"] for cf in context_fits) / len(context_fits)
+        
+        # Weighted combination: 50% direct match, 50% context fit
+        final_score = (direct_match_score * 0.5) + (context_fit_score * 0.5)
+        
+        confidence = 0.8 if job_learning_styles else 0.5
+        
+        return {
+            "score": min(final_score, 1.0),
+            "confidence": confidence,
+            "matches": direct_matches,
+            "context_fit": context_fits,
+            "direct_match_rate": direct_match_score,
+            "context_fit_score": context_fit_score
         }
 
     def _calculate_enhanced_skills_match(self, user_skills: Dict[str, float], job_skills: Dict[str, float]) -> Dict:
@@ -815,14 +996,15 @@ Tone: encouraging, professional, specific. Address both strengths and growth opp
 """
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=400,
                 temperature=0.7,
             )
             return response.choices[0].message.content.strip()
-        except Exception:
+        except Exception as e:
+            logger.error(f"AI call failed for {job_name}: {str(e)}")
             return (
                 f"Based on your {match['overall_match']}% match with {job_name}, you demonstrate strong potential "
                 f"with notable strengths in {strength_text}. Consider developing {gap_text} to increase your competitiveness."
@@ -866,7 +1048,7 @@ Focus on practical, achievable steps.
 """
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=400,
@@ -934,7 +1116,7 @@ Include:
 """
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=450,
@@ -945,7 +1127,8 @@ Include:
             match_obj = re.search(r"\{.*\}", response.choices[0].message.content.strip(), re.DOTALL)
             if match_obj:
                 return json.loads(match_obj.group())
-        except Exception:
+        except Exception as e:
+            logger.error(f"AI call failed for {job_name}: {str(e)}")
             pass
         
         return {
@@ -988,7 +1171,7 @@ Provide JSON with:
 """
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=300,
@@ -1057,7 +1240,7 @@ Give 2-3 practical decision criteria in 150 words.
 """
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=200,
@@ -1198,6 +1381,7 @@ Give 2-3 practical decision criteria in 150 words.
             "Research": "research",
             "Negotiation": "negotiation",
             "innovation": "innovation",
+            "innovation": "innovation",
             "Languages": "languages",
             "Artistic": "artistic",
             "Hands-On Building": "hands_on_building",
@@ -1229,7 +1413,7 @@ Give 2-3 practical decision criteria in 150 words.
             return job_data["job_keywords"][:4]
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": f"Return 4 concise keywords for {job_name}, comma-separated."}],
                 max_tokens=50,
@@ -1261,15 +1445,14 @@ Match score: {match['overall_match']}%. Be authentic, confident, forward-looking
 """
         
         try:
-            response = openai_client.chat(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=300,
                 temperature=0.7,
             )
             return response.choices[0].message.content.strip()
-        except Exception as e:
-            print(f"{e}")
+        except Exception:
             return (
                 f"My journey toward {job_name} reflects my strengths that align well with this role. "
                 "I'm excited to apply my skills and continue growing to make meaningful impact."

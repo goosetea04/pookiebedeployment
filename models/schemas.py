@@ -21,7 +21,7 @@ class PersonProfileRequest(BaseModel):
     # Options: "analytical", "creative", "practical", "people"
     
     # Learning style (user selects exactly 2)
-    learning_style_preference: List[str] = Field(default_factory=list)
+    learning_style: List[str] = Field(default_factory=list)
     # Options: "research_reading", "teamwork_interviewing", 
     #          "hands_on_systems", "brainstorming_ideation"
 
@@ -78,4 +78,4 @@ class PersonProfile:
     interests: List[str]
     preferred_career: str
     dominant_competence: List[str]
-    learning_style_preference: List[str]
+    learning_style: List[str]
