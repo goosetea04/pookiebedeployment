@@ -121,6 +121,8 @@ class AICareerMatcher:
             name=request.name,
             email=request.email,
             university=request.university,
+            city=request.city,
+            country=request.country,
             personality=personality,
             work_values=work_values,
             skills=skills,
