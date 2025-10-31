@@ -86,6 +86,9 @@ async def analyze_profile_entry_level(request: PersonProfileRequest):
             }
             enhanced_matches.append(enhanced_match)
         
+        # Sort by overall_match in descending order
+        enhanced_matches.sort(key=lambda x: x["overall_match"], reverse=True)
+        
         # Generate analysis specific to entry-level
         comparative_analysis = await matcher._generate_comparative_analysis(profile, enhanced_matches)
         
@@ -159,6 +162,9 @@ async def analyze_profile_mid_level(request: PersonProfileRequest):
                 **ai_insights
             }
             enhanced_matches.append(enhanced_match)
+        
+        # Sort by overall_match in descending order
+        enhanced_matches.sort(key=lambda x: x["overall_match"], reverse=True)
         
         # Generate analysis specific to mid-level
         comparative_analysis = await matcher._generate_comparative_analysis(profile, enhanced_matches)
@@ -234,6 +240,9 @@ async def analyze_profile_advanced(request: PersonProfileRequest):
             }
             enhanced_matches.append(enhanced_match)
         
+        # Sort by overall_match in descending order
+        enhanced_matches.sort(key=lambda x: x["overall_match"], reverse=True)
+        
         # Generate analysis specific to advanced level
         comparative_analysis = await matcher._generate_comparative_analysis(profile, enhanced_matches)
         
@@ -307,7 +316,10 @@ async def analyze_profile_with_ai(request: PersonProfileRequest):
             match_result = matcher.calculate_job_match(profile, job_name)
             ai_insights = await matcher.generate_ai_insights(profile, job_name, match_result)
             matches.append({**match_result, **ai_insights})
+        
+        # Sort by overall_match in descending order
         matches.sort(key=lambda x: x["overall_match"], reverse=True)
+        
         result = {
             "profile": profile.__dict__,
             "matches": matches,

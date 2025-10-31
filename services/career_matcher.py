@@ -43,29 +43,29 @@ class AICareerMatcher:
     
     def _build_competence_learning_mappings(self):
         """Build mappings for dominant competence and learning styles"""
-        # Map competences to skill categories
+        # Map competences to skill categories - use lowercase to match request
         self.competence_skill_map = {
-            "Analytical": ["math", "problem_solving", "research", "attention_to_detail"],
-            "Practical": ["hands_on_building", "tech_savvy", "attention_to_detail"],
-            "Creative": ["creative", "innovation", "artistic", "writing"],
-            "People": ["working_with_people", "empathy", "public_speaking", "leadership", "teamwork"]
+            "analytical": ["math", "problem_solving", "research", "attention_to_detail"],
+            "practical": ["hands_on_building", "tech_savvy", "attention_to_detail"],
+            "creative": ["creative", "innovation", "artistic", "writing"],
+            "people": ["working_with_people", "empathy", "public_speaking", "leadership", "teamwork"]
         }
         
-        # Map learning styles to work preferences
+        # Map learning styles to work preferences - use snake_case to match request
         self.learning_style_preferences = {
-            "Research/Reading": {
+            "research_reading": {
                 "preferred_skills": ["research", "writing", "problem_solving"],
                 "work_context": "analytical and knowledge-intensive"
             },
-            "Hands-on/Systems": {
+            "hands_on_systems": {
                 "preferred_skills": ["hands_on_building", "tech_savvy", "programming"],
                 "work_context": "technical and practical"
             },
-            "Teamwork/Interviewing": {
+            "teamwork_interviewing": {
                 "preferred_skills": ["working_with_people", "teamwork", "networking", "empathy"],
                 "work_context": "collaborative and interpersonal"
             },
-            "Brainstorming/Ideation": {
+            "brainstorming_ideation": {
                 "preferred_skills": ["creative", "innovation", "problem_solving"],
                 "work_context": "innovative and strategic"
             }
@@ -104,7 +104,6 @@ class AICareerMatcher:
             "leadership": request.leadership,
             "networking": request.networking,
             "negotiation": request.negotiation,
-            "innovation": request.innovation,
             "innovation": request.innovation,
             "programming": request.programming,
             "languages": request.languages,
@@ -465,7 +464,7 @@ class AICareerMatcher:
         }
 
     def _calculate_enhanced_interests_match(self, user_interests: List[str], job_interests: Dict[str, float]) -> Dict:
-        """Enhanced RIASEC interests matching"""
+        """Enhanced RIASEC interests matching with ranking weights"""
         if not job_interests or not user_interests:
             return {"score": 0.3, "confidence": 0.2, "matches": [], "top_job_interests": []}
         
@@ -474,18 +473,46 @@ class AICareerMatcher:
         if total_job_interest == 0:
             return {"score": 0.3, "confidence": 0.1, "matches": [], "top_job_interests": []}
         
+        # Calculate ranking weights: first interest gets highest weight
+        # Using exponential decay: 1.0, 0.7, 0.5, 0.3, 0.2, 0.1 for positions 1-6
+        def get_ranking_weight(position: int) -> float:
+            """Calculate weight based on position (0-indexed)"""
+            if position == 0:
+                return 1.0
+            elif position == 1:
+                return 0.7
+            elif position == 2:
+                return 0.5
+            elif position == 3:
+                return 0.3
+            elif position == 4:
+                return 0.2
+            else:
+                return 0.1
+        
         matched_score = 0
         matches = []
+        max_possible_with_ranking = 0
         
-        for interest in user_interests:
+        for idx, interest in enumerate(user_interests):
+            ranking_weight = get_ranking_weight(idx)
+            
             if interest in job_interests:
-                score = job_interests[interest] / 5.0  # Normalize to 0-1
-                matched_score += score
+                job_importance = job_interests[interest] / 5.0  # Normalize to 0-1
+                # Combined score: job importance * ranking weight
+                combined_score = job_importance * ranking_weight
+                matched_score += combined_score
+                
                 matches.append({
                     "interest": interest,
                     "job_importance": job_interests[interest],
-                    "weight": score
+                    "ranking_position": idx + 1,
+                    "ranking_weight": ranking_weight,
+                    "weighted_score": combined_score
                 })
+            
+            # Calculate max possible for this position (if job had this interest at max importance)
+            max_possible_with_ranking += ranking_weight
         
         # Get top job interests for comparison
         top_job_interests = sorted(
@@ -494,18 +521,19 @@ class AICareerMatcher:
             reverse=True
         )[:3]
         
-        # Final score: ratio of matched interests weighted by importance
-        max_possible = sum(sorted(job_interests.values(), reverse=True)[:len(user_interests)])
-        final_score = matched_score / (max_possible / 5.0) if max_possible > 0 else 0
+        # Final score: ratio of achieved score to maximum possible
+        # Maximum possible = sum of ranking weights for all user interests
+        final_score = matched_score / max_possible_with_ranking if max_possible_with_ranking > 0 else 0
         
         confidence = min(len(job_interests) / 6.0, 1.0)
         
         return {
             "score": min(final_score, 1.0),
             "confidence": confidence,
-            "matches": sorted(matches, key=lambda x: x["weight"], reverse=True),
+            "matches": sorted(matches, key=lambda x: x["weighted_score"], reverse=True),
             "top_job_interests": [(interest, score) for interest, score in top_job_interests],
-            "coverage": len(matches) / len(user_interests) if user_interests else 0
+            "coverage": len(matches) / len(user_interests) if user_interests else 0,
+            "ranking_applied": True
         }
 
     def _calculate_enhanced_work_styles_match(self, personality: Dict[str, float], job_styles: Dict[str, float]) -> Dict:
