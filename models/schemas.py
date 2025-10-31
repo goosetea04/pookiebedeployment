@@ -8,6 +8,9 @@ class PersonProfileRequest(BaseModel):
     email: str = Field(..., description="Email address")
     university: str = Field(..., description="University or institution")
     preferred_career: str = Field(..., description="Preferred career path")
+    city: str = Field(..., description="City")
+    country: str = Field(..., description="Country")
+
 
     # Big Five (1-5)
     openness: int = Field(..., ge=1, le=5)
@@ -72,6 +75,8 @@ class PersonProfile:
     name: str
     email: str
     university: str
+    city: str  
+    country: str
     personality: Dict[str, float]
     work_values: Dict[str, float]
     skills: Dict[str, float]
