@@ -1,4 +1,5 @@
-from fastapi import APIRouter, HTTPException
+from uuid import UUID
+from fastapi import APIRouter, HTTPException, Request
 from datetime import datetime
 import io, urllib.parse, json
 from fastapi.responses import StreamingResponse
@@ -151,3 +152,38 @@ async def health_check():
         "version": settings.APP_VERSION,
     }
 
+@router.post("/feedback")
+async def inject_feedback(request: Request):
+    try:
+        data = await request.json()
+
+        # Validate required fields
+        required_fields = ["rating", "comment", "wantsUpdates"]
+        for field in required_fields:
+            if field not in data:
+                raise HTTPException(status_code=400, detail=f"Missing field: {field}")
+
+        # Connect to Firestore
+        db = get_db()
+        feedback_collection = db.collection("feedback")
+
+        # Prepare document data
+        feedback_data = {
+            "rating": data.get("rating"),
+            "comment": data.get("comment"),
+            "wantsUpdates": data.get("wantsUpdates", False),
+            "name": data.get("name") or None,
+            "email": data.get("email") or None,
+            "university": data.get("university") or None,
+            "location": data.get("city") or None,
+            "timestamp": datetime.now(datetime.timezone.utc)
+        }
+
+        # Add to Firestore
+        feedback_collection.add(feedback_data)
+
+        return {"status": "success", "message": "Feedback stored successfully."}
+
+    except Exception as e:
+        print("Error saving feedback:", e)
+        raise HTTPException(status_code=500, detail="Failed to store feedback.")
