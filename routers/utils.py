@@ -152,8 +152,6 @@ async def health_check():
         "version": settings.APP_VERSION,
     }
 
-
-
 @router.post("/feedback")
 async def inject_feedback(request: Request):
     try:
