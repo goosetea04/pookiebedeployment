@@ -150,3 +150,4 @@ async def health_check():
         "timestamp": datetime.now().isoformat(),
         "version": settings.APP_VERSION,
     }
+

@@ -4,12 +4,44 @@ from models.schemas import PersonProfileRequest, AnalysisResponse
 from services.career_matcher import AICareerMatcher
 from core.firebase_client import get_db
 from firebase_admin import firestore
+from core.firebase_client import get_db, _build_cred_dict
 
 
 router = APIRouter()
 
 # Singleton matcher (simple)
 matcher = AICareerMatcher()
+
+@router.get("/test-firebase")
+async def test_firebase_connection():
+    try:
+        db = get_db()
+        
+        # Try to write test data
+        test_data = {
+            "test": True,
+            "timestamp": firestore.SERVER_TIMESTAMP,
+            "message": "Connection test"
+        }
+        
+        doc_ref = db.collection("test").document()
+        doc_ref.set(test_data)
+        
+        # Try to read it back
+        doc = doc_ref.get()
+        
+        return {
+            "success": True,
+            "message": "Firebase connection working",
+            "doc_id": doc_ref.id,
+            "data_written": doc.to_dict()
+        }
+    except Exception as e:
+        return {
+            "success": False,
+            "error": str(e),
+            "error_type": type(e).__name__
+        }
 
 @router.get("/")
 def read_root():
@@ -26,7 +58,7 @@ async def analyze_profile_top_3_matches(request: PersonProfileRequest):
         db = get_db()
         data = request.model_dump(mode="json", exclude_none=True)
         data["created_at"] = firestore.SERVER_TIMESTAMP
-        db.collection("user").document().set(data, merge=True)
+        db.collection("jobseekers").document().set(data, merge=True)
     except Exception as e:
         # Do not fail the whole request if logging fails; log and continue
         print(f"[Firestore] write failed: {e}")
@@ -49,14 +81,18 @@ async def analyze_profile_entry_level(request: PersonProfileRequest):
     Analyze profile and return top 3 entry-level career matches (job zones 1-2)
     """
     # Firestore write
-    try:
-        db = get_db()
-        data = request.model_dump(mode="json", exclude_none=True)
-        data["created_at"] = firestore.SERVER_TIMESTAMP
-        data["analysis_type"] = "entry_level"
-        db.collection("user").document().set(data, merge=True)
-    except Exception as e:
-        print(f"[Firestore] write failed: {e}")
+    db = get_db()
+    data = request.model_dump(mode="json", exclude_none=True)
+    data["created_at"] = firestore.SERVER_TIMESTAMP
+    print(f"[DEBUG] Attempting to write data: {data}")
+    db.collection("jobseekers").document().set(data, merge=True)
+    print(f"[DEBUG] Write successful!")
+
+    cred_dict = _build_cred_dict()
+    print(f"[DEBUG] Firebase Project ID: {cred_dict.get('project_id')}")
+    print(f"[DEBUG] Client Email: {cred_dict.get('client_email')}")
+    print(f"[DEBUG] Has Private Key: {bool(cred_dict.get('private_key'))}")
+
 
     try:
         profile = matcher.create_profile_from_request(request)
@@ -131,7 +167,7 @@ async def analyze_profile_mid_level(request: PersonProfileRequest):
         data = request.model_dump(mode="json", exclude_none=True)
         data["created_at"] = firestore.SERVER_TIMESTAMP
         data["analysis_type"] = "mid_level"
-        db.collection("user").document().set(data, merge=True)
+        db.collection("jobseekers").document().set(data, merge=True)
     except Exception as e:
         print(f"[Firestore] write failed: {e}")
 
@@ -208,7 +244,7 @@ async def analyze_profile_advanced(request: PersonProfileRequest):
         data = request.model_dump(mode="json", exclude_none=True)
         data["created_at"] = firestore.SERVER_TIMESTAMP
         data["analysis_type"] = "advanced"
-        db.collection("user").document().set(data, merge=True)
+        db.collection("jobseekers").document().set(data, merge=True)
     except Exception as e:
         print(f"[Firestore] write failed: {e}")
 
@@ -286,7 +322,7 @@ async def analyze_profile_by_job_zones(request: PersonProfileRequest):
         db = get_db()
         data = request.model_dump(mode="json", exclude_none=True)
         data["created_at"] = firestore.SERVER_TIMESTAMP
-        db.collection("user").document().set(data, merge=True)
+        db.collection("jobseekers").document().set(data, merge=True)
     except Exception as e:
         print(f"[Firestore] write failed: {e}")
 
