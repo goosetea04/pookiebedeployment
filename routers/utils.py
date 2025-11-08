@@ -3,7 +3,7 @@ from fastapi import APIRouter, HTTPException, Request
 from datetime import datetime
 import io, urllib.parse, json
 from fastapi.responses import StreamingResponse
-
+from datetime import datetime, timezone
 from services.career_matcher import AICareerMatcher
 from services.pdf_report import PDFReportGenerator
 from core.firebase_client import get_db
@@ -155,7 +155,16 @@ async def health_check():
 @router.post("/feedback")
 async def inject_feedback(request: Request):
     try:
-        data = await request.json()
+        # Check if request has a body
+        body = await request.body()
+        if not body:
+            raise HTTPException(status_code=400, detail="Request body is empty")
+        
+        # Parse JSON
+        try:
+            data = await request.json()
+        except json.JSONDecodeError as e:
+            raise HTTPException(status_code=400, detail=f"Invalid JSON: {str(e)}")
 
         # Validate required fields
         required_fields = ["rating", "comment", "wantsUpdates"]
@@ -176,7 +185,7 @@ async def inject_feedback(request: Request):
             "email": data.get("email") or None,
             "university": data.get("university") or None,
             "location": data.get("city") or None,
-            "timestamp": datetime.now(datetime.timezone.utc)
+            "timestamp": datetime.utcnow()
         }
 
         # Add to Firestore
@@ -184,6 +193,64 @@ async def inject_feedback(request: Request):
 
         return {"status": "success", "message": "Feedback stored successfully."}
 
+    except HTTPException:
+        # Re-raise HTTP exceptions
+        raise
     except Exception as e:
         print("Error saving feedback:", e)
-        raise HTTPException(status_code=500, detail="Failed to store feedback.")
+        raise HTTPException(status_code=500, detail=f"Failed to store feedback: {str(e)}")
+    
+@router.post("/set-feedback")
+async def set_feedback(request: Request):
+    try:
+        # Parse JSON
+        body = await request.body()
+        if not body:
+            raise HTTPException(status_code=400, detail="Request body is empty")
+        
+        try:
+            data = await request.json()
+        except json.JSONDecodeError as e:
+            raise HTTPException(status_code=400, detail=f"Invalid JSON: {str(e)}")
+
+        # Validate required fields
+        required_fields = ["email", "rating", "feedback"]
+        for field in required_fields:
+            if field not in data:
+                raise HTTPException(status_code=400, detail=f"Missing required field: {field}")
+
+        # Validate rating is a number
+        try:
+            rating = int(data.get("rating"))
+            if rating < 1 or rating > 5:
+                raise HTTPException(status_code=400, detail="Rating must be between 1 and 5")
+        except (ValueError, TypeError):
+            raise HTTPException(status_code=400, detail="Rating must be a valid number")
+
+        # Connect to Firestore
+        db = get_db()
+        feedback_collection = db.collection("feedback")
+
+        # Prepare document data
+        feedback_data = {
+            "email": data.get("email"),
+            "rating": rating,
+            "feedback": data.get("feedback"),
+            "timestamp": datetime.utcnow()
+        }
+
+        # Add to Firestore
+        doc_ref = feedback_collection.add(feedback_data)
+
+        return {
+            "status": "success",
+            "message": "Feedback stored successfully",
+            "document_id": doc_ref[1].id
+        }
+
+    except HTTPException:
+        # Re-raise HTTP exceptions
+        raise
+    except Exception as e:
+        print("Error storing feedback:", e)
+        raise HTTPException(status_code=500, detail=f"Failed to store feedback: {str(e)}")
